@@ -580,18 +580,19 @@ jQuery(document).ready(function($) {
 </tbody></table>
 
 <div id="s2-1" class="question">
-	<div class="numcol">1.</div><p><a id="s2-1a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-1b" href="#" class="response">B.</a><span class="response">is intending to describe</span></p>
-	<p><a id="s2-1c" href="#" class="response">C.</a><span class="response">intends to describe</span></p>
-	<p><a id="s2-1d" href="#" class="response">D.</a><span class="response">describes</span></p>
+	<div class="numcol">1.</div>
+	<p><a id="s2-1a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
+	<p><a id="s2-1b" href="#" class="response">B.</a><span class="response">it’s essential that you proceed cautiously if we</span></p>
+	<p><a id="s2-1c" href="#" class="response">C.</a><span class="response">proceed cautiously if you</span></p>
+	<p><a id="s2-1d" href="#" class="response">D.</a><span class="response">we must proceed cautiously if you</span></p>
 </div>
-<div id="answer-s2-1a" class="correct">
+<div id="answer-s2-1a" class="incorrect">
 <p>In the opening section, Ming and Sansan arrive in their new home feeling overwhelmed (paragraph 1) and afraid (paragraph 4), and wondering how they will adjust. Sansan says, “We’re getting old. How will we make the space in our minds for everything we’ll need to learn here?” Ming replies, “We will forget.” The rest of the passage builds to the final paragraph, which says that Ming envied how Charles could easily look to the past, that Ming sees the past as his enemy, and that his memories dog him.</p>
 </div>
 <div id="answer-s2-1b" class="incorrect">
 <p>The focus of the passage is not really on Charles becoming an adult (he is still a few years away from that), and his parents are not very successful in remaining connected to their son. The father finds his son’s interests to be mysterious (paragraph 10) and has only brief glimpses into his son’s interests (paragraphs 10 and 11).</p>
 </div>
-<div id="answer-s2-1c" class="incorrect"> 
+<div id="answer-s2-1c" class="correct"> 
 <p>Though the passage does suggest that Sansan is nervous about adjusting to a new country (paragraphs 4 and 5), nothing is specifically mentioned about her trying to meet friends or maintain connections with family in China.</p>
 </div>
 <div id="answer-s2-1d" class="incorrect">
@@ -600,13 +601,10 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 <div id="s2-2" class="question">
 	<div class="numcol">2.</div>
-	<p>The writer is considering deleting the following sentence at the end of Paragraph 1:</p>
-	<p>Fads spread, just as viruses do.</p>
-	<p>If the writer were to make this deletion, the essay would primarily lose:</p>
-	<p><a id="s2-2f" href="#" class="response">F.</a><span class="response">foreshadowing that hints at the article’s conclusion.</span></p>
-	<p><a id="s2-2g" href="#" class="response">G.</a><span class="response">minor details that the writer uses for illustration.</span></p>
-	<p><a id="s2-2h" href="#" class="response">H.</a><span class="response">an important lesson about how viruses are spread.</span></p>
-	<p><a id="s2-2j" href="#" class="response">J.</a><span class="response">a critical connection for understanding how fads are spread.</span></p>
+	<p><a id="s2-2f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
+	<p><a id="s2-2g" href="#" class="response">G.</a><span class="response">and having adventures among her beauty</span></p>
+	<p><a id="s2-2h" href="#" class="response">H.</a><span class="response">and adventuring among her wilderness beauty</span></p>
+	<p><a id="s2-2j" href="#" class="response">J.</a><span class="response">OMIT the underlined portion.</span></p>
 </div>
 <div id="answer-s2-2f" class="incorrect">
 <p>In paragraphs 5 and 6, we see the Hwangs’ decision to forget, and the final two paragraphs show that Ming continues to work hard to forget his past.</p>
@@ -614,19 +612,19 @@ jQuery(document).ready(function($) {
 <div id="answer-s2-2g" class="incorrect">
 <p>The passage suggests the opposite, that the Hwangs put a large part of who they are behind them because they they think they need to do so in order to make room for all they will need to learn in their new lives (paragraphs 5, 6, 17 and 18).</p>
 </div>
-<div id="answer-s2-2h" class="correct"> 
+<div id="answer-s2-2h" class="incorrect"> 
 <p>See paragraphs 5 and 6: “‘We’re getting old,’ [Sansan] said. ‘How will we make the space in our minds for everything we’ll need to learn here?’ Without a pause, [Ming] answered her, ‘We will forget.’”</p>
 </div>
-<div id="answer-s2-2j" class="incorrect">
+<div id="answer-s2-2j" class="correct">
 <p>Though a few minor comparisons may be implied in the passage, no detailed comparisons between the two countries are given. Instead, the Hwangs decided to forget their old lives in China, thinking they need to do so to make room for their new lives in the U.S. (paragraphs 5 and 6). </p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s2-3" class="question">
 	<div class="numcol">3.</div>
 	<p><a id="s2-3a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-3b" href="#" class="response">B.</a><span class="response">Connectors, who are</span></p>
-	<p><a id="s2-3c" href="#" class="response">C.</a><span class="response">Connectors, whom are</span></p>
-	<p><a id="s2-3d" href="#" class="response">D.</a><span class="response">Connectors whom are</span></p>
+	<p><a id="s2-3b" href="#" class="response">B.</a><span class="response">instead of</span></p>
+	<p><a id="s2-3c" href="#" class="response">C.</a><span class="response">in order of</span></p>
+	<p><a id="s2-3d" href="#" class="response">D.</a><span class="response">in order to</span></p>
 </div>
 <div id="answer-s2-3a" class="incorrect">
 <p>The father is interesting in learning. He and Sansan encourage their son’s learning by buying him a desk and school supplies. He also says he used to like to read the history of science and once loved science.</p>
@@ -642,31 +640,31 @@ jQuery(document).ready(function($) {
 </div>
 <!----------------------------------------------------------------->
 <div id="s2-4" class="question">
-	<div class="numcol">4.</div>
+	<div class="numcol">4.</div><p>Which choice, if added here, would most effectively and appropriately transition the reader from the topic of Paragraph 2 to the topic of Paragraph 3?</p>
 	<p><a id="s2-4f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-4g" href="#" class="response">G.</a><span class="response">Mavens, or, information specialists</span></p>
-	<p><a id="s2-4h" href="#" class="response">H.</a><span class="response">Mavens or, information specialists,</span></p>
-	<p><a id="s2-4j" href="#" class="response">J.</a><span class="response">Mavens or, information specialists</span></p>
+	<p><a id="s2-4g" href="#" class="response">G.</a><span class="response">Camping in the wilderness can be especially enjoyable.</span></p>
+	<p><a id="s2-4h" href="#" class="response">H.</a><span class="response">Opt for an obviously high-use campsite when you’re in the wilderness.</span></p>
+	<p><a id="s2-4j" href="#" class="response">J.</a><span class="response">Similarly, use care when selecting a campsite.</span></p>
 </div>
 <div id="answer-s2-4f" class="incorrect">
 <p>Charles excels in school (paragraphs 8 and 9) rather than faces difficulty.</p>
 </div>
-<div id="answer-s2-4g" class="correct">
+<div id="answer-s2-4g" class="incorrect">
 <p>The first seven paragraphs tell about the Hwang family’s arrival in their new home in Iowa and reveals that they are immigrants from China. Paragraphs 5 and 6 tell how they plan to adjust to their new home.</p>
 </div>
 <div id="answer-s2-4h" class="incorrect"> 
 <p>Not much is revealed in the first seven paragraphs about Charles’s relationship with his parents. He is only a baby in the opening scene.</p>
 </div>
-<div id="answer-s2-4j" class="incorrect">
+<div id="answer-s2-4j" class="correct">
 <p>Besides a hope for good luck and thoughts about how the Hwangs will adjust, paragraphs 1 through 7 do not give much detail about their hopes and dreams. Nothing in the passage tells about their aspirations changing over time. Their aspirations to adjust to their new lives and see their son succeed remain steady over time.</p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s2-5" class="question">
-	<div class="numcol">5.</div>
-	<p><a id="s2-5a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-5b" href="#" class="response">B.</a><span class="response">enjoy</span></p>
-	<p><a id="s2-5c" href="#" class="response">C.</a><span class="response">are enjoying</span></p>
-	<p><a id="s2-5d" href="#" class="response">D.</a><span class="response">would have enjoyed</span></p>
+	<div class="numcol">5.</div><p>For the sake of the logic and coherence of Paragraph 3, Sentence 1 should be:</p>
+	<p><a id="s2-5a" href="#" class="response">A.</a><span class="response">placed where it is now.</span></p>
+	<p><a id="s2-5b" href="#" class="response">B.</a><span class="response">placed after Sentence 3.</span></p>
+	<p><a id="s2-5c" href="#" class="response">C.</a><span class="response">placed after Sentence 6.</span></p>
+	<p><a id="s2-5d" href="#" class="response">D.</a><span class="response">OMITTED, because the paragraph focuses only on how to lessen the impact of camping.</span></p>
 </div>
 <div id="answer-s2-5a" class="incorrect">
 <p>Mercy Lake is used in the description not of Charles’s struggles but of Ming’s thoughts about his past: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
@@ -683,20 +681,20 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 
 <div id="s2-6" class="question">
-	<div class="numcol">6.</div><p>Based on the passage, the father and mother decide to adjust to their new country by:</p>
-	<p><a id="s2-6f" href="#" class="response">F.</a><span class="response">retaining old memories and building new ones.</span></p>
-	<p><a id="s2-6g" href="#" class="response">G.</a><span class="response">refusing to let their new culture change who they are.</span></p>
-	<p><a id="s2-6h" href="#" class="response">H.</a><span class="response">putting away the old to make room for the new.</span></p>
-	<p><a id="s2-6j" href="#" class="response">J.</a><span class="response">understanding their new country by comparing it to their homeland.</span></p>
+	<div class="numcol">6.</div>
+	<p><a id="s2-6f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
+	<p><a id="s2-6g" href="#" class="response">G.</a><span class="response">bring</span></p>
+	<p><a id="s2-6h" href="#" class="response">H.</a><span class="response">did bring</span></p>
+	<p><a id="s2-6j" href="#" class="response">J.</a><span class="response">have brought</span></p>
 </div>
 		
 <div id="answer-s2-6f" class="incorrect">
 <p>In paragraphs 5 and 6, we see the Hwangs’ decision to forget, and the final two paragraphs show that Ming continues to work hard to forget his past.</p>
 </div>
-<div id="answer-s2-6g" class="incorrect">
+<div id="answer-s2-6g" class="correct">
 <p>The passage suggests the opposite, that the Hwangs put a large part of who they are behind them because they they think they need to do so in order to make room for all they will need to learn in their new lives (paragraphs 5, 6, 17 and 18).</p>
 </div>
-<div id="answer-s2-6h" class="correct"> 
+<div id="answer-s2-6h" class="incorrect"> 
 <p>See paragraphs 5 and 6: “‘We’re getting old,’ [Sansan] said. ‘How will we make the space in our minds for everything we’ll need to learn here?’ Without a pause, [Ming] answered her, ‘We will forget.’”</p>
 </div>
 <div id="answer-s2-6j" class="incorrect">
@@ -705,11 +703,11 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 
 <div id="s2-7" class="question">
-	<div class="numcol">7.</div><p>According to the passage, one of Sansan’ worries is that:</p>
-	<p><a id="s2-7a" href="#" class="response">A.</a><span class="response">they will not find luck in their new home.</span></p>
-	<p><a id="s2-7b" href="#" class="response">B.</a><span class="response">their son will have to learn a new language.</span></p>
-	<p><a id="s2-7c" href="#" class="response">C.</a><span class="response">they will have many new things to learn in this new country.</span></p>
-	<p><a id="s2-7d" href="#" class="response">D.</a><span class="response">they will not be able to afford all the things their son will need.</span></p>
+	<div class="numcol">7.</div><p>Given that all of the following are true, which of the following edits would provide the most addition?</p>
+	<p><a id="s2-7a" href="#" class="response">A.</a><span class="response">trash cans, because bears tend to tip them over.</span></p>
+	<p><a id="s2-7b" href="#" class="response">B.</a><span class="response">trash cans, and there are fewer rangers to protect campers.</span></p>
+	<p><a id="s2-7c" href="#" class="response">C.</a><span class="response">trash cans, forcing visitors to take responsibility for their own garbage.</span></p>
+	<p><a id="s2-7d" href="#" class="response">D.</a><span class="response">trash cans, as it’s expensive to pay park personnel to empty them.</span></p>
 </div>
 <div id="answer-s2-7a" class="incorrect">
 <p>No evidence in the passage supports this choice as the correct answer.</p>
@@ -728,17 +726,17 @@ jQuery(document).ready(function($) {
 <div id="s2-8" class="question">
 	<div class="numcol">8.</div>
 	<p><a id="s2-8f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-8g" href="#" class="response">G.</a><span class="response">sticks.</span></p>
-	<p><a id="s2-8h" href="#" class="response">H.</a><span class="response">are intended to stick.</span></p>
-	<p><a id="s2-8j" href="#" class="response">J.</a><span class="response">have the effect of sticking.</span></p>
+	<p><a id="s2-8g" href="#" class="response">G.</a><span class="response">side-by-side</span></p>
+	<p><a id="s2-8h" href="#" class="response">H.</a><span class="response">side-by-side,</span></p>
+	<p><a id="s2-8j" href="#" class="response">J.</a><span class="response">side-by-side, and,</span></p>
 </div>	
-<div id="answer-s2-8f" class="correct">
+<div id="answer-s2-8f" class="incorrect">
 <p>See paragraphs 9 and 10, which describe Charles’s level of achievement as “phenomenal” and say that “he possessed a truly unusual mind.”</p>
 </div>
 <div id="answer-s2-8g" class="incorrect">
 <p>Though Charles may be mysterious to his father, nothing in the passage suggests that he is angry.</p>
 </div>
-<div id="answer-s2-8h" class="incorrect"> 
+<div id="answer-s2-8h" class="correct"> 
 <p>Though Charles may be quiet (paragraph 9), nothing in the passage suggests that he is socially awkward.</p>
 </div>
 <div id="answer-s2-8j" class="incorrect">
@@ -749,9 +747,9 @@ jQuery(document).ready(function($) {
 <div id="s2-9" class="question">
 	<div class="numcol">9.</div>
 	<p><a id="s2-9a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-9b" href="#" class="response">B.</a><span class="response">Figuring out how</span></p>
-	<p><a id="s2-9c" href="#" class="response">C.</a><span class="response">How to figure out a way</span></p>
-	<p><a id="s2-9d" href="#" class="response">D.</a><span class="response">To begin to figure out a way</span></p>
+	<p><a id="s2-9b" href="#" class="response">B.</a><span class="response">backcountry, check</span></p>
+	<p><a id="s2-9c" href="#" class="response">C.</a><span class="response">backcountry: check</span></p>
+	<p><a id="s2-9d" href="#" class="response">D.</a><span class="response">backcountry check</span></p>
 </div>
 <div id="answer-s2-9a" class="correct">
 <p>The word <em>margins</em> is used in the context of a river overflowing its banks: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
@@ -768,16 +766,16 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 
 <div id="s2-10" class="question">
-	<div class="numcol">10.</div><p>Which choice would most effectively convey the author’s point about what happens when someone makes an idea stick?</p>
+	<div class="numcol">10.</div>
 	<p><a id="s2-10f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-10g" href="#" class="response">G.</a><span class="response">turning an obscure idea into a fashionable fad.</span></p>
-	<p><a id="s2-10h" href="#" class="response">H.</a><span class="response">creating ideal fashions out of worn-out clothing.</span></p>
-	<p><a id="s2-10j" href="#" class="response">J.</a><span class="response">helping people remember a once-popular fad.</span></p>
+	<p><a id="s2-10g" href="#" class="response">G.</a><span class="response">And remember: the Three D’s when collecting firewood,</span></p>
+	<p><a id="s2-10h" href="#" class="response">H.</a><span class="response">The Three D’s when collecting firewood should be remembered:</span></p>
+	<p><a id="s2-10j" href="#" class="response">J.</a><span class="response">And the Three D’s when collecting firewood, please remember, are</span></p>
 </div>	
-<div id="answer-s2-10f" class="incorrect">
+<div id="answer-s2-10f" class="correct">
 <p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s2-10g" class="correct">
+<div id="answer-s2-10g" class="incorrect">
 <p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
 </div>
 <div id="answer-s2-10h" class="incorrect"> 
@@ -790,9 +788,9 @@ jQuery(document).ready(function($) {
 <div id="s2-11" class="question">
 	<div class="numcol">11.</div>
 	<p><a id="s2-11a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-11b" href="#" class="response">B.</a><span class="response">would be</span></p>
-	<p><a id="s2-11c" href="#" class="response">C.</a><span class="response">has been</span></p>
-	<p><a id="s2-11d" href="#" class="response">D.</a><span class="response">is</span></p>
+	<p><a id="s2-11b" href="#" class="response">B.</a><span class="response">Make sure your fire is thoroughly extinguished before leaving it unattended, and keep it small.</span></p>
+	<p><a id="s2-11c" href="#" class="response">C.</a><span class="response">Before leaving it unattended, keep your fire small and make sure it is thoroughly extinguished.</span></p>
+	<p><a id="s2-11d" href="#" class="response">D.</a><span class="response">Keep your fire small, and make sure it is thoroughly extinguished before leaving it unattended.</span></p>
 </div>
 <div id="answer-s2-11a" class="incorrect">
 <p>No evidence in the passage supports this choice as the correct answer.</p>
@@ -800,10 +798,10 @@ jQuery(document).ready(function($) {
 <div id="answer-s2-11b" class="incorrect">
 <p>No evidence in the passage supports this choice as the correct answer.</p>
 </div>
-<div id="answer-s2-11c" class="correct"> 
+<div id="answer-s2-11c" class="incorrect"> 
 <p>See paragraph 5: “‘We’re getting old,’ she said, ‘How will we make the space in our minds for everything we’ll need to learn here?’”</p>
 </div>
-<div id="answer-s2-11d" class="incorrect">
+<div id="answer-s2-11d" class="correct">
 <p>No evidence in the passage supports this choice as the correct answer.</p>
 </div>
 <!----------------------------------------------------------------->
@@ -811,17 +809,17 @@ jQuery(document).ready(function($) {
 <div id="s2-12" class="question">
 	<div class="numcol">12.</div>
 	<p><a id="s2-12f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-12g" href="#" class="response">G.</a><span class="response">People often explain why</span></p>
-	<p><a id="s2-12h" href="#" class="response">H.</a><span class="response">There’s a reason why</span></p>
-	<p><a id="s2-12j" href="#" class="response">J.</a><span class="response">It’s generally true that there’s a reason why</span></p>
+	<p><a id="s2-12g" href="#" class="response">G.</a><span class="response">environmental advocates and most likely to love the wilderness.</span></p>
+	<p><a id="s2-12h" href="#" class="response">H.</a><span class="response">more likely to become wilderness lovers and environmental advocates.</span></p>
+	<p><a id="s2-12j" href="#" class="response">J.</a><span class="response">advocates for laws to support the environment and wild places.</span></p>
 </div>	
-<div id="answer-s2-12f" class="correct">
+<div id="answer-s2-12f" class="incorrect">
 <p>See paragraphs 9 and 10, which describe Charles’s level of achievement as “phenomenal” and say that “he possessed a truly unusual mind.”</p>
 </div>
 <div id="answer-s2-12g" class="incorrect">
 <p>Though Charles may be mysterious to his father, nothing in the passage suggests that he is angry.</p>
 </div>
-<div id="answer-s2-12h" class="incorrect"> 
+<div id="answer-s2-12h" class="correct"> 
 <p>Though Charles may be quiet (paragraph 9), nothing in the passage suggests that he is socially awkward.</p>
 </div>
 <div id="answer-s2-12j" class="incorrect">
@@ -830,19 +828,19 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 
 <div id="s2-13" class="question">
-	<div class="numcol">13.</div><p>Upon reviewing this paragraph, the writer considers deleting the preceding sentence. If the writer were to delete the sentence, the paragraph would primarily lose:</p>
-	<p><a id="s2-13a" href="#" class="response">A.</a><span class="response">a potentially confusing distraction from the topic of epidemics.</span></p>
-	<p><a id="s2-13b" href="#" class="response">B.</a><span class="response">an understanding of the author’s clothing styles in the 1970s and 1990s.</span></p>
-	<p><a id="s2-13c" href="#" class="response">C.</a><span class="response">an entertaining description of how people dressed in earlier decades.</span></p>
-	<p><a id="s2-13d" href="#" class="response">D.</a><span class="response">a specific example that illustrates the author’s third law of epidemics.</span></p>
+	<div class="numcol">13.</div><p>Which of the following would provide an ending most consistent with the essay as a whole?</p>
+	<p><a id="s2-13a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
+	<p><a id="s2-13b" href="#" class="response">B.</a><span class="response">your wilderness experience will be memorable and exciting.</span></p>
+	<p><a id="s2-13c" href="#" class="response">C.</a><span class="response">you will not only enjoy your wilderness adventure, you will also enable those who come after you to have a positive experience.</span></p>
+	<p><a id="s2-13d" href="#" class="response">D.</a><span class="response">you help others to have a positive wilderness experience and want to come back again and again and again.</span></p>
 </div>
-<div id="answer-s2-13a" class="correct">
+<div id="answer-s2-13a" class="incorrect">
 <p>The word <em>margins</em> is used in the context of a river overflowing its banks: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
 </div>
 <div id="answer-s2-13b" class="incorrect">
 <p>Though this is one meaning of the word <em>margin</em>, it does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
 </div>
-<div id="answer-s2-13c" class="incorrect"> 
+<div id="answer-s2-13c" class="correct"> 
 <p>Though this is one meaning of the word <em>margin</em>, it does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
 </div>
 <div id="answer-s2-13d" class="incorrect">
@@ -851,16 +849,16 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 
 <div id="s2-14" class="question">
-	<div class="numcol">14.</div><p>At this point, the writer wants to add a statement that would lead into the sentence that follows it. Given that all of the choices are true, which one would best accomplish that purpose?</p>
-	<p><a id="s2-14f" href="#" class="response">F.</a><span class="response">A Maven may have vast amounts of information about fads.</span></p>
-	<p><a id="s2-14g" href="#" class="response">G.</a><span class="response">Connectors today frequently have hundreds of “friends” on social networks.</span></p>
-	<p><a id="s2-14h" href="#" class="response">H.</a><span class="response">The Salesmen Gladwell speaks of aren’t necessarily employed in sales jobs.</span></p>
-	<p><a id="s2-14j" href="#" class="response">J.</a><span class="response">Fads spread like viruses through every generation and are often most contagious among young people.</span></p>
+	<div class="numcol">14.</div><p>This essay is written in the second person (you, your). If this essay were revised so that the second-person pronouns were replaced with the pronouns <em>one</em> and <em>one’s</em>, the essay would primarily:</p>
+	<p><a id="s2-14f" href="#" class="response">F.</a><span class="response">lose it’s appeal to the intended audience because of a heightened sense of formality.</span></p>
+	<p><a id="s2-14g" href="#" class="response">G.</a><span class="response">lose credibility by using old-fashioned words that are no longer considered acceptable in essays.</span></p>
+	<p><a id="s2-14h" href="#" class="response">H.</a><span class="response">gain a seriousness that the article currently lacks.</span></p>
+	<p><a id="s2-14j" href="#" class="response">J.</a><span class="response">gain a larger audience by being more inclusive.</span></p>
 </div>	
-<div id="answer-s2-14f" class="incorrect">
+<div id="answer-s2-14f" class="correct">
 <p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s2-14g" class="correct">
+<div id="answer-s2-14g" class="incorrect">
 <p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
 </div>
 <div id="answer-s2-14h" class="incorrect"> 
@@ -871,24 +869,22 @@ jQuery(document).ready(function($) {
 </div>
 <!----------------------------------------------------------------->
 <div id="s2-15" class="question">
-	<div class="numcol">15.</div><p>Upon reviewing this essay and finding that some information has been left out, the writer composes the following sentence incorporating that information.</p>
-	<blockquote>The popularity of Ugg boots, Lady Gaga’s music, and silly bands are all examples of how people can find themselves doing something everyone else is doing at the same time.</blockquote>
-	<p>This sentence would most logically be placed after the second sentence in Paragraph:</p>
-	<p><a id="s2-15a" href="#" class="response">A.</a><span class="response">1</span></p>
-	<p><a id="s2-15b" href="#" class="response">B.</a><span class="response">2</span></p>
-	<p><a id="s2-15c" href="#" class="response">C.</a><span class="response">3</span></p>
-	<p><a id="s2-15d" href="#" class="response">D.</a><span class="response">4</span></p>
+	<div class="numcol">15.</div><p>For the sake of logic and coherence, Paragraph 5 should be placed:</p>
+	<p><a id="s2-15a" href="#" class="response">A.</a><span class="response">where it is now.</span></p>
+	<p><a id="s2-15b" href="#" class="response">B.</a><span class="response">after Paragraph 1.</span></p>
+	<p><a id="s2-15c" href="#" class="response">C.</a><span class="response">after Paragraph 2.</span></p>
+	<p><a id="s2-15d" href="#" class="response">D.</a><span class="response">after Paragraph 7.</span></p>
 </div>	
-<div id="answer-s2-15f" class="incorrect">
+<div id="answer-s2-15a" class="incorrect">
 <p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s2-15g" class="correct">
+<div id="answer-s2-15b" class="correct">
 <p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
 </div>
-<div id="answer-s2-15h" class="incorrect"> 
+<div id="answer-s2-15c" class="incorrect"> 
 <p>Though Ming may have some regret, his feelings about the past are not happy ones, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s2-15j" class="incorrect">
+<div id="answer-s2-15d" class="incorrect">
 <p>Ming’s feelings about the past seem more strongly negative than just guilt and do not seem to contain nostalgia. Instead, the past is his enemy, dogging him and rising up in his dreams (paragraph 18).</p>
 </div>
 </div><!--set-2-->
