@@ -1,0 +1,1816 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Sample Questions - Math</title> 
+	<meta name="robots" content="none">
+	
+	<link rel="stylesheet" href="../css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css">
+	<link rel="stylesheet" href="../css/test.css" type="text/css">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="../scripts/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="../scripts/util.js"></script>
+
+<script type="text/javascript">
+var countdown = 3600;
+
+jQuery(document).ready(function($) {
+	$("#mathButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
+});
+
+</script>
+</head>
+
+<body id="fullpage" class="sampletest">
+
+<div id="time-up" title="Time is up!" style="display:none;"> 
+<p><span class="ui-icon ui-icon-clock" style="float:left; margin:0 7px 20px 0;"></span>Your time is up for this test.</p>
+</div>
+
+<div id="container">
+<div id="header">
+<table width="100%">
+<tr>
+<td>
+<img src="../images/zaps_logo.jpg">
+</td>
+<td>
+<h2>ACT Practice Tests</h2>
+</td>
+<td align="right">
+	<div id="nav">
+	<a id="mathButton" href="../math/math.html">Math</a>
+	<a id="scienceButton" href="../science/science.html">Science</a>
+	<a id="readingButton" href="../reading/reading.html">Reading</a>
+	<a id="englishButton" href="../english/english.html">English</a>
+   </div>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="content2">
+<div id="accordion">
+<h3><a href="#">Mathematics</a></h3>
+<div>
+<p class="instructions">Click on the letter choices to determine if you have the correct answer and for question explanations. An actual ACT Mathematics Test contains 60 questions to be answered in 60 minutes.</p>
+</div>
+<h3><a href="#">Directions</a></h3>
+<div>
+<table width="100%" cellpadding="5" cellspacing="0">
+	<tbody><tr valign="TOP">
+		<td width="50%">
+			<p class="directions">For each problem, select the correct answer and fill in the corresponding bubble on your answer sheet. 
+			   Do not spend too much time on any one problem.</p>
+			<p class="directions">Solve as many problems as you can, then use your remaining time to return to the rest. 
+			   You may use a calculator on any problem, but some problems may best be solved without a calculator.</p>
+		</td>
+		<td>
+			<p class="directions">Unless otherwise noted, assume the following:</p>
+			<ol>
+				<li class="directions"><em>Average</em> indicates arithmetic mean.</li>
+				<li class="directions"><em>Line</em> indicates a straight line.</li>
+				<li class="directions">Figures are not necessarily drawn to scale.</li>
+				<li class="directions">Geometric figures lie in a plane.</li>
+			</ol>
+		</td>
+	</tr>
+
+</tbody></table>
+</div>
+</div> <!-- accordion -->
+	<div id="sets">
+		<ul>
+		   <li>Set:</li>
+			<li><a href="#set-1">1</a></li>
+			<li><a href="#set-2">2</a></li>
+			<li><a href="#set-3">3</a></li>
+			<li><a href="#set-4">4</a></li>
+			<li><a href="#set-5">5</a></li>
+			<div align="right">
+			<a href="#" id="correct-button" title="Correct Answers"><span>00</span></a>
+			<a href="#" id="incorrect-button" title="Incorrect Answers"><span>00</span></a>
+			<a href="#" id="timer" title="Start Timer"><span>60:00</span></a>
+			</div>
+		</ul>
+<div id="set-1">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<!-- *************************************************************** -->
+<tr valign="top"><td>
+<div class="mathquestion">
+	<div class="numcol">1.</div><p>Mr. Lindsey is a school bus driver whose salary is $14,250 for the 190 day school year. Mr. Lindsey took Monday off without pay, 
+	                               and the school paid a substitute bus driver for that day. Mr. Lindsey’s school pays substitute bus drivers $65 per day. 
+	                               How much less did the school pay the substitute bus driver than they would have paid Mr. Lindsey for the day?</p>
+	<p><a id="s1-1a" href="#" class="response">A.</a>$10</p>
+	<p><a id="s1-1b" href="#" class="response">B.</a>$30</p>
+	<p><a id="s1-1c" href="#" class="response">C.</a>$65</p>
+	<p><a id="s1-1d" href="#" class="response">D.</a>$75</p>
+	<p><a id="s1-1e" href="#" class="response">E.</a>$125</p>
+</div>
+</td></tr>
+	
+<div id="answer-s1-1a" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-1b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-1c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-1d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-1e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">2.</div><p>4<em>x</em><sup>2</sup> &sdot; 3<em>x</em><sup>3</sup>y &sdot; 5<em>x</em><sup>3</sup><em>y</em> is equivalent to:</p>
+	<p><a id="s1-2f" href="#" class="response">F.</a>12<em>x</em><sup>8</sup><em>y</em><sup>2</sup></p>
+	<p><a id="s1-2g" href="#" class="response">G.</a>12<em>x</em><sup>18</sup><em>y</em><sup>2</sup></p>
+	<p><a id="s1-2h" href="#" class="response">H.</a>60<em>x</em><sup>8</sup><em>y</em><sup>2</sup></p>
+	<p><a id="s1-2j" href="#" class="response">J.</a>60<em>x</em><sup>18</sup><em>y</em></p>
+	<p><a id="s1-2k" href="#" class="response">K.</a>60<em>x</em><sup>18</sup><em>y</em><sup>2</sup></p>
+</div>
+</td></tr>
+	
+<div id="answer-s1-2f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-2g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-2h" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-2j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-2k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">3.</div><p>Tia biked 2 <span class="frac"><sup>1</sup><span>&frasl;</span><sub>4</sub></span> miles on Wednesday and 3 <span class="frac"><sup>2</sup><span>&frasl;</span><sub>3</sub></span> miles on Thursday. How many total miles did Tia bike during those two days?</p>
+	<p><a id="s1-3a" href="#" class="response">A.</a>5 <span class="frac"><sup>2</sup><span>&frasl;</span><sub>12</sub></span></p>
+	<p><a id="s1-3b" href="#" class="response">B.</a>5 <span class="frac"><sup>3</sup><span>&frasl;</span><sub>7</sub></span></p>
+	<p><a id="s1-3c" href="#" class="response">C.</a>5 <span class="frac"><sup>1</sup><span>&frasl;</span><sub>4</sub></span></p>
+	<p><a id="s1-3d" href="#" class="response">D.</a>5 <span class="frac"><sup>9</sup><span>&frasl;</span><sub>12</sub></span></p>
+	<p><a id="s1-3e" href="#" class="response">E.</a>5 <span class="frac"><sup>11</sup><span>&frasl;</span><sub>12</sub></span></p>
+</div>
+</td></tr>
+
+<div id="answer-s1-3a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-3b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-3c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-3d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-3e" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">4.</div><p>Kyron earned the following scores on four 100-point tests in this semester: 81, 86, 90, and 93. After taking another test, Kyron had earned an average test grade of 85 for 5 tests. What score did Kyron earn on the fifth and last test?</p>
+	<p><a id="s1-4f" href="#" class="response">F.</a>74</p>
+	<p><a id="s1-4g" href="#" class="response">G.</a>75</p>
+	<p><a id="s1-4h" href="#" class="response">H.</a>87</p>
+	<p><a id="s1-4j" href="#" class="response">J.</a>88</p>
+	<p><a id="s1-4k" href="#" class="response">K.</a>Kyron cannot earn an average of 85.</p>
+</div>
+</td></tr>
+	
+<div id="answer-s1-4f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-4g" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-4h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-4j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-4k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">5.</div><p>The formula <em>F</em> = <span class="frac"><sup>9</sup><span>&frasl;</span><sub>5</sub></span> <em>C</em> + 32 is used to compute the relationship between temperature in degrees Fahrenheit, <em>F</em>, and temperature in degrees Celsius, <em>C</em>. Carmen reads the temperature of 45&deg; on a Fahrenheit thermometer. To the nearest degree, what is the equivalent temperature on a Celsius thermometer?</p>
+	<p><a id="s1-5a" href="#" class="response">A.</a>65&deg;</p>
+	<p><a id="s1-5b" href="#" class="response">B.</a>45&deg;</p>
+	<p><a id="s1-5c" href="#" class="response">C.</a>13&deg;</p>
+	<p><a id="s1-5d" href="#" class="response">D.</a>8&deg;</p>
+	<p><a id="s1-5e" href="#" class="response">E.</a>7&deg;</p>
+</div>
+</td></tr>
+
+<div id="answer-s1-5a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-5b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-5c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-5d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-5e" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">6.</div><p>If 3<em>x</em> + 4 = 5<em>x</em> &minus; 9, then <em>x</em> = ?</p>
+	<p><a id="s1-6f" href="#" class="response">F.</a><span class="frac"><sup>13</sup><span>&frasl;</span><sub>2</sub></span></p>
+	<p><a id="s1-6g" href="#" class="response">G.</a><span class="frac"><sup>2</sup><span>&frasl;</span><sub>13</sub></span></p>
+	<p><a id="s1-6h" href="#" class="response">H.</a><span class="frac"><sup>5</sup><span>&frasl;</span><sub>2</sub></span></p>
+	<p><a id="s1-6j" href="#" class="response">J.</a><span class="frac"><sup>1</sup><span>&frasl;</span><sub>2</sub></span></p>
+	<p><a id="s1-6k" href="#" class="response">K.</a>&minus; <span class="frac"><sup>1</sup><span>&frasl;</span><sub>2</sub></span></p>
+</div>
+</td></tr>
+	
+<div id="answer-s1-6f" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-6g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-6h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-6j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-6k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">7.</div><p>The expression <em>q</em>[(<em>r</em> &minus; <em>s</em>) + <em>t</em>] is equivalent to:</p>
+	<p><a id="s1-7a" href="#" class="response">A.</a><em>qr</em> &minus; <em>s</em> + <em>t</em></p>
+	<p><a id="s1-7b" href="#" class="response">B.</a><em>qr</em> + <em>qs</em> + <em>qt</em></p>
+	<p><a id="s1-7c" href="#" class="response">C.</a><em>qr</em> &minus; <em>qs</em> + <em>t</em></p>
+	<p><a id="s1-7d" href="#" class="response">D.</a><em>qr</em> + <em>s</em> + <em>t</em></p>
+	<p><a id="s1-7e" href="#" class="response">E.</a><em>qr</em> &minus; <em>qs</em> + <em>qt</em></p>
+</div>
+</td></tr>
+
+<div id="answer-s1-7a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-7b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-7c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-7d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-7e" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">8.</div><p>A rectangular field measures 250 ft by 300 ft and is completely fenced. What is the approximate length, in feet, of the fence?</p>
+	<p><a id="s1-8f" href="#" class="response">F.</a>500</p>
+	<p><a id="s1-8g" href="#" class="response">G.</a>550</p>
+	<p><a id="s1-8h" href="#" class="response">H.</a>600</p>
+	<p><a id="s1-8j" href="#" class="response">J.</a>1,100</p>
+	<p><a id="s1-8k" href="#" class="response">K.</a>2,200</p>
+</div>
+</td></tr>
+	
+<div id="answer-s1-8f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-8g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-8h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-8j" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-8k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">9.</div><p>What three numbers placed in the following spaces will make the difference between these consecutive numbers the same? 19, ___, ___, ___, 43</p>
+	<p><a id="s1-9a" href="#" class="response">A.</a>23, 31, 35</p>
+	<p><a id="s1-9b" href="#" class="response">B.</a>24, 32, 40</p>
+	<p><a id="s1-9c" href="#" class="response">C.</a>25, 31, 37</p>
+	<p><a id="s1-9d" href="#" class="response">D.</a>27, 39, 41</p>
+	<p><a id="s1-9e" href="#" class="response">E.</a>31, 35, 39</p>
+</div>
+</td></tr>
+
+<div id="answer-s1-9a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-9b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-9c" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-9d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-9e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">10.</div><p>If a block is randomly chosen from a bag that contains 6 pink blocks, 8 purple blocks, and 4 green blocks, what is the probability that the block chosen will NOT be green?</p>
+	<p><a id="s1-10f" href="#" class="response">F.</a><span class="frac"><sup>2</sup><span>&frasl;</span><sub>7</sub></span></p>
+	<p><a id="s1-10g" href="#" class="response">G.</a><span class="frac"><sup>2</sup><span>&frasl;</span><sub>9</sub></span></p>
+	<p><a id="s1-10h" href="#" class="response">H.</a><span class="frac"><sup>4</sup><span>&frasl;</span><sub>9</sub></span></p>
+	<p><a id="s1-10j" href="#" class="response">J.</a><span class="frac"><sup>1</sup><span>&frasl;</span><sub>3</sub></span></p>
+	<p><a id="s1-10k" href="#" class="response">K.</a><span class="frac"><sup>7</sup><span>&frasl;</span><sub>9</sub></span></p>
+</div>
+</td></tr>
+	
+<div id="answer-s1-10f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-10g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-10h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-10j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-10k" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">11.</div><p>The formula <em>V</em> = <span class="frac"><sup>4</sup><span>&frasl;</span><sub>3</sub></span>&pi;<em>r</em><sup>3</sup> is used to find the volume <em>V</em> of a sphere with radius <em>r</em>. If the radius of a baseball is 1 <span class="frac"><sup>1</sup><span>&frasl;</span><sub>2</sub></span> inches, what is its volume to the nearest cubic inch?</p>
+	<p><a id="s1-11a" href="#" class="response">A.</a>19</p>
+	<p><a id="s1-11b" href="#" class="response">B.</a>14</p>
+	<p><a id="s1-11c" href="#" class="response">C.</a>9</p>
+	<p><a id="s1-11d" href="#" class="response">D.</a>7</p>
+	<p><a id="s1-11e" href="#" class="response">E.</a>5</p>
+</div>
+</td></tr>
+
+<div id="answer-s1-11a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-11b" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-11c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-11d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-11e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">12.</div><p>If <em>x</em> is a real number such that <em>x</em><sup>2</sup> = 16, then <em>x</em><sup>3</sup> + &radic;<em>x</em> = ?</p>
+	<p><a id="s1-12f" href="#" class="response">F.</a>4</p>
+	<p><a id="s1-12g" href="#" class="response">G.</a>28</p>
+	<p><a id="s1-12h" href="#" class="response">H.</a>64</p>
+	<p><a id="s1-12j" href="#" class="response">J.</a>66</p>
+	<p><a id="s1-12k" href="#" class="response">K.</a>68</p>
+</div>
+</td></tr>
+	
+<div id="answer-s1-12f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-12g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-12h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s1-12j" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s1-12k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+</tbody></table>
+</div>
+<!-------------------------------------------------------------------------set-1-------------------------------------->
+<div id="set-2">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<!-- *************************************************************** -->
+<tr valign="top"><td>
+<div class="mathquestion">
+	<div class="numcol">1.</div><p>Point <em>B</em> is graphed in a quadrant, not on an axis, of the standard (<em>x, y</em>) coordinate plane. If the <em>x</em>-coordinate and the <em>y</em>-coordinate of point <em>B</em> have the same sign, then point <em>B</em> must be located in which of the four quadrant(s)?</p>
+	<p><a id="s2-1a" href="#" class="response">A.</a>I only</p>
+	<p><a id="s2-1b" href="#" class="response">B.</a>II only</p>
+	<p><a id="s2-1c" href="#" class="response">C.</a>I and II only</p>
+	<p><a id="s2-1d" href="#" class="response">D.</a>I or III only</p>
+	<p><a id="s2-1e" href="#" class="response">E.</a>I or IV only</p>
+</div>
+</td></tr>		
+<div id="answer-s2-1a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-1b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-1c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-1d" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-1e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">2.</div><p>When <em>x</em> &minus; <em>y</em> = 5, what is the value of 3(<em>x</em> &minus; <em>y</em>) + <span class="frac"><sup><em>x</em> &minus; <em>y</em></sup><span>&frasl;</span><sub>6 &minus; 1</sub></span> + (<em>x</em> &minus; <em>y</em>)<sup>2</sup> &minus; 3?</p>
+	<p><a id="s2-2f" href="#" class="response">F.</a>15</p>
+	<p><a id="s2-2g" href="#" class="response">G.</a>25</p>
+	<p><a id="s2-2h" href="#" class="response">H.</a>38</p>
+	<p><a id="s2-2j" href="#" class="response">J.</a>41</p>
+	<p><a id="s2-2k" href="#" class="response">K.</a>42</p>
+</div>
+</td></tr>
+	
+<div id="answer-s2-2f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-2g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-2h" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-2j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-2k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">3.</div><p>West High School’s senior student participation in fine arts programs is shown by the following matrix:</p>
+	                            <table class="mathquestiontable"><tr><td>Music</td>
+	                            <td>Drama</td>
+	                            <td>Speech</td>
+	                            <td>Visual Arts</td></tr>
+	                            <tr><td>[50</td>
+	                            <td>40</td>
+	                            <td>20</td>
+	                            <td>30]</td></tr></table>
+	                            <p>The principal estimates the ratios of the number of fine arts’ awards that will be earned to the number of seniors participating with the following matrix:</p>
+	                            <table class="mathquestiontable"><tr><td>Music</td>
+	                            <td>0.5</td></tr>
+	                            <tr><td>Drama</td>
+	                            <td>0.2</td></tr>
+	                            <tr><td>Speech</td>
+	                            <td>0.4</td></tr>
+	                            <tr><td>Visual Arts</td>
+	                            <td>0.6</td></tr></table>
+	                            <p>Given these matrices, what is the principal’s estimate for the number of fine arts’ awards that will be earned?</p>
+	<p><a id="s2-3a" href="#" class="response">A.</a>17</p>
+	<p><a id="s2-3b" href="#" class="response">B.</a>35</p>
+	<p><a id="s2-3c" href="#" class="response">C.</a>50</p>
+	<p><a id="s2-3d" href="#" class="response">D.</a>59</p>
+	<p><a id="s2-3e" href="#" class="response">E.</a>65</p>
+</div>
+</td></tr>
+
+<div id="answer-s2-3a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-3b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-3c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-3d" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-3e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">4.</div><p>Carlos has 2 hats, 7 T-shirts, and 4 pair of jeans. How many outfit combinations, each consisting of a hat, a T-shirt, and a pair of jeans, can Carlos select?</p>
+	<p><a id="s2-4f" href="#" class="response">F.</a>13</p>
+	<p><a id="s2-4g" href="#" class="response">G.</a>22</p>
+	<p><a id="s2-4h" href="#" class="response">H.</a>28</p>
+	<p><a id="s2-4j" href="#" class="response">J.</a>56</p>
+	<p><a id="s2-4k" href="#" class="response">K.</a>112</p>
+</div>
+</td></tr>
+	
+<div id="answer-s2-4f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-4g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-4h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-4j" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-4k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">5.</div><p>At a factory, 600 bushels of corn are required to produce 40,000 boxes of breakfast cereal. How many bushels of corn are required to produce 2,000 boxes of this breakfast cereal?</p>
+	<p><a id="s2-5a" href="#" class="response">A.</a>30</p>
+	<p><a id="s2-5b" href="#" class="response">B.</a>100</p>
+	<p><a id="s2-5c" href="#" class="response">C.</a>120</p>
+	<p><a id="s2-5d" href="#" class="response">D.</a>200</p>
+	<p><a id="s2-5e" href="#" class="response">E.</a>240</p>
+</div>
+</td></tr>
+
+<div id="answer-s2-5a" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-5b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-5c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-5d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-5e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+<div style="border:1px solid black;padding:10px;margin-bottom:12px;">
+<p><em>Use the following information to answer questions 6-7.</em><p>
+<p>The following chart shows the current enrollment in all creative writing classes offered by City High School.</p>
+<table align="center" border="1" cellpadding="5" cellspacing="0">
+<tr><th>Course Title</th><th>Section</th><th>Period</th><th>Enrollment</th></tr>
+<tr><td>Intro to Creative Writing</td><td>A</td><td>2</td><td>25</td></tr>
+<tr><td></td><td>B</td><td>4</td><td>20</td></tr>
+<tr><td></td><td>C</td><td>5</td><td>27</td></tr>
+<tr><td>Advanced Creative Writing</td><td>A</td><td>1</td><td>18</td></tr>
+<tr><td>Poetry Writing</td><td>A</td><td>4</td><td>26</td></tr>
+<tr><td></td><td>B</td><td>6</td><td>21</td></tr>
+<tr><td>Playwriting</td><td>A</td><td>3</td><td>24</td></tr>
+<tr><td>Personal Essay</td><td>B</td><td>5</td><td>23</td></tr>
+</table>
+</div>
+	<div class="numcol">6.</div><p>What is the average number of students enrolled per section in Intro to Creative Writing?</p>
+	<p><a id="s2-6f" href="#" class="response">F.</a>20</p>
+	<p><a id="s2-6g" href="#" class="response">G.</a>22</p>
+	<p><a id="s2-6h" href="#" class="response">H.</a>23</p>
+	<p><a id="s2-6j" href="#" class="response">J.</a>24</p>
+	<p><a id="s2-6k" href="#" class="response">K.</a>25</p>
+</div>
+</td></tr>
+	
+<div id="answer-s2-6f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-6g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-6h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-6j" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-6k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">7.</div><p>There are 30 computers in the writing lab next to the library. In Period 5, what percent of students will NOT have a computer available to them in the writing lab?</p>
+	<p><a id="s2-7a" href="#" class="response">A.</a>0%</p>
+	<p><a id="s2-7b" href="#" class="response">B.</a>20%</p>
+	<p><a id="s2-7c" href="#" class="response">C.</a>40%</p>
+	<p><a id="s2-7d" href="#" class="response">D.</a>60%</p>
+	<p><a id="s2-7e" href="#" class="response">E.</a>66%</p>
+</div>
+</td></tr>
+
+<div id="answer-s2-7a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-7b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-7c" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-7d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-7e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">8.</div><p>What is the slope intercept form of 2<em>x</em> &minus; <em>y</em> + 1 = 0 ?</p>
+	<p><a id="s2-8f" href="#" class="response">F.</a><em>y</em> = &minus; 2<em>x</em> &minus; 1</p>
+	<p><a id="s2-8g" href="#" class="response">G.</a><em>y</em> = &minus;2<em>x</em> + 1</p>
+	<p><a id="s2-8h" href="#" class="response">H.</a><em>y</em> = 2<em>x</em> + 1</p>
+	<p><a id="s2-8j" href="#" class="response">J.</a><em>y</em> = 2<em>x</em> &minus; 1</p>
+	<p><a id="s2-8k" href="#" class="response">K.</a><em>y</em> = <em>x</em> &minus; 2</p>
+</div>
+</td></tr>
+	
+<div id="answer-s2-8f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-8g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-8h" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-8j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-8k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">9.</div><p>Which of the following is a solution to the equation <em>x</em><sup>2</sup> &minus; 25<em>x</em> = 0 ?</p>
+	<p><a id="s2-9a" href="#" class="response">A.</a>&minus;5</p>
+	<p><a id="s2-9b" href="#" class="response">B.</a>5</p>
+	<p><a id="s2-9c" href="#" class="response">C.</a>15</p>
+	<p><a id="s2-9d" href="#" class="response">D.</a>25</p>
+	<p><a id="s2-9e" href="#" class="response">E.</a>50</p>
+</div>
+</td></tr>
+
+<div id="answer-s2-9a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-9b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-9c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-9d" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-9e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">10.</div><p>A rectangle measures 8 feet by 15 feet. What is the length, in feet, of the diagonal of the rectangle?</p>
+	<p><a id="s2-10f" href="#" class="response">F.</a>17</p>
+	<p><a id="s2-10g" href="#" class="response">G.</a>&radic;23</p>
+	<p><a id="s2-10h" href="#" class="response">H.</a>64</p>
+	<p><a id="s2-10j" href="#" class="response">J.</a>225</p>
+	<p><a id="s2-10k" href="#" class="response">K.</a>289</p>
+</div>
+</td></tr>
+	
+<div id="answer-s2-10f" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-10g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-10h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-10j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-10k" title="" style="display:none;">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">11.</div><p>For all positive integers <em>a</em>, <em>b</em>, and <em>c</em>, which of the following expressions is equivalent to <span class="frac"><sup><em>a</em></sup><span>&frasl;</span><sub><em>b</em></sub></span>?</p>
+	<p><a id="s2-11a" href="#" class="response">A.</a><span class="frac"><sup><em>a</em></sup><span>&frasl;</span><sub><em>b</em></sub></span> &sdot; <span class="frac"><sup><em>c</em></sup><span>&frasl;</span><sub><em>c</em></sub></span></p>
+	<p><a id="s2-11b" href="#" class="response">B.</a><span class="frac"><sup><em>a</em> &sdot; <em>b</em></sup><span>&frasl;</span><sub><em>a</em> &sdot; <em>b</em></sub></span></p>
+	<p><a id="s2-11c" href="#" class="response">C.</a><span class="frac"><sup><em>a</em></sup><span>&frasl;</span><sub><em>b</em></sub></span> &sdot; <span class="frac"><sup><em>a</em></sup><span>&frasl;</span><sub><em>b</em></sub></span></p>
+	<p><a id="s2-11d" href="#" class="response">D.</a><span class="frac"><sup><em>a</em> &minus; <em>c</em></sup><span>&frasl;</span><sub><em>b</em> &minus; <em>c</em></sub></span></p>
+	<p><a id="s2-11e" href="#" class="response">E.</a><span class="frac"><sup><em>a</em> + <em>b</em></sup><span>&frasl;</span><sub><em>a</em> + <em>b</em></sub></span></p>
+</div>
+</td></tr>
+
+<div id="answer-s2-11a" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-11b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-11c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-11d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-11e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">12.</div><p>The length <em>L</em> of a spring is .25 meters. A formula for the applied force of newtons <em>F</em> of the spring is given by the equation <em>L</em> = <span class="frac"><sup>2</sup><span>&frasl;</span><sub>3</sub></span><em>F</em> + 0.03. What is the force, in newtons, for this spring?</p>
+	<p><a id="s2-12f" href="#" class="response">F.</a>0.22</p>
+	<p><a id="s2-12g" href="#" class="response">G.</a>0.33</p>
+	<p><a id="s2-12h" href="#" class="response">H.</a>0.42</p>
+	<p><a id="s2-12j" href="#" class="response">J.</a>0.66</p>
+	<p><a id="s2-12k" href="#" class="response">K.</a>0.84</p>
+</div>
+</td></tr>
+	
+<div id="answer-s2-12f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-12g" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s2-12h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-12j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s2-12k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+</tbody></table>
+</div>
+<!-------------------------------------------------------------------------set-2-------------------------------------->
+<div id="set-3">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<!-- *************************************************************** -->
+<tr valign="top"><td>
+<div class="mathquestion">
+	<div class="numcol">1.</div><p>On a citywide "leaf pickup day" in River Falls, city workers removed an estimated 12,000 cubic yards of leaves from Creekside Neighborhood. The leaves were spread in an even layer over the entire compost field at the city landfill, shown below. About how many yards deep is the layer of leaves?</p>
+	<p align="center"><img src="../images/math/figure3.jpg"></p>	
+	<p><a id="s3-1a" href="#" class="response">A.</a>More than 4</p>
+	<p><a id="s3-1b" href="#" class="response">B.</a>Between 3 and 4</p>
+	<p><a id="s3-1c" href="#" class="response">C.</a>Between 2 and 3</p>
+	<p><a id="s3-1d" href="#" class="response">D.</a>Between 1 and 2</p>
+	<p><a id="s3-1e" href="#" class="response">E.</a>Less than 1</p>
+</div>
+</td></tr>
+	
+<div id="answer-s3-1a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-1b" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-1c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-1d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-1e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">2.</div><p>For right triangle <em>KMN</em> shown below, what is sin <em>K</em>?</p>
+	<p align="center"><img src="../images/math/figure1.jpg"></p>
+	<p><a id="s3-2f" href="#" class="response">F.</a><span class="frac"><sup><em>k</em></sup><span>&frasl;</span><sub><em>m</em></sub></span></p>
+	<p><a id="s3-2g" href="#" class="response">G.</a><span class="frac"><sup><em>k</em></sup><span>&frasl;</span><sub><em>n</em></sub></span></p>
+	<p><a id="s3-2h" href="#" class="response">H.</a><span class="frac"><sup><em>m</em></sup><span>&frasl;</span><sub><em>n</em></sub></span></p>
+	<p><a id="s3-2j" href="#" class="response">J.</a><span class="frac"><sup><em>n</em></sup><span>&frasl;</span><sub><em>m</em></sub></span></p>
+	<p><a id="s3-2k" href="#" class="response">K.</a><span class="frac"><sup><em>n</em></sup><span>&frasl;</span><sub><em>k</em></sub></span></p>
+</div>
+</td></tr>
+	
+<div id="answer-s3-2f" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-2g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-2h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-2j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-2k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">3.</div><p>A chord 20 inches long is 4 inches from the center of the circle, as shown below. What is the radius of the circle, to the nearest tenth of an inch?</p>
+	<p align="center"><img src="../images/math/figure2.jpg"></p>	
+	<p><a id="s3-3a" href="#" class="response">A.</a>8.9</p>
+	<p><a id="s3-3b" href="#" class="response">B.</a>10.8</p>
+	<p><a id="s3-3c" href="#" class="response">C.</a>16.0</p>
+	<p><a id="s3-3d" href="#" class="response">D.</a>20.5</p>
+	<p><a id="s3-3e" href="#" class="response">E.</a>24.0</p>
+</div>
+</td></tr>
+
+<div id="answer-s3-3a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-3b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-3c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-3d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-3e" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">4.</div><p>The hypotenuse of the right triangle &Delta;<em>ABC</em> shown below is 10 meters long. The cos of &ang;<em>A</em> is <span class="frac"><sup>4</sup><span>&frasl;</span><sub>5</sub></span>. About how many meters long is <em style="text-decoration:overline;">AB</em>?</p>
+	<p align="center"><img src="../images/math/figure4.jpg"></p>	
+	<p><a id="s3-4f" href="#" class="response">F.</a>6</p>
+	<p><a id="s3-4g" href="#" class="response">G.</a>8</p>
+	<p><a id="s3-4h" href="#" class="response">H.</a>9</p>
+	<p><a id="s3-4j" href="#" class="response">J.</a>10</p>
+	<p><a id="s3-4k" href="#" class="response">K.</a>12</p>
+</div>
+</td></tr>
+	
+<div id="answer-s3-4f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-4g" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-4h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-4j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-4k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">5.</div><p>The graph below shows the number of computers manufactured last year in 4 cities, to the nearest 1,000 computers. According to the graph, what fraction of the computers manufactured in all 4 cities were manufactured in Solar City?</p>
+	                            <table class="mathquestiontable" border="1" cellpadding="5" cellspacing="0">
+	                            <tr><th>City</th><th>Computers Assembled</th></tr>
+	                            <tr><td>Greenville</td><td>&#x25AF; &#x25AF; &#x25AF; &#x25AF; &#x25AF;</td></tr>
+	                            <tr><td>Solar City</td><td>&#x25AF; &#x25AF; &#x25AF; &#x25AF;</td></tr>
+	                            <tr><td>Eco Falls</td><td>&#x25AF; &#x25AF; &#x25AF;</td></tr>
+	                            <tr><td>Windyton</td><td>&#x25AF;</td></tr>
+	                            <tr><td colspan="2" align="right">&#x25AF; = 2,000 computers</td></tr>
+	                            </table>
+	                            <br/>
+	<p><a id="s3-5a" href="#" class="response">A.</a><span class="frac"><sup>1</sup><span>&frasl;</span><sub>3</sub></span></p>
+	<p><a id="s3-5b" href="#" class="response">B.</a><span class="frac"><sup>1</sup><span>&frasl;</span><sub>4</sub></span></p>
+	<p><a id="s3-5c" href="#" class="response">C.</a><span class="frac"><sup>1</sup><span>&frasl;</span><sub>6</sub></span></p>
+	<p><a id="s3-5d" href="#" class="response">D.</a><span class="frac"><sup>4</sup><span>&frasl;</span><sub>13</sub></span></p>
+	<p><a id="s3-5e" href="#" class="response">E.</a><span class="frac"><sup>8</sup><span>&frasl;</span><sub>13</sub></span></p>
+</div>
+</td></tr>
+
+<div id="answer-s3-5a" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-5b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-5c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-5d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-5e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">6.</div><p>For all pairs of real numbers <em>P</em> and <em>Q</em> where <em>P</em> = 2<em>Q</em> &minus; 5, <em>Q</em> =</p>
+	<p><a id="s3-6f" href="#" class="response">F.</a><span class="frac"><sup><em>P</em></sup><span>&frasl;</span><sub>2</sub></span> &minus; 5</p>
+	<p><a id="s3-6g" href="#" class="response">G.</a><span class="frac"><sup><em>P</em></sup><span>&frasl;</span><sub>2</sub></span> + 5</p>
+	<p><a id="s3-6h" href="#" class="response">H.</a>2<em>P</em> + 5</p>
+	<p><a id="s3-6j" href="#" class="response">J.</a><span class="frac"><sup><em>P</em> &minus; 5</sup><span>&frasl;</span><sub>2</sub></span></p>
+	<p><a id="s3-6k" href="#" class="response">K.</a><span class="frac"><sup><em>P</em> + 5</sup><span>&frasl;</span><sub>2</sub></span></p>
+</div>
+</td></tr>
+	
+<div id="answer-s3-6f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-6g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-6h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-6j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-6k" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">7.</div><p>Parallelogram <em>WXYZ</em>, with dimensions in centimeters, is shown below. What is the area of the parallelogram, in square centimeters?</p>
+	<p align="center"><img src="../images/math/figure6.jpg"></p>
+	<p><a id="s3-7a" href="#" class="response">A.</a>180</p>
+	<p><a id="s3-7b" href="#" class="response">B.</a>144</p>
+	<p><a id="s3-7c" href="#" class="response">C.</a>120</p>
+	<p><a id="s3-7d" href="#" class="response">D.</a>96</p>
+	<p><a id="s3-7e" href="#" class="response">E.</a>36</p>
+</div>
+</td></tr>
+
+<div id="answer-s3-7a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-7b" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-7c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-7d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-7e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">8.</div><p>Points <em>T</em> and <em>U</em> line on <em>SV</em> as shown below. The length of <em>SV</em> is 40 units. <em>SU</em> is 24 units long, and <em>TV</em> is 30 units long. How many units long, if it can be determined, is <em>TU</em>?</p>
+	<p align="center"><img src="../images/math/figure5.jpg"></p>	
+	<p><a id="s3-8f" href="#" class="response">F.</a>6</p>
+	<p><a id="s3-8g" href="#" class="response">G.</a>10</p>
+	<p><a id="s3-8h" href="#" class="response">H.</a>14</p>
+	<p><a id="s3-8j" href="#" class="response">J.</a>16</p>
+	<p><a id="s3-8k" href="#" class="response">K.</a>Cannot be determined from the information given</p>
+</div>
+</td></tr>
+	
+<div id="answer-s3-8f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-8g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-8h" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-8j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-8k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">9.</div><p>What is the <em>x</em>-coordinate of the point in the standard (<em>x</em>, <em>y</em>) coordinate plane at which the 2 lines <em>y</em> = 3<em>x</em> &minus; 3 and <em>y</em> = 2.3<em>x</em> + 4 intersect?</p>
+	<p><a id="s3-9a" href="#" class="response">A.</a>1</p>
+	<p><a id="s3-9b" href="#" class="response">B.</a>3</p>
+	<p><a id="s3-9c" href="#" class="response">C.</a>4</p>
+	<p><a id="s3-9d" href="#" class="response">D.</a>7</p>
+	<p><a id="s3-9e" href="#" class="response">E.</a>10</p>
+</div>
+</td></tr>
+
+<div id="answer-s3-9a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-9b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-9c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-9d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-9e" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">10.</div><p>If <em>x</em> = <em>y</em> &minus; 3, then (<em>y</em> &minus; <em>x</em>)<sup>3</sup> = ?</p>
+	<p><a id="s3-10f" href="#" class="response">F.</a>&minus;27</p>
+	<p><a id="s3-10g" href="#" class="response">G.</a>&minus;9</p>
+	<p><a id="s3-10h" href="#" class="response">H.</a>0</p>
+	<p><a id="s3-10j" href="#" class="response">J.</a>9</p>
+	<p><a id="s3-10k" href="#" class="response">K.</a>27</p>
+</div>
+</td></tr>
+	
+<div id="answer-s3-10f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-10g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-10h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-10j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-10k" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">11.</div><p>The downtown area of Smallville has the shape and dimensions in blocks shown below. Public restrooms are located halfway between point <em>Q</em> and point <em>S</em>. Which of the following is the location of the public restrooms from point <em>M</em>?</p>
+	<p align="center"><img src="../images/math/figure7.jpg"></p>	
+	<p><a id="s3-11a" href="#" class="response">A.</a>2 blocks east and 7 blocks north</p>
+	<p><a id="s3-11b" href="#" class="response">B.</a>3 blocks east and 6 blocks north</p>
+	<p><a id="s3-11c" href="#" class="response">C.</a>4 blocks east and 5 blocks north</p>
+	<p><a id="s3-11d" href="#" class="response">D.</a>6 blocks east and 3 blocks north</p>
+	<p><a id="s3-11e" href="#" class="response">E.</a>6 blocks east and 8 blocks north</p>
+</div>
+</td></tr>
+
+<div id="answer-s3-11a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-11b" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-11c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-11d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-11e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">12.</div><p>Janet is cutting a round table cloth with a 3-yard radius from a square piece of fabric, as shown below. What is the area of the square, in yards?</p>
+	<p align="center"><img src="../images/math/figure8.jpg"></p>	
+	<p><a id="s3-12f" href="#" class="response">F.</a>9</p>
+	<p><a id="s3-12g" href="#" class="response">G.</a>12</p>
+	<p><a id="s3-12h" href="#" class="response">H.</a>24</p>
+	<p><a id="s3-12j" href="#" class="response">J.</a>9&pi;</p>
+	<p><a id="s3-12k" href="#" class="response">K.</a>36</p>
+</div>
+</td></tr>
+	
+<div id="answer-s3-12f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-12g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-12h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s3-12j" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s3-12k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+</tbody></table>
+</div>
+<!-------------------------------------------------------------------------set-3-------------------------------------->
+
+<div id="set-4">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<!-- *************************************************************** -->
+<tr valign="top"><td>
+<div class="mathquestion">
+	<div class="numcol">1.</div><p>Triangles A and B are similar. The ratio of the side lengths for Triangle A is exactly 9:11:19. The shortest side of Triangle B is 18 centimeters long. To the nearest centimeter, what is the length of the longest side of Triangle B?</p>
+	<p><a id="s4-1a" href="#" class="response">A.</a>19</p>
+	<p><a id="s4-1b" href="#" class="response">B.</a>22</p>
+	<p><a id="s4-1c" href="#" class="response">C.</a>28</p>
+	<p><a id="s4-1d" href="#" class="response">D.</a>38</p>
+	<p><a id="s4-1e" href="#" class="response">E.</a>Cannot be determined from the information given.</p>
+</div>
+</td></tr>
+	
+<div id="answer-s4-1a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-1b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-1c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-1d" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-1e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">2.</div><p>The greater of two numbers exceeds twice the lesser number by 6. The sum of 3 times the greater number and 4 times the lesser number is 76. If <em>n</em> is the lesser number, which equation below determines the correct value of <em>n</em>?</p>
+	<p><a id="s4-2f" href="#" class="response">F.</a>3(2<em>n</em> + 6) + 4<em>n</em> = 76</p>
+	<p><a id="s4-2g" href="#" class="response">G.</a>3(2<em>n</em> &minus; 6) + 4<em>n</em> = 76</p>
+	<p><a id="s4-2h" href="#" class="response">H.</a>6<em>n</em> + 6 + 4<em>n</em> = 76</p>
+	<p><a id="s4-2j" href="#" class="response">J.</a>2(2<em>n</em> + 6) + 4<em>n</em> = 76</p>
+	<p><a id="s4-2k" href="#" class="response">K.</a>2(2<em>n</em> &minus; 6) + 4<em>n</em> = 76</p>
+</div>
+</td></tr>
+	
+<div id="answer-s4-2f" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-2g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-2h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-2j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-2k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">3.</div><p>A painter leans a 20-foot ladder against a house. The side of the house is perpendicular to the level ground, so that the base of the ladder is 6 feet away from the base of the building. To the nearest foot, how far up the house does the ladder reach?</p>
+	<p><a id="s4-3a" href="#" class="response">A.</a>8</p>
+	<p><a id="s4-3b" href="#" class="response">B.</a>12</p>
+	<p><a id="s4-3c" href="#" class="response">C.</a>19</p>
+	<p><a id="s4-3d" href="#" class="response">D.</a>20</p>
+	<p><a id="s4-3e" href="#" class="response">E.</a>26</p>
+</div>
+</td></tr>
+
+<div id="answer-s4-3a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-3b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-3c" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-3d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-3e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">4.</div><p>Figure <em>LMNP</em> is a trapezoid. <em>Q</em> lies on<span class="lineseg"><sup>&harr;</sup><sub><em>LP</em></sub></span>, and angle measures are as shown. What is the measure of &ang;<em>MPN</em>?</p>
+	<p align="center"><img src="../images/math/figure12.jpg"></p>	
+	<p><a id="s4-4f" href="#" class="response">F.</a>33&deg;</p>
+	<p><a id="s4-4g" href="#" class="response">G.</a>49&deg;</p>
+	<p><a id="s4-4h" href="#" class="response">H.</a>65&deg;</p>
+	<p><a id="s4-4j" href="#" class="response">J.</a>82&deg;</p>
+	<p><a id="s4-4k" href="#" class="response">K.</a>131&deg;</p>
+</div>
+</td></tr>
+	
+<div id="answer-s4-4f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-4g" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-4h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-4j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-4k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">5.</div><p>In the figure below, all corners are right angles, and all lengths are given in centimeters. What is the area, in centimeters, of the figure?</p>
+	<p align="center"><img src="../images/math/figure9.jpg"></p>	
+	<p><a id="s4-5a" href="#" class="response">A.</a>64</p>
+	<p><a id="s4-5b" href="#" class="response">B.</a>68</p>
+	<p><a id="s4-5c" href="#" class="response">C.</a>144</p>
+	<p><a id="s4-5d" href="#" class="response">D.</a>224</p>
+	<p><a id="s4-5e" href="#" class="response">E.</a>288</p>
+</div>
+</td></tr>
+
+<div id="answer-s4-5a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-5b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-5c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-5d" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-5e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">6.</div><p>The ratio of the radii of two circles is 2:7. What is the ratio of their circumferences?</p>
+	<p><a id="s4-6f" href="#" class="response">F.</a>1:3</p>
+	<p><a id="s4-6g" href="#" class="response">G.</a>2:7</p>
+	<p><a id="s4-6h" href="#" class="response">H.</a>4:49</p>
+	<p><a id="s4-6j" href="#" class="response">J.</a>2:4&pi;</p>
+	<p><a id="s4-6k" href="#" class="response">K.</a>4:14&pi;</p>
+</div>
+</td></tr>
+	
+<div id="answer-s4-6f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-6g" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-6h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-6j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-6k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">7.</div><p>What is the distance in the standard (<em>x</em>, <em>y</em>) coordinate plane between the points (1, 2) and (4, 6)?</p>
+	<p><a id="s4-7a" href="#" class="response">A.</a>&radic;5</p>
+	<p><a id="s4-7b" href="#" class="response">B.</a>&radic;29</p>
+	<p><a id="s4-7c" href="#" class="response">C.</a>5</p>
+	<p><a id="s4-7d" href="#" class="response">D.</a>7</p>
+	<p><a id="s4-7e" href="#" class="response">E.</a>25</p>
+</div>
+</td></tr>
+
+<div id="answer-s4-7a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-7b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-7c" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-7d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-7e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">8.</div><p>Of the 605 high school juniors in Rapids School District, <span class="frac"><sup>4</sup><span>&frasl;</span><sub>5</sub></span> are planning to go to college, and <span class="frac"><sup>1</sup><span>&frasl;</span><sub>2</sub></span> of those want to go to college out of state. Which of the following is the best estimate of how many of the juniors are planning to attend an out-of-state college?</p>
+	<p><a id="s4-8f" href="#" class="response">F.</a>76</p>
+	<p><a id="s4-8g" href="#" class="response">G.</a>121</p>
+	<p><a id="s4-8h" href="#" class="response">H.</a>242</p>
+	<p><a id="s4-8j" href="#" class="response">J.</a>303</p>
+	<p><a id="s4-8k" href="#" class="response">K.</a>484</p>
+</div>
+</td></tr>
+	
+<div id="answer-s4-8f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-8g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-8h" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-8j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-8k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">9.</div><p>The following system of equations has an infinite number of solutions for which of the following values of <em>p</em>?</p>
+	                            <p>3<em>a</em> &minus; 2<em>b</em> = 4</p>
+	                            <p>12<em>a</em> &minus; 4<em>pb</em> = 16</p>
+	<p><a id="s4-9a" href="#" class="response">A.</a>0</p>
+	<p><a id="s4-9b" href="#" class="response">B.</a>1</p>
+	<p><a id="s4-9c" href="#" class="response">C.</a>2</p>
+	<p><a id="s4-9d" href="#" class="response">D.</a>4</p>
+	<p><a id="s4-9e" href="#" class="response">E.</a>8</p>
+</div>
+</td></tr>
+
+<div id="answer-s4-9a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-9b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-9c" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-9d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-9e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">10.</div><p>If 125% of a number is 625, what is 40% of the number?</p>
+	<p><a id="s4-10f" href="#" class="response">F.</a>200</p>
+	<p><a id="s4-10g" href="#" class="response">G.</a>250</p>
+	<p><a id="s4-10h" href="#" class="response">H.</a>300</p>
+	<p><a id="s4-10j" href="#" class="response">J.</a>400</p>
+	<p><a id="s4-10k" href="#" class="response">K.</a>500</p>
+</div>
+</td></tr>
+	
+<div id="answer-s4-10f" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-10g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-10h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-10j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-10k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">11.</div><p>Each triangle in the figure below has 3 dots. What would be the number of dots for 6 layers of triangles?</p>
+	<p align="center"><img src="../images/math/figure13.jpg"></p>	
+	<p><a id="s4-11a" href="#" class="response">A.</a>36</p>
+	<p><a id="s4-11b" href="#" class="response">B.</a>28</p>
+	<p><a id="s4-11c" href="#" class="response">C.</a>21</p>
+	<p><a id="s4-11d" href="#" class="response">D.</a>20</p>
+	<p><a id="s4-11e" href="#" class="response">E.</a>18</p>
+</div>
+</td></tr>
+
+<div id="answer-s4-11a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-11b" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-11c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-11d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-11e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">12.</div><p>After polling a gathering of 26 athletes, you find that 15 of them play high school soccer, and 6 of them play high school basketball. Given that information, what is the minimum number of athletes at this gathering who play both soccer and basketball?</p>
+	<p><a id="s4-12f" href="#" class="response">F.</a>0</p>
+	<p><a id="s4-12g" href="#" class="response">G.</a>5</p>
+	<p><a id="s4-12h" href="#" class="response">H.</a>6</p>
+	<p><a id="s4-12j" href="#" class="response">J.</a>20</p>
+	<p><a id="s4-12k" href="#" class="response">K.</a>21</p>
+</div>
+</td></tr>
+	
+<div id="answer-s4-12f" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s4-12g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-12h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-12j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s4-12k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+</tbody></table>
+</div>
+<!-------------------------------------------------------------------------set-4-------------------------------------->
+
+<div id="set-5">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<!-- *************************************************************** -->
+<tr valign="top"><td>
+<div class="mathquestion">
+	<div class="numcol">1.</div><p>A circle in the standard (<em>x</em>, <em>y</em>) coordinate plane is tangent to the <em>x</em>-axis at 8 and tangent to the <em>y</em>-axis at 8. Which of the following is representative of an equation of the circle?</p>
+	<p><a id="s5-1a" href="#" class="response">A.</a><em>x</em><sup>2</sup> + <em>y</em><sup>2</sup> = 8</p>
+	<p><a id="s5-1b" href="#" class="response">B.</a><em>x</em><sup>2</sup> + <em>y</em><sup>2</sup> = 64</p>
+	<p><a id="s5-1c" href="#" class="response">C.</a>(<em>x</em> &minus; 8)<sup>2</sup> + (<em>y</em> &minus; 8)<sup>2</sup> = 8</p>
+	<p><a id="s5-1d" href="#" class="response">D.</a>(<em>x</em> &minus; 8)<sup>2</sup> + (<em>y</em> &minus; 8)<sup>2</sup> = 64</p>
+	<p><a id="s5-1e" href="#" class="response">E.</a>(<em>x</em> + 8)<sup>2</sup> + (<em>y</em> + 8)<sup>2</sup> = 64</p>
+</div>
+</td></tr>
+	
+<div id="answer-s5-1a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-1b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-1c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-1d" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-1e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">2.</div><p><em>p</em> and <em>r</em> represent real numbers. <em>xi</em> and <em>yi</em> are imaginary numbers. When does <em>xi</em> + <em>p</em> = <em>yi</em> + <em>r</em>?</p>
+	<p><a id="s5-2f" href="#" class="response">F.</a>when <em>p</em> = <em>r</em></p>
+	<p><a id="s5-2g" href="#" class="response">G.</a>when <em>x</em> = <em>y</em></p>
+	<p><a id="s5-2h" href="#" class="response">H.</a>when <em>x</em> = <em>r</em> and <em>y</em> = <em>p</em></p>
+	<p><a id="s5-2j" href="#" class="response">J.</a>when <em>x</em> = <em>p</em> and <em>y</em> = <em>r</em></p>
+	<p><a id="s5-2k" href="#" class="response">K.</a>when <em>x</em> = <em>y</em> and <em>p</em> = <em>r</em></p>
+</div>
+</td></tr>
+	
+<div id="answer-s5-2f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-2g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-2h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-2j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-2k" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">3.</div><p>Kyle wants to draw a circle graph showing his friends' favorite kinds of dessert. When he polled his friends, 35% said pie, 20% said cake, 30% said ice cream, and 5% said cookies. The remaining friends said something other than pie, cake, ice cream, or cookies, and their responses will be grouped together in an "Other" sector of the graph. What will be the degree measure of the Other sector?</p>
+	<p><a id="s5-3a" href="#" class="response">A.</a>90&deg;</p>
+	<p><a id="s5-3b" href="#" class="response">B.</a>84&deg;</p>
+	<p><a id="s5-3c" href="#" class="response">C.</a>36&deg;</p>
+	<p><a id="s5-3d" href="#" class="response">D.</a>18&deg;</p>
+	<p><a id="s5-3e" href="#" class="response">E.</a>10&deg;</p>
+</div>
+</td></tr>
+
+<div id="answer-s5-3a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-3b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-3c" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-3d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-3e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">4.</div><p>If <em>n</em> is a real number, what is the greatest possible value of 4 sin 2<em>n</em>?</p>
+	<p><a id="s5-4f" href="#" class="response">F.</a>12</p>
+	<p><a id="s5-4g" href="#" class="response">G.</a>6</p>
+	<p><a id="s5-4h" href="#" class="response">H.</a>4</p>
+	<p><a id="s5-4j" href="#" class="response">J.</a>3</p>
+	<p><a id="s5-4k" href="#" class="response">K.</a>2</p>
+</div>
+</td></tr>
+	
+<div id="answer-s5-4f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-4g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-4h" class="correct"> 
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-4j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-4k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">5.</div><p>Which of the following is the set of all real numbers <em>n</em> such that <em>n</em> + 2 > <em>n</em> + 7</p>
+	<p><a id="s5-5a" href="#" class="response">A.</a>The empty set</p>
+	<p><a id="s5-5b" href="#" class="response">B.</a>The set containing only zero</p>
+	<p><a id="s5-5c" href="#" class="response">C.</a>The set containing all real numbers</p>
+	<p><a id="s5-5d" href="#" class="response">D.</a>The set containing all negative real numbers</p>
+	<p><a id="s5-5e" href="#" class="response">E.</a>The set containing all nonnegative real numbers</p>
+</div>
+</td></tr>
+
+<div id="answer-s5-5a" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-5b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-5c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-5d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-5e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">6.</div><p>A pentagon has 5 diagonals, as shown below.</p>
+	<p align="center"><img src="../images/math/figure10.jpg"></p>
+	<p>How many diagonals does a hexagon have?</p>
+	<p align="center"><img src="../images/math/figure11.jpg"></p>
+	<p><a id="s5-6f" href="#" class="response">F.</a>6</p>
+	<p><a id="s5-6g" href="#" class="response">G.</a>9</p>
+	<p><a id="s5-6h" href="#" class="response">H.</a>14</p>
+	<p><a id="s5-6j" href="#" class="response">J.</a>18</p>
+	<p><a id="s5-6k" href="#" class="response">K.</a>20</p>
+</div>
+</td></tr>
+	
+<div id="answer-s5-6f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-6g" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-6h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-6j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-6k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">7.</div><p>Which equation of the line passes through the points (&minus; 3,4) and (4, &minus;2)?</p>
+	<p><a id="s5-7a" href="#" class="response">A.</a>&minus;7<em>y</em> + 6<em>x</em> = &minus;10</p>
+	<p><a id="s5-7b" href="#" class="response">B.</a>7<em>y</em> &minus; 6<em>x</em> = 10</p>
+	<p><a id="s5-7c" href="#" class="response">C.</a>7<em>y</em> &minus; 6<em>x</em> = &minus;46</p>
+	<p><a id="s5-7d" href="#" class="response">D.</a>7<em>y</em> &minus; 6<em>x</em> = 46</p>
+	<p><a id="s5-7e" href="#" class="response">E.</a>7<em>y</em> + 6<em>x</em> = 10</p>
+</div>
+</td></tr>
+
+<div id="answer-s5-7a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-7b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-7c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-7d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-7e" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">8.</div><p>If &fnof;(<em>x</em>) = <em>x</em><sup>2</sup> &minus; 4, then &fnof;(<em>x</em> &minus; <em>b</em>) =</p>
+	<p><a id="s5-8f" href="#" class="response">F.</a><em>x</em><sup>2</sup> + <em>b</em><sup>2</sup></p>
+	<p><a id="s5-8g" href="#" class="response">G.</a><em>x</em><sup>2</sup> &minus; 4 + <em>b</em></p>
+	<p><a id="s5-8h" href="#" class="response">H.</a><em>x</em><sup>2</sup> + <em>b</em><sup>2</sup> &minus; 4</p>
+	<p><a id="s5-8j" href="#" class="response">J.</a><em>x</em><sup>2</sup> &minus; 2<em>bx</em> + <em>b</em><sup>2</sup></p>
+	<p><a id="s5-8k" href="#" class="response">K.</a><em>x</em><sup>2</sup> &minus; 2<em>bx</em> + <em>b</em><sup>2</sup> &minus; 4</p>
+</div>
+</td></tr>
+	
+<div id="answer-s5-8f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-8g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-8h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-8j" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-8k" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">9.</div><p>Which of the following is the graph, in the standard (<em>x</em>, <em>y</em>) coordinate plane, of <em>y</em> = <em>x</em><sup>2</sup> + 1 ?</p>
+	<p><a id="s5-9a" href="#" class="response">A.</a><img src="../images/math/figure14a.jpg"></p>
+	<p><a id="s5-9b" href="#" class="response">B.</a><img src="../images/math/figure14b.jpg"></p>
+	<p><a id="s5-9c" href="#" class="response">C.</a><img src="../images/math/figure14c.jpg"></p>
+	<p><a id="s5-9d" href="#" class="response">D.</a><img src="../images/math/figure14d.jpg"></p>
+	<p><a id="s5-9e" href="#" class="response">E.</a><img src="../images/math/figure14e.jpg"></p>
+</div>
+</td></tr>
+
+<div id="answer-s5-9a" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-9b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-9c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-9d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-9e" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">10.</div><p>If a sphere is cut by two different planes, dividing it into sections, how many possible sections could result?</p>
+	<p><a id="s5-10f" href="#" class="response">F.</a>2</p>
+	<p><a id="s5-10g" href="#" class="response">G.</a>2 or 3 only</p>
+	<p><a id="s5-10h" href="#" class="response">H.</a>3</p>
+	<p><a id="s5-10j" href="#" class="response">J.</a>3 or 4 only</p>
+	<p><a id="s5-10k" href="#" class="response">K.</a>4</p>
+</div>
+</td></tr>
+	
+<div id="answer-s5-10f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-10g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-10h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-10j" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-10k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">11.</div><p>If <em>x</em> = 3<em>z</em> &minus; 7 and <em>y</em> = 6 &minus; <em>z</em>, which of the following expresses <em>y</em> in terms of <em>x</em>?</p>
+	<p><a id="s5-11a" href="#" class="response">A.</a><em>y</em> = <em>x</em> &minus; 7</p>
+	<p><a id="s5-11b" href="#" class="response">B.</a><em>y</em> = <span class="frac"><sup>25 &minus; <em>x</em></sup><span>&frasl;</span><sub>3</sub></span></p>
+	<p><a id="s5-11c" href="#" class="response">C.</a><em>y</em> = <span class="frac"><sup><em>x</em> &minus; 1</sup><span>&frasl;</span><sub>3</sub></span></p>
+	<p><a id="s5-11d" href="#" class="response">D.</a><em>y</em> = <em>x</em> &minus; 5</p>
+	<p><a id="s5-11e" href="#" class="response">E.</a><em>y</em> = <span class="frac"><sup>11 &minus; <em>x</em></sup><span>&frasl;</span><sub>3</sub></span></p>
+</div>
+</td></tr>
+
+<div id="answer-s5-11a" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-11b" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-11c" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-11d" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-11e" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<!-- *************************************************************** -->
+<tr><td>
+<div class="mathquestion">
+	<div class="numcol">12.</div><p>Angles <em>RP</em> and <em>RQ</em> each have measurements between 0&deg; and 45&deg;. If cos <em>P</em> = sin <em>Q</em>, what is the sum of <em>RP</em> + <em>RQ</em>?</p>
+	<p><a id="s5-12f" href="#" class="response">F.</a>15</p>
+	<p><a id="s5-12g" href="#" class="response">G.</a>30</p>
+	<p><a id="s5-12h" href="#" class="response">H.</a>45</p>
+	<p><a id="s5-12j" href="#" class="response">J.</a>90</p>
+	<p><a id="s5-12k" href="#" class="response">K.</a>180</p>
+</div>
+</td></tr>
+	
+<div id="answer-s5-12f" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-12g" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-12h" class="incorrect"> 
+<p>This answer is incorrect.</p>
+</div>
+<div id="answer-s5-12j" class="correct">
+<p>This is the correct answer.</p>
+</div>
+<div id="answer-s5-12k" class="incorrect">
+<p>This answer is incorrect.</p>
+</div>
+<!-- *************************************************************** -->
+</tbody></table>
+</div>
+<!-------------------------------------------------------------------------set-5-------------------------------------->
+</div><!--sets-->
+</div><!--content2-->
+</div><!--container-->
+</body>
+</html>

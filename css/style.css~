@@ -1,0 +1,269 @@
+body {
+	font-size:14px;
+	}
+	
+body#fullpage #content2 { 
+	margin:10px 0px;
+	padding:0pt;
+	width:774px;
+	color:#494949;
+	}
+	
+body#fullpage.sampletest #content2 { margin-top:0; }
+
+.showhidelink { position:absolute;right:0;margin:0;padding:5px 0 0 0; }	
+a#showhide { font-size:11px;font-weight:bold;text-decoration:none; color:#1b70a5;}
+a:hover#showhide { text-decoration:underline; }
+a:focus#showhide { outline:none; }
+
+#wrapper { width:700px;position:relative;margin:0 auto;clear:both;padding-bottom:30px; }
+	
+.instructions, .directions {
+	font-size:14px;
+	}
+	
+#testinstruct {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background: url(images/testbook.gif) 90% 40px no-repeat;
+	}
+
+
+td, tr, table {
+	font-size:15px;
+	}
+
+td {
+	padding-top:10px;
+	}
+	
+.question {
+	width:330px;
+	padding-top:5px;
+	margin-bottom:15px;
+	}
+	
+.mathquestion {
+	width:600px;
+	padding-top:10px;
+	}
+	
+.passage {
+	width:350px;
+	}
+	
+div.correct, div.incorrect {
+	display: none;
+	}
+
+.numcol {
+	font-weight:bold;
+	width: 20px;
+	float:left;
+	text-align:right;
+	}
+	
+table.sectiontable {
+	/*border-top:1px solid #999;*/
+	font-family:'Times New Roman', Times, Georgia, serif;
+	position: relative;
+	padding-bottom: 10px;
+	}
+	
+table.mathquestiontable {
+	position: relative;
+	left: 60px;
+	line-height:1.3em;
+	}
+	
+table.sciencequestiontable {
+	position: relative;
+	line-height:1.3em;
+	}
+	
+table.mathquestiontable td {
+	padding-top: 0px;
+	}
+
+.question p, .mathquestion p {
+	margin:0 0 0 30px;
+	padding:0 0 5px 0;
+	line-height:1.6em;
+	/*clear:both;*/
+	}
+
+.question a, .mathquestion a {
+	display:block;
+	width:20px;
+	float:left;
+	padding:0;
+	margin:0;
+	font-weight:bold;
+	/* color: #003399; */
+	color: #204c8d;
+	text-decoration: none;
+	}
+
+.question a:hover, .mathquestion a:hover {
+	color: #3366CC;
+	text-decoration: underline;
+	}
+
+/*	
+.question span, .mathquestion span {
+	display:block;
+	margin-left:20px;
+	padding:0;
+	width:240px;
+	}
+*/
+
+span.response {
+	display:block;
+	margin-left:20px;
+	padding:0;
+	width:240px;
+	}
+
+.question sup, .mathquestion sup { line-height: 0; }
+
+.question sub, .mathquestion sub { line-height: 0; }
+
+.questions { 
+	padding-top:20px;
+	padding-left:10px;
+	vertical-align: top; 
+	}
+
+span.frac {
+  display: inline-block;
+  position: relative;
+  vertical-align: bottom;
+  font-size: 80%;
+  text-align: center;
+  line-height: 1.2em;
+}
+span.frac > sup {
+  display: block;
+  border-bottom: 1px solid;
+  font: inherit;
+}
+span.frac > span {
+  display: none;
+}
+span.frac > sub {
+  display: block;
+  font: inherit;
+}
+
+span.und {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  text-align: center;
+}
+span.und > sup {
+  display: block;
+  border-bottom: 1px solid;
+  font: inherit;
+}
+span.und > span {
+  display: none;
+}
+span.und > sub {
+  display: block;
+  line-height: 1em;
+}
+
+td.prose {
+	padding-top: 0px;
+	line-height:1.5em;
+	border-right: 1px solid #AAAAAA;
+	vertical-align: top;
+}
+
+td.prose p {
+   margin-bottom: 5px;
+   margin-top: 5px;	
+}
+
+p.englishtitle {
+	font-weight: bold;
+	text-align: center;
+}
+
+p.readintro {
+	font-family: Arial,Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+pre code {
+	font-family: 'Times New Roman', Times, Georgia, serif;
+	font-size: 15px;
+}
+
+pre code .beforeline {
+	font-weight:bold;
+	display: inline-block;
+	padding-right: .7em; /* space after numbers */
+	text-align: right;
+	font-size: 11px;
+	width: 15px;
+	opacity: 0.7;
+}
+
+.lin { display: none; }
+.den, .nom { display: block;  width:100%; text-align:center }
+.nom { text-decoration: underline; }
+	
+.lineseg { font-style: italic; }
+.lineseg sup, .lineseg sub {
+	font-style: normal;
+	font-size: 90%;
+	position: relative; 
+	}
+.lineseg sup {
+	left: 0.6em;
+	vertical-align: text-top; 
+	}
+.lineseg sub {
+	top: -0.6em;
+	left: -0.6em;
+	vertical-align: text-bottom; 
+	}
+	
+.sciencequestiontable th {
+	background-color: #F5F5F5;
+	font-weight: bold;
+	color:black;
+	text-align:center;
+	font-family:'Times New Roman', Times, Georgia, serif;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.sciencequestiontable td {
+	text-align:center;
+	font-family:'Times New Roman', Times, Georgia, serif;
+}
+.sciencequestiontable td.alignl {
+	text-align:left;
+}
+	
+.passage span {
+	padding-bottom:.8em;
+	}
+	
+span.box {
+	border:1px solid #000;
+	padding:2px 5px;
+	font-size:11px;
+	color:#000;
+	font-weight:bold;
+	}
+	
+.note {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
