@@ -1281,25 +1281,6 @@ jQuery(document).ready(function($) {
 </div>
 </div><!-- set-3-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div id="set-4">
 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
 <tbody>
@@ -1668,47 +1649,71 @@ jQuery(document).ready(function($) {
 </div>
 </div><!-- set-4-->
 
+
+
+
+
+
 <div id="set-5">
 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
 <tbody>
 <tr><td class="prose"><p class="englishtitle">Music Sampling</p></td><td></td></tr>
 <tr><td class="prose"><p class="englishtitle">[1]</p></td><td></td></tr>
 <tr><td class="prose"><p>Music sampling involves taking a portion of a</p></td><td></td></tr>
-<tr><td class="prose"><p>sound recording and popping it into another sound</p></td><td></td></tr>
-<tr><td class="prose"><p>recording. 2 Sampling can be done in many ways</p></td><td></td></tr>
+
+<tr><td class="prose"><p>sound recording and <span class="und"><sup>popping it into</sup><span>&frasl;</span><sub>1</sub></span> another sound</p></td><td class="questions" id="s5-1"></td></tr>
+
+<tr><td class="prose"><p>recording. <span class="box">2</span> Sampling can be done in many <span class="und"><sup>ways</sup><span>&frasl;</span><sub>3</sub></span></p></td><td class="questions" id="s5-2"></td></tr>
+<tr><td class="prose"><p></p></td><td class="questions" id="s5-3"></td></tr>
+
 <tr><td class="prose"><p>with a piece of hardware, with a computer program</p></td><td></td></tr>
-<tr><td class="prose"><p>called a sampler or with tape loops, or with vinyl</p></td><td></td></tr>
-<tr><td class="prose"><p>records on a phonograph. 5</p></td><td></td></tr>
+<tr><td class="prose"><p>called a <span class="und"><sup>sampler or with</sup><span>&frasl;</span><sub>4</sub></span> tape loops, or with vinyl</p></td><td class="questions" id="s5-4"></td></tr>
+
+<tr><td class="prose"><p>records on a phonograph.</p></td><td></td></tr>
 <tr><td class="prose"><p class="englishtitle">[2]</p></td><td></td></tr>
 <tr><td class="prose"><p>(1) In the early days of sampling, musicians, disc</p></td><td></td></tr>
-<tr><td class="prose"><p>jockeys, and music producers sampled from other</p></td><td></td></tr>
-<tr><td class="prose"><p>artists’ work liberally — without permission. (2)</p></td><td></td></tr>
-<tr><td class="prose"><p>The result is a draconian — and prohibitively</p></td><td></td></tr>
-<tr><td class="prose"><p>expensive — set of licensing requirements that</p></td><td></td></tr>
-<tr><td class="prose"><p>serves to squelch creativity. (3) As rap and other</p></td><td></td></tr>
-<tr><td class="prose"><p>music forms began to make serious money, copyright</p></td><td></td></tr>
-<tr><td class="prose"><p>issues began to emerge. (4) Original artists and</p></td><td></td></tr>
-<tr><td class="prose"><p>corporations who owned copyrights of the sampled</p></td><td></td></tr>
-<tr><td class="prose"><p>music took legal action. (5) Like some of Public</p></td><td></td></tr>
-<tr><td class="prose"><p>Enemy's work in the 1990s, musical collages would</p></td><td></td></tr>
-<tr><td class="prose"><p>cost 20 times as much to make today. 9</p></td><td></td></tr>
+
+<tr><td class="prose"><p>jockeys, and music producers sampled <span class="und"><sup>from other</sup><span>&frasl;</span><sub>5</sub></span></p>
+<p><span class="und"><sup>artists’ work</sup><span>&frasl;</span><sub>5</sub></span> liberally — without permission. (2)</p></td><td class="questions" id="s5-5"></td></tr>
+
+<tr><td class="prose"><p>The result is a <span class="und"><sup>draconian — and prohibitively</sup><span>&frasl;</span><sub>6</sub></span></p>
+<p><span class="und"><sup>expensive —</sup><span>&frasl;</span><sub>6</sub></span> set of licensing requirements that</p></td><td class="questions" id="s5-6"></td></tr>
+
+<tr><td class="prose"><p>serves to squelch creativity. (3) As rap and other</p>
+<p>music forms began to make serious money, copyright</p></td><td></td></tr>
+
+<tr><td class="prose"><p>issues began to emerge. (4) Original <span class="und"><sup>artists and</sup><span>&frasl;</span><sub>7</sub></span></p>
+<p><span class="und"><sup>corporations who owned copyrights</sup><span>&frasl;</span><sub>7</sub></span> of the sampled</p></td><td class="questions" id="s5-7"></td></tr>
+
+<tr><td class="prose"><p>music took legal action. (5) <span class="und"><sup>Like some of Public</sup><span>&frasl;</span><sub>8</sub></span></p>
+<p><span class="und"><sup>Enemy's work in the 1990s, musical collages would</sup><span>&frasl;</span><sub>8</sub></span></p>
+<p><span class="und"><sup>cost 20 times as much to make today.</sup><span>&frasl;</span><sub>8</sub></span> <span class="box">9</span></p></td><td class="questions" id="s5-8"></td></tr>
+<tr><td class="prose"><p></p></td><td class="questions" id="s5-9"></td></tr>
+
 <tr><td class="prose"><p class="englishtitle">[3]</p></td><td></td></tr>
-<tr><td class="prose"><p>When sampling, an artist or producer has to deal</p></td><td></td></tr>
-<tr><td class="prose"><p>with both the song publishing company, which</p></td><td></td></tr>
-<tr><td class="prose"><p>controls the lyrics and melody, and the record</p></td><td></td></tr>
-<tr><td class="prose"><p>company that owns the sound recording of the</p></td><td></td></tr>
-<tr><td class="prose"><p>sampled song. As a result is a payment that can be</p></td><td></td></tr>
-<tr><td class="prose"><p>200–2,000 percent of what one costs to simply</p></td><td></td></tr>
+<tr><td class="prose"><p>When sampling, an artist or producer has to deal</p>
+<p>with both the song publishing company, which</p></td><td></td></tr>
+
+<tr><td class="prose"><p>controls the <span class="und"><sup>lyrics and melody, and the record</sup><span>&frasl;</span><sub>10</sub></span></p>
+<p><span class="und"><sup>company</sup><span>&frasl;</span><sub>10</sub></span> that owns the sound recording of the</p></td><td class="questions" id="s5-10"></td></tr>
+
+<tr><td class="prose"><p>sampled song. <span class="und"><sup>As a result</sup><span>&frasl;</span><sub>11</sub></span> is a payment that can be</p></td><td class="questions" id="s5-11"></td></tr>
+
+<tr><td class="prose"><p>200–2,000 percent of what <span class="und"><sup>one</sup><span>&frasl;</span><sub>12</sub></span> costs to simply</p></td><td class="questions" id="s5-12"></td></tr>
+
 <tr><td class="prose"><p>record a cover of the song. </p></td><td></td></tr>
 <tr><td class="prose"><p class="englishtitle">[4]</p></td><td></td></tr>
-<tr><td class="prose"><p>(1) Kembrew McLeod, a communications studies</p></td><td></td></tr>
-<tr><td class="prose"><p>assistant professor at the University of Iowa, has</p></td><td></td></tr>
-<tr><td class="prose"><p>proposed a solution. (2) He suggests that</p></td><td></td></tr>
-<tr><td class="prose"><p>reasonable, predictable, licensing fees be set.</p></td><td></td></tr>
-<tr><td class="prose"><p>(3)Streamlining the licensing procedures and</p></td><td></td></tr>
-<tr><td class="prose"><p>allowing some borrowing under provisions for</p></td><td></td></tr>
-<tr><td class="prose"><p>"fair use" could also help. 15</p></td><td></td></tr>
-<tr><td class="prose"></td><td class="questions" id="s5-15"></td></tr>
+<tr><td class="prose"><p>(1) Kembrew McLeod, a communications studies</p>
+<p>assistant professor at the University of Iowa, has</p></td><td></td></tr>
+
+<tr><td class="prose"><p><span class="und"><sup>proposed</sup><span>&frasl;</span><sub>13</sub></span> a solution. (2) He suggests that</p></td><td class="questions" id="s5-13"></td></tr>
+
+<tr><td class="prose"><p><span class="und"><sup>reasonable, predictable, licensing</sup><span>&frasl;</span><sub>14</sub></span> fees be set.</p></td><td class="questions" id="s5-14"></td></tr>
+
+<tr><td class="prose"><p>(3)Streamlining the licensing procedures and</p>
+<p>allowing some borrowing under provisions for</p></td><td></td></tr>
+
+<tr><td class="prose"><p>"fair use" could also help. <span class="box">15</span></p></td><td class="questions" id="s5-15"></td></tr>
 </tbody></table>
 
 <div id="s5-1" class="question">
