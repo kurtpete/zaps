@@ -12,8 +12,8 @@
 	<script type="text/javascript" src="../scripts/util.js"></script>
 
 <script type="text/javascript">
-//var countdown = 2100;
-var countdown = 3;
+var countdown = 2100;
+var totalQuestions = 2;
 
 jQuery(document).ready(function($) {
 	$("#scienceButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
@@ -62,10 +62,10 @@ jQuery(document).ready(function($) {
 <tr><td></td><td>9</td><td>5</td></tr>
 <tr><td></td><td>8</td><td>4</td></tr>
 <tr><td></td><td>7</td><td>3</td></tr>
-<tr><td></td><td></td><td>6</td></tr>
+<tr><td></td><td>6</td><td></td></tr>
 <tr><td></td><td>5</td><td>2</td></tr>
-<tr><td></td><td></td><td>4</td></tr>
-<tr><td></td><td></td><td>3</td></tr>
+<tr><td></td><td>4</td><td></td></tr>
+<tr><td></td><td>3</td><td></td></tr>
 <tr><td></td><td>2</td><td>1</td></tr>
 <tr><td></td><td>1</td><td>0</td></tr>
 </table>

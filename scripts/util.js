@@ -68,6 +68,15 @@ jQuery(document).ready(function($) {
 			buttons: {
 				Ok: function() {
 					$(this).dialog( "close" );
+					if ((correct + incorrect) == totalQuestions) {
+						$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
+						$("#test-results").dialog({
+							modal: true,
+							resizable: false,
+							width:'auto',
+							buttons: { Ok: function() { $(this).dialog("close"); } }
+						});
+					}
 				}
 			}
 		});

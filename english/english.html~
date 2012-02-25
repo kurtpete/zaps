@@ -13,6 +13,7 @@
 
 <script type="text/javascript">
 var countdown = 2700;
+var totalQuestions = 75;
 
 jQuery(document).ready(function($) {
 	$("#englishButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
@@ -2020,10 +2021,10 @@ jQuery(document).ready(function($) {
 <div id="answer-s5-15a" class="incorrect">
 <p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s5-15b" class="correct">
+<div id="answer-s5-15b" class="incorrect">
 <p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
 </div>
-<div id="answer-s5-15c" class="incorrect"> 
+<div id="answer-s5-15c" class="correct"> 
 <p>Though Ming may have some regret, his feelings about the past are not happy ones, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
 <div id="answer-s5-15d" class="incorrect">

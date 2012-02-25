@@ -13,6 +13,7 @@
 
 <script type="text/javascript">
 var countdown = 3600;
+var totalQuestions = 60;
 
 jQuery(document).ready(function($) {
 	$("#mathButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
@@ -1782,6 +1783,7 @@ jQuery(document).ready(function($) {
 <tr><td>
 <div class="mathquestion">
 	<div class="numcol">12.</div><p>Angles <em>RP</em> and <em>RQ</em> each have measurements between 0&deg; and 45&deg;. If cos <em>P</em> = sin <em>Q</em>, what is the sum of <em>RP</em> + <em>RQ</em>?</p>
+	<p align="center"><img src="../images/math/figure15.jpg"></p>
 	<p><a id="s5-12f" href="#" class="response">F.</a>15</p>
 	<p><a id="s5-12g" href="#" class="response">G.</a>30</p>
 	<p><a id="s5-12h" href="#" class="response">H.</a>45</p>
