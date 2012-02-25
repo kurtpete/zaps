@@ -12,7 +12,8 @@
 	<script type="text/javascript" src="../scripts/util.js"></script>
 
 <script type="text/javascript">
-var countdown = 2100;
+//var countdown = 2100;
+var countdown = 3;
 
 jQuery(document).ready(function($) {
 	$("#scienceButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
@@ -25,6 +26,49 @@ jQuery(document).ready(function($) {
 
 <div id="time-up" title="Time is up!" style="display:none;"> 
 <p><span class="ui-icon ui-icon-clock" style="float:left; margin:0 7px 20px 0;"></span>Your time is up for this test.</p>
+</div>
+
+<div id="test-results" title="Test Results" style="display:none;">
+<table class="results-table">
+<tr><th colspan="4">Estimated ACT Scores Based on Practice Test Results</th></tr>
+<tr><th></th><th>Estimated ACT Score</th><th>Number Correct on Science Test</th><th>Your Score</th></tr>
+<tr><td>99th Percentile</td><td>36</td><td>40</td><td rowspan="36" id="results-correct"><span class="results-answers"></span></td></tr>
+<tr><td>99th Percentile</td><td>35</td><td>39</td></tr>
+<tr><td>99th Percentile</td><td>34</td><td>38</td></tr>
+<tr><td>99th Percentile</td><td>33</td><td>37</td></tr>
+<tr><td>99th Percentile</td><td>32</td><td>36</td></tr>
+<tr><td>99th Percentile</td><td>31</td><td>35</td></tr>
+<tr><td>99th Percentile</td><td>30</td><td>34</td></tr>
+<tr><td></td><td>29</td><td>33</td></tr>
+<tr><td></td><td>28</td><td>32</td></tr>
+<tr><td></td><td>27</td><td>31</td></tr>
+<tr><td></td><td>26</td><td>29–30</td></tr>
+<tr><td></td><td>25</td><td>28</td></tr>
+<tr><td></td><td>24</td><td>26–27</td></tr>
+<tr><td></td><td>23</td><td>25</td></tr>
+<tr><td></td><td>22</td><td>23–24</td></tr>
+<tr><td>National Average</td><td>21</td><td>22</td></tr>
+<tr><td>National Average</td><td>20</td><td>20–21</td></tr>
+<tr><td>National Average</td><td>19</td><td>19</td></tr>
+<tr><td></td><td>18</td><td>17–18</td></tr>
+<tr><td></td><td>17</td><td>16</td></tr>
+<tr><td></td><td>16</td><td>14–15</td></tr>
+<tr><td></td><td>15</td><td>13</td></tr>
+<tr><td></td><td>14</td><td>11–12</td></tr>
+<tr><td>Blind Guessing</td><td>13</td><td>10</td></tr>
+<tr><td></td><td>12</td><td>8–9</td></tr>
+<tr><td></td><td>11</td><td>7</td></tr>
+<tr><td></td><td>10</td><td>6</td></tr>
+<tr><td></td><td>9</td><td>5</td></tr>
+<tr><td></td><td>8</td><td>4</td></tr>
+<tr><td></td><td>7</td><td>3</td></tr>
+<tr><td></td><td></td><td>6</td></tr>
+<tr><td></td><td>5</td><td>2</td></tr>
+<tr><td></td><td></td><td>4</td></tr>
+<tr><td></td><td></td><td>3</td></tr>
+<tr><td></td><td>2</td><td>1</td></tr>
+<tr><td></td><td>1</td><td>0</td></tr>
+</table>
 </div>
 
 <div id="container">
@@ -1314,12 +1358,12 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s7-1a" class="incorrect">
-<p>The best answer is NOT: F</p>
+<p>The best answer is NOT: A</p>
 <p>because this band shows a number of vascular plant species much smaller than those found at 1300-1500 meters ASL.</p>
 </div>
 
 <div id="answer-s7-1b" class="incorrect">
-<p>The best answer is NOT: G</p>
+<p>The best answer is NOT: B</p>
 <p>because this band shows the peak for ferns only, not total vascular plant species. The fern graph is read on the right-hand side of the graph, and its peak is 90 species. This is only a small fraction of the number of vascular plant species found at this altitude.</p>
 </div>
 
@@ -1328,22 +1372,22 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s7-1d" class="incorrect">
-<p>The best answer is NOT: J</p>
+<p>The best answer is NOT: D</p>
 <p>because this band shows a number of vascular plant species much smaller than those found at 1300-1500 meters ASL.</p>
 </div>
 <!----------------------------------------------------------------->
 
 <div class="question">
-	<div class="numcol">2.</div><p>Given the data in the passage and Graph 2, which of the following pairs of statements is correct?</p>
-	<p><a id="s7-2f" href="#" class="response">F.</a><span class="response">Rainfall amounts vary by as much as five meters from year to year, but overall, Kilimanjaro is becoming wetter.</span></p>
-	<p><a id="s7-2g" href="#" class="response">G.</a><span class="response">Rainfall amounts follow a predictable pattern from year to year, but overall, Kilimanjaro is becoming wetter.</span></p>
-	<p><a id="s7-2h" href="#" class="response">H.</a><span class="response">Rainfall amounts vary by over a meter from year to year, but overall, Kilimanjaro is becoming drier.</span></p>
-	<p><a id="s7-2j" href="#" class="response">J.</a><span class="response">Rainfall amounts follow a predictable pattern from year to year, but overall, Kilimanjaro is becoming drier.</span></p>
+	<div class="numcol">2.</div><p>Given the data in the passage and Graph 2, which of the following is correct?</p>
+	<p><a id="s7-2f" href="#" class="response">F.</a><span class="response">Yearly rainfall amounts vary by as much as five meters, but overall, Kilimanjaro is becoming wetter.</span></p>
+	<p><a id="s7-2g" href="#" class="response">G.</a><span class="response">Yearly rainfall amounts follow a predictable pattern, but overall, Kilimanjaro is becoming wetter.</span></p>
+	<p><a id="s7-2h" href="#" class="response">H.</a><span class="response">Yearly rainfall amounts vary by more than a meter, but overall, Kilimanjaro is becoming drier.</span></p>
+	<p><a id="s7-2j" href="#" class="response">J.</a><span class="response">Yearly rainfall amounts are unpredictable, and the data shows no trend toward dryness or wetness.</span></p>
 </div>
 
 <div id="answer-s7-2f" class="incorrect">
 <p>The best answer is NOT: F</p>
-<p>because the overall trend on Kilimanjaro is not towards higher rainfall, nor do rainfall amounts vary by up to five meters per year.</p>
+<p>because the overall trend on Kilimanjaro is not toward higher rainfall, nor do rainfall amounts vary by up to five meters per year.</p>
 </div>
 
 <div id="answer-s7-2g" class="incorrect">
@@ -1352,12 +1396,12 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s7-2h" class="correct"> 
-<p>The scale is found on the left-hand side of the graph; 1000 ml = 1 meter. Rainfall can be seen to vary from about 750 ml/yr to about 2700 ml/yr, or about two meters. The trend of the graph appears to be towards less rainfall per year; Kilimanjaro is getting drier.</p>
+<p>The scale is found on the left-hand side of the graph, and 1000 ml = 1 meter. Rainfall can be seen to vary from about 750 ml/yr to about 2700 ml/yr, or about two meters. The trend of the graph appears to be toward less rainfall per year: Kilimanjaro is getting drier.</p>
 </div>
 
 <div id="answer-s7-2j" class="incorrect">
 <p>The best answer is NOT: J</p>
-<p>because rainfall amounts do not follow a predictable pattern.</p>
+<p>because, although rainfall amounts do not follow a predictable pattern, the trend is toward Kilimanjaro becoming drier.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1418,28 +1462,28 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 <div class="question">
 	<div class="numcol">5.</div><p>Ferns generally live in damp, well-shaded areas. Higher altitudes are generally associated with drier conditions. Given those two pieces of information and the passage, if precipitation trends continue, which of these might reasonably show the distribution of fern species on Kilimanjaro in 25 years?</p>
-	<p><a id="s7-5f" href="#" class="response">F.</a><span class="response">(move the fern curve down the mountain)</span></p>
-	<p><a id="s7-5g" href="#" class="response">G.</a><span class="response">(exactly the same)</span></p>
-	<p><a id="s7-5h" href="#" class="response">H.</a><span class="response">(near-total flatline)</span></p>
-	<p><a id="s7-5j" href="#" class="response">J.</a><span class="response">(move the fern curve up the mountain)</span></p>
+	<p><a id="s7-5a" href="#" class="response">A.</a><span class="response">(move the fern curve down the mountain)</span></p>
+	<p><a id="s7-5b" href="#" class="response">B.</a><span class="response">(exactly the same)</span></p>
+	<p><a id="s7-5c" href="#" class="response">C.</a><span class="response">(near-total flatline)</span></p>
+	<p><a id="s7-5d" href="#" class="response">D.</a><span class="response">(move the fern curve up the mountain)</span></p>
 </div>
 		
-<div id="answer-s7-5f" class="correct">
+<div id="answer-s7-5a" class="correct">
 <p>The trend is toward declining rainfall, or drier conditions. Ferns would thus thrive better at lower altitudes, where conditions would remain wetter. Graph F shifts the entire species-distribution graph for ferns down the mountain, with peak species diversity found at a lower altitude than at present.</p>
 </div>
 
-<div id="answer-s7-5g" class="incorrect">
-<p>The best answer is NOT: G</p>
+<div id="answer-s7-5b" class="incorrect">
+<p>The best answer is NOT: B</p>
 <p>because this does not take into consideration the effect of drier conditions on ferns.</p>
 </div>
 
-<div id="answer-s7-5h" class="incorrect"> 
-<p>The best answer is NOT: H</p>
+<div id="answer-s7-5c" class="incorrect"> 
+<p>The best answer is NOT: C</p>
 <p>because this presumes that ferns would not survive at all on Kilimanjaro in 25 years; this is not suggested by the passage or the question.</p>
 </div>
 
-<div id="answer-s7-5j" class="incorrect">
-<p>The best answer is NOT: J</p>
+<div id="answer-s7-5d" class="incorrect">
+<p>The best answer is NOT: D</p>
 <p>because this pushes fern populations into drier conditions, where they are less likely to flourish.</p>
 </div>
 <!----------------------------------------------------------------->

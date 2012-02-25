@@ -28,6 +28,30 @@ a:focus#showhide { outline:none; }
 	background: url(images/testbook.gif) 90% 40px no-repeat;
 	}
 
+table.results-table {
+	font-size:12px;
+	border-collapse:collapse;
+	border: 1px solid;
+	}
+	
+.results-answers {
+	font-size:15px;
+	font-weight: bolder;
+	}
+	
+table.results-table td {
+	padding: 0px;
+	font-size:12px;
+	border: 1px solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+table.results-table tr {
+	font-size:12px;
+	border: 1px solid;
+	white-space: nowrap;
+	}
 
 td, tr, table {
 	font-size:15px;
@@ -130,7 +154,7 @@ span.response {
 .question sub, .mathquestion sub { line-height: 0; }
 
 .questions { 
-	padding-top:20px;
+	padding-top:10px;
 	padding-left:10px;
 	vertical-align: top; 
 	}

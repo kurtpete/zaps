@@ -85,8 +85,17 @@ jQuery(document).ready(function($) {
 	        $("#time-up").dialog({
 					modal: true,
 					resizable: false,
-					buttons: { Ok: function() { $(this).dialog("close"); } }
-				});
+					buttons: { Ok: function() { 
+						$(this).dialog("close"); 
+						$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
+						$("#test-results").dialog({
+							modal: true,
+							resizable: false,
+							width:'auto',
+							buttons: { Ok: function() { $(this).dialog("close"); } }
+						});
+						} }
+				});				
 				}
 			}, 1000)
 	});
