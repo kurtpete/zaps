@@ -59,10 +59,10 @@ jQuery(document).ready(function($) {
 <tr><td></td><td>16</td><td>40-42</td></tr>
 <tr><td></td><td>15</td><td>37-39</td></tr>
 <tr><td></td><td>14</td><td>31-36</td></tr>
-<tr><td>Blind Guessing</td><td>13</td><td>29-30</td></tr>
+<tr><td></td><td>13</td><td>29-30</td></tr>
 <tr><td></td><td>12</td><td>26-28</td></tr>
 <tr><td></td><td>11</td><td>20-25</td></tr>
-<tr><td></td><td>10</td><td>19</td></tr>
+<tr><td>Blind Guessing</td><td>10</td><td>19</td></tr>
 <tr><td></td><td>9</td><td>15-18</td></tr>
 <tr><td></td><td>8</td><td>13-14</td></tr>
 <tr><td></td><td>7</td><td>9-12</td></tr>
@@ -236,7 +236,7 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-1c" href="#" class="response">C.</a><span class="response">intends to describe</span></p>
 	<p><a id="s1-1d" href="#" class="response">D.</a><span class="response">describes</span></p>
 </div>
-<div id="answer-s1-1a" class="correct">
+<div id="answer-s1-1a" class="incorrect">
 <p>In the opening section, Ming and Sansan arrive in their new home feeling overwhelmed (paragraph 1) and afraid (paragraph 4), and wondering how they will adjust. Sansan says, “We’re getting old. How will we make the space in our minds for everything we’ll need to learn here?” Ming replies, “We will forget.” The rest of the passage builds to the final paragraph, which says that Ming envied how Charles could easily look to the past, that Ming sees the past as his enemy, and that his memories dog him.</p>
 </div>
 <div id="answer-s1-1b" class="incorrect">
@@ -245,7 +245,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-1c" class="incorrect"> 
 <p>Though the passage does suggest that Sansan is nervous about adjusting to a new country (paragraphs 4 and 5), nothing is specifically mentioned about her trying to meet friends or maintain connections with family in China.</p>
 </div>
-<div id="answer-s1-1d" class="incorrect">
+<div id="answer-s1-1d" class="correct">
 <p>Ming and Charles do not share many of the same interests. Ming feels that Charles’s interests are mysterious (paragraph 10). Ming likes science (paragraph 11), but Charles is drawn to the humanities (paragraph 9). When Charles asks Ming if he likes history, Ming says he can’t remember (paragraph 17).</p>
 </div>
 <!----------------------------------------------------------------->
@@ -265,10 +265,10 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-2g" class="incorrect">
 <p>The passage suggests the opposite, that the Hwangs put a large part of who they are behind them because they they think they need to do so in order to make room for all they will need to learn in their new lives (paragraphs 5, 6, 17 and 18).</p>
 </div>
-<div id="answer-s1-2h" class="correct"> 
+<div id="answer-s1-2h" class="incorrect"> 
 <p>See paragraphs 5 and 6: “‘We’re getting old,’ [Sansan] said. ‘How will we make the space in our minds for everything we’ll need to learn here?’ Without a pause, [Ming] answered her, ‘We will forget.’”</p>
 </div>
-<div id="answer-s1-2j" class="incorrect">
+<div id="answer-s1-2j" class="correct">
 <p>Though a few minor comparisons may be implied in the passage, no detailed comparisons between the two countries are given. Instead, the Hwangs decided to forget their old lives in China, thinking they need to do so to make room for their new lives in the U.S. (paragraphs 5 and 6). </p>
 </div>
 <!----------------------------------------------------------------->
@@ -299,10 +299,10 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-4h" href="#" class="response">H.</a><span class="response">Mavens or, information specialists,</span></p>
 	<p><a id="s1-4j" href="#" class="response">J.</a><span class="response">Mavens or, information specialists</span></p>
 </div>
-<div id="answer-s1-4f" class="incorrect">
+<div id="answer-s1-4f" class="correct">
 <p>Charles excels in school (paragraphs 8 and 9) rather than faces difficulty.</p>
 </div>
-<div id="answer-s1-4g" class="correct">
+<div id="answer-s1-4g" class="incorrect">
 <p>The first seven paragraphs tell about the Hwang family’s arrival in their new home in Iowa and reveals that they are immigrants from China. Paragraphs 5 and 6 tell how they plan to adjust to their new home.</p>
 </div>
 <div id="answer-s1-4h" class="incorrect"> 
@@ -322,13 +322,13 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-5a" class="incorrect">
 <p>Mercy Lake is used in the description not of Charles’s struggles but of Ming’s thoughts about his past: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
 </div>
-<div id="answer-s1-5b" class="incorrect">
+<div id="answer-s1-5b" class="correct">
 <p>Mercy Lake is used in the description of Ming’s thoughts about the past, not the future: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
 </div>
 <div id="answer-s1-5c" class="incorrect"> 
 <p>Mercy Lake is used in the description of Ming’s internal struggles, not peacefulness: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
 </div>
-<div id="answer-s1-5d" class="correct">
+<div id="answer-s1-5d" class="incorrect">
 <p>See the last paragraph: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
 </div>
 <!----------------------------------------------------------------->
@@ -341,13 +341,13 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-6j" href="#" class="response">J.</a><span class="response">understanding their new country by comparing it to their homeland.</span></p>
 </div>
 		
-<div id="answer-s1-6f" class="incorrect">
+<div id="answer-s1-6f" class="correct">
 <p>In paragraphs 5 and 6, we see the Hwangs’ decision to forget, and the final two paragraphs show that Ming continues to work hard to forget his past.</p>
 </div>
 <div id="answer-s1-6g" class="incorrect">
 <p>The passage suggests the opposite, that the Hwangs put a large part of who they are behind them because they they think they need to do so in order to make room for all they will need to learn in their new lives (paragraphs 5, 6, 17 and 18).</p>
 </div>
-<div id="answer-s1-6h" class="correct"> 
+<div id="answer-s1-6h" class="incorrect"> 
 <p>See paragraphs 5 and 6: “‘We’re getting old,’ [Sansan] said. ‘How will we make the space in our minds for everything we’ll need to learn here?’ Without a pause, [Ming] answered her, ‘We will forget.’”</p>
 </div>
 <div id="answer-s1-6j" class="incorrect">
@@ -365,10 +365,10 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-7a" class="incorrect">
 <p>No evidence in the passage supports this choice as the correct answer.</p>
 </div>
-<div id="answer-s1-7b" class="incorrect">
+<div id="answer-s1-7b" class="correct">
 <p>No evidence in the passage supports this choice as the correct answer.</p>
 </div>
-<div id="answer-s1-7c" class="correct"> 
+<div id="answer-s1-7c" class="incorrect"> 
 <p>See paragraph 5: “‘We’re getting old,’ she said, ‘How will we make the space in our minds for everything we’ll need to learn here?’”</p>
 </div>
 <div id="answer-s1-7d" class="incorrect">
@@ -404,10 +404,10 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-9c" href="#" class="response">C.</a><span class="response">How to figure out a way</span></p>
 	<p><a id="s1-9d" href="#" class="response">D.</a><span class="response">To begin to figure out a way</span></p>
 </div>
-<div id="answer-s1-9a" class="correct">
+<div id="answer-s1-9a" class="incorrect">
 <p>The word <em>margins</em> is used in the context of a river overflowing its banks: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
 </div>
-<div id="answer-s1-9b" class="incorrect">
+<div id="answer-s1-9b" class="correct">
 <p>Though this is one meaning of the word <em>margin</em>, it does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
 </div>
 <div id="answer-s1-9c" class="incorrect"> 
@@ -466,13 +466,13 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-12h" href="#" class="response">H.</a><span class="response">There’s a reason why</span></p>
 	<p><a id="s1-12j" href="#" class="response">J.</a><span class="response">It’s generally true that there’s a reason why</span></p>
 </div>	
-<div id="answer-s1-12f" class="correct">
+<div id="answer-s1-12f" class="incorrect">
 <p>See paragraphs 9 and 10, which describe Charles’s level of achievement as “phenomenal” and say that “he possessed a truly unusual mind.”</p>
 </div>
 <div id="answer-s1-12g" class="incorrect">
 <p>Though Charles may be mysterious to his father, nothing in the passage suggests that he is angry.</p>
 </div>
-<div id="answer-s1-12h" class="incorrect"> 
+<div id="answer-s1-12h" class="correct"> 
 <p>Though Charles may be quiet (paragraph 9), nothing in the passage suggests that he is socially awkward.</p>
 </div>
 <div id="answer-s1-12j" class="incorrect">
@@ -511,13 +511,13 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-14f" class="incorrect">
 <p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s1-14g" class="correct">
+<div id="answer-s1-14g" class="incorrect">
 <p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
 </div>
 <div id="answer-s1-14h" class="incorrect"> 
 <p>Though Ming may have some regret, his feelings about the past are not happy ones, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s1-14j" class="incorrect">
+<div id="answer-s1-14j" class="correct">
 <p>Ming’s feelings about the past seem more strongly negative than just guilt and do not seem to contain nostalgia. Instead, the past is his enemy, dogging him and rising up in his dreams (paragraph 18).</p>
 </div>
 <!----------------------------------------------------------------->
