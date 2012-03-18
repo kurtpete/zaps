@@ -114,6 +114,16 @@ jQuery(document).ready(function($) {
 	$("#correct-button").button({icons: {primary: "ui-icon-circle-check"}}).parent().buttonset();	
 	$("#incorrect-button").button({icons: {primary: "ui-icon-circle-close"}});
 	
+	$("#correct-button,#incorrect-button").click( function() {
+		$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
+		$("#test-results").dialog({
+							modal: true,
+							resizable: false,
+							width:'auto',
+							buttons: { Ok: function() { $(this).dialog("close"); } }
+						});
+		});
+	
 	$("#timer").button({icons: {primary: "ui-icon-clock"}});
 
 	$("#sets").tabs(); 
