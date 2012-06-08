@@ -13,7 +13,7 @@
 
 <script type="text/javascript">
 var countdown = 2100;
-var totalQuestions = 2;
+var totalQuestions = 40;
 
 jQuery(document).ready(function($) {
 	$("#scienceButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
@@ -141,11 +141,13 @@ jQuery(document).ready(function($) {
 				    Molecules that cling strongly are carried farther. Figure 1 shows the direction of travel.</td></tr>
 				<tr><td>To further separate the sample, the paper is turned on its side and dipped in a second solvent. 
 				    This liquid separates spots deposited by the first solvent. Figure 2 shows the direction of travel.</td></tr>
+				
 				<tr><td>Below is a <em>chromatogram</em> showing the results of an experiment that separated chemicals involved in photosynthesis. 
 				    Algae photosynthesized for 30 seconds, then were killed and blended in a blender. 
 				    An algae sample was placed at the lower right hand corner of the paper. 
 				    The bottom of the paper was dipped into a butanol solvent, and the sample was separated. 
 				    Then the right edge of the paper was dipped into a phenol solvent.</td></tr>
+				<tr><td><img src="../images/science/passageI.jpg" width="100%" title="Figure 3"></td></tr>
 		</table>
 	</td>
 	<td align="top" class="questions">
@@ -304,6 +306,7 @@ jQuery(document).ready(function($) {
 			        Students performed two friction experiments to find out what combination of footwear, 
 			        flooring, and weather conditions created the greatest slipping hazard at school. In each experiment, 
 			        they used four 5-foot ramps with varying surfaces; a sneaker and a dress shoe; and a 3-pound dumbbell.</td></tr>
+			   <tr><td><img src="../images/science/passage2.jpg" width="100%"></td></tr>
 				<tr><td><h4><em>Experiment 1</em></h4>Students placed the dumbbell inside the sneaker in order to simulate a person’s weight, 
 				        placed the shoe at the top of a ramp, and let go. They recorded the time it took for the 
 				        shoe to slide to the bottom of the ramp. They then repeated the procedure on each ramp 
@@ -532,10 +535,10 @@ jQuery(document).ready(function($) {
 
 <div class="question">
 	<div class="numcol">2.</div><p>According to Researcher 2’s claim, which cell diagram correctly shows the site of protein-building?</p>
-	<p><a id="s3-2f" href="#" class="response">F.</a><span class="response">!!images of cell structure with arrows pointing to nucleus!!</span></p>
-	<p><a id="s3-2g" href="#" class="response">G.</a><span class="response">!!images of cell structure with arrows pointing to endoplasmic reticulum!!</span></p>
-	<p><a id="s3-2h" href="#" class="response">H.</a><span class="response">!!images of cell structure with arrows pointing to cytoskeleton!!</span></p>
-	<p><a id="s3-2j" href="#" class="response">J.</a><span class="response">!!images of cell structure with arrows pointing to a transport vesicle!!</span></p>
+	<p><a id="s3-2f" href="#" class="response">F.</a><span class="response"><img src="../images/science/figure13a.jpg" width="100%"></span></p>
+	<p><a id="s3-2g" href="#" class="response">G.</a><span class="response"><img src="../images/science/figure13b.jpg" width="100%"></span></p>
+	<p><a id="s3-2h" href="#" class="response">H.</a><span class="response"><img src="../images/science/figure13c.jpg" width="100%"></span></p>
+	<p><a id="s3-2j" href="#" class="response">J.</a><span class="response"><img src="../images/science/figure13d.jpg" width="100%"></span></p>
 </div>
 
 <div id="answer-s3-2f" class="incorrect">
@@ -930,7 +933,7 @@ jQuery(document).ready(function($) {
 			        cell, and is rapidly broken down into water and molecular oxygen (O<sub>2</sub>) by an enzyme called catalase. <em>Enzymes</em>
 			        are large molecules that speed chemical reactions.</td></tr>
 				<tr><td>A student hypothesized that some vegetables contain higher concentrations of catalase than others. The experimental setup is shown in Figure 1.</td></tr>
-				<tr><td><<<Figure 1>>></td></tr>
+				<tr><td><img src="../images/science/passageV.jpg" width="100%"></td></tr>
 				<tr><td>For each run of the experiment, the student blended a vegetable with 35 ml of distilled water, then strained pulp from the resulting juice with cheesecloth.</td></tr>
 				<tr><td><h4><em>Experiment 1</em></h4>5 ml of juice was mixed in the flask with 25 ml of a 3% H<sub>2</sub>O<sub>2</sub> solution. 
 				        The rate of O<sub>2</sub> gas production was measured by stoppering the flask and connecting the flask to the 
@@ -1082,10 +1085,10 @@ jQuery(document).ready(function($) {
 
 <div class="question">
 	<div class="numcol">5.</div><p>Which graph most accurately shows the rate of O<sub>2</sub> gas production over the course of Experiment 2?</p>
-	<p><a id="s5-5a" href="#" class="response">A.</a><span class="response">(up, then down)</span></p>
-	<p><a id="s5-5b" href="#" class="response">B.</a><span class="response">(hyperbolic)</span></p>
-	<p><a id="s5-5c" href="#" class="response">C.</a><span class="response">(actual (inverse or parabolic))</span></p>
-	<p><a id="s5-5d" href="#" class="response">D.</a><span class="response">(random)</span></p>
+	<p><a id="s5-5a" href="#" class="response">A.</a><span class="response"><img src="../images/science/figure29a.jpg" width="100%"></span></p>
+	<p><a id="s5-5b" href="#" class="response">B.</a><span class="response"><img src="../images/science/figure29b.jpg" width="100%"></span></p>
+	<p><a id="s5-5c" href="#" class="response">C.</a><span class="response"><img src="../images/science/figure29c.jpg" width="100%"></span></p>
+	<p><a id="s5-5d" href="#" class="response">D.</a><span class="response"><img src="../images/science/figure29d.jpg" width="100%"></span></p>
 </div>
 
 <div id="answer-s5-5a" class="incorrect">
@@ -1151,13 +1154,16 @@ jQuery(document).ready(function($) {
 				        glass containers holding each substance near a wall, on a sheet of graph paper with coordinates marked. They shined a ruby 
 				        laser along the <em>y</em>-axis and into each medium. The beam of light emerged from the container at an angle 
 				        to the <em>y</em>-axis and made a spot on the wall.</td></tr>
-				<tr><td><<<Figure 1>>></td></tr>
+				<tr><td><img src="../images/science/passageVI.jpg" width="100%"></td></tr>
 				<tr><td>The students sketched and measured each beam’s angle of refraction. They drew the following graphs:</td></tr>
-				<tr><td>(gelatin, 28 degrees)</td></tr>
+				<tr><td><img src="../images/science/passageVIanswerI.jpg" width="100%"></td></tr>						
+				<tr><td>(gelatin, 28 degrees)</td></tr>	
+				<tr><td><img src="../images/science/passageVIanswerII.jpg" width="100%"></td></tr>	
 				<tr><td>(water, 25 degrees)</td></tr>
+				<tr><td><img src="../images/science/passageVIanswerIII.jpg" width="100%"></td></tr>
 				<tr><td>(substance A, 26 degrees)</td></tr>
+				<tr><td><img src="../images/science/passageVIanswerIV.jpg" width="100%"></td></tr>
 				<tr><td>(substance B, 30 degrees)</td></tr>
-				<tr><td><<<Figure 2>>></td></tr>
 				<tr><td>Students were then given a table of refractive indexes and asked to identify substances A and B. The <em>refractive index</em> 
 				        is a ratio of light’s speed through a given medium to its speed through a vacuum. The lower the refractive index, the less the medium refracts entering light.</td></tr>
 				<tr><td></td></tr>
@@ -1274,10 +1280,10 @@ jQuery(document).ready(function($) {
 
 <div class="question">
 	<div class="numcol">4.</div><p>According to the passage, which of the following graphs best represents the relationship between optical density and angle of refraction?</p>
-	<p><a id="s6-4f" href="#" class="response">F.</a><span class="response">(indirect)</span></p>
-	<p><a id="s6-4g" href="#" class="response">G.</a><span class="response">(flatline)</span></p>
-	<p><a id="s6-4h" href="#" class="response">H.</a><span class="response">(random)</span></p>
-	<p><a id="s6-4j" href="#" class="response">J.</a><span class="response">(direct)</span></p>
+	<p><a id="s6-4f" href="#" class="response">F.</a><span class="response"><img src="../images/science/figure34f.jpg" width="100%"></span></p>
+	<p><a id="s6-4g" href="#" class="response">G.</a><span class="response"><img src="../images/science/figure34g.jpg" width="100%"></span></p>
+	<p><a id="s6-4h" href="#" class="response">H.</a><span class="response"><img src="../images/science/figure34h.jpg" width="100%"></span></p>
+	<p><a id="s6-4j" href="#" class="response">J.</a><span class="response"><img src="../images/science/figure34j.jpg" width="100%"></span></p>
 </div>
 		
 <div id="answer-s6-4f" class="incorrect">
@@ -1341,10 +1347,10 @@ jQuery(document).ready(function($) {
 			<tr><td>About 2200 plant species live on the slopes of Mt. Kilimanjaro, the tallest freestanding mountain in the 
 			        world. Scientists studying vegetation on the foothills of Kilimanjaro recorded the number of ferns and 
 			        other vascular plant species living at each altitude on the mountain, as seen in Graph 1.</td></tr>
-				<tr><td> !!graph 1!! </td></tr>
+				<tr><td><img src="../images/science/passageVIgraphI.jpg" width="100%"></td></tr>
 				<tr><td>Scientists have also recorded rainfall changes since 1935, showing an average annual decrease in 
 				        precipitation of 11%, or about 2.6 mm of rainfall per year.</td></tr>
-				<tr><td> !!graph 2!! </td></tr>
+				<tr><td><img src="../images/science/passageVIgraphII.jpg" width="100%"></td></tr>
 		</table>
 	</td>
 	<td align="top" class="questions">
@@ -1462,10 +1468,10 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 <div class="question">
 	<div class="numcol">5.</div><p>Ferns generally live in damp, well-shaded areas. Higher altitudes are generally associated with drier conditions. Given those two pieces of information and the passage, if precipitation trends continue, which of these might reasonably show the distribution of fern species on Kilimanjaro in 25 years?</p>
-	<p><a id="s7-5a" href="#" class="response">A.</a><span class="response">(move the fern curve down the mountain)</span></p>
-	<p><a id="s7-5b" href="#" class="response">B.</a><span class="response">(exactly the same)</span></p>
-	<p><a id="s7-5c" href="#" class="response">C.</a><span class="response">(near-total flatline)</span></p>
-	<p><a id="s7-5d" href="#" class="response">D.</a><span class="response">(move the fern curve up the mountain)</span></p>
+	<p><a id="s7-5a" href="#" class="response">A.</a><span class="response"><img src="../images/science/figure40f.jpg" width="100%"></span></p>
+	<p><a id="s7-5b" href="#" class="response">B.</a><span class="response"><img src="../images/science/figure40g.jpg" width="100%"></span></p>
+	<p><a id="s7-5c" href="#" class="response">C.</a><span class="response"><img src="../images/science/figure40h.jpg" width="100%"></span></p>
+	<p><a id="s7-5d" href="#" class="response">D.</a><span class="response"><img src="../images/science/figure40j.jpg" width="100%"></span></p>
 </div>
 		
 <div id="answer-s7-5a" class="correct">
