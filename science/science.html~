@@ -123,7 +123,7 @@ jQuery(document).ready(function($) {
 			<li><a href="#set-6">VI</a></li>
 			<li><a href="#set-7">VII</a></li>			
 			<div align="right">
-			<a href="#" id="correct-button" title="Correct Answers" class="correct-answers">00</a>
+			<a href="#" id="correct-button" title="Correct Answers"><span class="correct-answers">00</span></a>
 			<a href="#" id="incorrect-button" title="Incorrect Answers"><span class="incorrect-answers">00</span></a>
 			<a href="#" id="timer" title="Start Timer"><span>35:00</span></a>
 			</div>
@@ -161,19 +161,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s1-1a" class="incorrect">
-<p>This orders the molecules from most to least attracted to phenol.</p>
+<p><strong>The best answer is not A.</strong> This orders the molecules from most to least attracted to phenol.</p>
 </div>
 
 <div id="answer-s1-1b" class="incorrect">
-<p>This looks at the attraction of molecules to the butanol solvent, not the phenol solvent. </p><p>The butanol solvent carried species up the chromatogram.</p>
+<p><strong>The best answer is not B.</strong> This looks at the attraction of molecules to the butanol solvent, not the phenol solvent. </p><p>The butanol solvent carried species up the chromatogram.</p>
 </div>
 
 <div id="answer-s1-1c" class="incorrect"> 
-<p>These species are not ordered by attraction to either solvent.</p>
+<p><strong>The best answer is not C.</strong> These species are not ordered by attraction to either solvent.</p>
 </div>
 
 <div id="answer-s1-1d" class="correct">
-<p>The phenol solvent carried chemical species (molecules) from the sample from right to left across the paper. </p><p>Species that are most strongly attracted to the phenol solvent traveled farthest to the left. Alanine is the leftmost species, followed by glycine.</p><p> Glutamic acid is farthest to the right.</p>
+<p><strong>The best answer is D.</strong> The phenol solvent carried chemical species (molecules) from the sample from right to left across the paper. </p><p>Species that are most strongly attracted to the phenol solvent traveled farthest to the left. Alanine is the leftmost species, followed by glycine.</p><p> Glutamic acid is farthest to the right.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -186,44 +186,45 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s1-2f" class="incorrect">
-<p>Sucrose and glycine have similar attraction to phenol, not butanol. They are on a line parallel to the right edge of the paper.</p>
+<p><strong>The best answer is not F.</strong> Sucrose and glycine have similar attraction to phenol, not butanol. They are on a line parallel to the right edge of the paper.</p>
 </div>
 
 <div id="answer-s1-2g" class="incorrect">
-<p>This does not create lines parallel to any edge of the paper and does not indicate equal attraction to either solvent.</p>
+<p><strong>The best answer is not G.</strong> This does not create lines parallel to any edge of the paper and does not indicate equal attraction to either solvent.</p>
 </div>
 
 <div id="answer-s1-2h" class="incorrect"> 
-<p>This does not create lines parallel to any edge of the paper and does not indicate equal attraction to either solvent.</p>
+<p><strong>The best answer is not H.</strong> This does not create lines parallel to any edge of the paper and does not indicate equal attraction to either solvent.</p>
 </div>
 
 <div id="answer-s1-2j" class="correct">
-<p>The butanol solvent carries species up the paper. </p><p>Species attracted to butanol to the same degree will be deposited along an imaginary line parallel or nearly parallel to the bottom edge of the paper.</p><p> Aspartic acid and glycine are on a line nearly parallel to the paper’s bottom edge.</p>
+<p><strong>The best answer is J.</strong> The butanol solvent carries species up the paper. </p><p>Species attracted to butanol to the same degree will be deposited along an imaginary line parallel or nearly parallel to the bottom edge of the paper.</p><p> Aspartic acid and glycine are on a line nearly parallel to the paper’s bottom edge.</p>
 </div>
 <!----------------------------------------------------------------->
 
 <div class="question">
 	<div class="numcol">3.</div><p>Based on the chromatogram, alanine appears to be:</p>
-	<p><a id="s1-3a" href="#" class="response">A.</a><span class="response">weakly attracted to both phenol and butanol solvents.</span></p>
-	<p><a id="s1-3b" href="#" class="response">B.</a><span class="response">strongly attracted to both phenol and butanol solvents.</span></p>
-	<p><a id="s1-3c" href="#" class="response">C.</a><span class="response">weakly attracted to phenol solvent and moderately attracted to butanol solvent.</span></p>
-	<p><a id="s1-3d" href="#" class="response">D.</a><span class="response">strongly attracted to phenol solvent and moderately attracted to butanol solvent.</span></p>
+	<p><a id="s1-3a" href="#" class="response">A.</a><span class="response">strongly attracted to both phenol and butanol solvents.</span></p>
+	<p><a id="s1-3b" href="#" class="response">B.</a><span class="response">weakly attracted to both phenol and butanol solvents.</span></p>
+	<p><a id="s1-3c" href="#" class="response">C.</a><span class="response">strongly attracted to phenol solvent and moderately attracted to butanol solvent.</span></p>
+	<p><a id="s1-3d" href="#" class="response">D.</a><span class="response">weakly attracted to phenol solvent and moderately attracted to butanol solvent.</span></p>
 </div>
 
+
 <div id="answer-s1-3a" class="incorrect">
-<p>This would have placed alanine in a different area of the chromatogram. </p><p>Answer A would have placed it near the origin spot.</p>
+<p><strong>The best answer is not A.</strong> This would have placed alanine in a different area of the chromatogram. </p><p>Answer B would have placed it at the top left corner.</p>
 </div>
 
 <div id="answer-s1-3b" class="incorrect">
-<p>This would have placed alanine in a different area of the chromatogram. </p><p>Answer B would have placed it at the top left corner.</p>
+<p><strong>The best answer is not B.</strong> This would have placed alanine in a different area of the chromatogram. </p><p>Answer A would have placed it near the origin spot.</p>
 </div>
 
-<div id="answer-s1-3c" class="incorrect"> 
-<p>This would have placed alanine in a different area of the chromatogram. </p><p>Answer C would have placed it about halfway up the right-hand edge.</p>
+<div id="answer-s1-3c" class="correct">
+<p><strong>The best answer is C.</strong> The alanine spot is on the far left edge of the paper, indicating it was carried all the way across the paper by phenol and was strongly attracted. </p><p>It is carried halfway up the paper, indicating moderate attraction to the butanol solvent.</p>
 </div>
 
-<div id="answer-s1-3d" class="correct">
-<p>The alanine spot is on the far left edge of the paper, indicating it was carried all the way across the paper by phenol and was strongly attracted. </p><p>It is carried halfway up the paper, indicating moderate attraction to the butanol solvent.</p>
+<div id="answer-s1-3d" class="incorrect"> 
+<p><strong>The best answer is not D.</strong> This would have placed alanine in a different area of the chromatogram. </p><p>Answer C would have placed it about halfway up the right-hand edge.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -236,19 +237,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s1-4f" class="correct">
-<p>A nonpolar species will not be attracted to either solvent, and so will not be carried dissolved by the solvent — as oil is not dissolved in water — or carried from the original sample spot.</p>
+<p><strong>The best answer is F.</strong> A nonpolar species will not be attracted to either solvent, and so will not be carried dissolved by the solvent — as oil is not dissolved in water — or carried from the original sample spot.</p>
 </div>
 
 <div id="answer-s1-4g" class="incorrect">
-<p>This would indicate some attraction to one or both of the solvents. </p><p>According to the question, benzene is nonpolar, and thus not attracted to either solvent.</p>
+<p><strong>The best answer is not G.</strong> This would indicate some attraction to one or both of the solvents. </p><p>According to the question, benzene is nonpolar, and thus not attracted to either solvent.</p>
 </div>
 
 <div id="answer-s1-4h" class="incorrect"> 
-<p>This would indicate some attraction to one or both of the solvents. </p><p>According to the question, benzene is nonpolar, and thus not attracted to either solvent.</p>
+<p><strong>The best answer is not H.</strong> This would indicate some attraction to one or both of the solvents. </p><p>According to the question, benzene is nonpolar, and thus not attracted to either solvent.</p>
 </div>
 
 <div id="answer-s1-4j" class="incorrect">
-<p>This would indicate some attraction to one or both of the solvents. </p><p>According to the question, benzene is nonpolar, and thus not attracted to either solvent.</p>
+<p><strong>The best answer is not J.</strong> This would indicate some attraction to one or both of the solvents. </p><p>According to the question, benzene is nonpolar, and thus not attracted to either solvent.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -261,19 +262,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s1-5a" class="correct">
-<p>If one spot is large, it is most likely because there’s simply a lot of it in the sample.</p>
+<p><strong>The best answer is A.</strong> If one spot is large, it is most likely because there’s simply a lot of it in the sample.</p>
 </div>
 
 <div id="answer-s1-5b" class="incorrect">
-<p>Spot size has nothing to do with strength of attraction to solvents or to placement on the chromatogram.</p>
+<p><strong>The best answer is not B.</strong> Spot size has nothing to do with strength of attraction to solvents or to placement on the chromatogram.</p>
 </div>
 
 <div id="answer-s1-5c" class="incorrect"> 
-<p>There is no evidence on the chromatogram to support such a causal chain.</p>
+<p><strong>The best answer is not C.</strong> There is no evidence on the chromatogram to support such a causal chain.</p>
 </div>
 
 <div id="answer-s1-5d" class="incorrect">
-<p>Spot size has nothing to do with strength of attraction to solvents or to placement on the chromatogram.</p>
+<p><strong>The best answer is not D.</strong> Spot size has nothing to do with strength of attraction to solvents or to placement on the chromatogram.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -328,19 +329,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s2-1a" class="incorrect">
-<p>The experiment does not mention heat as a factor. ZAP it.</p>
+<p><strong>The best answer is not A.</strong> The experiment does not mention heat as a factor. ZAP it.</p>
 </div>
 
 <div id="answer-s2-1b" class="correct">
-<p>The students are studying floor slipperiness under various weather conditions with varying footwear and surfacces. They must take wet days into account.</p>
+<p><strong>The best answer is B.</strong> The students are studying floor slipperiness under various weather conditions with varying footwear and surfacces. They must take wet days into account.</p>
 </div>
 
 <div id="answer-s2-1c" class="incorrect"> 
-<p>Students were testing slipping hazards of various shoe types on various surfaces under various conditions, not trying to answer more specific questions. </p><p>Even if you didn't understand the experiment, you could ZAP this answer choice because all surfaces have some friction. </p>
+<p><strong>The best answer is not C.</strong> Students were testing slipping hazards of various shoe types on various surfaces under various conditions, not trying to answer more specific questions. </p><p>Even if you didn't understand the experiment, you could ZAP this answer choice because all surfaces have some friction. </p>
 </div>
 
-<div id="answer-s2-1d" class="correct">
-<p>The point of the experiment was to find the greatest slipping hazard given combinations of all three factors: surface, wet/dry, and shoe choice. </p><p>The students were not trying to answer narrower questions, such as which shoe would not slip.</p>
+<div id="answer-s2-1d" class="incorrect">
+<p><strong>The best answer is not D.</strong> The point of the experiment was to find the greatest slipping hazard given combinations of all three factors: surface, wet/dry, and shoe choice. </p><p>The students were not trying to answer narrower questions, such as which shoe would not slip.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -353,19 +354,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s2-2f" class="incorrect">
-<p>3.4 seconds is outside the range for sneakers on any surface.</p>
+<p><strong>The best answer is not F.</strong> 3.4 seconds is outside the range for sneakers on any surface.</p>
 </div>
 
 <div id="answer-s2-2g" class="incorrect">
-<p>The sneaker slid "less easily" on the new surface than on linoleum, meaning it was slower than 5.1 sec., not faster (5.0 sec.).</p>
+<p><strong>The best answer is not G.</strong> The sneaker slid "less easily" on the new surface than on linoleum, meaning it was slower than 5.1 sec., not faster (5.0 sec.).</p>
 </div>
 
 <div id="answer-s2-2h" class="correct"> 
-<p>7.0 seconds is outside the range for sneakers on any dry surface. </p>
+<p><strong>The best answer is H.</strong> 7.0 seconds is outside the range for sneakers on any dry surface. </p>
 </div>
 
 <div id="answer-s2-2j" class="incorrect">
-<p>On the new surface, the sneaker must have taken between 6.9 and 5.1 seconds to slide down the ramp, the slide times for varnished wood and linoleum.</p>
+<p><strong>The best answer is not J.</strong> On the new surface, the sneaker must have taken between 6.9 and 5.1 seconds to slide down the ramp, the slide times for varnished wood and linoleum.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -378,19 +379,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s2-3a" class="incorrect">
-<p>Sneakers on dry, varnished wood took the longest time to slide down the ramp. </p><p>If you chose this answer, you confused the highest number as being the fastest.</p>
+<p><strong>The best answer is not A.</strong> Sneakers on dry, varnished wood took the longest time to slide down the ramp. </p><p>If you chose this answer, you confused the highest number as being the fastest.</p>
 </div>
 
 <div id="answer-s2-3b" class="incorrect">
-<p>The data for dress shoes on dry concrete falls between the highest and lowest numbers; it can't be the "most." </p>
+<p><strong>The best answer is not B.</strong> The data for dress shoes on dry concrete falls between the highest and lowest numbers; it can't be the "most." </p>
 </div>
 
 <div id="answer-s2-3c" class="incorrect"> 
-<p>The data for sneakers on dry ceramic tile falls between the highest and lowest numbers; it can't be the "most." </p>
+<p><strong>The best answer is not C.</strong> The data for sneakers on dry ceramic tile falls between the highest and lowest numbers; it can't be the "most." </p>
 </div>
 
 <div id="answer-s2-3d" class="correct">
-<p>The best way to approach this is to find the data points for each shoe/surface combination and label them A, B, C, and D.</p><p> Look for the lowest number: the shortest slide time.</p>
+<p><strong>The best answer is D.</strong> The best way to approach this is to find the data points for each shoe/surface combination and label them A, B, C, and D.</p><p> Look for the lowest number: the shortest slide time.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -403,19 +404,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s2-4f" class="correct">
-<p>Slide times are lower for most wet surfaces compared to the same surfaces when dry, indicating reduced friction on wet surfaces.</p>
+<p><strong>The best answer is F.</strong> Slide times are lower for most wet surfaces compared to the same surfaces when dry, indicating reduced friction on wet surfaces.</p>
 </div>
 
 <div id="answer-s2-4g" class="incorrect">
-<p>The data show that dress shoes have some friction on all surfaces. </p><p>If you don't know the answer, you can still use the True/False strategy to ZAP G because of "only." </p>
+<p><strong>The best answer is not G.</strong> The data show that dress shoes have some friction on all surfaces. </p><p>If you don't know the answer, you can still use the True/False strategy to ZAP G because of "only." </p>
 </div>
 
 <div id="answer-s2-4h" class="incorrect"> 
-<p>Although this sample shows less friction on linoleum than ceramic tile, we don't have enough data to say it "always" does.</p>
+<p><strong>The best answer is not H.</strong> Although this sample shows less friction on linoleum than ceramic tile, we don't have enough data to say it "always" does.</p>
 </div>
 
 <div id="answer-s2-4j" class="incorrect">
-<p>The data show that sneakers generally have more friction (slower slide times) than dress shoes do.</p>
+<p><strong>The best answer is not J.</strong> The data show that sneakers generally have more friction (slower slide times) than dress shoes do.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -428,19 +429,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s2-5a" class="correct">
-<p>The passage states, "Friction between surfaces keeps them from slipping along each other." Increased friction reduces the slipping hazard.</p>
+<p><strong>The best answer is A.</strong> The passage states, "Friction between surfaces keeps them from slipping along each other." Increased friction reduces the slipping hazard.</p>
 </div>
 
 <div id="answer-s2-5b" class="incorrect">
-<p>Both dress shoes and sneakers took longer to slide on surfaces with more friction.</p>
+<p><strong>The best answer is not B.</strong> Both dress shoes and sneakers took longer to slide on surfaces with more friction.</p>
 </div>
 
 <div id="answer-s2-5c" class="incorrect"> 
-<p>Though dress shoes become more slippery on wet surfaces, it's because friction <em>decreases,</em> not increases.</p>
+<p><strong>The best answer is not C.</strong> Though dress shoes become more slippery on wet surfaces, it's because friction <em>decreases,</em> not increases.</p>
 </div>
 
 <div id="answer-s2-5d" class="incorrect">
-<p>The data show that sneakers slip <em>more</em> on wet surfaces than on dry surfaces.</p>
+<p><strong>The best answer is not D.</strong> The data show that sneakers slip <em>more</em> on wet surfaces than on dry surfaces.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -484,19 +485,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s3-1a" class="incorrect">
-<p>Neither researcher argues that proteins are built in the nucleus.</p>
+<p><strong>The best answer is not A.</strong> Neither researcher argues that proteins are built in the nucleus.</p>
 </div>
 
 <div id="answer-s3-1b" class="correct">
-<p>The last sentence of each researcher's viewpoint makes it clear that Researcher 1 thinks proteins are built on-site, while Researcher 2 thinks proteins are transported to their respective sites.</p>
+<p><strong>The best answer is B.</strong> The last sentence of each researcher's viewpoint makes it clear that Researcher 1 thinks proteins are built on-site, while Researcher 2 thinks proteins are transported to their respective sites.</p>
 </div>
 
 <div id="answer-s3-1c" class="incorrect"> 
-<p>This is a false dichotomy; the cytoskeleton and vesicles are both used to transport materials in the cells. </p><p>Also, "how materials are transported" is not the point of contention.</p>
+<p><strong>The best answer is not C.</strong> This is a false dichotomy; the cytoskeleton and vesicles are both used to transport materials in the cells. </p><p>Also, "how materials are transported" is not the point of contention.</p>
 </div>
 
 <div id="answer-s3-1d" class="incorrect">
-<p>Researcher 2 does not argue that RNA is used as a template to build the endoplasmic reticulum.</p>
+<p><strong>The best answer is not D.</strong> Researcher 2 does not argue that RNA is used as a template to build the endoplasmic reticulum.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -509,19 +510,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s3-2f" class="incorrect">
-<p> Researcher 2 does not say that proteins are built in the nucleus: See "after a strand of RNA leaves the nucleus, it floats freely to a nearby organelle called the endoplasmic reticulum."</p>
+<p> <strong>The best answer is not F.</strong> Researcher 2 does not say that proteins are built in the nucleus: See "after a strand of RNA leaves the nucleus, it floats freely to a nearby organelle called the endoplasmic reticulum."</p>
 </div>
 
 <div id="answer-s3-2g" class="correct">
-<p>Researcher 2's argument states, "The endoplasmic reticulum is studded with protein-building bodies called ribosomes. The ribosomes use RNA as a template for building the new proteins."</p>
+<p><strong>The best answer is G.</strong> Researcher 2's argument states, "The endoplasmic reticulum is studded with protein-building bodies called ribosomes. The ribosomes use RNA as a template for building the new proteins."</p>
 </div>
 
 <div id="answer-s3-2h" class="incorrect"> 
-<p>The cytoskeleton is used only to transport the finished protein to its destination: See "after a strand of RNA leaves the nucleus, it floats freely to a nearby organelle" and "After the proteins are made, they are packaged into vesicles, attached to the cytoskeleton, and transported to the places where they will be used."</p>
+<p><strong>The best answer is not H.</strong> The cytoskeleton is used only to transport the finished protein to its destination: See "after a strand of RNA leaves the nucleus, it floats freely to a nearby organelle" and "After the proteins are made, they are packaged into vesicles, attached to the cytoskeleton, and transported to the places where they will be used."</p>
 </div>
 
 <div id="answer-s3-2j" class="incorrect">
-<p>Vesicles are used for transportation, not protein-building: "After the proteins are made, they are packaged into vesicles. ..."</p>
+<p><strong>The best answer is not J.</strong> Vesicles are used for transportation, not protein-building: "After the proteins are made, they are packaged into vesicles. ..."</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -534,19 +535,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s3-3a" class="incorrect">
-<p>Researcher 2 states that RNA floats freely, not attached to the cytoskeleton.</p><p> If you absolutely didn't know the answer and had to guess, you could ZAP F using the True/False strategy; "must" is a specific word.</p>
+<p><strong>The best answer is not A.</strong> Researcher 2 states that RNA floats freely, not attached to the cytoskeleton.</p><p> If you absolutely didn't know the answer and had to guess, you could ZAP F using the True/False strategy; "must" is a specific word.</p>
 </div>
 
 <div id="answer-s3-3b" class="incorrect">
-<p>Researcher 2 states that RNA leaves the nucleus before reaching endoplasmic reticulum.</p>
+<p><strong>The best answer is not B.</strong> Researcher 2 states that RNA leaves the nucleus before reaching endoplasmic reticulum.</p>
 </div>
 
 <div id="answer-s3-3c" class="correct"> 
-<p>Researcher 2 states, "after a strand of RNA leaves the nucleus, it floats freely to a nearby organelle...." </p><p>If this is so, the RNA must be able to travel easily through whatever substance is between the nucleus and the organelle.</p>
+<p><strong>The best answer is C.</strong> Researcher 2 states, "after a strand of RNA leaves the nucleus, it floats freely to a nearby organelle...." </p><p>If this is so, the RNA must be able to travel easily through whatever substance is between the nucleus and the organelle.</p>
 </div>
 
 <div id="answer-s3-3d" class="incorrect">
-<p>Researcher 2 does not state that RNA is packaged in a vesicle, only that protein is packaged in a vesicle.</p>
+<p><strong>The best answer is not D.</strong> Researcher 2 does not state that RNA is packaged in a vesicle, only that protein is packaged in a vesicle.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -559,19 +560,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s3-4f" class="incorrect">
-<p>The passage states "The copy is not made of DNA; it is made of a molecule called RNA," indicating that DNA and RNA are not the same thing.</p>
+<p><strong>The best answer is not F.</strong> The passage states "The copy is not made of DNA; it is made of a molecule called RNA," indicating that DNA and RNA are not the same thing.</p>
 </div>
 
 <div id="answer-s3-4g" class="incorrect">
-<p>Researcher 1 claims that RNA is transcribed outside the endoplasmic reticulum, at the sites where proteins will be used. </p><p>If you didn't understand this question or the reading passage, you could improve your chances by ZAPPING this choice using the True/False strategy. "Only" is a specific word. But use this strategy only if you have to guess.</p>
+<p><strong>The best answer is not G.</strong> Researcher 1 claims that RNA is transcribed outside the endoplasmic reticulum, at the sites where proteins will be used. </p><p>If you didn't understand this question or the reading passage, you could improve your chances by ZAPPING this choice using the True/False strategy. "Only" is a specific word. But use this strategy only if you have to guess.</p>
 </div>
 
 <div id="answer-s3-4h" class="correct"> 
-<p>If, as Researcher 1 states, a protein's RNA is transported to its destination before the protein is built, it is reasonable to conclude that the RNA is somehow tagged with that destination. </p><p>Otherwise there is a question as to how the cell "knows" where to send the RNA.</p>
+<p><strong>The best answer is H.</strong> If, as Researcher 1 states, a protein's RNA is transported to its destination before the protein is built, it is reasonable to conclude that the RNA is somehow tagged with that destination. </p><p>Otherwise there is a question as to how the cell "knows" where to send the RNA.</p>
 </div>
 
 <div id="answer-s3-4j" class="incorrect">
-<p>Researcher 1 claims, "Once attached to the cytoskeleton, RNA moves to the location where the new protein is to be used."</p>
+<p><strong>The best answer is not J.</strong> Researcher 1 claims, "Once attached to the cytoskeleton, RNA moves to the location where the new protein is to be used."</p>
 </div>
 <!----------------------------------------------------------------->
 <div class="question">
@@ -583,19 +584,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s3-5a" class="incorrect">
-<p>This would also support Researcher 2's claims that RNA is used exclusively at the endoplasmic reticulum.</p>
+<p><strong>The best answer is not A.</strong> This would also support Researcher 2's claims that RNA is used exclusively at the endoplasmic reticulum.</p>
 </div>
 
 <div id="answer-s3-5b" class="correct">
-<p>If RNA is found in multiple sites, it is possible that it has been used in multiple sites. </p><p>This would support Researcher 1's contention that RNA is distributed around the cell and used to build proteins where they will be needed.</p>
+<p><strong>The best answer is B.</strong> If RNA is found in multiple sites, it is possible that it has been used in multiple sites. </p><p>This would support Researcher 1's contention that RNA is distributed around the cell and used to build proteins where they will be needed.</p>
 </div>
 
 <div id="answer-s3-5c" class="incorrect"> 
-<p>This would support Researcher 2's claims that protein must be transported to the site where it will be used.</p>
+<p><strong>The best answer is not C.</strong> This would support Researcher 2's claims that protein must be transported to the site where it will be used.</p>
 </div>
 
 <div id="answer-s3-5d" class="incorrect">
-<p>Both arguments state that RNA emerges from the nucleus, so one might expect to find some of it near the nucleus.</p>
+<p><strong>The best answer is not D.</strong> Both arguments state that RNA emerges from the nucleus, so one might expect to find some of it near the nucleus.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -608,19 +609,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s3-6f" class="correct">
-<p>The cell must be able to send either RNA or proteins to their destinations, which means there must be some way of determining what that destination is or is not.</p>
+<p><strong>The best answer is F.</strong> The cell must be able to send either RNA or proteins to their destinations, which means there must be some way of determining what that destination is or is not.</p>
 </div>
 
 <div id="answer-s3-6g" class="incorrect">
-<p>The cytoskeleton's composition is unimportant in this argument, so long as it can transport vesicles.</p>
+<p><strong>The best answer is not G.</strong> The cytoskeleton's composition is unimportant in this argument, so long as it can transport vesicles.</p>
 </div>
 
 <div id="answer-s3-6h" class="incorrect"> 
-<p>Both researchers accept that the nucleus is the site of RNA production, but that RNA leaves the nucleus before transcription.</p>
+<p><strong>The best answer is not H.</strong> Both researchers accept that the nucleus is the site of RNA production, but that RNA leaves the nucleus before transcription.</p>
 </div>
 
 <div id="answer-s3-6j" class="incorrect">
-<p>This claim would not support Researcher 2's argument.</p>
+<p><strong>The best answer is not J.</strong> This claim would not support Researcher 2's argument.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -633,19 +634,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s3-7a" class="incorrect">
-<p>RNA is used for making proteins, but is not described as a protein.</p>
+<p><strong>The best answer is not A.</strong> RNA is used for making proteins, but is not described as a protein.</p>
 </div>
 
 <div id="answer-s3-7b" class="incorrect">
-<p>The passage states that DNA and RNA are not the same.</p>
+<p><strong>The best answer is not B.</strong> The passage states that DNA and RNA are not the same.</p>
 </div>
 
 <div id="answer-s3-7c" class="correct"> 
-<p>The passage states: "other organelles in the cell use the RNA as a template for building a new protein"; "when a strand of RNA reaches its destination, it is used as the template for building the new protein"; and "the ribosomes use RNA as a template for building the new proteins."</p>
+<p><strong>The best answer is C.</strong> The passage states: "other organelles in the cell use the RNA as a template for building a new protein"; "when a strand of RNA reaches its destination, it is used as the template for building the new protein"; and "the ribosomes use RNA as a template for building the new proteins."</p>
 </div>
 
 <div id="answer-s3-7d" class="incorrect">
-<p>RNA is not described as carrying the entire genetic code for a human. You can ZAP this answer because the word "genome" is not in the passage.</p>
+<p><strong>The best answer is not D.</strong> RNA is not described as carrying the entire genetic code for a human. You can ZAP this answer because the word "genome" is not in the passage.</p>
 </div>
 <!----------------------------------------------------------------->
 </td></tr>
@@ -710,19 +711,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s4-1a" class="incorrect">
-<p>This would probably yield a phytoplankton count of around 140, about half the 75% increase.</p>
+<p><strong>The best answer is not A.</strong> This would probably yield a phytoplankton count of around 140, about half the 75% increase.</p>
 </div>
 
 <div id="answer-s4-1b" class="correct">
-<p>The increase in the phytoplankton count is 75%, which corresponds to the approximate increase in the phytoplankton count in Experiment 1 from 0 to 3 days with 10 ml of 10-15-10 fertilizer.</p>
+<p><strong>The best answer is B.</strong> The increase in the phytoplankton count is 75%, which corresponds to the approximate increase in the phytoplankton count in Experiment 1 from 0 to 3 days with 10 ml of 10-15-10 fertilizer.</p>
 </div>
 
 <div id="answer-s4-1c" class="incorrect"> 
-<p>These would probably yield phytoplankton counts of about 300. 10 ml of 24-8-16 nearly triples the count at 3 days.</p>
+<p><strong>The best answer is not C.</strong> These would probably yield phytoplankton counts of about 300. 10 ml of 24-8-16 nearly triples the count at 3 days.</p>
 </div>
 
 <div id="answer-s4-1d" class="incorrect">
-<p>These would probably yield phytoplankton counts of about 450. 10 ml of 24-8-16 nearly triples the count at 3 days.</p>
+<p><strong>The best answer is not D.</strong> These would probably yield phytoplankton counts of about 450. 10 ml of 24-8-16 nearly triples the count at 3 days.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -735,19 +736,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s4-2f" class="incorrect">
-<p>The student controls this factor.</p>
+<p><strong>The best answer is not F.</strong> The student controls this factor.</p>
 </div>
 
 <div id="answer-s4-2g" class="incorrect">
-<p>The student controls this factor.</p>
+<p><strong>The best answer is not G.</strong> The student controls this factor.</p>
 </div>
 
 <div id="answer-s4-2h" class="correct"> 
-<p>The phytoplankton count depends on the water temperature and fertilizer type and amount, which are all independent variables controlled by the student.</p>
+<p><strong>The best answer is H.</strong> The phytoplankton count depends on the water temperature and fertilizer type and amount, which are all independent variables controlled by the student.</p>
 </div>
 
 <div id="answer-s4-2j" class="incorrect">
-<p>The student controls this factor.</p>
+<p><strong>The best answer is not J.</strong> The student controls this factor.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -760,19 +761,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s4-3a" class="correct">
-<p>The phytoplankton count is much higher with the 24-8-16 fertilizer.</p>
+<p><strong>The best answer is A.</strong> The phytoplankton count is much higher with the 24-8-16 fertilizer.</p>
 </div>
 
 <div id="answer-s4-3b" class="incorrect">
-<p>This experiment does not test whether the fertilizer drives out other species.</p>
+<p><strong>The best answer is not B.</strong> This experiment does not test whether the fertilizer drives out other species.</p>
 </div>
 
 <div id="answer-s4-3c" class="incorrect"> 
-<p>It is possible to make observation A, as well as several others, without reference to Experiment 1.</p>
+<p><strong>The best answer is not C.</strong> It is possible to make observation A, as well as several others, without reference to Experiment 1.</p>
 </div>
 
 <div id="answer-s4-3d" class="incorrect">
-<p>The fertilizer generates more growth than an equal volume of 10-15-10 fertilizer does.</p>
+<p><strong>The best answer is not D.</strong> The fertilizer generates more growth than an equal volume of 10-15-10 fertilizer does.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -785,19 +786,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s4-4f" class="incorrect">
-<p>This confuses the relative effectiveness of the two fertilizers.</p>
+<p><strong>The best answer is not F.</strong> This confuses the relative effectiveness of the two fertilizers.</p>
 </div>
 
 <div id="answer-s4-4g" class="incorrect">
-<p>Temperature does not affect the fertilizers' relative effectiveness.</p>
+<p><strong>The best answer is not G.</strong> Temperature does not affect the fertilizers' relative effectiveness.</p>
 </div>
 
 <div id="answer-s4-4h" class="correct"> 
-<p>10-15-10 fertilizer produces yields about 2/3 of 24-8-16's yield, and this is true in both experiments.</p>
+<p><strong>The best answer is H.</strong> 10-15-10 fertilizer produces yields about 2/3 of 24-8-16's yield, and this is true in both experiments.</p>
 </div>
 
 <div id="answer-s4-4j" class="incorrect">
-<p>Temperature does not affect the fertilizers' relative effectiveness.</p>
+<p><strong>The best answer is not J.</strong> Temperature does not affect the fertilizers' relative effectiveness.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -810,19 +811,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s4-5a" class="correct">
-<p>The phytoplankton count increases by about 75% in three days. To get the count to double, it would take just a little longer than three days.</p>
+<p><strong>The best answer is A.</strong> The phytoplankton count increases by about 75% in three days. To get the count to double, it would take just a little longer than three days.</p>
 </div>
 
 <div id="answer-s4-5b" class="incorrect">
-<p>At less than three days, the phytoplankton count is increased by less than 75%.</p>
+<p><strong>The best answer is not B.</strong> At less than three days, the phytoplankton count is increased by less than 75%.</p>
 </div>
 
 <div id="answer-s4-5c" class="incorrect"> 
-<p>At 6 days, the phytoplankton count has nearly tripled.</p>
+<p><strong>The best answer is not C.</strong> At 6 days, the phytoplankton count has nearly tripled.</p>
 </div>
 
 <div id="answer-s4-5d" class="incorrect">
-<p>At 6 days, the phytoplankton count has nearly tripled.</p>
+<p><strong>The best answer is not D.</strong> At 6 days, the phytoplankton count has nearly tripled.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -835,19 +836,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s4-6f" class="correct">
-<p>Phytoplankton population increases with an increase in temperature from 20 C to 22 C. It is reasonable to predict that growth would increase again with another 2 C increase in temperature. It is also reasonable to predict that a 50% increase in fertilizer added would translate to a 50% increase in phytoplankton growth.</p>
+<p><strong>The best answer is F.</strong> Phytoplankton population increases with an increase in temperature from 20 C to 22 C. It is reasonable to predict that growth would increase again with another 2 C increase in temperature. It is also reasonable to predict that a 50% increase in fertilizer added would translate to a 50% increase in phytoplankton growth.</p>
 </div>
 
 <div id="answer-s4-6g" class="incorrect">
-<p>The experiment would suggest that an increase in heat and an increase in fertilizer would create a corresponding increase in the phytoplankton count.</p>
+<p><strong>The best answer is not G.</strong> The experiment would suggest that an increase in heat and an increase in fertilizer would create a corresponding increase in the phytoplankton count.</p>
 </div>
 
 <div id="answer-s4-6h" class="incorrect"> 
-<p>The experiment would suggest that an increase in heat and an increase in fertilizer would create a change in the phytoplankton count, and that change would be an increase.</p>
+<p><strong>The best answer is not H.</strong> The experiment would suggest that an increase in heat and an increase in fertilizer would create a change in the phytoplankton count, and that change would be an increase.</p>
 </div>
 
 <div id="answer-s4-6j" class="incorrect">
-<p>The experiment would suggest that an increase in heat and an increase in fertilizer would create a change in the phytoplankton count, and that change would be an increase.</p>
+<p><strong>The best answer is not J.</strong> The experiment would suggest that an increase in heat and an increase in fertilizer would create a change in the phytoplankton count, and that change would be an increase.</p>
 </div>
 <!----------------------------------------------------------------->
 </td></tr>
@@ -911,19 +912,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s5-1a" class="correct">
-<p>Spinach juice produces a milliliter of gas in about 0.25 seconds, while potato juice produces that volume in 1 second. Since the O<sub>2</sub> is said to come from H<sub>2</sub>O<sub>2</sub> decomposition, it is fair to say that spinach juice is decomposing H<sub>2</sub>O<sub>2</sub> at 4 times potato's rate.</p>
+<p><strong>The best answer is A.</strong> Spinach juice produces a milliliter of gas in about 0.25 seconds, while potato juice produces that volume in 1 second. Since the O<sub>2</sub> is said to come from H<sub>2</sub>O<sub>2</sub> decomposition, it is fair to say that spinach juice is decomposing H<sub>2</sub>O<sub>2</sub> at 4 times potato's rate.</p>
 </div>
 
 <div id="answer-s5-1b" class="incorrect">
-<p>Broccoli decomposes H<sub>2</sub>0<sub>2</sub> about four times more slowly than kale does. A lower number indicates more rapid decomposition than a higher number. </p>
+<p><strong>The best answer is not B.</strong> Broccoli decomposes H<sub>2</sub>0<sub>2</sub> about four times more slowly than kale does. A lower number indicates more rapid decomposition than a higher number. </p>
 </div>
 
 <div id="answer-s5-1c" class="incorrect"> 
-<p>Peppers produce O<sub>2</sub> more slowly than any other vegetable juice tested, suggesting that it has the lowest concentration of catalase.</p>
+<p><strong>The best answer is not C.</strong> Peppers produce O<sub>2</sub> more slowly than any other vegetable juice tested, suggesting that it has the lowest concentration of catalase.</p>
 </div>
 
 <div id="answer-s5-1d" class="incorrect">
-<p>Potato juice produces O<sub>2</sub> more slowly than carrot juice does, suggesting potato juice has a higher concentration of catalase.</p>
+<p><strong>The best answer is not D.</strong> Potato juice produces O<sub>2</sub> more slowly than carrot juice does, suggesting potato juice has a higher concentration of catalase.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -936,19 +937,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s5-2f" class="incorrect">
-<p>This answer includes only vegetable juices with lower rates of O<sub>2</sub> production than arugula juice.</p>
+<p><strong>The best answer is not F.</strong> This answer includes only vegetable juices with lower rates of O<sub>2</sub> production than arugula juice.</p>
 </div>
 
 <div id="answer-s5-2g" class="correct">
-<p>Only kale juice and spinach juice produce O<sub>2</sub> faster than arugula juice does, suggesting that both kale and spinach have higher concentrations of catalase.</p>
+<p><strong>The best answer is G.</strong> Only kale juice and spinach juice produce O<sub>2</sub> faster than arugula juice does, suggesting that both kale and spinach have higher concentrations of catalase.</p>
 </div>
 
 <div id="answer-s5-2h" class="incorrect"> 
-<p>This answer includes vegetable juices with both higher and lower rates of O<sub>2</sub> production than arugula's. </p><p>If you didn't understand the question or ran out of time, you could ZAP this choice using the True/False strategy because of the word "All."</p>
+<p><strong>The best answer is not H.</strong> This answer includes vegetable juices with both higher and lower rates of O<sub>2</sub> production than arugula's. </p><p>If you didn't understand the question or ran out of time, you could ZAP this choice using the True/False strategy because of the word "All."</p>
 </div>
 
 <div id="answer-s5-2j" class="incorrect">
-<p>Both spinach and kale juice have a higher rate of O<sub>2</sub> production than arugula juice.</p><p> If you didn't understand the question or ran out of time, you could ZAP this choice using the True/False strategy because of the word "None."</p>
+<p><strong>The best answer is not J.</strong> Both spinach and kale juice have a higher rate of O<sub>2</sub> production than arugula juice.</p><p> If you didn't understand the question or ran out of time, you could ZAP this choice using the True/False strategy because of the word "None."</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -961,22 +962,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s5-3a" class="incorrect">
-<p>The best answer is NOT: A</p>
-<p>because this rate of gas production is lower than broccoli's, indicating a lower concentration of catalase.</p>
+<p><strong>The best answer is not A.</strong> This rate of gas production is lower than broccoli's, indicating a lower concentration of catalase.</p>
 </div>
 
 <div id="answer-s5-3b" class="correct">
-<p>Broccoli produces a ml of O<sub>2</sub> in 1.69 seconds; potato, in 1 second. </p><p>A concentration of catalase higher than potato's and lower than broccoli's would produce a ml of O<sub>2</sub> at a rate in between their rates.</p><p> The only answer that fits this requirement is B, 1.38 sec/ml.</p>
+<p><strong>The best answer is B.</strong> Broccoli produces a ml of O<sub>2</sub> in 1.69 seconds; potato, in 1 second. </p><p>A concentration of catalase higher than potato's and lower than broccoli's would produce a ml of O<sub>2</sub> at a rate in between their rates.</p><p> The only answer that fits this requirement is B, 1.38 sec/ml.</p>
 </div>
 
 <div id="answer-s5-3c" class="incorrect"> 
-<p>The best answer is NOT: C</p>
-<p>because this rate of gas production is higher than potato's, indicating a higher concentration of catalase.</p>
+<p><strong>The best answer is not C.</strong> because this rate of gas production is higher than potato's, indicating a higher concentration of catalase.</p>
 </div>
 
 <div id="answer-s5-3d" class="incorrect">
-<p>The best answer is NOT: D</p>
-<p>because this rate of gas production is higher than potato's, indicating a higher concentration of catalase.</p>
+<p><strong>The best answer is not D.</strong> This rate of gas production is higher than potato's, indicating a higher concentration of catalase.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -989,19 +987,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s5-4f" class="incorrect">
-<p>These spinach and kale produce O<sub>2</sub> more quickly than any others tested.</p>
+<p><strong>The best answer is not F.</strong> These spinach and kale produce O<sub>2</sub> more quickly than any others tested.</p>
 </div>
 
 <div id="answer-s5-4g" class="correct">
-<p>As the experiment progressed, it took longer for the samples to produce an extra milliliter of O<sub>2</sub>.</p>
+<p><strong>The best answer is G.</strong> As the experiment progressed, it took longer for the samples to produce an extra milliliter of O<sub>2</sub>.</p>
 </div>
 
 <div id="answer-s5-4h" class="incorrect"> 
-<p>The time required to produce a second ml of gas was less for kale than for spinach at all intervals shown.</p>
+<p><strong>The best answer is not H.</strong> The time required to produce a second ml of gas was less for kale than for spinach at all intervals shown.</p>
 </div>
 
 <div id="answer-s5-4j" class="incorrect">
-<p>The time required to produce another ml of gas increased at both the 40 and 60 second marks for both spinach and kale.</p>
+<p><strong>The best answer is not J.</strong> The time required to produce another ml of gas increased at both the 40 and 60 second marks for both spinach and kale.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1014,19 +1012,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s5-5a" class="incorrect">
-<p>Gas was never produced more quickly than it was at the first reading; this graph claims the rate of production increased before decreasing.</p>
+<p><strong>The best answer is not A.</strong> Gas was never produced more quickly than it was at the first reading; this graph claims the rate of production increased before decreasing.</p>
 </div>
 
 <div id="answer-s5-5b" class="incorrect">
-<p>This merely takes the numbers directly from the chart and graphs the increasing <em>time</em> required to produce another ml of O<sub>2</sub>. It does not use this data to answer the question, which is about the <em>rate</em> of O<sub>2</sub> production, which is decreasing.</p>
+<p><strong>The best answer is not B.</strong> This merely takes the numbers directly from the chart and graphs the increasing <em>time</em> required to produce another ml of O<sub>2</sub>. It does not use this data to answer the question, which is about the <em>rate</em> of O<sub>2</sub> production, which is decreasing.</p>
 </div>
 
 <div id="answer-s5-5c" class="correct"> 
-<p>O<sub>2</sub> was produced quickly in large quantities at the beginning of the experiment. As the experiment progressed, less O<sub>2</sub> was produced per second: The rate slowed. Eventually all the H<sub>2</sub>O<sub>2</sub> would be decomposed, and the rate of O<sub>2</sub> production would fall to 0 ml/sec.</p>
+<p><strong>The best answer is C.</strong> O<sub>2</sub> was produced quickly in large quantities at the beginning of the experiment. As the experiment progressed, less O<sub>2</sub> was produced per second: The rate slowed. Eventually all the H<sub>2</sub>O<sub>2</sub> would be decomposed, and the rate of O<sub>2</sub> production would fall to 0 ml/sec.</p>
 </div>
 
 <div id="answer-s5-5d" class="incorrect">
-<p>This graph shows no consistent direction in the rate of change in O<sub>2</sub> production.</p>
+<p><strong>The best answer is not D.</strong> This graph shows no consistent direction in the rate of change in O<sub>2</sub> production.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1039,19 +1037,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s5-6f" class="correct">
-<p>With extra catalase in the kale solution, H<sub>2</sub>O<sub>2</sub> would be used up very rapidly. </p><p>By the 60-second mark, the wait time for the next milliliter of O<sub>2</sub> gas would be much greater than in the original experiment.</p>
+<p><strong>The best answer is F.</strong> With extra catalase in the kale solution, H<sub>2</sub>O<sub>2</sub> would be used up very rapidly. </p><p>By the 60-second mark, the wait time for the next milliliter of O<sub>2</sub> gas would be much greater than in the original experiment.</p>
 </div>
 
 <div id="answer-s5-6g" class="incorrect">
-<p>A vegetable's rate of O<sub>2</sub> production cannot increase as the experiment progresses, regardless of catalase concentration. </p><p>It can only decrease as catalase uses up H<sub>2</sub>O<sub>2</sub>.</p>
+<p><strong>The best answer is not G.</strong> A vegetable's rate of O<sub>2</sub> production cannot increase as the experiment progresses, regardless of catalase concentration. </p><p>It can only decrease as catalase uses up H<sub>2</sub>O<sub>2</sub>.</p>
 </div>
 
 <div id="answer-s5-6h" class="incorrect"> 
-<p>There is no reason to expect spinach's rate of gas production to change. </p><p>You can ZAP this answer because no change is made to the spinach.</p>
+<p><strong>The best answer is not H.</strong> There is no reason to expect spinach's rate of gas production to change. </p><p>You can ZAP this answer because no change is made to the spinach.</p>
 </div>
 
 <div id="answer-s5-6j" class="incorrect">
-<p>The <em>amount</em> of gas produced cannot change, regardless of the amount of catalase in solution. </p><p>The amount of H<sub>2</sub>O<sub>2</sub> stays steady, so the amount of O<sub>2</sub> produced must stay steady. </p><p>The only thing that can change is the <em>rate</em> of the gas production. </p>
+<p><strong>The best answer is not J.</strong> The <em>amount</em> of gas produced cannot change, regardless of the amount of catalase in solution. </p><p>The amount of H<sub>2</sub>O<sub>2</sub> stays steady, so the amount of O<sub>2</sub> produced must stay steady. </p><p>The only thing that can change is the <em>rate</em> of the gas production. </p>
 </div>
 <!----------------------------------------------------------------->
 </td></tr>
@@ -1080,7 +1078,7 @@ jQuery(document).ready(function($) {
 				<tr><td align="center"><img src="../images/science/passageVIanswerIV.jpg"></td></tr>
 				<tr><td align="center">(substance B, 30 degrees)</td></tr>
 				<tr><td>Students were then given a table of refractive indexes and asked to identify substances A and B. The <em>refractive index</em> 
-				        is a ratio of light’s speed through a given medium to its speed through a vacuum and is a measure of the optical density of a medium.</td></tr>
+				        is a ratio of light’s speed through a given material to its speed through a vacuum and is a measure of the optical density of a material.</td></tr>
 				<tr><td></td></tr>
 				<tr><td>
 					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
@@ -1093,7 +1091,7 @@ jQuery(document).ready(function($) {
 						<tr><td>Sugar solution (30%)</td><td>1.38</td></tr>
 						<tr><td>Plexiglas</td><td>1.51</td></tr>
 						<tr><td>Gelatin</td><td>1.51</td></tr>
-						<tr><td>Polystyrene</td><td>1.55</td></tr>
+						<tr><td>Crown glass</td><td>1.55</td></tr>
 						<tr><td>Sapphire</td><td>1.77</td></tr>
 						<tr><td>Diamond</td><td>2.42</td><td>Highest</td></tr>
 					</table>
@@ -1110,7 +1108,7 @@ jQuery(document).ready(function($) {
 		
 		
 <div class="question">
-	<div class="numcol">1.</div><p>Using the observations sketched by the students and the data in Table 1, which medium has the highest optical density?</p>
+	<div class="numcol">1.</div><p>Using the observations sketched by the students, which material has the highest optical density?</p>
 	<p><a id="s6-1a" href="#" class="response">A.</a><span class="response">Water</span></p>
 	<p><a id="s6-1b" href="#" class="response">B.</a><span class="response">Diamond</span></p>
 	<p><a id="s6-1c" href="#" class="response">C.</a><span class="response">Gelatin</span></p>
@@ -1118,44 +1116,44 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s6-1a" class="incorrect">
-<p>Water had the lowest angle of refraction; it has the lowest optical density of the four.</p>
+<p><strong>The best answer is not A.</strong> Water had the lowest angle of refraction; it has the lowest optical density of the four.</p>
 </div>
 
 <div id="answer-s6-1b" class="incorrect">
-<p>While diamond has the highest optical density on the reference chart, diamond was not among the substances the students tested. ZAP it.</p>
+<p><strong>The best answer is not B.</strong> While diamond has the highest optical density on the reference chart, diamond was not among the materials the students tested. <em>ZAP</em> it.</p>
 </div>
 
 <div id="answer-s6-1c" class="incorrect"> 
-<p>Gelatin has the second-highest angle of refraction among the substances tested. </p><p>You're looking for the "highest" density.>
+<p><strong>The best answer is not C.</strong> Gelatin has the second-highest angle of refraction among the materials tested. </p><p>You're looking for the "highest" density.</p>
 </div>
 
 <div id="answer-s6-1d" class="correct">
-<p>The passage states, "The higher the medium's optical density, the more it refracts, or changes direction, light as light enters from the air." </p><p>Of the substances tested, substance B bends light most, meaning it has the highest optical density.</p>
+<p><strong>The best answer is D.</strong> The passage states, "The higher the material's optical density, the more it refracts, or changes direction of, light as light enters from the air." </p><p>Of the materials tested, substance B bends light most, meaning it has the highest optical density.</p>
 </div>
 <!----------------------------------------------------------------->
 
 <div class="question">
-	<div class="numcol">2.</div><p>According to the list of refractive indices in Table 1, which of the following media is possible to be Substance A?</p>
+	<div class="numcol">2.</div><p>According to the list of refractive indices in Table 1, which of the following materials is possible to be Substance A?</p>
 	<p><a id="s6-2f" href="#" class="response">F.</a><span class="response">Air</span></p>
 	<p><a id="s6-2g" href="#" class="response">G.</a><span class="response">Sapphire</span></p>
 	<p><a id="s6-2h" href="#" class="response">H.</a><span class="response">Sugar solution</span></p>
-	<p><a id="s6-2j" href="#" class="response">J.</a><span class="response">Polystyrene</span></p>
+	<p><a id="s6-2j" href="#" class="response">J.</a><span class="response">Crown glass</span></p>
 </div>
 		
 <div id="answer-s6-2f" class="incorrect">
-<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Air has an optical density lower than both gelatin and water.</p>
+<p><strong>The best answer is not F.</strong> Substance A's angle of refraction is between those of gelatin and water. </p><p>Air has an optical density lower than both gelatin and water.</p>
 </div>
 
 <div id="answer-s6-2g" class="incorrect">
-<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Sapphire has an optical density higher than both gelatin and water.</p>
+<p><strong>The best answer is not G.</strong> Substance A's angle of refraction is between those of gelatin and water. </p><p>Sapphire has an optical density higher than both gelatin and water.</p>
 </div>
 
 <div id="answer-s6-2h" class="correct"> 
-<p>With an angle of refraction between water's and gelatin's, Substance A's optical density and refractive index must also be between the two. </p><p>Sugar solution meets this requirement.</p>
+<p><strong>The best answer is H.</strong> With an angle of refraction between water's and gelatin's, substance A's optical density and refractive index must also be between the two.</p><p>Sugar solution meets this requirement.</p>
 </div>
 
 <div id="answer-s6-2j" class="incorrect">
-<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Polystyrene has an optical density higher than both gelatin and water.</p>
+<p><strong>The best answer is not J.</strong> Substance A's angle of refraction is between those of gelatin and water. </p><p?>Plexiglas has an optical density equal to that of gelatin.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1163,24 +1161,24 @@ jQuery(document).ready(function($) {
 	<div class="numcol">3.</div><p>According to the list of refractive indices in Table 1, substance B could be:</p>
 	<p><a id="s6-3a" href="#" class="response">A.</a><span class="response">gelatin, polystyrene, sapphire, or diamond.</span></p>
 	<p><a id="s6-3b" href="#" class="response">B.</a><span class="response">ethyl alcohol, sugar solution, or plexiglas.</span></p>
-	<p><a id="s6-3c" href="#" class="response">C.</a><span class="response">polystyrene, sapphire, or diamond.</span></p>
+	<p><a id="s6-3c" href="#" class="response">C.</a><span class="response">crown glass, sapphire, or diamond.</span></p>
 	<p><a id="s6-3d" href="#" class="response">D.</a><span class="response">water, air, or vacuum.</span></p>
 </div>
 
 <div id="answer-s6-3a" class="incorrect">
-<p>Substance B's angle of refraction is not identical to gelatin's.</p>
+<p><strong>The best answer is not A.</strong> Substance B's angle of refraction is not identical to gelatin's.</p>
 </div>
 
 <div id="answer-s6-3b" class="incorrect">
-<p>All substances listed have optical densities lower than substance B's.</p>
+<p><strong>The best answer is not B.</strong> All materials listed have optical densities lower than substance B's.</p>
 </div>
 
 <div id="answer-s6-3c" class="correct"> 
-<p>Substance B has an angle of refraction higher than gelatin's; it slows light more than gelatin does, and must have a higher refractive index.</p><p> This leaves only polystyrene, sapphire, and diamond as possibilities in the table.</p>
+<p><strong>The best answer is C.</strong> Substance B has an angle of refraction higher than gelatin's; it slows light more than gelatin does, and must have a higher refractive index.</p><p> This leaves only crown glass, sapphire, and diamond as possibilities in the table.</p>
 </div>
 
 <div id="answer-s6-3d" class="incorrect">
-<p>Based on substance B's angle of refraction, all substances listed have optical densities lower than Substance B's.</p>
+<p><strong>The best answer is not D.</strong> Based on substance B's angle of refraction, all substances listed have optical densities lower than substance B's.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1193,19 +1191,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s6-4f" class="incorrect">
-<p>This would mean optical density decreases as the angle of refraction increases.</p>
+<p><strong>The best answer is not F.</strong> This would mean optical density decreases as the angle of refraction increases.</p>
 </div>
 
 <div id="answer-s6-4g" class="incorrect">
-<p>This would mean optical density is unrelated to angle of refraction.</p>
+<p><strong>The best answer is not G.</strong> This would mean optical density is unrelated to angle of refraction.</p>
 </div>
 
 <div id="answer-s6-4h" class="incorrect"> 
-<p>Tthis would mean optical density is unrelated to angle of refraction.</p>
+<p><strong>The best answer is not H.</strong> This would mean optical density has an inverse relationship to the angle of refraction.</p>
 </div>
 
 <div id="answer-s6-4j" class="correct">
-<p>The passage says, "The higher the medium's optical density, the more it refracts, or changes the direction, as light enters from the air."</p>
+<p><strong>The best answer is J.</strong> The passage says, "The higher the material's optical density, the more it refracts, or changes the direction, as light enters from the air."</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1218,19 +1216,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s6-5a" class="incorrect">
-<p>Did you notice that the question asked, "which of the following statements is <em>not</em> accurate?" Pay extra attention to the question whenever you see a negative word. </p><p>The refractive index of plexiglas (1.51) is higher than that of ethyl alcohol (1.36), making this an accurate statement.</p>
+<p><strong>The best answer is not A.</strong> Did you notice that the question asked, "which of the following statements is <em>not</em> accurate?" Pay extra attention to the question whenever you see a negative word. </p><p>The refractive index of plexiglas (1.51) is higher than that of ethyl alcohol (1.36), making this an accurate statement.</p>
 </div>
 
 <div id="answer-s6-5b" class="incorrect">
-<p>There's a trap in this question. Pay extra attention to the question whenever you see a negative word.</p><p>The refractive index of a vacuum (1.00) is the lowest in the table, making this an accurate statement.</p><p> If you relied on the True/False strategy here (ZAPPING "any") you would be wrong in this case. </p><p>That's why it's best to ONLY use the True/False strategy when you have to guess.</p>
+<p><strong>The best answer is not B.</strong> There's a trap in this question. Pay extra attention to the question whenever you see a negative word.</p><p>The refractive index of a vacuum (1.00) is the lowest in the table, making this an accurate statement.</p><p> If you relied on the True/False strategy here (ZAPPING "any") you would be wrong in this case. </p><p>That's why it's best to <em>only</em> use the True/False strategy when you have to guess.</p>
 </div>
 
 <div id="answer-s6-5c" class="correct"> 
-<p>Pay close attention whenever you see a negative word in the quesion.</p><p>The passage states, "The higher a material's optical density, the more it refracts, or changes the direction of light as light enters from the air." </p><p> Sapphire has a higher refractive index than water and must refract light more strongly than Water does; therefore, statement C is incorrect.</p>
+<p><strong>The best answer is C.</strong> Pay close attention whenever you see a negative word in the quesion.</p><p>The passage states, "The higher a material's optical density, the more it refracts, or changes the direction of light as light enters from the air." </p><p> Sapphire has a higher refractive index than water and must refract light more strongly than water does; therefore, statement C is incorrect.</p>
 </div>
 
 <div id="answer-s6-5d" class="incorrect">
-<p>The refraction index of a 30% sugar solution (1.38) is greater than that of water (1.33), making this an accurate statement.</p>
+<p><strong>The best answer is not D.</strong> The refraction index of a 30% sugar solution (1.38) is greater than that of water (1.33), making this an accurate statement.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1264,19 +1262,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s7-1a" class="incorrect">
-<p>This band shows a number of vascular plant species much smaller than those found at 1300-1500 meters ASL.</p>
+<p><strong>The best answer is not A.</strong> This band shows a number of vascular plant species much smaller than those found at 1300-1500 meters ASL.</p>
 </div>
 
 <div id="answer-s7-1b" class="incorrect">
-<p>This band shows the peak for ferns only, not total vascular plant species.</p><p> The fern graph is read on the right-hand side of the graph, and its peak is 90 species. </p><p>This is only a small fraction of the number of vascular plant species found at this altitude.</p>
+<p><strong>The best answer is not B.</strong> This band shows the peak for ferns only, not total vascular plant species.</p><p> The fern graph is read on the right-hand side of the graph, and its peak is 90 species. </p><p>This is only a small fraction of the number of vascular plant species found at this altitude.</p>
 </div>
 
 <div id="answer-s7-1c" class="correct"> 
-<p>The scale on the left-hand side of the graph shows the total number of vascular plants, including ferns. This is the relevant measure; only the line for this item (with empty circles) needs to be consulted. </p><p>The total number of vascular plant species peaks between 1300 and 1500 meters, at about 750 species.</p>
+<p><strong>The best answer is C.</strong> The scale on the left-hand side of the graph shows the total number of vascular plants, including ferns. This is the relevant measure; only the line for this item (with empty circles) needs to be consulted. </p><p>The total number of vascular plant species peaks between 1300 and 1500 meters, at about 750 species.</p>
 </div>
 
 <div id="answer-s7-1d" class="incorrect">
-<p>This band shows a number of vascular plant species much smaller than those found at 1300-1500 meters ASL.</p>
+<p><strong>The best answer is not D.</strong> This band shows a number of vascular plant species much smaller than those found at 1300-1500 meters ASL.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1289,19 +1287,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s7-2f" class="incorrect">
-<p>The overall trend on Kilimanjaro is not toward higher rainfall, nor do rainfall amounts vary by up to five meters per year.</p>
+<p><strong>The best answer is not F.</strong> The overall trend on Kilimanjaro is not toward higher rainfall, nor do rainfall amounts vary by up to five meters per year.</p>
 </div>
 
 <div id="answer-s7-2g" class="incorrect">
-<p>Rainfall amounts do not follow a predictable pattern.</p>
+<p><strong>The best answer is not G.</strong> Rainfall amounts do not follow a predictable pattern.</p>
 </div>
 
 <div id="answer-s7-2h" class="correct"> 
-<p>The scale is found on the left-hand side of the graph, and 1000 ml = 1 meter. </p><p>Rainfall can be seen to vary from about 750 ml/yr to about 2700 ml/yr, or about two meters. </p><p>The trend of the graph appears to be toward less rainfall per year: Kilimanjaro is getting drier.</p>
+<p><strong>The best answer is H.</strong> The scale is found on the left-hand side of the graph, and 1000 ml = 1 meter. </p><p>Rainfall can be seen to vary from about 750 ml/yr to about 2700 ml/yr, or about two meters. </p><p>The trend of the graph appears to be toward less rainfall per year: Kilimanjaro is getting drier.</p>
 </div>
 
 <div id="answer-s7-2j" class="incorrect">
-<p>Although rainfall amounts do not follow a predictable pattern, the trend is toward Kilimanjaro becoming drier.</p>
+<p><strong>The best answer is not J.</strong> Although rainfall amounts do not follow a predictable pattern, the trend is toward Kilimanjaro becoming drier.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1314,19 +1312,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s7-3a" class="incorrect">
-<p>This is the sum of the two years' rainfall.</p>
+<p><strong>The best answer is not A.</strong> This is the sum of the two years' rainfall.</p>
 </div>
 
 <div id="answer-s7-3b" class="incorrect">
-<p>This is the average of the two years' rainfall.</p>
+<p><strong>The best answer is not B.</strong> This is the average of the two years' rainfall.</p>
 </div>
 
 <div id="answer-s7-3c" class="incorrect">
-<p>This is more than half the average of the two years' rainfall.</p>
+<p><strong>The best answer is not C.</strong> This is more than half the average of the two years' rainfall.</p>
 </div>
 
 <div id="answer-s7-3d" class="correct">
-<p>Rainfall for both 1999 and 2001 was about 1500 ml. Half of this is 750 ml.</p>
+<p><strong>The best answer is D.</strong> Rainfall for both 1999 and 2001 was about 1500 ml. Half of this is 750 ml.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1339,19 +1337,19 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s7-4f" class="incorrect">
-<p>This is lower than the current altitude for peak species diversity. </p><p>Plants would have to move downhill to higher temperatures for this answer to be correct.</p>
+<p><strong>The best answer is not F.</strong> This is lower than the current altitude for peak species diversity. </p><p>Plants would have to move downhill to higher temperatures for this answer to be correct.</p>
 </div>
 
 <div id="answer-s7-4g" class="incorrect">
-<p>This is lower than the current altitude for peak species diversity. </p><p>Plants would have to move downhill to higher temperatures for this answer to be correct.</p>
+<p><strong>The best answer is not G.</strong> This is lower than the current altitude for peak species diversity. </p><p>Plants would have to move downhill to higher temperatures for this answer to be correct.</p>
 </div>
 
 <div id="answer-s7-4h" class="incorrect">
-<p>This is the current altitude for peak species diversity, not the future hypothetical altitude.</p>
+<p><strong>The best answer is not H.</strong> This is the current altitude for peak species diversity, not the future hypothetical altitude.</p>
 </div>
 
 <div id="answer-s7-4j" class="correct">
-<p>Peak species diversity is currently at about 1300 meters ASL. </p><p>If plants migrate up the mountain, the new altitude for peak species diversity must be higher than 1300 meters ASL.</p>
+<p><strong>The best answer is J.</strong> Peak species diversity is currently at about 1300 meters ASL. </p><p>If plants migrate up the mountain, the new altitude for peak species diversity must be higher than 1300 meters ASL.</p>
 </div>
 <!----------------------------------------------------------------->
 <div class="question">
@@ -1363,19 +1361,19 @@ jQuery(document).ready(function($) {
 </div>
 		
 <div id="answer-s7-5a" class="correct">
-<p>The trend is toward declining rainfall, or drier conditions. Ferns would thus thrive better at lower altitudes, where conditions would remain wetter.</p><p> Graph F shifts the entire species-distribution graph for ferns down the mountain, with peak species diversity found at a lower altitude than at present.</p>
+<p><strong>The best answer is A.</strong> The trend is toward declining rainfall, or drier conditions. Ferns would thus thrive better at lower altitudes, where conditions would remain wetter.</p><p> Graph F shifts the entire species-distribution graph for ferns down the mountain, with peak species diversity found at a lower altitude than at present.</p>
 </div>
 
 <div id="answer-s7-5b" class="incorrect">
-<p>This does not take into consideration the effect of drier conditions on ferns.</p>
+<p><strong>The best answer is not B.</strong> This does not take into consideration the effect of drier conditions on ferns.</p>
 </div>
 
 <div id="answer-s7-5c" class="incorrect"> 
-<p>This presumes that ferns would not survive at all on Kilimanjaro in 25 years; this is not suggested by the passage or the question.</p>
+<p><strong>The best answer is not C.</strong> This presumes that ferns would not survive at all on Kilimanjaro in 25 years; this is not suggested by the passage or the question.</p>
 </div>
 
 <div id="answer-s7-5d" class="incorrect">
-<p>This pushes fern populations into drier conditions, where they are less likely to flourish.</p>
+<p><strong>The best answer is not D.</strong> This pushes fern populations into drier conditions, where they are less likely to flourish.</p>
 </div>
 <!----------------------------------------------------------------->
 </td></tr>
