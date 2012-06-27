@@ -334,33 +334,33 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 
 <div id="s1-6" class="question">
-	<div class="numcol">6.</div><p>Based on the passage, the father and mother decide to adjust to their new country by:</p>
-	<p><a id="s1-6f" href="#" class="response">F.</a><span class="response">retaining old memories and building new ones.</span></p>
-	<p><a id="s1-6g" href="#" class="response">G.</a><span class="response">refusing to let their new culture change who they are.</span></p>
-	<p><a id="s1-6h" href="#" class="response">H.</a><span class="response">putting away the old to make room for the new.</span></p>
-	<p><a id="s1-6j" href="#" class="response">J.</a><span class="response">understanding their new country by comparing it to their homeland.</span></p>
+	<div class="numcol">6.</div><p>At this point, the writer is considering adding the following phrase: "with powerful negotiation skills." Should the writer make this addition?</p>
+	<p><a id="s1-6f" href="#" class="response">F.</a><span class="response">Yes, because it helps explain to the reader why Salesmen earn high commissions when items become popular with the public.</span></p>
+	<p><a id="s1-6g" href="#" class="response">G.</a><span class="response">Yes, because it can help a reader understand the skills characteristic of successful Salesmen. </span></p>
+	<p><a id="s1-6h" href="#" class="response">H.</a><span class="response">No, because it fails to explain how Salesmen have an effect on the popularity of items that become fads.</span></p>
+	<p><a id="s1-6j" href="#" class="response">J.</a><span class="response">No, because it is inconsistent with the style of this essay to add specific details about Gladwell’s laws of epidemics.</span></p>
 </div>
 		
 <div id="answer-s1-6f" class="correct">
-<p>In paragraphs 5 and 6, we see the Hwangs’ decision to forget, and the final two paragraphs show that Ming continues to work hard to forget his past.</p>
+<p>Nothing in the passage supports the idea that the conversation is an angry one.</p>
 </div>
 <div id="answer-s1-6g" class="incorrect">
-<p>The passage suggests the opposite, that the Hwangs put a large part of who they are behind them because they they think they need to do so in order to make room for all they will need to learn in their new lives (paragraphs 5, 6, 17 and 18).</p>
+<p>There are no hints (i.e., hugs, embraces, affectionate words or gestures) that the conversation is particularly affectionate.</p>
 </div>
 <div id="answer-s1-6h" class="incorrect"> 
-<p>See paragraphs 5 and 6: “‘We’re getting old,’ [Sansan] said. ‘How will we make the space in our minds for everything we’ll need to learn here?’ Without a pause, [Ming] answered her, ‘We will forget.’”</p>
+<p>The father and son struggled to find something in common to talk about.</p><p> As the conversation ends, “That careful, lonely look came into Charles’s face. He went into the kitchen and left Ming standing at the table, regretting how he had ended the conversation.”</p>
 </div>
 <div id="answer-s1-6j" class="incorrect">
-<p>Though a few minor comparisons may be implied in the passage, no detailed comparisons between the two countries are given. Instead, the Hwangs decided to forget their old lives in China, thinking they need to do so to make room for their new lives in the U.S. (paragraphs 5 and 6). </p>
+<p>There are no hints (i.e., joking, roughhousing, teasing) that the conversation is playful.</p>
 </div>
 <!----------------------------------------------------------------->
 
 <div id="s1-7" class="question">
-	<div class="numcol">7.</div><p>According to the passage, one of Sansan’ worries is that:</p>
-	<p><a id="s1-7a" href="#" class="response">A.</a><span class="response">they will not find luck in their new home.</span></p>
-	<p><a id="s1-7b" href="#" class="response">B.</a><span class="response">their son will have to learn a new language.</span></p>
-	<p><a id="s1-7c" href="#" class="response">C.</a><span class="response">they will have many new things to learn in this new country.</span></p>
-	<p><a id="s1-7d" href="#" class="response">D.</a><span class="response">they will not be able to afford all the things their son will need.</span></p>
+	<div class="numcol">7.</div>
+	<p><a id="s1-7a" href="#" class="response">A.</a><span class="response">NO CHANGE</p>
+	<p><a id="s1-7b" href="#" class="response">B.</a><span class="response">of a message</span></p>
+	<p><a id="s1-7c" href="#" class="response">C.</a><span class="response">of messaging</span></p>
+	<p><a id="s1-7d" href="#" class="response">D.</a><span class="response">messaging</span></p>
 </div>
 <div id="answer-s1-7a" class="incorrect">
 <p>No evidence in the passage supports this choice as the correct answer.</p>
@@ -530,10 +530,10 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-15c" href="#" class="response">C.</a><span class="response">3</span></p>
 	<p><a id="s1-15d" href="#" class="response">D.</a><span class="response">4</span></p>
 </div>	
-<div id="answer-s1-15a" class="incorrect">
+<div id="answer-s1-15a" class="correct">
 <p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
 </div>
-<div id="answer-s1-15b" class="correct">
+<div id="answer-s1-15b" class="incorrect">
 <p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
 </div>
 <div id="answer-s1-15c" class="incorrect"> 
@@ -606,7 +606,7 @@ jQuery(document).ready(function($) {
 
 <tr><td class="prose"><p>regulations. If you must have a campfire, use an</p></td><td></td></tr>
 <tr><td class="prose"><p>established fire ring or pit. <span class="und"><sup>And remember the</sup><span>&frasl;</span><sub>10</sub></span></p>
-<p><span class="und"><sup>Three D’s when collecting firewood:</sup><span>&frasl;</span><sub>10</sub></span> choose only</p></td><td class="questions" id="s2-10"></td></tr>
+<p><span class="und"><sup>Three Ds when collecting firewood:</sup><span>&frasl;</span><sub>10</sub></span> choose only</p></td><td class="questions" id="s2-10"></td></tr>
 
 <tr><td class="prose"><p>wood that is <em>dead</em>, <em>downed</em>, and <em>detached</em>. <span class="und"><sup>Keep your</sup><span>&frasl;</span><sub>11</sub></span></p>
 <p><span class="und"><sup>fire small before leaving it unattended, and make</sup><span>&frasl;</span><sub>11</sub></span></p>
@@ -686,9 +686,9 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 <div id="s2-4" class="question">
 	<div class="numcol">4.</div><p>Which choice, if added here, would most effectively and appropriately transition the reader from the topic of Paragraph 2 to the topic of Paragraph 3?</p>
-	<p><a id="s2-4f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-4g" href="#" class="response">G.</a><span class="response">Camping in the wilderness can be especially enjoyable.</span></p>
-	<p><a id="s2-4h" href="#" class="response">H.</a><span class="response">Opt for an obviously high-use campsite when you’re in the wilderness.</span></p>
+	<p><a id="s2-4f" href="#" class="response">F.</a><span class="response">Be sure to carry ample water to stay hydrated on your hike./span></p>
+	<p><a id="s2-4g" href="#" class="response">G.</a><span class="response">If you encounter animals on the trail, keep a respectful distance, and never feed them. </span></p>
+	<p><a id="s2-4h" href="#" class="response">H.</a><span class="response">Opt for an obviously high-use campsite when you’re in the backcountry.</span></p>
 	<p><a id="s2-4j" href="#" class="response">J.</a><span class="response">Similarly, use care when selecting a campsite.</span></p>
 </div>
 <div id="answer-s2-4f" class="incorrect">
@@ -730,7 +730,7 @@ jQuery(document).ready(function($) {
 	<p><a id="s2-6f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
 	<p><a id="s2-6g" href="#" class="response">G.</a><span class="response">bring</span></p>
 	<p><a id="s2-6h" href="#" class="response">H.</a><span class="response">did bring</span></p>
-	<p><a id="s2-6j" href="#" class="response">J.</a><span class="response">have brought</span></p>
+	<p><a id="s2-6j" href="#" class="response">J.</a><span class="response">have already brought</span></p>
 </div>
 		
 <div id="answer-s2-6f" class="incorrect">
@@ -748,7 +748,7 @@ jQuery(document).ready(function($) {
 <!----------------------------------------------------------------->
 
 <div id="s2-7" class="question">
-	<div class="numcol">7.</div><p>Given that all of the following are true, which of the following edits would provide the most addition?</p>
+	<div class="numcol">7.</div><p>Given that all of the following are true, which of the following edits would provide the best addition?</p>
 	<p><a id="s2-7a" href="#" class="response">A.</a><span class="response">trash cans, because bears tend to tip them over.</span></p>
 	<p><a id="s2-7b" href="#" class="response">B.</a><span class="response">trash cans, and there are fewer rangers to protect campers.</span></p>
 	<p><a id="s2-7c" href="#" class="response">C.</a><span class="response">trash cans, forcing visitors to take responsibility for their own garbage.</span></p>
@@ -813,9 +813,9 @@ jQuery(document).ready(function($) {
 <div id="s2-10" class="question">
 	<div class="numcol">10.</div>
 	<p><a id="s2-10f" href="#" class="response">F.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s2-10g" href="#" class="response">G.</a><span class="response">And remember: the Three D’s when collecting firewood,</span></p>
-	<p><a id="s2-10h" href="#" class="response">H.</a><span class="response">The Three D’s when collecting firewood should be remembered:</span></p>
-	<p><a id="s2-10j" href="#" class="response">J.</a><span class="response">And the Three D’s when collecting firewood, please remember, are</span></p>
+	<p><a id="s2-10g" href="#" class="response">G.</a><span class="response">And remember: the Three Ds when collecting firewood,</span></p>
+	<p><a id="s2-10h" href="#" class="response">H.</a><span class="response">The Three Ds when collecting firewood should be remembered:</span></p>
+	<p><a id="s2-10j" href="#" class="response">J.</a><span class="response">And the Three Ds when collecting firewood, please remember, are</span></p>
 </div>	
 <div id="answer-s2-10f" class="correct">
 <p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>

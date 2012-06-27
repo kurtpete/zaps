@@ -82,12 +82,12 @@ jQuery(document).ready(function($) {
 	    		if ($('#answer-' + this.id).hasClass('incorrect')) {
 	    			this.className += ' incorrect_answered_question';
 	    			//this.innerHTML = '<img src="../images/incorrect.gif"/>';
-	    			$("span", "#incorrect-button > span").text(formatSecondsAsTime(incorrect, "ss"));
+	    			$("span.incorrect-answers", "#incorrect-button").text(formatSecondsAsTime(incorrect, "ss"));
 	    		}
 	    		else {
 	    			//this.innerHTML = '<img src="../images/correct.gif"/>';
 	    			this.className += ' correct_answered_question';
-	    			$("span", "#correct-button > span").text(formatSecondsAsTime(correct, "ss"));
+	    			$("span.correct-answers").text(formatSecondsAsTime(correct, "ss"));
 	    		}
 	    	}
 	        $('#answer-' + this.id).dialog({

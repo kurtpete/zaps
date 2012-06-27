@@ -56,7 +56,7 @@ jQuery(document).ready(function($) {
 		var ans = this.id.slice(0, -1);
 
 		if ($('#answer-' + this.id).hasClass('incorrect')) {
-			if (incorrect_answered.indexOf(ans) > -1) {
+			if (incorrect_answered.indexOf(ans) < 0) {
 				incorrect_answered.push(ans);
 				incorrect++;
 			}
@@ -66,7 +66,7 @@ jQuery(document).ready(function($) {
 			}
 		}
 		else {
-			if (correct_answered.indexOf(ans) > -1) {
+			if (correct_answered.indexOf(ans) < 0) {
 				correct_answered.push(ans);
 				correct++;
 			}
@@ -82,12 +82,12 @@ jQuery(document).ready(function($) {
 	    		if ($('#answer-' + this.id).hasClass('incorrect')) {
 	    			this.className += ' incorrect_answered_question';
 	    			//this.innerHTML = '<img src="../images/incorrect.gif"/>';
-	    			$("#incorrect-answers").text(formatSecondsAsTime(incorrect, "ss"));
+	    			$("span.incorrect-answers", "#incorrect-button").text(formatSecondsAsTime(incorrect, "ss"));
 	    		}
 	    		else {
 	    			//this.innerHTML = '<img src="../images/correct.gif"/>';
 	    			this.className += ' correct_answered_question';
-	    			$("#correct-answers").text(formatSecondsAsTime(correct, "ss"));
+	    			$("span.correct-answers").text(formatSecondsAsTime(correct, "ss"));
 	    		}
 	    	}
 	        $('#answer-' + this.id).dialog({

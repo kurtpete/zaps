@@ -636,7 +636,7 @@ So half the senior music students will earn music awards. How many is that? </p>
 <!-- *************************************************************** -->
 <tr><td>
 <div class="mathquestion">
-<div style="border:1px solid black;padding:5px;margin-bottom:5px;">
+<div style="border:1px solid black;padding:2px;margin-bottom:5px;">
 <p><em>Use the following information to answer questions 6 and 7.</em><p>
 </div>
 <p>The following chart shows the current enrollment in all creative writing classes offered by Washington High School.</p>
@@ -1211,7 +1211,7 @@ So half the senior music students will earn music awards. How many is that? </p>
  = <span class="frac"><sup>9</sup><span>&frasl;</span><sub>19</sub></span> .</p>
 </div>
 <div id="answer-s4-1b" class="incorrect">
-<p>The middle, not the longest, length is 22 cm long. Try again.</p>
+<p>The 2nd longest side has a length of 22 cm.  Find the the length of the longest side.</p>
 </div>
 <div id="answer-s4-1c" class="incorrect"> 
 <p>It looks as though you have added the first two ratios. <p></p>Try again, thinking about what ratios are. They are comparisons. <p></p>If the ratio of the shortest side length to the longest side length is 9:19, you can write that as <span class="frac"><sup>9</sup><span>&frasl;</span><sub>19</sub></span> .</p>
@@ -1220,7 +1220,8 @@ So half the senior music students will earn music awards. How many is that? </p>
 <p>The ratio of the lengths of the sides in both triangles is 9:11:19. <p></p>If the shortest side of Triangle B is 18 cm, and 18 is twice 9, the longest side must be 38, or twice 19.</p>
 </div>
 <div id="answer-s4-1e" class="incorrect">
-<p>Begin by taking the ratio of Triangle A's shortest and longest side lengths, 9:19, and comparing it with the ratio of Triangle B's shortest and longest side lengths: 18 cm: ? cm.</p>
+<p>The ratio of shortest to longest side lengths in Triangle B is 9:19. <p></p>The shortest side is 18 cm long. <p></p>Therefore, <span class="frac"><sup>18cm </sup><span>&frasl;</span><sub><em>x</em>cm </sub></span>  
+ = <span class="frac"><sup>9</sup><span>&frasl;</span><sub>19</sub></span> .</p>
 </div>
 <!-- *************************************************************** -->
 <tr><td>
@@ -1238,16 +1239,16 @@ So half the senior music students will earn music awards. How many is that? </p>
 <p>The two equations can be written as <em>k</em> = 2<em>n</em> + 6 <p></p>and<p></p> 3<em>k</em>  + 4<em>n</em> = 76. <p></p>Substituting (2<em>n</em> + 6) for <em>k</em> in the second equation, we get <p></p>3(2<em>n</em> + 6) + 4<em>n</em> = 76.</p>
 </div>
 <div id="answer-s4-2g" class="incorrect">
-<p>Check your first equation. The greater number exceeds 2<em>n</em> by 6.</p>
+<p>Reconsider the fact that the greater of the the 2 numbers <em>exceeds</em> the lesser by 6. </p><p>For example, if your mother's age exceeds twice your age (let's say you're 17) by 6, then her age is 2(17) + 6 = 40.</p>
 </div>
 <div id="answer-s4-2h" class="incorrect"> 
-<p>When you multiply (2<em>n</em> &minus; 6) by 3, don't forget that both terms within the parentheses must be multiplied by 3.</p>
+<p>When you multiply (2<em>n</em> + 6) by 3, don't forget that both terms within the parentheses must be multiplied by 3.</p>
 </div>
 <div id="answer-s4-2j" class="incorrect">
-<p>Read the description of the second equation carefully. </p><p>The sum of <em>3 times </em> the greater number and 4 times the lesser number is 76. </p>
+<p>Read the description of the second equation carefully once again. </p><p>It states that the sum of <em>3 times </em> the greater number and 4 times the lesser number is 76. </p>
 </div>
 <div id="answer-s4-2k" class="incorrect">
-<p>Read the descriptions of the equations carefully. </p><p>In the first equation, "exceeds" means "is greater than." <p></p>In the second equation, the sum of 3 times the greater number and 4 times the lesser number is 76. </p>
+<p>Read the description carefully once again. </p><p>In the first equation, "exceeds" means "is greater than." <p></p>In the second equation, the sum of 3 times the greater number and 4 times the lesser number is 76. </p>
 </div>
 <!-- *************************************************************** -->
 <tr><td>
@@ -1262,10 +1263,10 @@ So half the senior music students will earn music awards. How many is that? </p>
 </td></tr>
 
 <div id="answer-s4-3a" class="incorrect">
-<p>Draw a picture of the ladder leaning against the building, with the ladder, ground, and wall forming a right triangle. <p></p>Use this picture and the formula<p></p> <em> h</em> = &radic;(<em>a</em><sup>2</sup> + <em>b</em><sup>2</sup>) <p></p>to solve for the height of the building from the ground to the ladder's top.</p>
+<p>Draw a picture of the ladder leaning against the building, with the ladder, ground, and wall forming a right triangle. <p></p>Use this picture and the Pythagorean Theorem, <em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> = <em>x</em><sup>2</sup>, to solve for the distance between the top of the ladder and the base of the wall.</p>
 </div>
 <div id="answer-s4-3b" class="incorrect">
-<p>Use the Pythagorean theorem to see why this cannot be true. <p></p>20<sup>2</sup> = 36 + <em>x</em><sup>2</sup> , <p></p>where <em>x</em> is the ladder's reach. <p></p>If <em>x</em> is 12, the equation says that 400 = 180. <p></p>Draw the triangle formed by the ladder, the ground, and the side of the building, and solve again for <em>x</em>.</p>
+<p>Use the Pythagorean theorem to see why this cannot be true. <p></p>20<sup>2</sup> = 6<sup>2</sup> + <em>x</em><sup>2</sup> , <p></p>where <em>x</em> is the ladder's reach. <p></p>If <em>x</em> is 12, the equation says that 400 = 180. <p></p>Draw the triangle formed by the ladder, the ground, and the side of the building, and solve again for <em>x</em>.</p>
 </div>
 <div id="answer-s4-3c" class="correct"> 
 <p>The wall, ladder, and ground form a right triangle, with the ladder as hypotenuse. <p></p>If the ladder is 20 ft. long and its base is 6 ft. from the building, the ladder's reach is calculated with the formula <p></p>20<sup>2</sup>  = 36 + <em>x</em><sup>2</sup> , <p></p>where <em>x</em> is the ladder's reach. </p>
@@ -1274,12 +1275,12 @@ So half the senior music students will earn music awards. How many is that? </p>
 <p>Did you remember that numbers can be rounded down?</p>
 </div>
 <div id="answer-s4-3e" class="incorrect">
-<p>Check your calculations. Did you use the formula <p></p><em>h</em> = &radic;(<em>a</em><sup>2</sup> + <em>b</em><sup>2</sup>) ,<p></p> where <em>h</em> is the length of the hypotenuse and <em>a</em>  and <em>b</em> are the lengths of the other two sides?</p>
+<p>Check your calculations. Did you use the Pythagorean Theorem,<p></p> <em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> = <em>c</em><sup>2</sup>,<p></p> where <em>h</em> <em>a</em> and <em>b</em> are the lengths of the legs of the triangle and <em>c</em> is the length of the hypotenuse?</p>
 </div>
 <!-- *************************************************************** -->
 <tr><td>
 <div class="mathquestion">
-	<div class="numcol">4.</div><p>Figure <em>LMNP</em> is a trapezoid. <em>Q</em> lies on<span class="lineseg"><sup>&harr;</sup><sub><em>LP</em></sub></span>, and angle measures are as shown. What is the measure of &ang;<em>MPN</em>?</p>
+	<div class="numcol">4.</div><p>Figure <em>LMNP</em> is a trapezoid. <span class="lineseg"><sup>&harr;</sup><sub><em>MN</em></sub></span> and <span class="lineseg"><sup>&harr;</sup><sub><em>LP</em></sub></span> are parallel<em>Q</em> lies on<span class="lineseg"><sup>&harr;</sup><sub><em>LP</em></sub></span>, and angle measures are as shown. What is the measure of &ang;<em>MPN</em>?</p>
 	<p align="center"><img src="../images/math/figure12.jpg"></p>	
 	<p><a id="s4-4f" href="#" class="response">F.</a>33&deg;</p>
 	<p><a id="s4-4g" href="#" class="response">G.</a>49&deg;</p>
@@ -1318,19 +1319,19 @@ So half the senior music students will earn music awards. How many is that? </p>
 </td></tr>
 
 <div id="answer-s4-5a" class="incorrect">
-<p>This answer is incorrect.</p>
+<p>Did you add all the given lengths together?</p><p>If that is the case, you attempted to find the perimeter of the figure, not the area.</p><p>Try dividing the figure into several rectangles, keeping in mind that the area of a rectangle is calcuated by multiplying its length by its width.</p>
 </div>
 <div id="answer-s4-5b" class="incorrect">
-<p>This answer is incorrect.</p>
+<p>It appears as if you found the <em>perimeter</em> of the figure, not the area.</p><p>Try dividing the figure into several rectangles, keeping in mind that the area of a rectangle is determined by multiplying its length by its width.</p>
 </div>
 <div id="answer-s4-5c" class="incorrect"> 
-<p>This answer is incorrect.</p>
+<p>Try dividing the figure into several rectangles, keeping in mind that the area of a rectangle is calculated by multiplying its length by its width.</p>
 </div>
 <div id="answer-s4-5d" class="correct">
-<p>This answer is correct.</p>
+<p>Although there are several ways to determine the area of this figure, one possible method involves drawing 2 horizontal lines within the figure so that the figure is divided into 3 rectangles, having dimensions of 18 x 6, 14 x 4, and 6 x 10, respectively.  Then, summing the areas of the 3 rectangles produces the correct result of 224.</p>
 </div>
 <div id="answer-s4-5e" class="incorrect">
-<p>This answer is incorrect.</p>
+<p>288 would represent the area of the rectangle having dimensions 18 and 16 (18 x 16 = 288).</p><p>However, portions of the rectangle having dimensions 18 and 16 have been removed, resulting in the figure shown.</p><p>One possible approach would be to first try and find the area of the regions that were removed.</p>
 </div>
 <!-- *************************************************************** -->
 <tr><td>
@@ -1351,7 +1352,7 @@ So half the senior music students will earn music awards. How many is that? </p>
 <p>Circumference is calculated as 2<em>&pi;r</em>. Since <em>r</em> is the only variable, the ratio of two circles' circumferences must be the same as the ratio of their radii.</p>
 </div>
 <div id="answer-s4-6h" class="incorrect"> 
-<p><em>r</em> is not squared in calculating circumference; the formula is 2<em>&pi;r</em>. <p></p>Since <em>r</em> is the only variable, if the radii of two circles vary, their circumferences must vary by exactly the same proportion. </p>
+<p>Did you calculate the ratio of the areas?  Recall that the formula for circumference is C = 2<em>&pi;r</em>, not <em>&pi;r</em><wub>2</sub>.</p>
 </div>
 <div id="answer-s4-6j" class="incorrect">
 <p>You do not need to perform any calculations here. The question is asking you to give a ratio. <p></p>Circumference is calculated as 2<em>&pi;r</em>. <p></p>Notice that <em>r</em> is the only variable, so the circumferences must vary as the radius does.</p>
@@ -1399,7 +1400,7 @@ So half the senior music students will earn music awards. How many is that? </p>
 </td></tr>
 	
 <div id="answer-s4-8f" class="incorrect">
-<p>Did you multiply 605 by <span class="frac"><sup>1</sup><span>&frasl;</span><sub>4</sub></span> ? Not all 605 juniors are college bound.</p>
+<p>Try again. Start by determing the number of students who plan on attending college.<p></p>Then determine what is half of that number.</p>
 </div>
 <div id="answer-s4-8g" class="incorrect">
 <p>To find number of juniors planning to go to college, multiply 605 by <span class="frac"><sup>4</sup><span>&frasl;</span><sub>5</sub></span>. <p></p>Multiply by 4, and divide by 5. Then find the number of those planning to go out of state.</p>
@@ -1428,16 +1429,17 @@ So half the senior music students will earn music awards. How many is that? </p>
 </td></tr>
 
 <div id="answer-s4-9a" class="incorrect">
-<p>If <em>p</em> is 0, <em>a</em> must be <span class="frac"><sup>4</sup><span>&frasl;</span><sub>3</sub></span>, and <em>b</em> must be 0. </p><p>This restricts what <em>a</em> and <em>b</em> may be. </p><p>Look for an answer that makes the equations equivalent.</p>
+<p>If <em>p</em> is 0, <em>a</em> must be <span class="frac"><sup>4</sup><span>&frasl;</span><sub>3</sub></span>, and <em>b</em> must be 0. </p><p>But <em>a</em> and <em>b</em> can't be restricted in this way because the problem states that the system has an infinite number of solutions </p><p>Look for an answer that makes the equations equivalent.</p>
 </div>
 <div id="answer-s4-9b" class="incorrect">
-<p>This answer is impossible. It says  </p><p> 3<em>a</em> &minus;  2<em>b</em> = 4 <em> </p><p>and </p><p></em> 12<em>a</em> &minus; 4<em>b</em> = 16. </p><p>If the second equation is divided by 4 on both sides, it reduces to </p><p> 3<em>a</em> &minus;  <em>b</em> = 4. </p><p>Both equations cannot be true at the same time.</p>
+<p>Allowing p = 1 results in the system 3<em>a</em> &minus;  2<em>b</em> = 4 and 12<em>a</em> &minus;  4<em>b</em> = 16.</p><p>This system has a solution of <em>a</em> = <span class="frac"><sup>4</sup><span>&frasl;</span><sub>3</sub></span> and <em>b</em> = 0, which is impossilbe since the problem states that
+ the system has an infinite number of solutions.  Try to f ind the value of p that causes the system to reduce to a statement that is always  true (for example, 0 = 0).</p><p>  <em> </p><p>and </p><p></em> 12<em>a</em> &minus; 4<em>b</em> = 16. </p><p>If the second equation is divided by 4 on both sides, it reduces to </p><p> 3<em>a</em> &minus;  <em>b</em> = 4. </p><p>Both equations cannot be true at the same time.</p>
 </div>
 <div id="answer-s4-9c" class="correct"> 
 <p>If <em>p</em> is 2, then the equations are equivalent. </p><p>Both sides of the first equation have been multiplied by 4. </p><p>An infinite number of <em>a</em> and <em>b</em> values satisfies the equation. </p>
 </div>
 <div id="answer-s4-9d" class="incorrect">
-<p>After plugging in <em>p</em> = 4 and reducing the equations, they say  </p><p>3<em>a</em>  &minus;  2<em>b</em>  = 4  </p><p><em>and</em>  </p><p> 3<em>a</em> &minus;  4<em>b</em> = 4. </p><p>Both cannot be correct.</p>
+<p>Allowing <em>p</em> = 4 resultis in the system 3<em>a</em> &minus;  2<em>b</em> = 4  and 12<em>a</em> &minus; 16<em>b</em> = 16.  This system has a solution of of a = 4/3 and b = 0, which is impossilbe since the problem states that the system has  an infinite number os solutions.</p><p>Try to find the value of p that causes the system to reduce to a statement that is always true (for example, 0 = 0).</p>
 </div>
 <div id="answer-s4-9e" class="incorrect">
 <p>This answer is not possible: try plugging in <em>p</em> = 8 and see for yourself. </p><p>Find the answer that makes the two equations equivalent.</p>
@@ -1455,10 +1457,10 @@ So half the senior music students will earn music awards. How many is that? </p>
 </td></tr>
 	
 <div id="answer-s4-10f" class="incorrect">
-<p>A number multiplied by 1.25 gives 625. </p><p>To find the original number, you divided 625 by 1.25, and got 500. </p><p>40% of 500 is 200.</p>
+<p>Since 125% of the number is 625, the equation 1.25<em>x</em> = 625 can be used to solve for the number.</p><p>Then, determine what 40% of this number is.</p>
 </div>
 <div id="answer-s4-10g" class="correct">
-<p>You multiplied 625 by 75%. </p><p>To find the original number, though, you need to divide 625 by 125%.</p>
+<p>A number multiplied by 1.25 gives 625. </p><p>To find the original number, you divided 625 by 1.25, and got 500. </p><p>40% of 500 is 200.</p>
 </div>
 <div id="answer-s4-10h" class="incorrect"> 
 <p>You found 40% of 625. You need to find 40% of the number which, when multiplied by 125%, equals 625.</p>
@@ -1483,19 +1485,19 @@ So half the senior music students will earn music awards. How many is that? </p>
 </td></tr>
 
 <div id="answer-s4-11a" class="incorrect">
-<p>This answer is incorrect.</p>
+<p>Try again, recalling that the formula</p><p> <span class="frac"><sup>[(<em>n</em> + 1) (<em>n</em> + 2)] </sup><span>&frasl;</span><sub>2</sub></span> can be used to find the number of dots in <em>n</em> layers of triangles.</p><p>Or, alternatively, try to find a pattern that describes the the number of dots (i.e., 3, 6, 10, ?, ?, ...) in <em>n</em> layers of triangles.</p>
 </div>
 <div id="answer-s4-11b" class="correct">
 <p>This is the correct answer.</p>
 </div>
 <div id="answer-s4-11c" class="incorrect"> 
-<p>This answer is incorrect.</p>
+<p>Try again.  You found the number of dots in 5 layers, not 6.</p>
 </div>
 <div id="answer-s4-11d" class="incorrect">
-<p>This answer is incorrect.</p>
+<p>Try again, recalling that the formula</p><p> <span class="frac"><sup>[(<em>n</em> + 1) (<em>n</em> + 2)] </sup><span>&frasl;</span><sub>2</sub></span> can be used to find the number of dots in <em>n</em> layers of triangles.</p><p>Or, alternatively, try to find a pattern that describes the the number of dots (i.e., 3, 6, 10, ?, ?, ...) in <em>n</em> layers of triangles.</p>
 </div>
 <div id="answer-s4-11e" class="incorrect">
-<p>This answer is incorrect.</p>
+<p>Try again, recalling that the formula</p><p> <span class="frac"><sup>[(<em>n</em> + 1) (<em>n</em> + 2)] </sup><span>&frasl;</span><sub>2</sub></span> can be used to find the number of dots in <em>n</em> layers of triangles.</p><p>Or, alternatively, try to find a pattern that describes the the number of dots (i.e., 3, 6, 10, ?, ?, ...) in <em>n</em> layers of triangles.</p>
 </div>
 <!-- *************************************************************** -->
 <tr><td>
@@ -1514,13 +1516,13 @@ So half the senior music students will earn music awards. How many is that? </p>
 Even if there is no overlap between the soccer group and the basketball group, 5 athletes play neither game.</p>
 </div>
 <div id="answer-s4-12g" class="incorrect">
-<p>5 is the number of athletes who play neither soccer nor basketball. </p><p>The question asks for the minimum number of athletes who play both games. </p><p>How much overlap must there be between the two groups?</p>
+<p>5 is the number of athletes who play neither soccer nor basketball. </p><p>The question asks for the minimum number of athletes who play both games. </p><p>Does there have to be overlap between the two groups?</p>
 </div>
 <div id="answer-s4-12h" class="incorrect"> 
 <p>This means that all the basketball players also play soccer. Nothing in the problem indicates that this must be true.</p>
 </div>
 <div id="answer-s4-12j" class="incorrect">
-<p>Start by figuring out the total number of athletes who play either soccer or basketball. If there are 26 athletes, must be overlap between the two groups?</p>
+<p>Start by figuring out the total number of athletes who play either soccer or basketball. If there are 26 athletes, must there be overlap between the two groups?</p>
 </div>
 <div id="answer-s4-12k" class="incorrect">
 <p>Since there are only 6 basketball players, it is not possible that 21 athletes play both basketball and soccer. </p><p>Try again, asking how much overlap there must be between the groups if there are 26 athletes total.</p>

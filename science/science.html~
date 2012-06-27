@@ -123,8 +123,8 @@ jQuery(document).ready(function($) {
 			<li><a href="#set-6">VI</a></li>
 			<li><a href="#set-7">VII</a></li>			
 			<div align="right">
-			<a href="#" id="correct-button" title="Correct Answers"><span class="correct-answers">00</span></a>
-			<a href="#" id="incorrect-button" title="Incorrect Answers"><span>00</span></a>
+			<a href="#" id="correct-button" title="Correct Answers" class="correct-answers">00</a>
+			<a href="#" id="incorrect-button" title="Incorrect Answers"><span class="incorrect-answers">00</span></a>
 			<a href="#" id="timer" title="Start Timer"><span>35:00</span></a>
 			</div>
 		</ul>
@@ -1064,12 +1064,11 @@ jQuery(document).ready(function($) {
 <tr valign="top">
 	<td class="passage">
 		<table id="" >
-			<tr><td><em>Optical density</em> is a measure of how much light slows as it passes through a medium. The higher a medium's 
-			        optical density, the more it refracts, or bends, light as light enters from the air.</td></tr>
-				<tr><td>To determine relative optical densities, a group of students measured angles of refraction in four media: water, clear gelatin, and two mystery substances, A and B. They placed prismatic 
-				        glass containers holding each substance near a wall, on a sheet of graph paper with coordinates marked. They shined a ruby 
-				        laser along the <em>y</em>-axis and into each medium. The beam of light emerged from the container at an angle 
-				        to the <em>y</em>-axis and made a spot on the wall.</td></tr>
+			<tr><td><em>Optical density</em> is a measure of how much light changes speed as it passes through a material. The higher a material's 
+			        optical density, the more it refracts, or changes the direction of, light as light enters from the air.</td></tr>
+				<tr><td>To determine relative optical densities, a group of students measured angles of refraction in four materials: water, clear gelatin, and two mystery substances, A and B. They placed clear 
+				        glass containers holding each substance against a wall, on a sheet of graph paper with coordinates marked. They shined a ruby 
+				        laser at an angle of 45&deg; to the side of the container. The beam of light refracted in the material and struck a different point on the wall for each of the materials. </td></tr>
 				<tr><td><img src="../images/science/passageVI.jpg" width="100%"></td></tr>
 				<tr><td>The students sketched and measured each beam’s angle of refraction. They drew the following graphs:</td></tr>
 				<tr><td align="center"><img src="../images/science/passageVIanswerI.jpg"></td></tr>						
@@ -1081,7 +1080,7 @@ jQuery(document).ready(function($) {
 				<tr><td align="center"><img src="../images/science/passageVIanswerIV.jpg"></td></tr>
 				<tr><td align="center">(substance B, 30 degrees)</td></tr>
 				<tr><td>Students were then given a table of refractive indexes and asked to identify substances A and B. The <em>refractive index</em> 
-				        is a ratio of light’s speed through a given medium to its speed through a vacuum. The lower the refractive index, the less the medium refracts entering light.</td></tr>
+				        is a ratio of light’s speed through a given medium to its speed through a vacuum and is a measure of the optical density of a medium.</td></tr>
 				<tr><td></td></tr>
 				<tr><td>
 					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
@@ -1111,7 +1110,7 @@ jQuery(document).ready(function($) {
 		
 		
 <div class="question">
-	<div class="numcol">1.</div><p>Of the media shown by the students in Figure 2, which medium has the highest optical density?</p>
+	<div class="numcol">1.</div><p>Using the observations sketched by the students and the data in Table 1, which medium has the highest optical density?</p>
 	<p><a id="s6-1a" href="#" class="response">A.</a><span class="response">Water</span></p>
 	<p><a id="s6-1b" href="#" class="response">B.</a><span class="response">Diamond</span></p>
 	<p><a id="s6-1c" href="#" class="response">C.</a><span class="response">Gelatin</span></p>
@@ -1127,36 +1126,36 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s6-1c" class="incorrect"> 
-<p>Gelatin has the second-highest angle of refraction among the substances tested. </p><p>You're looking for the "highest" density; ZAP any graph with a curve that is in the middle.>
+<p>Gelatin has the second-highest angle of refraction among the substances tested. </p><p>You're looking for the "highest" density.>
 </div>
 
 <div id="answer-s6-1d" class="correct">
-<p>The passage states, "The higher the medium's optical density, the more it refracts, or bends, light as light enters from the air." </p><p>Of the substances tested, substance B bends light most, meaning it has the highest optical density.</p>
+<p>The passage states, "The higher the medium's optical density, the more it refracts, or changes direction, light as light enters from the air." </p><p>Of the substances tested, substance B bends light most, meaning it has the highest optical density.</p>
 </div>
 <!----------------------------------------------------------------->
 
 <div class="question">
-	<div class="numcol">2.</div><p>According to the list of refractive indices in Table 1, which of the following media is most likely to be Substance A?</p>
-	<p><a id="s6-2f" href="#" class="response">F.</a><span class="response">Air or vacuum</span></p>
-	<p><a id="s6-2g" href="#" class="response">G.</a><span class="response">Diamond, sapphire, or polystyrene</span></p>
-	<p><a id="s6-2h" href="#" class="response">H.</a><span class="response">Gelatin or water</span></p>
-	<p><a id="s6-2j" href="#" class="response">J.</a><span class="response">Sugar solution or ethyl alcohol</span></p>
+	<div class="numcol">2.</div><p>According to the list of refractive indices in Table 1, which of the following media is possible to be Substance A?</p>
+	<p><a id="s6-2f" href="#" class="response">F.</a><span class="response">Air</span></p>
+	<p><a id="s6-2g" href="#" class="response">G.</a><span class="response">Sapphire</span></p>
+	<p><a id="s6-2h" href="#" class="response">H.</a><span class="response">Sugar solution</span></p>
+	<p><a id="s6-2j" href="#" class="response">J.</a><span class="response">Polystyrene</span></p>
 </div>
 		
 <div id="answer-s6-2f" class="incorrect">
-<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Air and vacuum have optical densities lower than both gelatin and water.</p>
+<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Air has an optical density lower than both gelatin and water.</p>
 </div>
 
 <div id="answer-s6-2g" class="incorrect">
-<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Diamond, sapphire, and polystyrene all have optical densities higher than both gelatin and water.</p>
+<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Sapphire has an optical density higher than both gelatin and water.</p>
 </div>
 
-<div id="answer-s6-2h" class="incorrect"> 
-<p>Both gelatin and water are tested in the experiment, and neither substance's angle of refraction is identical to Substance A's.</p>
+<div id="answer-s6-2h" class="correct"> 
+<p>With an angle of refraction between water's and gelatin's, Substance A's optical density and refractive index must also be between the two. </p><p>Sugar solution meets this requirement.</p>
 </div>
 
-<div id="answer-s6-2j" class="correct">
-<p>With an angle of refraction between water's and gelatin's, Substance A's optical density and refractive index must also be between the two. </p><p>Ethyl alcohol and sugar solution meet this requirement.</p>
+<div id="answer-s6-2j" class="incorrect">
+<p>Substance A's angle of refraction is between those of gelatin and water. </p><p>Polystyrene has an optical density higher than both gelatin and water.</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1189,7 +1188,7 @@ jQuery(document).ready(function($) {
 	<div class="numcol">4.</div><p>According to the passage, which of the following graphs best represents the relationship between optical density and angle of refraction?</p>
 	<p><a id="s6-4f" href="#" class="response">F.</a><span class="response"><img src="../images/science/figure34f.jpg"></span></p>
 	<p><a id="s6-4g" href="#" class="response">G.</a><span class="response"><img src="../images/science/figure34g.jpg"></span></p>
-	<p><a id="s6-4h" href="#" class="response">H.</a><span class="response"><img src="../images/science/figure34h.jpg"></span></p>
+	<p><a id="s6-4h" href="#" class="response">H.</a><span class="response"><img src="../images/science/figure29c.jpg"></span></p>
 	<p><a id="s6-4j" href="#" class="response">J.</a><span class="response"><img src="../images/science/figure34j.jpg"></span></p>
 </div>
 		
@@ -1206,7 +1205,7 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s6-4j" class="correct">
-<p>The passage says, "The higher the medium's optical density, the more it refracts, or bends, light as light enters from the air."</p>
+<p>The passage says, "The higher the medium's optical density, the more it refracts, or changes the direction, as light enters from the air."</p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -1219,15 +1218,15 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="answer-s6-5a" class="incorrect">
-<p>The refractive index of plexiglas (1.51) is higher than that of ethyl alcohol (1.36), making this an accurate statement.</p>
+<p>Did you notice that the question asked, "which of the following statements is <em>not</em> accurate?" Pay extra attention to the question whenever you see a negative word. </p><p>The refractive index of plexiglas (1.51) is higher than that of ethyl alcohol (1.36), making this an accurate statement.</p>
 </div>
 
 <div id="answer-s6-5b" class="incorrect">
-<p>The refractive index of a vacuum (1.00) is the lowest in the table, making this an accurate statement.</p><p> If you relied on the True/False strategy here (ZAPPING "any") you would be wrong in this case. </p><p>That's why it's best to ONLY use the True/False strategy when you have to guess.</p>
+<p>There's a trap in this question. Pay extra attention to the question whenever you see a negative word.</p><p>The refractive index of a vacuum (1.00) is the lowest in the table, making this an accurate statement.</p><p> If you relied on the True/False strategy here (ZAPPING "any") you would be wrong in this case. </p><p>That's why it's best to ONLY use the True/False strategy when you have to guess.</p>
 </div>
 
 <div id="answer-s6-5c" class="correct"> 
-<p>The passage states, "The lower the refractive index, the less the medium refracts entering light." </p><p>The opposite must also be true.</p><p> Sapphire has a higher refractive index than water and must refract light more strongly than Water does; therefore, statement C is incorrect.</p>
+<p>Pay close attention whenever you see a negative word in the quesion.</p><p>The passage states, "The higher a material's optical density, the more it refracts, or changes the direction of light as light enters from the air." </p><p> Sapphire has a higher refractive index than water and must refract light more strongly than Water does; therefore, statement C is incorrect.</p>
 </div>
 
 <div id="answer-s6-5d" class="incorrect">
