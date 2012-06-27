@@ -40,9 +40,17 @@ table.results-table {
 	}
 	
 table.results-table td {
-	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	font-size:12px;
 	border: 1px solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+	
+table.results-table th {
+	padding-top: 0px;
+	padding-bottom: 0px;
 	padding-left: 5px;
 	padding-right: 5px;
 	}
@@ -76,8 +84,37 @@ td {
 	width:350px;
 	}
 	
+span.correct-answers {
+	color: green;
+	font-weight: bold;
+	}	
+	
+span.incorrect-answers {
+	color: #C24641;
+	font-weight: bold;
+	}
+	
+a.answered_question {
+	background-image: url('../images/circle.gif');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+a.correct_answered_question {
+	background-image: url('../images/correct.gif');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+a.incorrect_answered_question {
+	background-image: url('../images/incorrect.gif');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+	
 div.correct, div.incorrect {
 	display: none;
+	font-family:'Times New Roman', Times, Georgia, serif;
 	}
 
 .numcol {
@@ -98,6 +135,8 @@ table.mathquestiontable {
 	position: relative;
 	left: 60px;
 	line-height:1.3em;
+	border: 1px solid;
+	text-align: center;
 	}
 	
 table.sciencequestiontable {
@@ -107,6 +146,7 @@ table.sciencequestiontable {
 	
 table.mathquestiontable td {
 	padding-top: 0px;
+	border: 1px solid;
 	}
 
 .question p, .mathquestion p {

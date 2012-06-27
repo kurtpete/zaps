@@ -33,8 +33,13 @@ function formatSecondsAsTime(secs, format) {
 }
 
 var answered = new Array();
+var correct_answered = new Array();
+var incorrect_answered = new Array();
 var correct = 0;
 var incorrect = 0;
+
+var timer_on = false;
+var timer_interval;
 
 jQuery(document).ready(function($) {
 
@@ -49,64 +54,104 @@ jQuery(document).ready(function($) {
 	
 	$("a.response").click( function() { 
 		var ans = this.id.slice(0, -1);
-    	if ($.inArray(ans, answered) < 0) {
-    		answered.push(ans);
-    		if ($('#answer-' + this.id).hasClass('incorrect')) {
-    			incorrect++;
-    			this.innerHTML = '<img src="../images/incorrect.gif"/>';
-    			$("span", "#incorrect-button").text(formatSecondsAsTime(incorrect, "ss"));
-    		}
-    		else {
-    			correct++;
-    			this.innerHTML = '<img src="../images/correct.gif"/>';
-    			$("span", "#correct-button").text(formatSecondsAsTime(correct, "ss"));
-    		}
-    	}
-        $('#answer-' + this.id).dialog({
-			modal: true,
-			resizable: false,
-			buttons: {
-				Ok: function() {
-					$(this).dialog( "close" );
-					if ((correct + incorrect) == totalQuestions) {
-						$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
-						$("#test-results").dialog({
-							modal: true,
-							resizable: false,
-							width:'auto',
-							buttons: { Ok: function() { $(this).dialog("close"); } }
-						});
+
+		if ($('#answer-' + this.id).hasClass('incorrect')) {
+			if (incorrect_answered.indexOf(ans) > -1) {
+				incorrect_answered.push(ans);
+				incorrect++;
+			}
+			
+			if (correct_answered.indexOf(ans) > -1) {
+				correct_answered.splice(correct_answered.indexOf(ans), 1);
+			}
+		}
+		else {
+			if (correct_answered.indexOf(ans) > -1) {
+				correct_answered.push(ans);
+				correct++;
+			}
+
+			if (incorrect_answered.indexOf(ans) > -1) {
+				incorrect_answered.splice(incorrect_answered.indexOf(ans), 1);
+			}
+		}		
+		
+		if (!timer_on) {
+	    	if ($.inArray(ans, answered) < 0) {
+	    		answered.push(ans);
+	    		if ($('#answer-' + this.id).hasClass('incorrect')) {
+	    			this.className += ' incorrect_answered_question';
+	    			//this.innerHTML = '<img src="../images/incorrect.gif"/>';
+	    			$("span", "#incorrect-button > span").text(formatSecondsAsTime(incorrect, "ss"));
+	    		}
+	    		else {
+	    			//this.innerHTML = '<img src="../images/correct.gif"/>';
+	    			this.className += ' correct_answered_question';
+	    			$("span", "#correct-button > span").text(formatSecondsAsTime(correct, "ss"));
+	    		}
+	    	}
+	        $('#answer-' + this.id).dialog({
+				modal: true,
+				resizable: false,
+				buttons: {
+					Ok: function() {
+						$(this).dialog( "close" );
 					}
 				}
-			}
-		});
-   
+			});
+      }
+      else {
+      	// this.innerHTML = '<img src="../images/black.jpg"/>';
+			$('a[id^=' + ans + ']').removeClass('answered_question');     	
+      	
+      	this.className += ' answered_question';
+      }
+
+		if ((correct + incorrect) == totalQuestions) {
+			$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
+			$("#test-results").dialog({
+				modal: true,
+				resizable: false,
+				width:'auto',
+				buttons: { Ok: function() { $(this).dialog("close"); } }
+			});
+		}      
+      
    	return false;
    });
    
    $("#timer").click(function () {
-   	$("#timer").off("click");
-		$("#timer").button("disable");
-		var t = setInterval(function() { 
-	      $("span", "#timer").text(formatSecondsAsTime(--countdown, "mm:ss"));
-	      if (countdown == 0) {        
-	        clearInterval(t);
-	        $("#time-up").dialog({
-					modal: true,
-					resizable: false,
-					buttons: { Ok: function() { 
-						$(this).dialog("close"); 
-						$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
-						$("#test-results").dialog({
-							modal: true,
-							resizable: false,
-							width:'auto',
-							buttons: { Ok: function() { $(this).dialog("close"); } }
-						});
-						} }
-				});				
-				}
-			}, 1000)
+   	// $("#timer").off("click");
+		// $("#timer").button("disable");
+		if (!timer_on) {
+			timer_on = true;
+			timer_interval = setInterval(function() { 
+		      $("span", "#timer").text(formatSecondsAsTime(--countdown, "mm:ss"));
+		      if (countdown == 0) {        
+		        clearInterval(timer_interval);
+		        $("#time-up").dialog({
+						modal: true,
+						resizable: false,
+						buttons: { Ok: function() { 
+							$(this).dialog("close"); 
+							$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
+							$("#test-results").dialog({
+								modal: true,
+								resizable: false,
+								width:'auto',
+								buttons: { Ok: function() { $(this).dialog("close"); } }
+							});
+							} }
+					});				
+					}
+				}, 1000)
+		}
+		else {
+			clearInterval(timer_interval);
+			timer_on = false;
+		}
+		
+		return false;
 	});
 
 	$("a", "#nav").button().parent().buttonset();
@@ -115,6 +160,7 @@ jQuery(document).ready(function($) {
 	$("#incorrect-button").button({icons: {primary: "ui-icon-circle-close"}});
 	
 	$("#correct-button,#incorrect-button").click( function() {
+		$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
 		$("#test-results").dialog({
 							modal: true,
 							resizable: false,
