@@ -569,8 +569,9 @@ jQuery(document).ready(function($) {
 <p>“heal.” At your campsite, try not to create</p>
 <p>“social paths,” those early signs of</p>
 <p>trails-in-the-making. Disperse your footsteps</p>
-<p>between your campsite, the water source, and your</p>
-<p>cooking and food-storage areas.<span class="box">4</span></p>
+<p>between your campsite, the water source, and your</p></td><td></td></tr>
+
+<tr><td class="prose"><p>cooking and food-storage areas.<span class="box">4</span></p>
 </td><td class="questions" id="s2-4"></td></tr>
 
 <tr><td class="prose">
