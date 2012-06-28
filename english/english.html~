@@ -101,8 +101,8 @@ jQuery(document).ready(function($) {
 <div id="accordion">
 <h3><a href="#">English</a></h3>
 <div>
-<p class="instructions">On the actual ACT Reading test, you'll have 45 minutes to answer 75 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice English test:</p>
-<p class="instructions">Taking the English Test Timed</p>
+<p class="instructions">On the actual ACT English test, you'll have 45 minutes to answer 75 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice English test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
+<p class="instructions">Timed Test</p>
 <p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
 <ul>
 <li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
@@ -111,12 +111,12 @@ jQuery(document).ready(function($) {
 <li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
 <li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
 </ul>
-<p class="instructions">Taking the English Test Untimed</p>
+<p class="instructions">Untimed Test</p>
 <p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
 <ul>
-<li>Carefully read the question and each of the answer choices. </li>
-<li>ZAP any answers you know to be incorrect.</li>
-<li>Select the correct answer by clicking on the letter. </li>
+<li>Carefully read the question and each of the answer choices.</li>
+<li><em>ZAP</em> any answers you know to be incorrect.</li>
+<li>Select the correct answer by clicking on the letter.</li>
 <li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
 <li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
 <li>You cannot change your answer once you have clicked it.</li>
@@ -224,7 +224,7 @@ jQuery(document).ready(function($) {
 <td class="questions" id="s1-10"></td></tr>
 
 <tr><td class="prose"><p>epidemics is the Power of Context. Human behavior</p></td><td></td></tr>
-<tr><td class="prose"><p><span class="und"><sup>had been</sup><span>&frasl;</span><sub>11</sub></span> strongly influenced by environment, and</p></td>
+<tr><td class="prose"><p><span class="und"><sup>had been strongly influenced by </sup><span>&frasl;</span><sub>11</sub></span> environment, and</p></td>
 <td class="questions" id="s1-11"></td></tr>
 
 <tr><td class="prose"><p>epidemics are sensitive to the time and place in</p></td><td></td></tr>
@@ -258,22 +258,22 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-1d" href="#" class="response">D.</a><span class="response">describes</span></p>
 </div>
 <div id="answer-s1-1a" class="incorrect">
-<p>In the opening section, Ming and Sansan arrive in their new home feeling overwhelmed (paragraph 1) and afraid (paragraph 4), and wondering how they will adjust. Sansan says, “We’re getting old. How will we make the space in our minds for everything we’ll need to learn here?” Ming replies, “We will forget.” The rest of the passage builds to the final paragraph, which says that Ming envied how Charles could easily look to the past, that Ming sees the past as his enemy, and that his memories dog him.</p>
+<p><strong>The best answer is not A.</strong> Gladwell is defining <em>tipping point,</em> not describing its effects. Go for the more straightforward, direct verb. Shorter is usually better. </p>
 </div>
 <div id="answer-s1-1b" class="incorrect">
-<p>The focus of the passage is not really on Charles becoming an adult (he is still a few years away from that), and his parents are not very successful in remaining connected to their son. The father finds his son’s interests to be mysterious (paragraph 10) and has only brief glimpses into his son’s interests (paragraphs 10 and 11).</p>
+<p><strong>The best answer is not B.</strong> It is not necessary to discuss Gladwell’s intentions here, only what he actually does. Go for the more straightforward, direct verb. Shorter is usually better. </p>
 </div>
 <div id="answer-s1-1c" class="incorrect"> 
-<p>Though the passage does suggest that Sansan is nervous about adjusting to a new country (paragraphs 4 and 5), nothing is specifically mentioned about her trying to meet friends or maintain connections with family in China.</p>
+<p><strong>The best answer is not C.</strong> It is not necessary to discuss Gladwell’s intentions here, only what he actually does. Go for the more straightforward, direct verb. Shorter is usually better. </p>
 </div>
 <div id="answer-s1-1d" class="correct">
-<p>Ming and Charles do not share many of the same interests. Ming feels that Charles’s interests are mysterious (paragraph 10). Ming likes science (paragraph 11), but Charles is drawn to the humanities (paragraph 9). When Charles asks Ming if he likes history, Ming says he can’t remember (paragraph 17).</p>
+<p><strong>The best answer is D.</strong> The writer uses the present tense to discuss Gladwell’s writing, beginning in the previous sentence (“Author Malcom Gladwell says &hellip;”). </p><p>There is no need to shift the tense to present-perfect (“has described”). The best choice is the present tense verb (“describes”). </p><p>Also, the most concise choice is best. Conciseness means using only as many words as necessary to get the point across. Follow the “shorter is usually better” tip here if you are not sure of the grammar rule. </p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s1-2" class="question">
 	<div class="numcol">2.</div>
 	<p>The writer is considering deleting the following sentence at the end of Paragraph 1:</p>
-	<p>Fads spread, just as viruses do.</p>
+	<blockquote>Fads spread, just as viruses do.</blockquote>
 	<p>If the writer were to make this deletion, the essay would primarily lose:</p>
 	<p><a id="s1-2f" href="#" class="response">F.</a><span class="response">foreshadowing that hints at the article’s conclusion.</span></p>
 	<p><a id="s1-2g" href="#" class="response">G.</a><span class="response">minor details that the writer uses for illustration.</span></p>
@@ -281,36 +281,35 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-2j" href="#" class="response">J.</a><span class="response">a critical connection for understanding how fads are spread.</span></p>
 </div>
 <div id="answer-s1-2f" class="incorrect">
-<p>In paragraphs 5 and 6, we see the Hwangs’ decision to forget, and the final two paragraphs show that Ming continues to work hard to forget his past.</p>
+<p><strong>The best answer is not F.</strong> Rather than foreshadowing, this line provides a key comparison as part of an introductory definition. </p><p>You could jump ahead and read the conclusion of the article to be sure, but before taking time to do that, read the remaining choices to see if any of them are stronger. </p>
 </div>
 <div id="answer-s1-2g" class="incorrect">
-<p>The passage suggests the opposite, that the Hwangs put a large part of who they are behind them because they they think they need to do so in order to make room for all they will need to learn in their new lives (paragraphs 5, 6, 17 and 18).</p>
+<p><strong>The best answer is not G.</strong> This line helps define a key concept by using a general comparison, not by giving minor details. </p>
 </div>
 <div id="answer-s1-2h" class="incorrect"> 
-<p>See paragraphs 5 and 6: “‘We’re getting old,’ [Sansan] said. ‘How will we make the space in our minds for everything we’ll need to learn here?’ Without a pause, [Ming] answered her, ‘We will forget.’”</p>
+<p><strong>The best answer is not H.</strong> This isn’t so much a lesson as a comparison that helps define a key concept. </p>
 </div>
 <div id="answer-s1-2j" class="correct">
-<p>Though a few minor comparisons may be implied in the passage, no detailed comparisons between the two countries are given. Instead, the Hwangs decided to forget their old lives in China, thinking they need to do so to make room for their new lives in the U.S. (paragraphs 5 and 6). </p>
+<p><strong>The best answer is J.</strong> The topic of the paragraph is how fads begin, or take off. </p><p>Gladwell compares fads to something else that spreads rapidly: an epidemic. The final line (“Fads spread, just as viruses do.”) makes this direct comparison. </p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s1-3" class="question">
 	<div class="numcol">3.</div>
 	<p><a id="s1-3a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
 	<p><a id="s1-3b" href="#" class="response">B.</a><span class="response">Connectors, who are</span></p>
-	<p><a id="s1-3c" href="#" class="response">C.</a><span class="response">Connectors, whom are</span></p>
-	<p><a id="s1-3d" href="#" class="response">D.</a><span class="response">Connectors whom are</span></p>
+	<p><a id="s1-3c" href="#" class="response">C.</a><span class="response">Connectors whom are</span></p>
+	<p><a id="s1-3d" href="#" class="response">D.</a><span class="response">Connectors, whom are</span></p>
 </div>
 <div id="answer-s1-3a" class="incorrect">
-<p>The father is interesting in learning. He and Sansan encourage their son’s learning by buying him a desk and school supplies. He also says he used to like to read the history of science and once loved science.</p>
+<strong>The best answer is not A.</strong> A comma is needed after <em>Connectors</em to set off the nonrestrictive clause (one that is not necessary to the meaning of the sentence) “who are highly networked people with an extraordinary ability to make friends and acquaintances.” </p>
 </div>
-<div id="answer-s1-3b" class="correct">
-<p>Charles is so passionate about learning history that “He once failed to hear a fire drill bell while reading a biography of Thomas Paine.... He was drawn to the humanities and he seemed to be developing a passion for examining the past” (paragraph 9). He talks easily about history in paragraph 12. There are several hints that Ming finds the past difficult to talk about: “Ming did not know how to tackle this enormous question” about Chinese immigrants coming to the U.S. to work on the railroads (paragraph 13). When asked whether he liked history, “Ming stood and thought for a moment. ‘To tell you the truth,’ he said, ‘I can’t remember’” (paragraph 17). “He found himself envying the easy way that Charles reached for the past. How could he explain to his son that the past was his enemy? ...” (paragraph 18).</p>
-</div>
-<div id="answer-s1-3c" class="incorrect"> 
-<p>The father wants to talk with his son; he just finds it difficult to relate to him.</p>
+<div id="answer-s1-3b" class="incorrect">
+<p><strong>The best answer is not B.</strong> The subjective pronoun (<em>who</em>), rather than the objective pronoun (<em>whom</em>), is needed here. </p></div>
+<div id="answer-s1-3c" class="correct"> 
+<p><strong>The best answer is C.</strong> A comma is needed after <em>Connectors</em to set off the nonrestrictive element “who are highly networked people with an extraordinary ability to make friends and acquaintances.” </p><p>A nonrestrictive element (in this case a clause) is one that is not necessary to the meaning of the sentence; you could remove it and the sentence would still be understandable. </p>
 </div>
 <div id="answer-s1-3d" class="incorrect">
-<p>Though the father does suggest that the future will bring the family luck (paragraph 3), nothing in the passage suggests that Charles thinks their best days are behind them.</p>
+<p><strong>The best answer is not D.</strong> A comma is needed after <em>Connectors</em> to set off the clause that follows. </p><p>Also, the subjective pronoun (<em>who</em>), rather than the objective pronoun (<em>whom</em>), is needed here. </p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s1-4" class="question">
@@ -321,16 +320,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-4j" href="#" class="response">J.</a><span class="response">Mavens or, information specialists</span></p>
 </div>
 <div id="answer-s1-4f" class="correct">
-<p>Charles excels in school (paragraphs 8 and 9) rather than faces difficulty.</p>
+<p><strong>The best answer is F.</strong> The phrase “or information specialists” is not necessary to the meaning of the sentence and should be set off with commas. </p>
 </div>
 <div id="answer-s1-4g" class="incorrect">
-<p>The first seven paragraphs tell about the Hwang family’s arrival in their new home in Iowa and reveals that they are immigrants from China. Paragraphs 5 and 6 tell how they plan to adjust to their new home.</p>
+<p><strong>The best answer is not G.</strong> There is no reason to put a comma after or. A comma is, however, needed after <em>specialists</em> so that the entire nonrestrictive phrase “or information specialists” is set off with commas. </p>
 </div>
 <div id="answer-s1-4h" class="incorrect"> 
-<p>Not much is revealed in the first seven paragraphs about Charles’s relationship with his parents. He is only a baby in the opening scene.</p>
+<p><strong>The best answer is not H.</strong> The comma is needed before or rather than afterward, in order to set off the nonrestrictive phrase “or information specialists”. </p>
 </div>
 <div id="answer-s1-4j" class="incorrect">
-<p>Besides a hope for good luck and thoughts about how the Hwangs will adjust, paragraphs 1 through 7 do not give much detail about their hopes and dreams. Nothing in the passage tells about their aspirations changing over time. Their aspirations to adjust to their new lives and see their son succeed remain steady over time.</p>
+<p><strong>The best answer is not J.</strong> The comma is needed before <em>or</em> and after <em>specialists</em> in order to set off the nonrestrictive phrase “or information specialists.” There is no reason to put a comma after <em>or.</em> </p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s1-5" class="question">
@@ -341,16 +340,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-5d" href="#" class="response">D.</a><span class="response">would have enjoyed</span></p>
 </div>
 <div id="answer-s1-5a" class="incorrect">
-<p>Mercy Lake is used in the description not of Charles’s struggles but of Ming’s thoughts about his past: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
+<p><strong>The best answer is not A.</strong> The verb <em>would</em> indicates an action that is conditional (dependent on some condition in the future), rather than habitual. </p>
 </div>
 <div id="answer-s1-5b" class="correct">
-<p>Mercy Lake is used in the description of Ming’s thoughts about the past, not the future: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
+<p><strong>The best answer is B.</strong> The present-tense verb <em>enjoy</em> is needed to denote a habitual action. </p><p> Choose a verb in the same tense as the other verbs in this paragraph (present tense). </p><p>Keep verb tenses consistent unless you have a solid rhetorical reason for shifting them. </p>
 </div>
 <div id="answer-s1-5c" class="incorrect"> 
-<p>Mercy Lake is used in the description of Ming’s internal struggles, not peacefulness: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
+<p><strong>The best answer is not C.</strong> The verb <em>are enjoying</em> indicates continuing or progressive action, rather than an action that is a habit. </p>
 </div>
 <div id="answer-s1-5d" class="incorrect">
-<p>See the last paragraph: “... his memories dogged him... rose up in his dreams, the way that … Mercy Lake flooded through its margins...”</p>
+<p><strong>The best answer is not D.</strong> The verb <em>would have enjoyed</em> indicates a conditional action in the past, one that did not happen but would have if certain conditions were present. </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -362,17 +361,17 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-6j" href="#" class="response">J.</a><span class="response">No, because it is inconsistent with the style of this essay to add specific details about Gladwell’s laws of epidemics.</span></p>
 </div>
 		
-<div id="answer-s1-6f" class="correct">
-<p>Nothing in the passage supports the idea that the conversation is an angry one.</p>
+<div id="answer-s1-6f" class="incorrect">
+<p><strong>The best answer is not F.</strong>D The writer is using the term <em>Salesmen</em> figuratively to describe a type of person who propels fads forward. </p><p>The writer is not talking about literal <em>Salesmen</em> who earn commissions for actually selling the items. </p>
 </div>
-<div id="answer-s1-6g" class="incorrect">
-<p>There are no hints (i.e., hugs, embraces, affectionate words or gestures) that the conversation is particularly affectionate.</p>
+<div id="answer-s1-6g" class="correct">
+<p><strong>The best answer is G.</strong> This detail adds a descriptive characteristic of Salesmen that helps explain how they might encourage others to embrace a new fad. </p>
 </div>
 <div id="answer-s1-6h" class="incorrect"> 
-<p>The father and son struggled to find something in common to talk about.</p><p> As the conversation ends, “That careful, lonely look came into Charles’s face. He went into the kitchen and left Ming standing at the table, regretting how he had ended the conversation.”</p>
+<p><strong>The best answer is not H.</strong> The opposite is true. The possession of powerful negotiation skills <em>does</em> help explain why Salesmen can affect the popularity of items. </p
 </div>
 <div id="answer-s1-6j" class="incorrect">
-<p>There are no hints (i.e., joking, roughhousing, teasing) that the conversation is playful.</p>
+<p><strong>The best answer is not J.</strong> It is not inconsistent with the rest of the paragraph for the author to provide details to describe the types of people who move fads forward. </p><p>Descriptive details are given about both <em>Connectors</em> and <em>Mavens</em>. </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -384,16 +383,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-7d" href="#" class="response">D.</a><span class="response">messaging</span></p>
 </div>
 <div id="answer-s1-7a" class="incorrect">
-<p>No evidence in the passage supports this choice as the correct answer.</p>
+<p><strong>The best answer is not A.</strong> If “to message” is used, then <em>message</em> becomes an action rather than a specific idea. </p><p>The pronoun <em>it</em> that comes later in the sentence is referring to an idea, not an action. </p>
 </div>
 <div id="answer-s1-7b" class="correct">
-<p>No evidence in the passage supports this choice as the correct answer.</p>
+<p><strong>The best answer is B.</strong> The preposition <em>of</em> plus the article <em>a</em should be inserted to create a prepositional phrase ("of a message") describing <em>content</em. What sort of content? The content of a message. </p>
 </div>
 <div id="answer-s1-7c" class="incorrect"> 
-<p>See paragraph 5: “‘We’re getting old,’ she said, ‘How will we make the space in our minds for everything we’ll need to learn here?’”</p>
+<p><strong>The best answer is not C.</strong> If “of messaging” is used, then <em>messaging</em> becomes an action rather than a specific idea. </p><p>The pronoun it that comes later in the sentence is referring to an idea, not an action. </p>
 </div>
 <div id="answer-s1-7d" class="incorrect">
-<p>No evidence in the passage supports this choice as the correct answer.</p>
+<p><strong>The best answer is not D.</strong> If “messaging” is used, then <em>messaging</em> becomes an action rather than a specific idea. </p><p>The pronoun <em>it</em> that comes later in the sentence is referring to an idea, not an action. </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -405,16 +404,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-8j" href="#" class="response">J.</a><span class="response">have the effect of sticking.</span></p>
 </div>	
 <div id="answer-s1-8f" class="correct">
-<p>See paragraphs 9 and 10, which describe Charles’s level of achievement as “phenomenal” and say that “he possessed a truly unusual mind.”</p>
+<p><strong>The best answer is F.</strong> The verb <em>stick</em> agrees with the plural pronoun <em>some,</em> which refers to <em>fads.</em> Use your ear to help you with this one. Which sounds better: <em>some fads sticks,</em> or <em>some fads stick</em>?</p>
 </div>
 <div id="answer-s1-8g" class="incorrect">
-<p>Though Charles may be mysterious to his father, nothing in the passage suggests that he is angry.</p>
+<p> <strong>The best answer is not G.</strong> The verb <em>sticks</em> does not agree with the plural pronoun <em>some,</em> which refers to <em>fads.</em> Use your ear to help you with this one. Which sounds better: <em>some fads sticks</em> or <em>some fads stick</em>?</p>
 </div>
 <div id="answer-s1-8h" class="incorrect"> 
-<p>Though Charles may be quiet (paragraph 9), nothing in the passage suggests that he is socially awkward.</p>
+<p><strong>The best answer is not H.</strong> It doesn’t matter whether the fads are intended to stick so much as whether they actually <em>do</em> stick. If all else fails, use the shorter-is-usually-better tip on this one. </p>
 </div>
 <div id="answer-s1-8j" class="incorrect">
-<p>Charles may be sensitive and considerate, but not many details in the passage explicitly describe this, so this is not the <em>best</em> answer. The greatest detail we have about Charles relates to his intelligence and love of learning.</p>
+<p><strong>The best answer is not J.</strong> The phrase <em>have the effect of sticking</em> is a wordy way of saying <em>stick.</em> Use the shorter-is-usually-better tip on this one. </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -426,16 +425,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-9d" href="#" class="response">D.</a><span class="response">To begin to figure out a way</span></p>
 </div>
 <div id="answer-s1-9a" class="incorrect">
-<p>The word <em>margins</em> is used in the context of a river overflowing its banks: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<p><strong>The best answer is not A.</strong> This choice is awkward and wordy. The infinitive phrase has the same meaning as the gerund phrase, but it sounds awkward and is not parallel with the gerund phrase <em>keeping it alive.</em></p>
 </div>
 <div id="answer-s1-9b" class="correct">
-<p>Though this is one meaning of the word <em>margin</em>, it does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<p><strong>The best answer is B.</strong> A gerund (the <em>–ing</em> form of a verb used as a noun) or gerund phrase is more frequently used at the beginning of a sentence because it sounds less awkward than an infinitive (the form of a verb preceded by <em>to</em>). This choice is also parallel with the gerund phrase <em>keeping it alive.</em> Of the choices given, the most direct and concise choice is best. All others are awkward and unnecessarily wordy. </p>
 </div>
 <div id="answer-s1-9c" class="incorrect"> 
-<p>Though this is one meaning of the word <em>margin</em>, it does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<p><strong>The best answer is not C.</strong> This choice is awkward and wordy. It changes the subject of the sentence from an action (figuring out) to a question (how to figure something out). </p>
 </div>
 <div id="answer-s1-9d" class="incorrect">
-<p>This meaning does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<p><strong>The best answer is not D.</strong> This choice is awkward and wordy. It adds unnecessary words to the awkward infinitive clause used in the passage. It also changes the subject from the whole action (figuring out) to part of the action (beginning to figure out). </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -447,36 +446,36 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-10j" href="#" class="response">J.</a><span class="response">helping people remember a once-popular fad.</span></p>
 </div>	
 <div id="answer-s1-10f" class="incorrect">
-<p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is not F.</strong> <em>Keeping it alive</em> sort of works, but remember you are looking for the <em>best</em> choice. Look at the other choices to see if you can find one that is more descriptive and specific. </p>
 </div>
 <div id="answer-s1-10g" class="correct">
-<p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
+<p><strong>The best answer is G.</strong> This answer is most descriptive of what happens when an idea sticks. It begins as an idea that few people have thought of (obscure), and then something happens to transform it into a fashionable fad. The idea spreads instead of being forgotten. </p>
 </div>
 <div id="answer-s1-10h" class="incorrect"> 
-<p>Though Ming may have some regret, his feelings about the past are not happy ones, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is not H.</strong> The article is about all sorts of fads, not just clothing fashions. </p>
 </div>
 <div id="answer-s1-10j" class="incorrect">
-<p>Ming’s feelings about the past seem more strongly negative than just guilt and do not seem to contain nostalgia. Instead, the past is his enemy, dogging him and rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is not J.</strong> The article is about fads becoming popular for the first time, not resurrecting old fads. </p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s1-11" class="question">
 	<div class="numcol">11.</div>
 	<p><a id="s1-11a" href="#" class="response">A.</a><span class="response">NO CHANGE</span></p>
-	<p><a id="s1-11b" href="#" class="response">B.</a><span class="response">would be</span></p>
-	<p><a id="s1-11c" href="#" class="response">C.</a><span class="response">has been</span></p>
-	<p><a id="s1-11d" href="#" class="response">D.</a><span class="response">is</span></p>
+	<p><a id="s1-11b" href="#" class="response">B.</a><span class="response">would be influenced by</span></p>
+	<p><a id="s1-11c" href="#" class="response">D.</a><span class="response">is strongly influenced by</span></p>
+	<p><a id="s1-11d" href="#" class="response">C.</a><span class="response"></span>has been influenced, strongly, by</p>
 </div>
 <div id="answer-s1-11a" class="incorrect">
-<p>No evidence in the passage supports this choice as the correct answer.</p>
+<p><strong>The best answer is not A.</strong> This needs a verb that describes the present, not the past. </p>
 </div>
 <div id="answer-s1-11b" class="incorrect">
-<p>No evidence in the passage supports this choice as the correct answer.</p>
+<p><strong>The best answer is not B.</strong> This needs a verb that describes the present, not the future. </p>
 </div>
 <div id="answer-s1-11c" class="correct"> 
-<p>See paragraph 5: “‘We’re getting old,’ she said, ‘How will we make the space in our minds for everything we’ll need to learn here?’”</p>
+<p><strong>The best answer is C.</strong> The influence of environment on human behavior is a fact not just in the past but also the present. Use a present-tense verb. Also, be consistent in using the present tense, as in a similar construction in the second half of the sentence (“epidemics <em>are</em> sensitive”). The present tense verb <em>is</em> is the best choice. </p>
 </div>
 <div id="answer-s1-11d" class="incorrect">
-<p>No evidence in the passage supports this choice as the correct answer.</p>
+<p><strong>The best answer is not D.</strong> This needs a verb that describes the present, not the past. </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -488,16 +487,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-12j" href="#" class="response">J.</a><span class="response">It’s generally true that there’s a reason</span></p>
 </div>	
 <div id="answer-s1-12f" class="incorrect">
-<p>See paragraphs 9 and 10, which describe Charles’s level of achievement as “phenomenal” and say that “he possessed a truly unusual mind.”</p>
+<p><strong>The best answer is not F.</strong> If something goes without saying, why say it? This expression also implies that what follows is common knowledge, which may not be the case. </p>
 </div>
 <div id="answer-s1-12g" class="incorrect">
-<p>Though Charles may be mysterious to his father, nothing in the passage suggests that he is angry.</p>
+<p><strong>The best answer is not G.</strong> Is this a phenomenon that you have often heard explained? </p>
 </div>
 <div id="answer-s1-12h" class="correct"> 
-<p>Though Charles may be quiet (paragraph 9), nothing in the passage suggests that he is socially awkward.</p>
+<p><strong>The best answer is H.</strong> This is the most straightforward opening to the sentence, and it helps connect this sentence to the one that follows, which gives the reason tie-die and bell-bottoms were popular in the 1970s. </p>
 </div>
 <div id="answer-s1-12j" class="incorrect">
-<p>Charles may be sensitive and considerate, but not many details in the passage explicitly describe this, so this is not the <em>best</em> answer. The greatest detail we have about Charles relates to his intelligence and love of learning.</p>
+<p><strong>The best answer is not J.</strong> This answer uses eight words when four would do the trick. The clause <em>It’s generally true that</em> is not needed. </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -508,17 +507,17 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-13c" href="#" class="response">C.</a><span class="response">an entertaining description of how people dressed in earlier decades.</span></p>
 	<p><a id="s1-13d" href="#" class="response">D.</a><span class="response">a specific example that illustrates the author’s third law of epidemics.</span></p>
 </div>
-<div id="answer-s1-13a" class="correct">
-<p>The word <em>margins</em> is used in the context of a river overflowing its banks: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<div id="answer-s1-13a" class="incorrect">
+<p><strong>The best answer is not A.</strong> The statement is on-topic because it gives examples of two epidemics (fads) influenced by the culture of the time and place in which they occurred. </p>
 </div>
 <div id="answer-s1-13b" class="incorrect">
-<p>Though this is one meaning of the word <em>margin</em>, it does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<p><strong>The best answer is not B.</strong> There’s no indication that this statement is about the personal clothing of the author. The author may not have gone along with those particular fads (or even lived through both decades). </p>
 </div>
 <div id="answer-s1-13c" class="incorrect"> 
-<p>Though this is one meaning of the word <em>margin</em>, it does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<p><strong>The best answer is not C.</strong> These fads (bell-bottoms, tie-dye, flannel shirts) are only referenced, not described in detail. </p>
 </div>
 <div id="answer-s1-13d" class="incorrect">
-<p>This meaning does not fit with the context of the sentence: “[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
+<p><strong>The best answer is D.</strong> The third law of epidemics says that epidemics (fads) are influenced by the time and place in which they occur. The author demonstrates this law by contrasting the popular styles of clothing in two different decades. </p>
 </div>
 <!----------------------------------------------------------------->
 
@@ -530,16 +529,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-14j" href="#" class="response">J.</a><span class="response">Fads spread like viruses through every generation and are often most contagious among young people.</span></p>
 </div>	
 <div id="answer-s1-14f" class="incorrect">
-<p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is not F.</strong> The author is not specifically talking about Mavens in either paragraph 3 or paragraph 4. </p>
 </div>
 <div id="answer-s1-14g" class="incorrect">
-<p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
+<p><strong>The best answer is not G.</strong> The author is not specifically talking about Connectors in either paragraph 3 or paragraph 4. </p>
 </div>
 <div id="answer-s1-14h" class="incorrect"> 
-<p>Though Ming may have some regret, his feelings about the past are not happy ones, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is not H.</strong> The author is not specifically talking about Salesmen in either paragraph 3 or paragraph 4. </p>
 </div>
 <div id="answer-s1-14j" class="correct">
-<p>Ming’s feelings about the past seem more strongly negative than just guilt and do not seem to contain nostalgia. Instead, the past is his enemy, dogging him and rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is J.</strong> Look for the choice that best connects the ideas at the end of paragraph 3 with the ideas in paragraph 4. At the end of paragraph 3, the author is talking about clothing fads from two different generations. In paragraph 4, the author addresses the reader (most likely a young person) with a question about how s/he might start a fad. Choice J is the only choice that touches on both these ideas. </p>
 </div>
 <!----------------------------------------------------------------->
 <div id="s1-15" class="question">
@@ -550,18 +549,18 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-15b" href="#" class="response">B.</a><span class="response"> after the second sentence in Paragraph 2.</span></p>
 	<p><a id="s1-15c" href="#" class="response">C.</a><span class="response"> after the second sentence in Paragraph 3.</span></p>
 	<p><a id="s1-15d" href="#" class="response">D.</a><span class="response"> after the sixth sentence in Paragraph 3.</span></p>
-</div>	
+</div>
 <div id="answer-s1-15a" class="correct">
-<p>Though the past may represent heartbreak for Ming, he has not been able to come to peace and acceptance, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is A.</strong> Ugg boots, Lady Gaga, and Silly Bandz are all examples of fads. This information should go in the paragraph where fads and their development are first described (paragraph 1). </p>
 </div>
 <div id="answer-s1-15b" class="incorrect">
-<p>Though Ming tries to forget (paragraph 6), the past is his enemy. “[H]is memories dogged him, filled his thoughts and plans with silt.” His memories “rose up in his dreams,” flooding his mind (paragraph 18).</p>
+<p><strong>The best answer is not B.</strong> The second sentence in paragraph 2 focuses on the “Law of the Few,” or people with special social gifts and their role in starting fads. The new sentence gives examples of fads in general, not an example of the more specific roles of Connectors, Mavens, and Salesmen. </p>
 </div>
-<div id="answer-s1-15c" class="incorrect"> 
-<p>Though Ming may have some regret, his feelings about the past are not happy ones, or the past would not be his enemy, dogging him or rising up in his dreams (paragraph 18).</p>
+<div id="answer-s1-15c" class="incorrect">
+<p><strong>The best answer is not C.</strong> Paragraph 3 is about the Stickiness Factor, or the specific content of a message that makes it memorable. The new sentence gives three general examples of fads that have stuck, but it does not tell what made those items memorable. The new sentence does not give specific examples of the Stickiness Factor. </p>
 </div>
 <div id="answer-s1-15d" class="incorrect">
-<p>Ming’s feelings about the past seem more strongly negative than just guilt and do not seem to contain nostalgia. Instead, the past is his enemy, dogging him and rising up in his dreams (paragraph 18).</p>
+<p><strong>The best answer is not D.</strong> Paragraph 4 is the conclusion and asks the reader for ideas that could become <em>the next big thing.</em> The new sentence tells about fads of the past or present, not the future. </p>
 </div>
 </div><!--set-1-->
 

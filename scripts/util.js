@@ -174,5 +174,6 @@ jQuery(document).ready(function($) {
 	$("#timer").button({icons: {primary: "ui-icon-clock"}});
 
 	$("#sets").tabs(); 
+	$("#tabs").tabs(); 
 	$("#accordion").accordion({autoHeight: false});
 });

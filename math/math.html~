@@ -94,43 +94,44 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="content2">
-<div id="accordion">
-<h3><a href="#">Mathematics</a></h3>
-<div>
-<p class="instructions">On the actual ACT Math test, you'll have 60 minutes to answer 60 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Math test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
-<p class="instructions">Timed Test</p>
-<p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual
-ACT test.</p>
-<ul>
-<li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
-<li>Click on letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
-<li>If you click out of this test, the timer will stop and you will have to start all over.</li>
-<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
-<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in
-the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
-</ul>
-<p class="instructions">Untimed Test</p>
-<p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
-<ul>
-<li>Carefully read the question and each of the answer choices.</li>
-<li><em>ZAP</em> any answers you know to be incorrect.</li>
-<li>Select the correct answer by clicking on the letter.</li>
-<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
-<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question
-correctly.</li>
-<li>You cannot change your answer once you have clicked it.</li>
-<li>When you finish clicking on the last item in the test, you will see the number of answers you got correct (green number) and
-incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two
-boxes.</li>
-</ul>
-</div>
-<h3><a href="#">Directions</a></h3>
-<div>
-<table width="100%" cellpadding="5" cellspacing="0">
+
+<div id="ins">
+	<ul>
+		<li><a href="#ins-1">Mathematics</a></li>
+		<li><a href="#ins-2">Timed Test</a></li>
+		<li><a href="#ins-3">Untimed Test</a></li>
+		<li><a href="#ins-4">Directions</a></li>
+	</ul>
+	<div id="ins-1">
+	<p class="instructions">On the actual ACT Math test, you'll have 60 minutes to answer 60 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Math test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
+	</div>
+	<div id="ins-2">
+	<p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
+	<ul>
+		<li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
+		<li>Click on letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
+		<li>If you click out of this test, the timer will stop and you will have to start all over.</li>
+		<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
+		<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
+	</ul>
+	</div>
+	<div id="ins-3">
+	<p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
+	<ul>
+		<li>Carefully read the question and each of the answer choices.</li>
+		<li><em>ZAP</em> any answers you know to be incorrect.</li>
+		<li>Select the correct answer by clicking on the letter.</li>
+		<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
+		<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
+		<li>You cannot change your answer once you have clicked it.</li>
+		<li>When you finish clicking on the last item in the test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
+	</ul>
+	</div>
+	<div id="ins-4">
+	<table width="100%" cellpadding="5" cellspacing="0">
 	<tbody><tr valign="TOP">
 		<td width="50%">
-			<p class="directions">For each problem, select the correct answer by clicking on the corresponding letter of the answer
-choice. 
+			<p class="directions">For each problem, select the correct answer by clicking on the corresponding letter of the answer choice. 
 			   Do not spend too much time on any one problem.</p>
 			<p class="directions">Solve as many problems as you can, then use your remaining time to return to the rest. 
 			   You may use a calculator on any problem, but some problems may best be solved without a calculator.</p>
@@ -145,10 +146,10 @@ choice.
 			</ol>
 		</td>
 	</tr>
-
 </tbody></table>
+	</div>
 </div>
-</div> <!-- accordion -->
+
 	<div id="sets">
 		<ul>
 		   <li>Set:</li>
