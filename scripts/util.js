@@ -82,7 +82,7 @@ jQuery(document).ready(function($) {
 	    		if ($('#answer-' + this.id).hasClass('incorrect')) {
 	    			this.className += ' incorrect_answered_question';
 	    			//this.innerHTML = '<img src="../images/incorrect.gif"/>';
-	    			$("span.incorrect-answers", "#incorrect-button").text(formatSecondsAsTime(incorrect, "ss"));
+	    			$("span.incorrect-answers").text(formatSecondsAsTime(incorrect, "ss"));
 	    		}
 	    		else {
 	    			//this.innerHTML = '<img src="../images/correct.gif"/>';
@@ -129,6 +129,8 @@ jQuery(document).ready(function($) {
 		      $("span", "#timer").text(formatSecondsAsTime(--countdown, "mm:ss"));
 		      if (countdown == 0) {        
 		        clearInterval(timer_interval);
+		        $("span.correct-answers").text(formatSecondsAsTime(correct, "ss"));
+		        $("span.incorrect-answers").text(formatSecondsAsTime(incorrect, "ss"));
 		        $("#time-up").dialog({
 						modal: true,
 						resizable: false,
