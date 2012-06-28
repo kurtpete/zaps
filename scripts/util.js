@@ -175,5 +175,5 @@ jQuery(document).ready(function($) {
 
 	$("#sets").tabs(); 
 	$("#tabs").tabs(); 
-	$("#accordion").accordion({autoHeight: false});
+	// $("#accordion").accordion({autoHeight: false});
 });

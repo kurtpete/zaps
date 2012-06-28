@@ -116,47 +116,48 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="content2">
-<div id="accordion">
-<h3><a href="#">Reading</a></h3>
-<div>
-<p class="instructions">On the actual ACT Reading test, you'll have 45 minutes to answer 75 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Reading test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Reading</a></li>
+		<li><a href="#tabs-2">Timed Test</a></li>
+		<li><a href="#tabs-3">Untimed Test</a></li>
+		<li><a href="#tabs-4">Directions</a></li>
+	</ul>
+	<div id="tabs-1">
+	<p class="instructions">On the actual ACT Reading test, you'll have 45 minutes to answer 75 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Reading test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
+	</div>
+	<div id="tabs-2">
+	<p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
+	<ul>
+		<li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
+		<li>Click on letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
+		<li>If you click out of this test, the timer will stop and you will have to start all over.</li>
+		<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
+		<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
+	</ul>
+	</div>
+	<div id="tabs-3">
+	<p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
+	<ul>
+		<li>Carefully read the question and each of the answer choices.</li>
+		<li><em>ZAP</em> any answers you know to be incorrect.</li>
+		<li>Select the correct answer by clicking on the letter.</li>
+		<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
+		<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
+		<li>You cannot change your answer once you have clicked it.</li>
+		<li>When you finish clicking on the last item in the test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
+	</ul>
+	</div>
+	<div id="tabs-4">
+	<table width="100%">
+		<tbody><tr valign="TOP">
+			<td width="50%">
+				<p class="directions">This test contains four reading selections, each followed by several questions. After reading a selection, select the best answer to each question. Then fill in the corresponding bubble on your answer sheet. As you answer the questions, you may look back at the passage as often as you wish.</p>
+			</td>
+		</tr>
+	</tbody></table>
+	</div>
 </div>
-<h3><a href="#">Timed Test</a></h3>
-<div>
-<p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
-<ul>
-<li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
-<li>Click on letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
-<li>If you click out of this test, the timer will stop and you will have to start all over.</li>
-<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
-<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
-</ul>
-</div>
-<h3><a href="#">Untimed Test</a></h3>
-<div>
-<p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
-<ul>
-<li>Carefully read the question and each of the answer choices.</li>
-<li><em>ZAP</em> any answers you know to be incorrect.</li>
-<li>Select the correct answer by clicking on the letter.</li>
-<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
-<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
-<li>You cannot change your answer once you have clicked it.</li>
-<li>When you finish clicking on the last item in the test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
-</ul>
-</div>
-<h3><a href="#">Directions</a></h3>
-<div>
-<table width="100%">
-	<tbody><tr valign="TOP">
-		<td width="50%">
-			<p class="directions">This test contains four reading selections, each followed by several questions. After reading a selection, select the best answer to each question. Then fill in the corresponding bubble on your answer sheet. As you answer the questions, you may look back at the passage as often as you wish.</p>
-		</td>
-	</tr>
-
-</tbody></table>
-</div>
-</div> <!-- accordion -->
 <div id="sets">
 		<ul><li style="vertical-align: bottom;">Passage:</li>
 			<li><a href="#set-1">I</a></li>
@@ -333,7 +334,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-1d" class="incorrect">
 <p>Ming and Charles do not share many of the same interests. </p><p>Ming feels that Charles’s interests are mysterious (paragraph 10). </p><p>Ming likes science (paragraph 11), but Charles is drawn to the humanities (paragraph 9). </p><p>When Charles asks Ming if he likes history, Ming says he can’t remember (paragraph 17).</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>Based on the passage, the father and mother decide to adjust to their new country by:</p>
@@ -358,7 +359,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-2j" class="incorrect">
 <p>Though a few minor comparisons may be implied in the passage, no detailed comparisons between the two countries are given. </p><p>Instead, the Hwangs decided to forget their old lives in China, thinking they need to do so to make room for their new lives in the U.S. (paragraphs 5 and 6). </p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>Based on the passage, which of the following best describes the overall attitudes of the father and the son?</p>
@@ -383,7 +384,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-3d" class="incorrect">
 <p>Though the father does suggest that the future will bring the family luck (paragraph 3), nothing in the passage suggests that Charles thinks their best days are behind them.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>In terms of developing the narrative, the first seven paragraphs (lines 1 - 33) serve to:</p>
@@ -408,7 +409,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-4j" class="incorrect">
 <p>Besides a hope for good luck and thoughts about how the Hwangs will adjust, paragraphs 1 through 7 do not give much detail about their hopes and dreams.</p><p> Nothing in the passage tells about their aspirations changing over time. Their aspirations to adjust to their new lives and see their son succeed remain steady over time.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>At the end of the passage, Mercy Lake serves as a metaphor for the:</p>
@@ -433,7 +434,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-5d" class="correct">
 <p>See the last paragraph: “his memories dogged him … rose up in his dreams, the way that … Mercy Lake flooded through its margins….” The metaphor compares the way Ming’s troubling memories about his past figuratively flood his thoughts to the way Mercy Lake sometimes overflows its boundaries.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">6.</div><p>Based on the passage, the conversation between Ming and Charles can best be described as:</p>
@@ -458,7 +459,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-6j" class="incorrect">
 <p>There are no hints (i.e., joking, roughhousing, teasing) that the conversation is playful.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">7.</div><p>According to the passage, one of Sansan’ worries is that:</p>
@@ -483,7 +484,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-7d" class="incorrect">
 <p>Lines 56&ndash;67 describe the things Ming buys for Charles. There is no mention of Sansan being worried about the cost of providing these items.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">8.</div><p>Based on the passage, which of the following best describes Charles?</p>
@@ -508,7 +509,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-8j" class="incorrect">
 <p>Charles may be sensitive and considerate, but not many details in the passage explicitly describe this, so this is not the <em>best</em> answer. </p><p>The greatest detail we have about Charles relates to his intelligence and love of learning.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">9.</div><p>As it is used in line 109, <em>margins</em> most nearly means:</p>
@@ -533,7 +534,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-9d" class="incorrect">
 <p>This meaning does not fit with the context of the sentence: </p><p>“[Ming’s memories] rose up in his dreams, the way that in the spring the Mercy Lake flooded through its margins, leaving the fishing huts surrounded by water.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 <div class="question">
 	<div class="numcol">10.</div><p>Which of the following best describes Ming’s feelings about the past?</p>
 	<p><a id="s1-10f" href="#" class="response">F.</a><span class="response">heartbreak transformed into peace and acceptance</span></p>
@@ -557,7 +558,7 @@ huts surrounded by water.</code></pre>
 <div id="answer-s1-10j" class="incorrect">
 <p>Ming’s feelings about the past seem more strongly negative than just guilt and do not seem to contain nostalgia.</p><p> Instead, the past is his enemy, dogging him and rising up in his dreams (paragraph 18).</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!--set-1-->
@@ -716,7 +717,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-1d" class="incorrect">
 <p>Though contemporary historians attributed his rise to chance, “The comparative perspective suggests a different interpretation” (paragraph 2).</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>The author presents Lincoln’s winning of the Republican presidential nomination as surprising because Lincoln:</p>
@@ -741,7 +742,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-2j" class="correct">
 <p>Paragraph 1 tells of the “comparatively unknown name of Lincoln.” </p><p>And paragraph 2 says, he “seemed to have come from nowhere—a backwoods lawyer who had served one undistinguished term in the House of Representatives and had lost two consecutive contests for the U.S. Senate.” </p><p>“Every member of this administration was better known, better educated, and more experienced in public life than Lincoln &hellip; the obscure prairie lawyer from Springfield” (paragraph 3).</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>The passage mentions all of the following possible reasons that Lincoln won the nomination EXCEPT his:</p>
@@ -766,7 +767,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-3d" class="incorrect">
 <p>See paragraph 2: </p><p>“[I]t is clear that Lincoln won the nomination because he was shrewdest and canniest of them all.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>Based on the passage, Lincoln’s leadership approach can best be characterized as:</p>
@@ -791,7 +792,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-4j" class="incorrect">
 <p>Only someone who was farsighted could steer the country through the tumultuous period in which Lincoln served, calling it “a new birth of freedom” (paragraph 6).</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>It can reasonably be inferred from the passage that at the time Lincoln assumed the presidency, the United States was:</p>
@@ -816,7 +817,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-5d" class="incorrect">
 <p>The nation was indeed divided, but over slavery (paragraph 6), not industrialization or the rise of a new party.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">6.</div><p>Based on the fifth paragraph (lines 74&ndash;94), which of the following statements would the author most likely make with regard to Lincoln’s personal qualities and political genius?</p>
@@ -841,7 +842,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-6j" class="incorrect">
 <p>It is likely true that while Lincoln recognized “the people” as the source of his power as president, he also understood that the members of his cabinet were powerful men in their own right and that his administration drew power from their presence and influence.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">7.</div><p>In terms of the passage as a whole, one of the main functions of the first paragraph (lines 1&ndash;9) is to suggest that:</p>
@@ -866,7 +867,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-7d" class="correct">
 <p>The first paragraph says that Lincoln’s rivals thought the wrong man had been chosen. </p><p>Emerson suggested that Lincoln did not have enough of a reputation to match the anxiousness of the times, and that the news of his nomination was heard with sadness. </p><p>These details suggest that Lincoln was not expected to be the great leader that the nation needed.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">8.</div><p>According to the passage, the primary nature of Lincoln’s cabinet can best be described as:</p>
@@ -891,7 +892,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-8j" class="incorrect">
 <p>Rather than old friends, the cabinet was made up of a team of rivals.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">9.</div><p>The passage suggests that Lincoln became a great president rather than merely a good one mainly because of:</p>
@@ -916,7 +917,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-9d" class="incorrect">
 <p>Most presidents have been guided by experienced cabinet members, but only a few have been considered truly great.</p><p> See the last two sentences of the passage.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 <div class="question">
 	<div class="numcol">10.</div><p>In the context of the passage, the author’s statement that “Lincoln worried that the ‘field of glory’ had been harvested by the founding fathers” (lines 95&ndash;97) most nearly means Lincoln thought that:</p>
 	<p><a id="s2-10f" href="#" class="response">F.</a><span class="response">the impending Civil War would not be won.</span></p>
@@ -940,7 +941,7 @@ him to shape and transform our national life.</code></pre>
 <div id="answer-s2-10j" class="correct">
 <p>The answer is implied by the second half of the sentence being referenced (paragraph 6): </p><p>“that nothing had been left for his generation but modest ambitions.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!--set-2-->
@@ -1078,7 +1079,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-1d" class="incorrect">
 <p>The influence of Hibbing’s political culture on Dylan also is only a small part of the picture painted in the passage.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>Which of the following questions is NOT answered in this passage?</p>
@@ -1103,7 +1104,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-2j" class="correct">
 <p>Dylan’s family is not mentioned in the article.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>The main function of the first sentence of the passage is to:</p>
@@ -1128,7 +1129,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-3d" class="incorrect">
 <p>Nothing in the passage supports this answer. No reference is made to Dylan's relative skill as a performer at various stages of his life.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>What is the most likely reason that the woman who speaks up at the Berkeley reading is “outraged” (paragraph 3, line 20)?</p>
@@ -1153,7 +1154,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-4j" class="incorrect">
 <p>The woman does not specifically comment, either pro or con, on the ideas of these groups. </p><p>She just says that they argued.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>All of the following details are used in the passage to demonstrate how considered Dylan’s education was EXCEPT his:</p>
@@ -1178,7 +1179,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-5d" class="correct">
 <p>No great folk musicians from the Iron Range are mentioned in the passage.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">6.</div><p>Which of the following best describes the attitude with which Marcus traveled to Hibbing, as suggested in paragraph 4 (lines 32&ndash;51)?</p>
@@ -1203,7 +1204,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-6j" class="incorrect">
 <p>He does not seem ambivalent (with mixed feelings) &mdash; but the opposite.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">7.</div><p>Greil Marcus develops his description of Hibbing High School in paragraph 4 (lines 32&ndash;51) through use of all of the following EXCEPT</p>
@@ -1228,7 +1229,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-7d" class="correct">
 <p>The passage contains no comparisons of Hibbing High School to schools in Washington, D.C.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">8.</div><p>In lines 79&ndash;80, what does the speaker most likely mean by the words “and then opening up the poem as if it were a flower in high speed film”?</p>
@@ -1253,7 +1254,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-8j" class="correct">
 <p>The line is in the context of the teacher discussing poetry from many angles and points of view.  </p><p>The teacher was showing that “there is an infinite amount of meaning and possibility and inspiration in the smallest thing before you.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">9.</div><p>Marcus describes B. J. Ralston’s skill as a teacher to show that Ralston attempted to promote in his students a(an):</p>
@@ -1278,7 +1279,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-9d" class="incorrect">
 <p>Ralston focused mostly on the meaning of the poems themselves, not the lives of the poets.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 <div class="question">
 	<div class="numcol">10.</div><p>What is the “poetry” that Marcus refers to when he says, “That was the poetry on the walls” (line 89)?</p>
 	<p><a id="s3-10f" href="#" class="response">F.</a><span class="response">B.J. Ralson’s skill and legacy as a teacher</span></p>
@@ -1302,7 +1303,7 @@ this was a different kind of poetry.</code></pre>
 <div id="answer-s3-10j" class="incorrect">
 <p>Actual poetry is on the walls of Hibbing High, but the poetry of students is not mentioned in the paragraph (though student poetry indeed may be included on the walls &mdash; the passage doesn’t say).  </p><p>“But this is a different kind of poetry.”  </p><p>Marcus is speaking figuratively, not literally.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!-- set-3-->
@@ -1445,7 +1446,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-1d" class="correct">
 <p>Paragraph 6 says, “Some scientists sin, it’s true. Given the fiercely competitive nature of research funding and the hardscrabble intensity of scientific status seeking, it is surprising that fraud isn’t more rampant. The reason that it is so rare...” The rest of the paragraph supports these statements.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>As used in line 8, the word <em>conventional</em> most nearly means:</p>
@@ -1470,7 +1471,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-2j" class="incorrect">
 <p><em>Radical</em> does not fit in the context of the sentence; its meaning is opposite that which is needed in the sentence.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>When the author says that “Nature may be subtle, but she does not intentionally lie” (lines 17 and 18), he most nearly means:</p>
@@ -1495,7 +1496,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-3d" class="incorrect">
 <p>The comment about Nature in 17 and 18 is in contrast to the rest of lines 10 &ndash; 20, which focus on the fact that some scientists do not tell the truth.  </p><p>The passage does not mention whether "sound data" is more likely to fool other scientists; in fact, if a scientist had "sound data," he or she would presumably not need to lie. </p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>The author uses the fifth paragraph (lines 65&ndash;83) primarily to:</p>
@@ -1520,7 +1521,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-4j" class="incorrect">
 <p>The last line of the paragraph states the opposite: </p><p> “This self-deception is distinctly different from deliberate deception.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>Goodstein's definition of fraud includes all of the following EXCEPT:</p>
@@ -1545,7 +1546,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-5d" class="incorrect">
 <p>The first sentence of Paragraph 4 says that “Research misconduct is defined as fabrication, falsification, or plagiarism in proposing, performing, or reviewing research, or in reporting research results.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">6.</div><p>What is the main function of the first paragraph of the passage (lines 1&ndash;9) in terms of the rest of the article?</p>
@@ -1570,7 +1571,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-6j" class="correct">
 <p>The topic of the first paragraph is an idea about the foundation of scientific integrity, which begins with not fooling oneself, then not fooling others. It presents integrity as something that is easy to achieve.  </p><p>Paragraph 2 begins with "Unfortunately," showing that an opposition will be set up to the idea in the first paragraph: </p><p> “[S]ome scientists do try to fool their colleagues, and believing that everyone is conventionally honest may make a person more likely to be duped by fraud.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">7.</div><p>It can be reasonably inferred from the passage that a person is more susceptible to fraud if he or she:</p>
@@ -1595,7 +1596,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-7d" class="incorrect">
 <p>The final paragraph suggests that collaboration leads to less fraud, not more.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">8.</div><p>According to Goodstein's investigations, all of the following are mentioned as risk factors present in cases of scientific fraud EXCEPT:</p>
@@ -1620,7 +1621,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-8j" class="correct">
 <p>The risk factors are listed at the end of paragraph 3. They do not include the intention to inject falsehoods. In fact, Goodstein says, “injecting falsehoods into the body of science is rarely, if ever, the purpose of those who perpetrate fraud. They almost always believe that they are injecting a truth into the scientific record.”</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">9.</div><p>According to Goodstein, scientists who perpetuate fraud most often:</p>
@@ -1645,7 +1646,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-9d" class="incorrect">
 <p>They may be in positions of authority, but the idea that they don’t want their judgement questioned is not supported by the passage.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 <div class="question">
 	<div class="numcol">10.</div><p>In the last paragraph, the author expresses the belief that:</p>
 	<p><a id="s4-10f" href="#" class="response">F.</a><span class="response">a general environment of openness and honesty in science is a thing of the past.</span></p>
@@ -1669,7 +1670,7 @@ history has demonstrated.</code></pre>
 <div id="answer-s4-10j" class="incorrect">
 <p>This answer is not supported by the passage.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!-- set-4-->

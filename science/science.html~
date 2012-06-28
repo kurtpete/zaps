@@ -94,45 +94,49 @@ jQuery(document).ready(function($) {
 </div>
 
 <div id="content2">
-<div id="accordion">
-<h3><a href="#">Science</a></h3>
-<div>
-<p class="instructions">On the actual ACT Science test, you'll have 35 minutes to answer 40 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Science test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
-<p class="instructions">Timed Test</p>
-<p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
-<ul>
-<li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
-<li>Click on letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
-<li>If you click out of this test, the timer will stop and you will have to start all over.</li>
-<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
-<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
-</ul>
-<p class="instructions">Untimed Test</p>
-<p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
-<ul>
-<li>Carefully read the question and each of the answer choices.</li>
-<li><em>ZAP</em> any answers you know to be incorrect.</li>
-<li>Select the correct answer by clicking on the letter.</li>
-<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
-<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
-<li>You cannot change your answer once you have clicked it.</li>
-<li>When you finish clicking on the last item in the test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
-</ul>
-</div>
-<h3><a href="#">Directions</a></h3>
-<div>
-<table width="100%">
-	<tbody><tr valign="TOP">
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Science</a></li>
+		<li><a href="#tabs-2">Timed Test</a></li>
+		<li><a href="#tabs-3">Untimed Test</a></li>
+		<li><a href="#tabs-4">Directions</a></li>
+	</ul>
+	<div id="tabs-1">
+	<p class="instructions">On the actual ACT Science test, you'll have 35 minutes to answer 40 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Science test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
+	</div>
+	<div id="tabs-2">
+	<p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
+	<ul>
+		<li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
+		<li>Click on letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
+		<li>If you click out of this test, the timer will stop and you will have to start all over.</li>
+		<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
+		<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
+	</ul>
+	</div>
+	<div id="tabs-3">
+	<p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
+	<ul>
+		<li>Carefully read the question and each of the answer choices.</li>
+		<li><em>ZAP</em> any answers you know to be incorrect.</li>
+		<li>Select the correct answer by clicking on the letter.</li>
+		<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
+		<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
+		<li>You cannot change your answer once you have clicked it.</li>
+		<li>When you finish clicking on the last item in the test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
+	</ul>
+	</div>
+	<div id="tabs-4">
+	<table width="100%">
+	<tbody><tr valign="top">
 		<td width="50%">
-			<p class="directions">This test contains seven passages of scientific information, followed by several questions about each. After you read a passage, select the best answer to each question. On the actual ACT, you will fill in the corresponding bubble on your answer sheet; for this online test, click on the correct answer and read the explanation. 
-</p>
+			<p class="directions">This test contains seven passages of scientific information, followed by several questions about each. After you read a passage, select the best answer to each question. On the actual ACT, you will fill in the corresponding bubble on your answer sheet; for this online test, click on the correct answer and read the explanation.</p>
 			<p class="directions">As you answer the questions, you may look back at the passage as often as you wish. Do NOT use a calculator on this test.</p>
 		</td>
 	</tr>
-
-</tbody></table>
+	</tbody></table>
+	</div>
 </div>
-</div> <!-- accordion -->
 <div id="sets">
 		<ul><li>Passage:</li>
 			<li><a href="#set-1">I</a></li>
