@@ -102,29 +102,29 @@ jQuery(document).ready(function($) {
 		<li><a href="#tabs-4">Directions</a></li>
 	</ul>
 	<div id="tabs-1">
-	<p class="instructions">On the actual ACT Science test, you'll have 35 minutes to answer 40 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Science test. Click below to open the appropriate instructions for "Timed Test" OR "Untimed Test."</p>
+	<p class="instructions">On the actual ACT Science test, you'll have 35 minutes to answer 40 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Science test.  Click a tab to open the instructions for "Timed Test" or "Untimed Test."</p>
 	</div>
 	<div id="tabs-2">
-	<p class="instructions">By taking the test timed, you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
+	<p class="instructions">By taking the test <em>timed,</em> you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
 	<ul>
-		<li>To begin the timed test, click on the timer box (the one with the clock icon in the second gray bar below.</li>
+		<li>To begin the timed test, click on the timer box (the one with the clock icon in the gray bar below).</li>
 		<li>Click on letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
-		<li>If you click out of this test, the timer will stop and you will have to start all over.</li>
+		<li>If you click out of this test, the timer will stop, and you will have to start all over.</li>
 		<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
-		<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
+		<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can view your estimated ACT score by clicking on either of these two boxes.</li>
 	</ul>
 	</div>
 	<div id="tabs-3">
-	<p class="instructions">This is a good way to carefully study each test item and answer explanation.</p>
+	<p class="instructions">Taking the test <em>untimed</em> is a good way to carefully study each test item and answer explanation.</p>
 	<ul>
 		<li>Carefully read the question and each of the answer choices.</li>
 		<li><em>ZAP</em> any answers you know to be incorrect.</li>
 		<li>Select the correct answer by clicking on the letter.</li>
 		<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
 		<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
-		<li>You cannot change your answer once you have clicked it.</li>
-		<li>When you finish clicking on the last item in the test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes next to the timer. You can see your estimated ACT score by clicking on either of these two boxes.</li>
-	</ul>
+		<li>You cannot change your answer once you have clicked it, but you can view the tips about the other answer choices by clicking on them.</li>
+		<li>A running total of your correct (green) and incorrect (red) responses will show in the boxes next to the timer.</li> 
+		<li>At the end of the test, you can view your estimated ACT score by clicking on either of these two boxes.</li>	</ul>
 	</div>
 	<div id="tabs-4">
 	<table width="100%">
@@ -199,7 +199,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-1d" class="correct">
 <p><strong>The best answer is D.</strong> The phenol solvent carried chemical species (molecules) from the sample from right to left across the paper. </p><p>Species that are most strongly attracted to the phenol solvent traveled farthest to the left. Alanine is the leftmost species, followed by glycine.</p><p> Glutamic acid is farthest to the right.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>Which two molecules have approximately the same degree of attraction to the butanol solvent?</p>
@@ -224,7 +224,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-2j" class="correct">
 <p><strong>The best answer is J.</strong> The butanol solvent carries species up the paper. </p><p>Species attracted to butanol to the same degree will be deposited along an imaginary line parallel or nearly parallel to the bottom edge of the paper.</p><p> Aspartic acid and glycine are on a line nearly parallel to the paper’s bottom edge.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>Based on the chromatogram, alanine appears to be:</p>
@@ -250,7 +250,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-3d" class="incorrect"> 
 <p><strong>The best answer is not D.</strong> This would have placed alanine in a different area of the chromatogram. </p><p>Answer C would have placed it about halfway up the right-hand edge.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>Alanine and solvent molecules are strongly attracted to each other because they are both <em>polar</em>: parts of each molecule carry small positive and negative charges. Benzene is a nonpolar molecule, with no positive or negative charges. Where would you expect to find benzene on this chromatogram?</p>
@@ -275,7 +275,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-4j" class="incorrect">
 <p><strong>The best answer is not J.</strong> This would indicate some attraction to one or both of the solvents. </p><p>According to the question, benzene is nonpolar, and thus not attracted to either solvent.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>The spot labeled aspartic acid is much larger than the spot labeled glutamic acid. What can be deduced from this fact?</p>
@@ -300,7 +300,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s1-5d" class="incorrect">
 <p><strong>The best answer is not D.</strong> Spot size has nothing to do with strength of attraction to solvents or to placement on the chromatogram.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 </td></tr>
 </tbody></table>
@@ -367,7 +367,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s2-1d" class="incorrect">
 <p><strong>The best answer is not D.</strong> The point of the experiment was to find the greatest slipping hazard given combinations of all three factors: surface, wet/dry, and shoe choice. </p><p>The students were not trying to answer narrower questions, such as which shoe would not slip.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>During Experiment 1, a student brought in a fifth flooring material, and the group tested it. The results of Experiment 1 suggest that people walking in sneakers on this dry surface would slip more easily than they would on varnished wood or concrete, but less easily than they would on linoleum. The time it took for the sneaker to slide down this ramp was probably closest to:</p>
@@ -392,7 +392,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s2-2j" class="incorrect">
 <p><strong>The best answer is not J.</strong> On the new surface, the sneaker must have taken between 6.9 and 5.1 seconds to slide down the ramp, the slide times for varnished wood and linoleum.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>The results of Experiments 1 and 2 suggest that a student is most likely to slip if he or she is wearing:</p>
@@ -417,7 +417,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s2-3d" class="correct">
 <p><strong>The best answer is D.</strong> The best way to approach this is to find the data points for each shoe/surface combination and label them A, B, C, and D.</p><p> Look for the lowest number: the shortest slide time.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>Given the information in the passage and the results of Experiments 1 and 2, what is the most reasonable conclusion?</p>
@@ -442,7 +442,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s2-4j" class="incorrect">
 <p><strong>The best answer is not J.</strong> The data show that sneakers generally have more friction (slower slide times) than dress shoes do.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>Which of the following relationships did the students most likely identify between friction and slipping hazard?</p>
@@ -467,7 +467,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s2-5d" class="incorrect">
 <p><strong>The best answer is not D.</strong> The data show that sneakers slip <em>more</em> on wet surfaces than on dry surfaces.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 </td></tr>
 </tbody></table>
@@ -523,7 +523,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s3-1d" class="incorrect">
 <p><strong>The best answer is not D.</strong> Researcher 2 does not argue that RNA is used as a template to build the endoplasmic reticulum.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>According to Researcher 2’s claim, which cell diagram correctly shows the site of protein-building?</p>
@@ -548,7 +548,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s3-2j" class="incorrect">
 <p><strong>The best answer is not J.</strong> Vesicles are used for transportation, not protein-building: "After the proteins are made, they are packaged into vesicles. ..."</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>If Researcher 2 is correct, which of the following statements must be true about RNA?</p>
@@ -573,7 +573,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s3-3d" class="incorrect">
 <p><strong>The best answer is not D.</strong> Researcher 2 does not state that RNA is packaged in a vesicle, only that protein is packaged in a vesicle.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>If Researcher 1 is correct, which of the following statements may be true?</p>
@@ -598,7 +598,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s3-4j" class="incorrect">
 <p><strong>The best answer is not J.</strong> Researcher 1 claims, "Once attached to the cytoskeleton, RNA moves to the location where the new protein is to be used."</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 <div class="question">
 	<div class="numcol">5.</div><p>Investigations of cell processes have provided several pieces of new evidence. Which of them could support Researcher 1's claims?</p>
 	<p><a id="s3-5a" href="#" class="response">A.</a><span class="response">Proteins have been found floating freely in the region marked B.</span></p>
@@ -622,7 +622,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s3-5d" class="incorrect">
 <p><strong>The best answer is not D.</strong> Both arguments state that RNA emerges from the nucleus, so one might expect to find some of it near the nucleus.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">6.</div><p>What must be true in order to support either researcher's claim?</p>
@@ -647,7 +647,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s3-6j" class="incorrect">
 <p><strong>The best answer is not J.</strong> This claim would not support Researcher 2's argument.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">7.</div><p>According to the passage, RNA can best be described as:</p>
@@ -672,7 +672,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s3-7d" class="incorrect">
 <p><strong>The best answer is not D.</strong> RNA is not described as carrying the entire genetic code for a human. You can ZAP this answer because the word "genome" is not in the passage.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!-- set-3-->
@@ -749,7 +749,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s4-1d" class="incorrect">
 <p><strong>The best answer is not D.</strong> These would probably yield phytoplankton counts of about 450. 10 ml of 24-8-16 nearly triples the count at 3 days.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>Which of the following variables was dependent in Experiment 2?</p>
@@ -774,7 +774,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s4-2j" class="incorrect">
 <p><strong>The best answer is not J.</strong> The student controls this factor.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>Considering the results of Experiment 2, what observation can one make about the 24-8-16 fertilizer?</p>
@@ -799,7 +799,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s4-3d" class="incorrect">
 <p><strong>The best answer is not D.</strong> The fertilizer generates more growth than an equal volume of 10-15-10 fertilizer does.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>According to the results of Experiments 1 and 2, what conclusion can be drawn about the effects of these fertilizers and water temperature on phytoplankton growth? </p>
@@ -824,7 +824,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s4-4j" class="incorrect">
 <p><strong>The best answer is not J.</strong> Temperature does not affect the fertilizers' relative effectiveness.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>Based on the results of Experiment 1, the amount of time it takes for the phytoplankton count to double when using 10-15-10 fertilizer at 20 C is slightly:</p>
@@ -849,7 +849,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s4-5d" class="incorrect">
 <p><strong>The best answer is not D.</strong> At 6 days, the phytoplankton count has nearly tripled.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">6.</div><p>Experiment 1 was repeated using 15 ml of fertilizer in each jar and a heat source that heated the jars to 24 C. Assuming that the phytoplankton populations did not outstrip the fertilizer supply, the phytoplankton population counts at the end of 3 days in the 24-8-16 jars would most likely be:</p>
@@ -874,7 +874,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s4-6j" class="incorrect">
 <p><strong>The best answer is not J.</strong> The experiment would suggest that an increase in heat and an increase in fertilizer would create a change in the phytoplankton count, and that change would be an increase.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!-- set-4-->
@@ -950,7 +950,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s5-1d" class="incorrect">
 <p><strong>The best answer is not D.</strong> Potato juice produces O<sub>2</sub> more slowly than carrot juice does, suggesting potato juice has a higher concentration of catalase.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>The student conducts another run of Experiment 1 with arugula and finds that it produces O<sub>2</sub> at a rate of .448 sec/ml. Which vegetable juice or juices most likely contains a higher concentration of catalase than the arugula juice does?</p>
@@ -975,7 +975,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s5-2j" class="incorrect">
 <p><strong>The best answer is not J.</strong> Both spinach and kale juice have a higher rate of O<sub>2</sub> production than arugula juice.</p><p> If you didn't understand the question or ran out of time, you could ZAP this choice using the True/False strategy because of the word "None."</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>The student tested another vegetable and concluded that it had a concentration of catalase lower than potato's, but higher than broccoli's. Its rate of O<sub>2</sub> evolution was:</p>
@@ -1000,7 +1000,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s5-3d" class="incorrect">
 <p><strong>The best answer is not D.</strong> This rate of gas production is higher than potato's, indicating a higher concentration of catalase.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>What do the results of Experiments 1 and 2 show about the rate of gas production in the spinach and kale samples?</p>
@@ -1025,7 +1025,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s5-4j" class="incorrect">
 <p><strong>The best answer is not J.</strong> The time required to produce another ml of gas increased at both the 40 and 60 second marks for both spinach and kale.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>Which graph most accurately shows the rate of O<sub>2</sub> gas production over the course of Experiment 2?</p>
@@ -1050,7 +1050,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s5-5d" class="incorrect">
 <p><strong>The best answer is not D.</strong> This graph shows no consistent direction in the rate of change in O<sub>2</sub> production.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">6.</div><p>As Experiment 2 progresses, the enzyme uses up H<sub>2</sub>O<sub>2</sub>, and must sometimes wait idly until H<sub>2</sub>O<sub>2</sub> finds it in solution. Suppose the student repeated Experiment 2, doubling the concentration of catalase in the kale juice, but not in the spinach juice. What would be the likely result?</p>
@@ -1075,7 +1075,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s5-6j" class="incorrect">
 <p><strong>The best answer is not J.</strong> The <em>amount</em> of gas produced cannot change, regardless of the amount of catalase in solution. </p><p>The amount of H<sub>2</sub>O<sub>2</sub> stays steady, so the amount of O<sub>2</sub> produced must stay steady. </p><p>The only thing that can change is the <em>rate</em> of the gas production. </p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!-- set-5-->
@@ -1154,7 +1154,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s6-1d" class="correct">
 <p><strong>The best answer is D.</strong> The passage states, "The higher the material's optical density, the more it refracts, or changes direction of, light as light enters from the air." </p><p>Of the materials tested, substance B bends light most, meaning it has the highest optical density.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>According to the list of refractive indices in Table 1, which of the following materials is possible to be Substance A?</p>
@@ -1179,7 +1179,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s6-2j" class="incorrect">
 <p><strong>The best answer is not J.</strong> Substance A's angle of refraction is between those of gelatin and water. </p><p?>Plexiglas has an optical density equal to that of gelatin.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>According to the list of refractive indices in Table 1, substance B could be:</p>
@@ -1204,7 +1204,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s6-3d" class="incorrect">
 <p><strong>The best answer is not D.</strong> Based on substance B's angle of refraction, all substances listed have optical densities lower than substance B's.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>According to the passage, which of the following graphs best represents the relationship between optical density and angle of refraction?</p>
@@ -1229,7 +1229,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s6-4j" class="correct">
 <p><strong>The best answer is J.</strong> The passage says, "The higher the material's optical density, the more it refracts, or changes the direction, as light enters from the air."</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">5.</div><p>Based on the data in Table 1, which of the following statements is not accurate?</p>
@@ -1254,7 +1254,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s6-5d" class="incorrect">
 <p><strong>The best answer is not D.</strong> The refraction index of a 30% sugar solution (1.38) is greater than that of water (1.33), making this an accurate statement.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 </td></tr>
 </tbody></table>
@@ -1300,7 +1300,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s7-1d" class="incorrect">
 <p><strong>The best answer is not D.</strong> This band shows a number of vascular plant species much smaller than those found at 1300-1500 meters ASL.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">2.</div><p>Given the data in the passage and Graph 2, which of the following is correct?</p>
@@ -1325,7 +1325,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s7-2j" class="incorrect">
 <p><strong>The best answer is not J.</strong> Although rainfall amounts do not follow a predictable pattern, the trend is toward Kilimanjaro becoming drier.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">3.</div><p>If next year's rainfall on Kilimanjaro were to be about half the average for the years 1999 and 2001, the rainfall amount would be approximately:</p>
@@ -1350,7 +1350,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s7-3d" class="correct">
 <p><strong>The best answer is D.</strong> Rainfall for both 1999 and 2001 was about 1500 ml. Half of this is 750 ml.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 
 <div class="question">
 	<div class="numcol">4.</div><p>Regions near Kilimanjaro have experienced temperature increases of up to 0.275 degrees C per year for the last 25 years. Scientists suggest that as temperatures rise, plant species will migrate to higher altitudes. If all vascular plants on Kilimanjaro were to migrate in response to global warming, their highest species diversity might be found at:</p>
@@ -1375,7 +1375,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s7-4j" class="correct">
 <p><strong>The best answer is J.</strong> Peak species diversity is currently at about 1300 meters ASL. </p><p>If plants migrate up the mountain, the new altitude for peak species diversity must be higher than 1300 meters ASL.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 <div class="question">
 	<div class="numcol">5.</div><p>Ferns generally live in damp, well-shaded areas. Higher altitudes are generally associated with drier conditions. Given those two pieces of information and the passage, if precipitation trends continue, which of these might reasonably show the distribution of fern species on Kilimanjaro in 25 years?</p>
 	<p><a id="s7-5a" href="#" class="response">A.</a><span class="response"><img src="../images/science/figure40f.jpg" width="100%"></span></p>
@@ -1399,7 +1399,7 @@ jQuery(document).ready(function($) {
 <div id="answer-s7-5d" class="incorrect">
 <p><strong>The best answer is not D.</strong> This pushes fern populations into drier conditions, where they are less likely to flourish.</p>
 </div>
-<!----------------------------------------------------------------->
+<!-- ************************************************************* -->
 </td></tr>
 </tbody></table>
 </div><!-- set-7-->
