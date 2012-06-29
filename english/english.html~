@@ -435,16 +435,16 @@ jQuery(document).ready(function($) {
 	<p><a id="s1-9d" href="#" class="response">D.</a><span class="response">To begin to figure out a way</span></p>
 </div>
 <div id="answer-s1-9a" class="incorrect">
-<p><strong><strong>The best answer is not A.</strong> This choice is awkward and wordy. The infinitive phrase (<em>To figure</em>) has the same meaning as the gerund phrase (<em>Figuring</em>), but it sounds awkward and is not parallel with the gerund phrase <em>keeping it alive</em> at the end of the sentence.</p>
+<p><strong>The best answer is not A.</strong> This choice is awkward and wordy. The infinitive phrase (<em>To figure</em>) has the same meaning as the gerund phrase (<em>Figuring</em>), but it sounds awkward and is not parallel with the gerund phrase <em>keeping it alive</em> at the end of the sentence.</p>
 </div>
 <div id="answer-s1-9b" class="correct">
 <p><strong>The best answer is B.</strong> <strong>The best answer is B.</strong> A gerund (the <em>–ing</em> form of a verb (used as a noun) or a gerund phrase is more frequently used at the beginning of a sentence because it sounds less awkward than an infinitive (the form of a verb preceded by <em>to</em>).  The gerund phrase <em>Figuring out</em> is also parallel with the gerund phrase <em>keeping it alive.</em> Of the choices given, the most direct and concise choice is best. All others are awkward and unnecessarily wordy. </p>
 </div>
 <div id="answer-s1-9c" class="incorrect"> 
-<p><strong><strong>The best answer is not C.</strong> This choice is awkward and wordy. It changes the subject of the sentence from an action (<em>Figuring out</em>) to a question (<em>how to figure</em>something out). </p>
+<p><strong>The best answer is not C.</strong> This choice is awkward and wordy. It changes the subject of the sentence from an action (<em>Figuring out</em>) to a question (<em>how to figure</em>something out). </p>
 </div>
 <div id="answer-s1-9d" class="incorrect">
-<p><strong><strong>The best answer is not D.</strong> This choice is awkward and wordy. It adds unnecessary words to the awkward infinitive clause <em>To figure out how</em>) used in the passage. It also changes the subject from the whole action (figuring out) to part of the action (beginning to figure out). </p>
+<p><strong>The best answer is not D.</strong> This choice is awkward and wordy. It adds unnecessary words to the awkward infinitive clause <em>To figure out how</em>) used in the passage. It also changes the subject from the whole action (figuring out) to part of the action (beginning to figure out). </p>
 </div>
 <!-- ******************************************************************************* -->
 
@@ -719,7 +719,7 @@ jQuery(document).ready(function($) {
 <!-- ******************************************************************************* -->
 <div id="s2-4" class="question">
 	<div class="numcol">4.</div><p>Which choice, if added here, would most effectively and appropriately transition the reader from the topic of Paragraph 2 to the topic of Paragraph 3?</p>
-	<p><a id="s2-4f" href="#" class="response">F.</a><span class="response">Be sure to carry ample water to stay hydrated on your hike./span></p>
+	<p><a id="s2-4f" href="#" class="response">F.</a><span class="response">Be sure to carry ample water to stay hydrated on your hike.</span></p>
 	<p><a id="s2-4g" href="#" class="response">G.</a><span class="response">If you encounter animals on the trail, keep a respectful distance, and never feed them. </span></p>
 	<p><a id="s2-4h" href="#" class="response">H.</a><span class="response">Opt for an obviously high-use campsite when you’re in the backcountry.</span></p>
 	<p><a id="s2-4j" href="#" class="response">J.</a><span class="response">Similarly, use care when selecting a campsite.</span></p>
@@ -850,7 +850,7 @@ jQuery(document).ready(function($) {
 	<p><a id="s2-10j" href="#" class="response">J.</a><span class="response">And the Three Ds when collecting firewood, please remember, are</span></p>
 </div>	
 <div id="answer-s2-10f" class="correct">
-<p><strong>The best answer is F.</strong> This choice correctly uses a colon to introduce a list. 
+<p><strong>The best answer is F.</strong> This choice correctly uses a colon to introduce a list.</p>
 </div>
 <div id="answer-s2-10g" class="incorrect">
 <p><strong>The best answer is not G.</strong> This is an incorrect use of the colon. It should go just before the list begins, not this early in the sentence. </p>
@@ -1132,7 +1132,7 @@ jQuery(document).ready(function($) {
 <p><strong>The best answer is not A.</strong> <em>Being</em> is not the best transition word to use here, as it implies that the clause will in some way describe the students rather than a reason for their actions. </p>
 </div>
 <div id="answer-s3-5b" class="incorrect">
-<p><strong>The best answer is not B.</strong> The word Since would be a good transition word here, but using all three verbs—<em>refused, hesitated</em>, and resisted</em>—to say basically the same thing is wordy and redundant. </p>
+<p><strong>The best answer is not B.</strong> The word Since would be a good transition word here, but using all three verbs—<em>refused, hesitated, and resisted</em>—to say basically the same thing is wordy and redundant. </p>
 </div>
 <div id="answer-s3-5c" class="incorrect"> 
 <p><strong>The best answer is not C.</strong> <em>Being</em> is not the best transition word to use here, as it implies that the clause will in some way describe the students rather than a reason for their actions. </p>
@@ -1154,7 +1154,7 @@ jQuery(document).ready(function($) {
 <p><strong>The best answer is not F.</strong> This sentence is too vague. It doesn’t give the same level of detail as the other choices. </p>
 </div>
 <div id="answer-s3-6g" class="correct">
-<p><strong>The best answer is G.</strong> It describes the students’ community organizing in the most direct and concise way and also uses a tone appropriate for the passage. 
+<p><strong>The best answer is G.</strong> It describes the students’ community organizing in the most direct and concise way and also uses a tone appropriate for the passage.</p>
 </div>
 <div id="answer-s3-6h" class="incorrect"> 
 <p><strong>The best answer is not H.</strong> Using the words <em>kids</em> and <em>a bunch</em> is too informal for this passage. It does not fit the more formal tone of the rest of the passage. </p>
@@ -1282,7 +1282,7 @@ jQuery(document).ready(function($) {
 	<p><a id="s3-12j" href="#" class="response">J.</a><span class="response">after Sentence 4.</span></p>
 </div>	
 <div id="answer-s3-12f" class="correct">
-<p><strong>The best answer is F.</strong> The reversal word <em>Yet</em> sets up a contrast between the size of the demonstrations and their apparent impact. </p><p>Why would some wonder whether they made a difference? Because they seemed to have little impact at the time, as described in Sentence 2. </p>/p>The new sentence needs to go between Sentences 1 and 2 to set up this contrast. </p>
+<p><strong>The best answer is F.</strong> The reversal word <em>Yet</em> sets up a contrast between the size of the demonstrations and their apparent impact. </p><p>Why would some wonder whether they made a difference? Because they seemed to have little impact at the time, as described in Sentence 2. </p>The new sentence needs to go between Sentences 1 and 2 to set up this contrast. </p>
 </div>
 <div id="answer-s3-12g" class="incorrect">
 <p><strong>The best answer is not G.</strong> Though the sentence might seem to go well after Sentence 2, placing it here would mean there would be no logical transition between Sentences 1 and 2, and a transition is needed there. </p>
@@ -1588,7 +1588,7 @@ jQuery(document).ready(function($) {
 	<p><a id="s4-9d" href="#" class="response">D.</a><span class="response">bodies’</span></p>
 </div>
 <div id="answer-s4-9a" class="correct">
-<p><strong>The best answer is A.</strong> The possessive form of body is created by adding an apostrophe + s</em>: body’s</em>.</p>
+<p><strong>The best answer is A.</strong> The possessive form of body is created by adding an apostrophe + s: <em>body's</em>.</p>
 </div>
 <div id="answer-s4-9b" class="incorrect">
 <p><strong>The best answer is not B.</strong> The singular possessive form of the word is needed here, not the plural possessive. </p>
@@ -1841,12 +1841,13 @@ jQuery(document).ready(function($) {
 	<p><a id="s5-3d" href="#" class="response">D.</a><span class="response">ways;</span></p>
 </div>
 <div id="answer-s5-3a" class="incorrect">
-<p><strong>The best answer is not A.</strong> Punctuation is needed after “ways” to introduce the list. </p></div>
+<p><strong>The best answer is not A.</strong> Punctuation is needed after “ways” to introduce the list. </p>
+</div>
 <div id="answer-s5-3b" class="correct">
 <p><strong>The best answer is B.</strong> A colon is needed to introduce the list. </p>
 </div>
 <div id="answer-s5-3c" class="incorrect"> 
-<p>The best answer is not C.</strong> Inserting a period here would create a fragment. </p>
+<p><strong>The best answer is not C.</strong> Inserting a period here would create a fragment. </p>
 </div>
 <div id="answer-s5-3d" class="incorrect">
 <p><strong>The best answer is not D.</strong> If you can’t use a period, you can’t use a semicolon. The text on each side of the semicolon needs to be an independent clause expressing a complete thought. </p>
@@ -1907,10 +1908,10 @@ jQuery(document).ready(function($) {
 <p><strong>The best answer is not G.</strong> If commas are used instead of dashes, two would be needed, with one coming before <em>and.</em></p>
 </div>
 <div id="answer-s5-6h" class="incorrect"> 
-<p><strong>The best answer is not H.</strong> A semicolon placed here would create a fragment.
+<p><strong>The best answer is not H.</strong> A semicolon placed here would create a fragment.</p>
 </div>
 <div id="answer-s5-6j" class="incorrect">
-<p><strong>The best answer is not J.</strong> A comma is needed to separate the two descriptors here (<em>draconian and prohibitively expensive</em>). 
+<p><strong>The best answer is not J.</strong> A comma is needed to separate the two descriptors here (<em>draconian and prohibitively expensive</em>).</p>
 </div>
 <!-- ******************************************************************************* -->
 
