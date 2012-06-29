@@ -100,6 +100,7 @@ jQuery(document).ready(function($) {
 		<li><a href="#tabs-2">Timed Test</a></li>
 		<li><a href="#tabs-3">Untimed Test</a></li>
 		<li><a href="#tabs-4">Directions</a></li>
+		<li><a href="#tabs-5"><em>ZAPS</em> Copyright</a></li>
 	</ul>
 	<div id="tabs-1">
 	<p>On the actual ACT Science test, you'll have 35 minutes to answer 40 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Science
@@ -140,6 +141,9 @@ correct answer and read the explanation.</p>
 	</tr>
 	</tbody></table>
 	</div>
+	<div id="tabs-5">
+		<p>Copyright (C) 2012, 2013 <em>ZAPS</em> Learning Company. No part of this work may be reproduced in any form or by means, electronic or mechanical, including photocopying, recording, or any information storage or retrieval systems, except as may be expressly permitted in writing by the publisher, <em>ZAPS</em> Learning Company, 941 Highway West, Lisbon, IA 52253. <em>ZAPS</em> is a registered trademark of <em>ZAPS</em> Learning Company.</p>
+	</div>
 </div>
 <div id="sets">
 		<ul><li>Passage:</li>
@@ -162,7 +166,6 @@ correct answer and read the explanation.</p>
 <tr valign="top">
 	<td class="passage">
 		<table>
-		<tbody style="overflow-y: scroll; overflow-x: hidden; height: 200px;">
 			<tr><td>Two-dimensional <em>paper chromatography</em> can separate a mixture of unknown molecules for identification. 
 				    A sample is placed at the bottom of a strip of paper, which is dipped into a solvent. 
 				    Solvent travels up the paper, dissolving and carrying the sample. 
@@ -177,7 +180,6 @@ correct answer and read the explanation.</p>
 				    The bottom of the paper was dipped into a butanol solvent, and the sample was separated. 
 				    Then the right edge of the paper was dipped into a phenol solvent.</td></tr>
 				<tr><td><img src="../images/science/passageI.jpg" width="100%" title="Figure 3"></td></tr>
-			</tbody>
 		</table>
 	</td>
 	<td align="top" class="questions">
@@ -1600,6 +1602,7 @@ passage or the question.</p>
 </div><!-- set-7-->
 
 </div><!--sets-->
+<p><sup>Copyright (C) 2012, 2013 <em>ZAPS</em> Learning Company. No part of this work may be reproduced in any form or by means, electronic or mechanical, including photocopying, recording, or any information storage or retrieval systems, except as may be expressly permitted in writing by the publisher, <em>ZAPS</em> Learning Company, 941 Highway West, Lisbon, IA 52253. <em>ZAPS</em> is a registered trademark of <em>ZAPS</em> Learning Company.</sup></p>
 </div><!--content2-->
 </div><!--container-->
 </body>
