@@ -160,8 +160,9 @@ correct answer and read the explanation.</p>
 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
 <tbody>
 <tr valign="top">
-	<td class="passage" style="height:300px!">
+	<td class="passage">
 		<table>
+		<tbody style="overflow-y: scroll; overflow-x: hidden; height: 200px;">
 			<tr><td>Two-dimensional <em>paper chromatography</em> can separate a mixture of unknown molecules for identification. 
 				    A sample is placed at the bottom of a strip of paper, which is dipped into a solvent. 
 				    Solvent travels up the paper, dissolving and carrying the sample. 
@@ -176,6 +177,7 @@ correct answer and read the explanation.</p>
 				    The bottom of the paper was dipped into a butanol solvent, and the sample was separated. 
 				    Then the right edge of the paper was dipped into a phenol solvent.</td></tr>
 				<tr><td><img src="../images/science/passageI.jpg" width="100%" title="Figure 3"></td></tr>
+			</tbody>
 		</table>
 	</td>
 	<td align="top" class="questions">
