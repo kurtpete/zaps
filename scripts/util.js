@@ -81,11 +81,9 @@ jQuery(document).ready(function($) {
 	    		answered.push(ans);
 	    		if ($('#answer-' + this.id).hasClass('incorrect')) {
 	    			this.className += ' incorrect_answered_question';
-	    			//this.innerHTML = '<img src="../images/incorrect.gif"/>';
 	    			$("span.incorrect-answers").text(formatSecondsAsTime(incorrect, "ss"));
 	    		}
 	    		else {
-	    			//this.innerHTML = '<img src="../images/correct.gif"/>';
 	    			this.className += ' correct_answered_question';
 	    			$("span.correct-answers").text(formatSecondsAsTime(correct, "ss"));
 	    		}
@@ -101,7 +99,6 @@ jQuery(document).ready(function($) {
 			});
       }
       else {
-      	// this.innerHTML = '<img src="../images/black.jpg"/>';
 			$('a[id^=' + ans + ']').removeClass('answered_question');     	
       	
       	this.className += ' answered_question';
@@ -126,6 +123,12 @@ jQuery(document).ready(function($) {
 		$("#correct-button,#incorrect-button").button("disable");
 		if (!timer_on) {
 			timer_on = true;
+			$("span.incorrect-answers").text(formatSecondsAsTime(0, "ss"));
+			$("span.correct-answers").text(formatSecondsAsTime(0, "ss"));
+			
+			$('.incorrect_answered_question').removeClass('incorrect_answered_question');
+			$('.correct_answered_question').removeClass('correct_answered_question');
+			
 			timer_interval = setInterval(function() { 
 		      $("span", "#timer").text(formatSecondsAsTime(--countdown, "mm:ss"));
 		      if (countdown == 0) {        
@@ -163,21 +166,12 @@ jQuery(document).ready(function($) {
 	$("#incorrect-button").button({icons: {primary: "ui-icon-circle-close"}});
 	
 	$("#correct-button,#incorrect-button").click( function() {
-		
 		$("#answers-info").dialog({
 							modal: true,
 							resizable: false,
 							width: '400px',
 							buttons: { Ok: function() { $(this).dialog("close"); } }
 						});
-		
-		//$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
-		//$("#test-results").dialog({
-		//					modal: true,
-		//					resizable: false,
-		//					width:'auto',
-		//					buttons: { Ok: function() { $(this).dialog("close"); } }
-		//				});
 		});
 	
 	$("#timer").button({icons: {primary: "ui-icon-zaps-clock"}});
@@ -185,6 +179,8 @@ jQuery(document).ready(function($) {
 	$("#sets").tabs(); 
 	$("#tabs").tabs(); 
 	
+	
+	// setup the left-right navigation buttons
 	$("#navigation-buttons").append('<a href="#sets" value="prev" id="prevButton">prev</a>');
 	$("#prevButton").button({icons: {primary: "ui-icon-zaps-prev"}}).click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') - 1);});
 	
@@ -193,9 +189,11 @@ jQuery(document).ready(function($) {
 	
 	$('.ui-dialog-buttonpane > button:last').focus();	
 	
-	//$(document).bind("contextmenu",function(e) {  
-	//        return false;  
-	//});
+	// hide the context menu
+	$(document).bind("contextmenu",function(e) {  
+	        return false;  
+	});
 
-	 //timerID=setTimeout('setInterval("deselect()", 1)', 1);
+	// disallow text selection
+	timerID=setTimeout('setInterval("deselect()", 1)', 1);
 });

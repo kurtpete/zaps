@@ -5,7 +5,7 @@
 	<meta name="robots" content="none"></meta>
 	
 	<link rel="stylesheet" href="../css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css">
-	<link rel="stylesheet" href="../css/test.css" type="text/css">
+	<!-- <link rel="stylesheet" href="../css/test.css" type="text/css"> -->
 	<link rel="stylesheet" href="../css/style.css" type="text/css">
 	<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="../scripts/jquery-ui-1.8.16.custom.min.js"></script>
@@ -108,11 +108,11 @@ jQuery(document).ready(function($) {
 		<li><a href="#tabs-3">Untimed Practice</a></li>
 		<li><a href="#tabs-4">Directions</a></li>
 	</ul>
-	<div id="tabs-1">
-	<p class="instructions">On the actual ACT English test, you'll have 45 minutes to answer 75 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice English test. Click a tab above to open the instructions for "Timed Test" or "Untimed Test."</p>
+	<div id="tabs-1" class="instructions">
+	<p>On the actual ACT English test, you'll have 45 minutes to answer 75 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice English test. Click a tab above to open the instructions for "Timed Test" or "Untimed Test."</p>
 	</div>
-	<div id="tabs-2">
-	<p class="instructions">By taking the test <em>timed,</em> you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
+	<div id="tabs-2" class="instructions">
+	<p>By taking the test <em>timed,</em> you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
 	<ul>
 		<li>To begin the timed test, click on the timer box (the one with the clock icon in the gray bar below).</li>
 		<li>Click on the letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
@@ -121,8 +121,8 @@ jQuery(document).ready(function($) {
 		<li>When time runs out for this test, the number of correct answers will be shown in green and the number of incorrect answers will be shown in red.</li>
 	</ul>
 	</div>
-	<div id="tabs-3">
-	<p class="instructions">Taking the test <em>untimed</em> is a good way to carefully study each test item and answer explanation.</p>
+	<div id="tabs-3" class="instructions">
+	<p>Taking the test <em>untimed</em> is a good way to carefully study each test item and answer explanation.</p>
 	<ul>
 		<li>Carefully read the question and each of the answer choices.</li>
 		<li><em>ZAP</em> any answers you know to be incorrect.</li>
@@ -133,13 +133,13 @@ jQuery(document).ready(function($) {
 		<li>As you move through the test, the number of correct answers will be shown in green, and the number of incorrect answers will be shown in red.</li>
     </ul>
 	</div>
-	<div id="tabs-4">
+	<div id="tabs-4" class="instructions">
 	<table width="100%" cellpadding="5" cellspacing="0">
 		<tbody><tr valign="TOP">
-			<td width="50%"><p class="directions">In the following passages, some of the words and phrases have been underlined and numbered. The right-hand column contains alternatives for the underlined text. For most test items, choose the alternative that best expresses the idea, rewrites the statement in standard written English, or fits best with the style and tone of the passage as a whole. If the original version is best, select “NO CHANGE.”</p></td>
+			<td width="50%"><p>In the following passages, some of the words and phrases have been underlined and numbered. The right-hand column contains alternatives for the underlined text. For most test items, choose the alternative that best expresses the idea, rewrites the statement in standard written English, or fits best with the style and tone of the passage as a whole. If the original version is best, select “NO CHANGE.”</p></td>
 								 
-			<td><p class="directions">Some test items in the right-hand column will ask a question about the underlined text. Choose the best answer to the question given. Some test items will ask about a larger portion of the passage or about the entire passage. These do not refer to underlined text but rather are indicated by a boxed number or number.</p>
-				 <p class="directions">For each test item, select the best alternative and fill in the corresponding bubble on your answer sheet. Read the passage completely before beginning to answer the accompanying questions. For many of the test items, you must read several sentences beyond the question number to identify the best answer. Be sure to read far enough ahead before making your choice.</p></td>
+			<td><p>Some test items in the right-hand column will ask a question about the underlined text. Choose the best answer to the question given. Some test items will ask about a larger portion of the passage or about the entire passage. These do not refer to underlined text but rather are indicated by a boxed number or number.</p>
+				 <p>For each test item, select the best alternative and fill in the corresponding bubble on your answer sheet. Read the passage completely before beginning to answer the accompanying questions. For many of the test items, you must read several sentences beyond the question number to identify the best answer. Be sure to read far enough ahead before making your choice.</p></td>
 		</tr>
 	</tbody></table>
 	</div>
@@ -2104,6 +2104,7 @@ jQuery(document).ready(function($) {
 </div>
 </div><!-- set-5-->
 </div><!--sets-->
+<div class="navigation-buttons" id="navigation-buttons"></div>
 <p><sup>Copyright (C) 2012, 2013 <em>ZAPS</em> Learning Company. No part of this work may be reproduced in any form or by means, electronic or mechanical, including photocopying, recording, or any information storage or retrieval systems, except as may be expressly permitted in writing by the publisher, <em>ZAPS</em> Learning Company, 941 Highway West, Lisbon, IA 52253. <em>ZAPS</em> is a registered trademark of <em>ZAPS</em> Learning Company.</sup></p>
 </div><!--content2-->
 </div><!--container-->
