@@ -5,17 +5,24 @@
 	<meta name="robots" content="none">
 	
 	<link rel="stylesheet" href="../css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css">
-	<!-- <link rel="stylesheet" href="../css/test.css" type="text/css"> -->
 	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	
 	<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="../scripts/jquery-ui-1.8.16.custom.min.js"></script>
-	<script type="text/javascript" src="../scripts/util.js"></script>
 	
 	<style media="print">BODY { DISPLAY: none }</style>
 
 <script type="text/javascript">
-var countdown = 3600;
-var totalQuestions = 60;
+	var countdown = 3600;
+	var totalQuestions = 60;
+	
+	var utiljs = document.createElement('script');
+	utiljs.setAttribute("type","text/javascript");
+	utiljs.setAttribute("src", "../scripts/util.js");
+	
+	if (typeof utiljs!="undefined") {
+  		document.getElementsByTagName("head")[0].appendChild(utiljs);
+  	}
 
 jQuery(document).ready(function($) {
 	$("#mathButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
@@ -28,6 +35,10 @@ jQuery(document).ready(function($) {
 
 <div id="time-up" title="Time is up!" style="display:none;"> 
 <p><span class="ui-icon ui-icon-clock" style="float:left; margin:0 7px 20px 0;"></span>Your time is up for this test.</p>
+</div>
+
+<div id="answers-info" title="Information" style="display:none;">
+<p>If you want to estimate your score take the test timed. When you're practicing, don't worry about your score. Focus on applying the strategies and tips that you learned in the <em>ZAPS</em> seminar.</p>
 </div>
 
 <div id="test-results" title="Test Results" style="display:none;">

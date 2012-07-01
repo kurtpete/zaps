@@ -5,22 +5,28 @@
 	<meta name="robots" content="none">
 	
 	<link rel="stylesheet" href="../css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css">
-<!-- 	<link rel="stylesheet" href="../css/test.css" type="text/css"> -->
 	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	
 	<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="../scripts/jquery-ui-1.8.16.custom.min.js"></script>
-	<script type="text/javascript" src="../scripts/util.js"></script>
-	
+
 	<style media="print">BODY { DISPLAY: none }</style>
 
 <script type="text/javascript">
-var countdown = 2100;
-var totalQuestions = 40;
+	var countdown = 2100;
+	var totalQuestions = 40;
 
-jQuery(document).ready(function($) {
-	$("#scienceButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
-});
+	var utiljs = document.createElement('script');
+	utiljs.setAttribute("type","text/javascript");
+	utiljs.setAttribute("src", "../scripts/util.js");
+	
+	if (typeof utiljs!="undefined") {
+  		document.getElementsByTagName("head")[0].appendChild(utiljs);
+  	}
 
+	jQuery(document).ready(function($) {
+		$("#scienceButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
+	});
 </script>
 </head>
 
