@@ -195,11 +195,11 @@ jQuery(document).ready(function($) {
 	$("#sets").tabs(); 
 	$("#tabs").tabs(); 
 	
-	$("#navigation-buttons").append('<input type="button" value="previous" id="prevButton">');
-	$("#prevButton").button().click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') - 1);});
+	$("#navigation-buttons").append('<a href="#sets" value="prev" id="prevButton">prev</a>');
+	$("#prevButton").button({icons: {primary: "ui-icon-zaps-prev"}}).click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') - 1);});
 	
-	$("#navigation-buttons").append('<input type="button" value="next" id="nextButton">');
-	$("#nextButton").button().click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') + 1);});
+	$("#navigation-buttons").append('<a href="#sets" value="next" id="nextButton">next</a>');
+	$("#nextButton").button({icons: {secondary: "ui-icon-zaps-next"}}).click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') + 1);});
 	
 	$('.ui-dialog-buttonpane > button:last').focus();	
 	

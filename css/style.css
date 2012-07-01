@@ -29,6 +29,8 @@ a:focus#showhide { outline:none; }
 	}
 
 .ui-icon-zaps-clock { background-image: url('../images/clock.png') !important; }
+.ui-icon-zaps-next { background-image: url('../images/next.png') !important; }
+.ui-icon-zaps-prev { background-image: url('../images/prev.png') !important; }
 
 table.results-table {
 	font-size:12px;
