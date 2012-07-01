@@ -28,6 +28,8 @@ a:focus#showhide { outline:none; }
 	background: url(images/testbook.gif) 90% 40px no-repeat;
 	}
 
+.ui-icon-zaps-clock { background-image: url('../images/clock.png') !important; }
+
 table.results-table {
 	font-size:12px;
 	border-collapse:collapse;
@@ -115,6 +117,7 @@ a.incorrect_answered_question {
 div.correct, div.incorrect {
 	display: none;
 	font-family:'Times New Roman', Times, Georgia, serif;
+	text-align: left;
 	}
 
 .numcol {

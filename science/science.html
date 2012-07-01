@@ -10,6 +10,8 @@
 	<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="../scripts/jquery-ui-1.8.16.custom.min.js"></script>
 	<script type="text/javascript" src="../scripts/util.js"></script>
+	
+	<style media="print">BODY { DISPLAY: none }</style>
 
 <script type="text/javascript">
 var countdown = 2100;
@@ -26,6 +28,10 @@ jQuery(document).ready(function($) {
 
 <div id="time-up" title="Time is up!" style="display:none;"> 
 <p><span class="ui-icon ui-icon-clock" style="float:left; margin:0 7px 20px 0;"></span>Your time is up for this test.</p>
+</div>
+
+<div id="answers-info" title="Information" style="display:none;">
+<p>If you want to estimate your score take the test timed. When you're practicing, don't worry about your score. Focus on applying the strategies and tips that you learned in the <em>ZAPS</em> seminar.</p>
 </div>
 
 <div id="test-results" title="Test Results" style="display:none;">
@@ -83,10 +89,10 @@ jQuery(document).ready(function($) {
 </td>
 <td align="right">
 	<div id="nav">
-	<a id="mathButton" href="../math/math.html">Math</a>
-	<a id="scienceButton" href="../science/science.html">Science</a>
-	<a id="readingButton" href="../reading/reading.html">Reading</a>
 	<a id="englishButton" href="../english/english.html">English</a>
+	<a id="mathButton" href="../math/math.html">Math</a>
+	<a id="readingButton" href="../reading/reading.html">Reading</a>
+	<a id="scienceButton" href="../science/science.html">Science</a>
    </div>
 </td>
 </tr>

@@ -8,6 +8,16 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+  
+function deselect() {
+	if (document.selection) {
+		document.selection.empty();
+		Copied=document.body.createTextRange();
+		}
+	else if (window.getSelection) {
+		window.getSelection().removeAllRanges();
+	}
+}
 
 function formatSecondsAsTime(secs, format) {
   var hr  = Math.floor(secs / 3600);
@@ -162,18 +172,31 @@ jQuery(document).ready(function($) {
 	$("#incorrect-button").button({icons: {primary: "ui-icon-circle-close"}});
 	
 	$("#correct-button,#incorrect-button").click( function() {
-		$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
-		$("#test-results").dialog({
+		
+		$("#answers-info").dialog({
 							modal: true,
 							resizable: false,
-							width:'auto',
+							width: '400px',
 							buttons: { Ok: function() { $(this).dialog("close"); } }
 						});
+		
+		//$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
+		//$("#test-results").dialog({
+		//					modal: true,
+		//					resizable: false,
+		//					width:'auto',
+		//					buttons: { Ok: function() { $(this).dialog("close"); } }
+		//				});
 		});
 	
-	$("#timer").button({icons: {primary: "ui-icon-clock"}});
+	$("#timer").button({icons: {primary: "ui-icon-zaps-clock"}});
 
 	$("#sets").tabs(); 
 	$("#tabs").tabs(); 
-	// $("#accordion").accordion({autoHeight: false});
+	
+	//$(document).bind("contextmenu",function(e) {  
+	//        return false;  
+	//});
+
+	// timerID=setTimeout('setInterval("deselect()", 1)', 1);
 });
