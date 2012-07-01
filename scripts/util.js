@@ -133,6 +133,7 @@ jQuery(document).ready(function($) {
    $("#timer").click(function () {
    	// $("#timer").off("click");
 		// $("#timer").button("disable");
+		$("#correct-button,#incorrect-button").button("disable");
 		if (!timer_on) {
 			timer_on = true;
 			timer_interval = setInterval(function() { 
@@ -193,6 +194,14 @@ jQuery(document).ready(function($) {
 
 	$("#sets").tabs(); 
 	$("#tabs").tabs(); 
+	
+	$("#navigation-buttons").append('<input type="button" value="previous" id="prevButton">');
+	$("#prevButton").button().click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') - 1);});
+	
+	$("#navigation-buttons").append('<input type="button" value="next" id="nextButton">');
+	$("#nextButton").button().click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') + 1);});
+	
+	$('.ui-dialog-buttonpane > button:last').focus();	
 	
 	//$(document).bind("contextmenu",function(e) {  
 	//        return false;  

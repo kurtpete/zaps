@@ -120,6 +120,10 @@ div.correct, div.incorrect {
 	text-align: left;
 	}
 
+div.navigation-buttons {
+	text-align: center;
+	}
+
 .numcol {
 	font-weight:bold;
 	width: 20px;
