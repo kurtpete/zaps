@@ -1,3 +1,146 @@
+/*********** Body Styles ***********/
+
+body {
+	margin: 0;
+	padding: 0 0 10px 0;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background: #464646 url(../images/bg_noline.jpg) 50% 0px repeat-y;
+	}
+		
+body#fullpage {
+	background: #464646 url(../images/bg_noline.jpg) 50% 0 repeat-y;
+	}
+	
+/*body#fullpage #content {
+	width:748px;
+	margin:10px 12px 10px 12px;
+	padding:0;
+	}*/
+	
+body#home #content {
+	width:365px;
+	margin:10px 0 10px 0;
+	padding:0 10px;
+	}
+	
+body#threecol #content {
+	width:365px;
+	margin:10px 0 10px 0;
+	padding:0 10px;
+	}
+	
+body#practice #content {
+	width:585px;
+	margin:10px 0 10px 10px;
+	padding:0;
+	}
+	 
+/*********** Font Styles ***********// 
+			
+h1 {
+	font-size:24px;
+	font-family:'Trebuchet MS', 'Lucida Grande', Arial, Verdana;
+	color:#D51922;
+	display:block;
+	margin:0;
+	padding:7px 0 2px 0;
+	background:none;
+	}
+	
+h2 {
+	padding:5px 0 5px 0;
+	font-size:20px;
+	/*width:100%;*/
+	display:block; 
+	/*color:#f89832;*/
+	color:#204c8d;
+	margin:15px 0 10px 0;
+	font-family: Arial, Verdana, sans-serif;
+	}
+			
+h3 {
+	padding:5px 5px 2px 0px;
+	/*margin-bottom:0px;*/
+	font-size:15px;
+	color:#444;
+	font-family: Arial, Verdana, sans-serif;
+	}
+		
+.redtext {
+	color:#D93535;
+	}
+	
+/*********** Layout Styles *********/
+				
+#container {
+	width:774px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	background: #FFF;
+	}
+
+#header {
+	position:relative;
+	margin:0;
+	padding:0;
+	}
+	
+#logo {
+	position:absolute;
+	top:20px;
+	right:12px;
+	}
+
+
+#content {
+	padding:0 0 5px 0;
+	font-size:12px;
+	font-family: Verdana, Arial, sans-serif;
+	color:#494949;
+	width:550px;
+	float:left;
+	margin:10px 0 10px 13px;
+	}
+
+
+td, tr, table {
+	font-size:12px;
+	clear:both;
+	}
+	
+th {
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	background: #38737D;
+	font-family:Arial;
+	}
+
+
+.questions {
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+.answerstable {
+	margin-bottom:15px;
+}
+
+.answerstable td {
+	padding-right:5px;
+}
+
+.passage {
+	line-height:1.5em;
+	border-right: 1px solid #AAAAAA;
+}
+
+
 body {
 	font-size:14px;
 	}
