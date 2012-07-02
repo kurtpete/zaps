@@ -266,7 +266,10 @@ div.correct, div.incorrect {
 	}
 
 div.navigation-buttons {
-	text-align: center;
+	}
+	
+div.complete-test-button {
+	float: right;
 	}
 
 .numcol {

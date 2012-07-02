@@ -39,6 +39,7 @@ var correct = 0;
 var incorrect = 0;
 
 var timer_on = false;
+var timed_test = false;
 var timer_interval;
 
 jQuery(document).ready(function($) {
@@ -54,6 +55,10 @@ jQuery(document).ready(function($) {
 	
 	$("a.response").click( function() { 
 		var ans = this.id.slice(0, -1);
+		
+		if (timed_test && !timer_on) {
+			$("#timer").trigger('click');
+		}
 
 		if ($('#answer-' + this.id).hasClass('incorrect')) {
 			if (incorrect_answered.indexOf(ans) < 0) {
@@ -102,25 +107,14 @@ jQuery(document).ready(function($) {
 			$('a[id^=' + ans + ']').removeClass('answered_question');     	
       	
       	this.className += ' answered_question';
-      }
-
-		if ((correct + incorrect) == totalQuestions) {
-			$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
-			$("#test-results").dialog({
-				modal: true,
-				resizable: false,
-				width:'auto',
-				buttons: { Ok: function() { $(this).dialog("close"); } }
-			});
-		}      
+      }    
       
    	return false;
    });
    
    $("#timer").click(function () {
-   	// $("#timer").off("click");
-		// $("#timer").button("disable");
 		$("#correct-button,#incorrect-button").button("disable");
+		timed_test = true;
 		if (!timer_on) {
 			timer_on = true;
 			$("span.incorrect-answers").text(formatSecondsAsTime(0, "ss"));
@@ -181,12 +175,25 @@ jQuery(document).ready(function($) {
 	
 	
 	// setup the left-right navigation buttons
-	$("#navigation-buttons").append('<a href="#sets" value="prev" id="prevButton">prev</a>');
+	$("#navigation-buttons").append('<a href="#sets" id="prevButton">prev</a>');
 	$("#prevButton").button({icons: {primary: "ui-icon-zaps-prev"}}).click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') - 1);});
 	
-	$("#navigation-buttons").append('<a href="#sets" value="next" id="nextButton">next</a>');
+	$("#navigation-buttons").append('<a href="#sets" id="nextButton">next</a>');
 	$("#nextButton").button({icons: {secondary: "ui-icon-zaps-next"}}).click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') + 1);});
 	
+	$("#complete-test-button").append("<a href='#' id='completeButton'>I'm Finished</a>");
+	$("#completeButton").button().click(function () {
+							clearInterval(timer_interval);
+							$("#timer").button("disable");
+							$("#test-results").dialog({
+								modal: true,
+								resizable: false,
+								width:'auto',
+								buttons: { Ok: function() { $(this).dialog("close"); } }
+							})
+							return false;
+							});
+		
 	$('.ui-dialog-buttonpane > button:last').focus();	
 	
 	// hide the context menu
