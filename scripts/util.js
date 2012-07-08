@@ -114,6 +114,7 @@ jQuery(document).ready(function($) {
    
    $("#timer").click(function () {
 		$("#correct-button,#incorrect-button").button("disable");
+		$("#completeButton").button("enable");
 		timed_test = true;
 		if (!timer_on) {
 			timer_on = true;
@@ -173,7 +174,6 @@ jQuery(document).ready(function($) {
 	$("#sets").tabs(); 
 	$("#tabs").tabs(); 
 	
-	
 	// setup the left-right navigation buttons
 	$("#navigation-buttons").append('<a href="#sets" id="prevButton">prev</a>');
 	$("#prevButton").button({icons: {primary: "ui-icon-zaps-prev"}}).click(function () {$("#sets").tabs('select', $("#sets").tabs('option', 'selected') - 1);});
@@ -183,6 +183,7 @@ jQuery(document).ready(function($) {
 	
 	$("#complete-test-button").append("<a href='#' id='completeButton'>I'm Finished</a>");
 	$("#completeButton").button().click(function () {
+						if (timer_on) {							
 							clearInterval(timer_interval);
 							$("#timer").button("disable");
 							$("#test-results").dialog({
@@ -190,10 +191,12 @@ jQuery(document).ready(function($) {
 								resizable: false,
 								width:'auto',
 								buttons: { Ok: function() { $(this).dialog("close"); } }
-							})
-							return false;
-							});
-		
+							   })
+						}
+						
+						return false;
+						});
+	$("#completeButton").button("disable");
 	$('.ui-dialog-buttonpane > button:last').focus();	
 	
 	// hide the context menu
