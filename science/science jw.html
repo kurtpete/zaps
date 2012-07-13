@@ -1,0 +1,1586 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Sample Questions - Science</title> 
+	<meta name="robots" content="none">
+	
+	<link rel="stylesheet" href="../css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	
+	<script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="../scripts/jquery-ui-1.8.16.custom.min.js"></script>
+
+	<style media="print">BODY { DISPLAY: none }</style>
+
+<script type="text/javascript">
+	var countdown = 2100;
+	var totalQuestions = 40;
+
+	var utiljs = document.createElement('script');
+	utiljs.setAttribute("type","text/javascript");
+	utiljs.setAttribute("src", "../scripts/util.js");
+	
+	if (typeof utiljs!="undefined") {
+  		document.getElementsByTagName("head")[0].appendChild(utiljs);
+  	}
+
+	jQuery(document).ready(function($) {
+		$("#scienceButton").button({icons: {primary: "ui-icon-circle-triangle-e"}});
+	});
+</script>
+</head>
+
+<body id="fullpage" class="sampletest">
+
+<div id="time-up" title="Time is up!" style="display:none;"> 
+<p><span class="ui-icon ui-icon-clock" style="float:left; margin:0 7px 20px 0;"></span>Your time is up for this test.</p>
+</div>
+
+<div id="answers-info" title="Information" style="display:none;">
+<p>If you want to estimate your score take the test timed. When you're practicing, don't worry about your score. Focus on applying the strategies and tips that you learned in the <em>ZAPS</em> seminar.</p>
+</div>
+
+<div id="test-results" title="Test Results" style="display:none;">
+<table class="results-table">
+<tr><th colspan="4">Estimated ACT Scores Based on Practice Test Results</th></tr>
+<tr><th></th><th>Estimated ACT Score</th><th>Number Correct on Science Test</th><th>Your Score</th></tr>
+<tr><td>99th Percentile</td><td>36</td><td>40</td><td rowspan="36" id="results-correct"><span class="results-answers"></span></td></tr>
+<tr><td>99th Percentile</td><td>35</td><td>39</td></tr>
+<tr><td>99th Percentile</td><td>34</td><td>38</td></tr>
+<tr><td>99th Percentile</td><td>33</td><td>37</td></tr>
+<tr><td>99th Percentile</td><td>32</td><td>36</td></tr>
+<tr><td>99th Percentile</td><td>31</td><td>35</td></tr>
+<tr><td>99th Percentile</td><td>30</td><td>34</td></tr>
+<tr><td></td><td>29</td><td>33</td></tr>
+<tr><td></td><td>28</td><td>32</td></tr>
+<tr><td></td><td>27</td><td>31</td></tr>
+<tr><td></td><td>26</td><td>29–30</td></tr>
+<tr><td></td><td>25</td><td>28</td></tr>
+<tr><td></td><td>24</td><td>26–27</td></tr>
+<tr><td></td><td>23</td><td>25</td></tr>
+<tr><td></td><td>22</td><td>23–24</td></tr>
+<tr><td>National Average</td><td>21</td><td>22</td></tr>
+<tr><td>National Average</td><td>20</td><td>20–21</td></tr>
+<tr><td>National Average</td><td>19</td><td>19</td></tr>
+<tr><td></td><td>18</td><td>17–18</td></tr>
+<tr><td></td><td>17</td><td>16</td></tr>
+<tr><td></td><td>16</td><td>14–15</td></tr>
+<tr><td></td><td>15</td><td>13</td></tr>
+<tr><td></td><td>14</td><td>11–12</td></tr>
+<tr><td>Blind Guessing</td><td>13</td><td>10</td></tr>
+<tr><td></td><td>12</td><td>8–9</td></tr>
+<tr><td></td><td>11</td><td>7</td></tr>
+<tr><td></td><td>10</td><td>6</td></tr>
+<tr><td></td><td>9</td><td>5</td></tr>
+<tr><td></td><td>8</td><td>4</td></tr>
+<tr><td></td><td>7</td><td>3</td></tr>
+<tr><td></td><td>6</td><td></td></tr>
+<tr><td></td><td>5</td><td>2</td></tr>
+<tr><td></td><td>4</td><td></td></tr>
+<tr><td></td><td>3</td><td></td></tr>
+<tr><td></td><td>2</td><td>1</td></tr>
+<tr><td></td><td>1</td><td>0</td></tr>
+</table>
+</div>
+
+<div id="container">
+<div id="header">
+<table width="100%">
+<tr>
+<td>
+<img src="../images/zaps_logo.jpg">
+</td>
+<td>
+<h2>ACT-Practice Tests</h2>
+</td>
+<td align="right">
+	<div id="nav">
+	<a id="englishButton" href="../english/english.html">English</a>
+	<a id="mathButton" href="../math/math.html">Math</a>
+	<a id="readingButton" href="../reading/reading.html">Reading</a>
+	<a id="scienceButton" href="../science/science.html">Science</a>
+   </div>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="content2">
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Science</a></li>
+		<li><a href="#tabs-2">Timed Test</a></li>
+		<li><a href="#tabs-3">Untimed Practice</a></li>
+		<li><a href="#tabs-4">Directions</a></li>
+	</ul>
+	<div id="tabs-1" class="instructions">
+	<p>On the actual ACT Science test, you'll have 35 minutes to answer 40 questions. There are two ways to take the <em>ZAPS</em> ACT-Practice Science
+test. Click a tab above to open the instructions for "Timed Test" or "Untimed Test."</p>
+	</div>
+	<div id="tabs-2" class="instructions">
+	<p>By taking the test <em>timed,</em> you can get a feel for how well you will do under the time constraints of the actual ACT test.</p>
+	<ul>
+		<li>To begin the timed test, click on the timer box (the one with the clock icon in the gray bar below).</li>
+		<li>Click on the letter of the correct answer choice for each question. You may change your answer while still in this test. </li>
+		<li>If you click out of this test, the timer will stop, and you will have to start all over.</li>
+		<li>If you need to leave the test, click to stop the timer. You may restart the timer when you come back.</li>
+		<li>When time runs out for this test, you will see the number of answers you got correct (green number) and incorrect (red number) in the boxes
+next to the timer. You can view your estimated ACT score by clicking on either of these two boxes.</li>
+	</ul>
+	</div>
+	<div id="tabs-3" class="instructions">
+	<p>Taking the test <em>untimed</em> is a good way to carefully study each test item and answer explanation.</p>
+	<ul>
+		<li>Carefully read the question and each of the answer choices.</li>
+		<li><em>ZAP</em> any answers you know to be incorrect.</li>
+		<li>Select the correct answer by clicking on the letter.</li>
+		<li>Clicking will reveal a pop-up box that tells whether the answer is correct or incorrect.</li>
+		<li>Read the information in the box to learn more about the answer you chose or to see a tip about how to answer the question correctly.</li>
+		<li>You cannot change your answer once you have clicked it, but you can view the tips about the other answer choices by clicking on them.</li>
+		<li>As you move through the test, the number of correct answers will be shown in green, and the number of incorrect answers will be shown in red.</li>
+		<ul>
+		</div>
+	<div id="tabs-4" class="instructions">
+	<table width="100%">
+	<tbody><tr valign="top">
+		<td width="50%">
+			<p>This test contains seven passages of scientific information, followed by several questions about each. After you read a passage, select
+the best answer to each question. On the actual ACT, you will fill in the corresponding bubble on your answer sheet; for this online test, click on the
+correct answer and read the explanation.</p>
+			<p>As you answer the questions, you may look back at the passage as often as you wish. Do NOT use a calculator on this test.</p>
+		</td>
+	</tr>
+	</tbody></table>
+	</div>
+</div>
+<div id="sets">
+		<ul><li>Passage:</li>
+			<li><a href="#set-1">I</a></li>
+			<li><a href="#set-2">II</a></li>
+			<li><a href="#set-3">III</a></li>
+			<li><a href="#set-4">IV</a></li>
+			<li><a href="#set-5">V</a></li>
+			<li><a href="#set-6">VI</a></li>
+			<li><a href="#set-7">VII</a></li>			
+			<div align="right">
+			<a href="#" id="correct-button" title="Correct Answers"><span class="correct-answers">00</span></a>
+			<a href="#" id="incorrect-button" title="Incorrect Answers"><span class="incorrect-answers">00</span></a>
+			<a href="#" id="timer" title="Start Timer"><span>35:00</span></a>
+			</div>
+		</ul>
+<div id="set-1">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<tr valign="top">
+	<td class="passage">
+		<table>
+			<tr><td>Two-dimensional <em>paper chromatography</em> can separate a mixture of unknown molecules for identification. 
+				    A sample is placed at the bottom of a strip of paper, which is dipped into a solvent. 
+				    Solvent travels up the paper, dissolving and carrying the sample. 
+				    Molecules that are weakly attracted to the solvent are soon deposited on the paper. 
+				    Molecules that cling strongly are carried farther. Figure 1 shows the direction of travel.</td></tr>
+				<tr><td>To further separate the sample, the paper is turned on its side and dipped in a second solvent. 
+				    This liquid separates spots deposited by the first solvent. Figure 2 shows the direction of travel.</td></tr>
+				
+				<tr><td>Below is a <em>chromatogram</em> showing the results of an experiment that separated chemicals involved in photosynthesis. 
+				    Algae photosynthesized for 30 seconds, then were killed and blended in a blender. 
+				    An algae sample was placed at the lower right hand corner of the paper. 
+				    The bottom of the paper was dipped into a butanol solvent, and the sample was separated. 
+				    Then the right edge of the paper was dipped into a phenol solvent.</td></tr>
+				<tr><td><img src="../images/science/passageI.jpg" title="Figure 3"></td></tr>
+		</table>
+	</td>
+	<td align="top" class="questions">
+		
+<div class="question">
+	<div class="numcol">1.</div><p>According to the chromatogram in Figure 3, which series correctly orders the molecules from least to most attracted to
+the phenol solvent?</p>
+	<p><a id="s1-1a" href="#" class="response">A.</a><span class="response">Alanine, sucrose, aspartic acid</span></p>
+	<p><a id="s1-1b" href="#" class="response">B.</a><span class="response">Malic acid, aspartic acid, citric acid</span></p>
+	<p><a id="s1-1c" href="#" class="response">C.</a><span class="response">Triose phosphate, sucrose, UDPG</span></p>
+	<p><a id="s1-1d" href="#" class="response">D.</a><span class="response">Glutamic acid, glycine, alanine</span></p>
+</div>
+
+<div id="answer-s1-1a" class="incorrect">
+<p><strong>The best answer is not A.</strong> This orders the molecules from most to least attracted to phenol.</p>
+</div>
+
+<div id="answer-s1-1b" class="incorrect">
+<p><strong>The best answer is not B.</strong> This looks at the attraction of molecules to the butanol solvent, not the phenol solvent. </p><p>The
+butanol solvent carried species up the chromatogram.</p>
+</div>
+
+<div id="answer-s1-1c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> These species are not ordered by attraction to either solvent.</p>
+</div>
+
+<div id="answer-s1-1d" class="correct">
+<p><strong>The best answer is D.</strong> The phenol solvent carried chemical species (molecules) from the sample from right to left across the paper.
+</p><p>Species that are most strongly attracted to the phenol solvent traveled farthest to the left. Alanine is the leftmost species, followed by
+glycine.</p><p> Glutamic acid is farthest to the right.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">2.</div><p>Which two molecules have approximately the same degree of attraction to the butanol solvent?</p>
+	<p><a id="s1-2f" href="#" class="response">F.</a><span class="response">Sucrose and glycine</span></p>
+	<p><a id="s1-2g" href="#" class="response">G.</a><span class="response">Citric acid and sucrose</span></p>
+	<p><a id="s1-2h" href="#" class="response">H.</a><span class="response">UDPG and aspartic acid</span></p>
+	<p><a id="s1-2j" href="#" class="response">J.</a><span class="response">Aspartic acid and glycine</span></p>
+</div>
+		
+<div id="answer-s1-2f" class="incorrect">
+<p><strong>The best answer is not F.</strong> Sucrose and glycine have similar attraction to phenol, not butanol. They are on a line parallel to the
+right edge of the paper.</p>
+</div>
+
+<div id="answer-s1-2g" class="incorrect">
+<p><strong>The best answer is not G.</strong> Citric acid was carried farther up the paper than sucrose, indicating that Citric acid experiences a relatively stronger attraction to butanol.”</p>
+</div>
+
+<div id="answer-s1-2h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> Aspartic acid was carried farther up the paper than UDPG, indicating that aspartic acid experiences a relatively stronger attraction to butanol.</p>
+</div>
+
+<div id="answer-s1-2j" class="correct">
+<p><strong>The best answer is J.</strong> The butanol solvent carries species up the paper. </p><p>Species attracted to butanol to the same degree will
+be deposited along an imaginary line parallel or nearly parallel to the bottom edge of the paper.</p><p> Aspartic acid and glycine are on a line nearly
+parallel to the paper’s bottom edge.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">3.</div><p>Based on the chromatogram, alanine appears to be:</p>
+	<p><a id="s1-3a" href="#" class="response">A.</a><span class="response">strongly attracted to both phenol and butanol solvents.</span></p>
+	<p><a id="s1-3b" href="#" class="response">B.</a><span class="response">weakly attracted to both phenol and butanol solvents.</span></p>
+	<p><a id="s1-3c" href="#" class="response">C.</a><span class="response">strongly attracted to phenol solvent and moderately attracted to butanol
+solvent.</span></p>
+	<p><a id="s1-3d" href="#" class="response">D.</a><span class="response">weakly attracted to phenol solvent and moderately attracted to butanol
+solvent.</span></p>
+</div>
+
+
+<div id="answer-s1-3a" class="incorrect">
+<p><strong>The best answer is not A.</strong> This would have placed alanine in a different area of the chromatogram. Answer A would have placed it at the top left corner
+</p>
+</div>
+
+<div id="answer-s1-3b" class="incorrect">
+<p><strong>The best answer is not B.</strong> This would have placed alanine in a different area of the chromatogram. Answer B would have placed it near the origin spot.”</p>
+</div>
+
+<div id="answer-s1-3c" class="correct">
+<p><strong>The best answer is C.</strong> The alanine spot is on the far left edge of the paper, indicating it was carried all the way across the paper
+by phenol and was strongly attracted. </p><p>It is carried halfway up the paper, indicating moderate attraction to the butanol solvent.</p>
+</div>
+
+<div id="answer-s1-3d" class="incorrect"> 
+<p><strong>The best answer is not D.</strong> This would have placed alanine in a different area of the chromatogram. Answer D would have placed it about halfway up the right-hand edge.”</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">4.</div><p>Alanine and solvent molecules are strongly attracted to each other because they are both <em>polar</em>: parts of each
+molecule carry small positive and negative charges. Benzene is a nonpolar molecule, with no positive or negative charges. Where would you expect to find
+benzene on this chromatogram?</p>
+	<p><a id="s1-4f" href="#" class="response">F.</a><span class="response">Near the origin</span></p>
+	<p><a id="s1-4g" href="#" class="response">G.</a><span class="response">Carried off the edge of the paper</span></p>
+	<p><a id="s1-4h" href="#" class="response">H.</a><span class="response">Near the alanine spot</span></p>
+	<p><a id="s1-4j" href="#" class="response">J.</a><span class="response">Near the sugar UDPG spot</span></p>
+</div>
+		
+<div id="answer-s1-4f" class="correct">
+<p><strong>The best answer is F.</strong> A nonpolar species will not be attracted to either solvent, and so will not be carried dissolved by the solvent
+— as oil is not dissolved in water — or carried from the original sample spot.</p>
+</div>
+
+<div id="answer-s1-4g" class="incorrect">
+<p><strong>The best answer is not G.</strong> This would indicate some attraction to one or both of the solvents. </p><p>According to the question,
+benzene is nonpolar, and thus not attracted to either solvent.</p>
+</div>
+
+<div id="answer-s1-4h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> This would indicate some attraction to one or both of the solvents. </p><p>According to the question,
+benzene is nonpolar, and thus not attracted to either solvent.</p>
+</div>
+
+<div id="answer-s1-4j" class="incorrect">
+<p><strong>The best answer is not J.</strong> This would indicate some attraction to one or both of the solvents. </p><p>According to the question,
+benzene is nonpolar, and thus not attracted to either solvent.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">5.</div><p>The spot labeled aspartic acid is much larger than the spot labeled glutamic acid. What can be deduced from this
+observation?</p>
+	<p><a id="s1-5a" href="#" class="response">A.</a><span class="response">There is more aspartic acid in the sample than there is glutamic
+acid.</span></p>
+	<p><a id="s1-5b" href="#" class="response">B.</a><span class="response">Aspartic acid is more strongly attracted to the solvents than glutamic
+acid.</span></p>
+	<p><a id="s1-5c" href="#" class="response">C.</a><span class="response">The carbon in CO<sub>2</sub> is incorporated first into glutamic acid, then
+into aspartic acid.</span></p>
+	<p><a id="s1-5d" href="#" class="response">D.</a><span class="response">Aspartic acid is more strongly attracted to butanol than to
+phenol.</span></p>
+</div>
+
+<div id="answer-s1-5a" class="correct">
+<p><strong>The best answer is A.</strong> If one spot is large, it is most likely because there’s simply a lot of it in the sample.</p>
+</div>
+
+<div id="answer-s1-5b" class="incorrect">
+<p><strong>The best answer is not B.</strong> Spot size has nothing to do with strength of attraction to solvents or to placement on the
+chromatogram.</p>
+</div>
+
+<div id="answer-s1-5c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> There is no evidence on the chromatogram to support such a causal chain.</p>
+</div>
+
+<div id="answer-s1-5d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Spot size has nothing to do with strength of attraction to solvents or to placement on the
+chromatogram.</p>
+</div>
+<!-- ************************************************************* -->
+
+</td></tr>
+</tbody></table>
+</div><!--set-1-->
+
+<div id="set-2">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<tr valign="top">
+	<td class="passage">
+		<table id="" >
+			<tr><td>Students conducted two experiments to find out what combination of footwear, 
+			        flooring, and weather conditions created the greatest slipping hazard at school. In each experiment, 
+			        they used four 5-foot ramps with varying surfaces; a sneaker and a dress shoe; and a 3-pound dumbbell.</td></tr>
+			   <tr><td><img src="../images/science/passage2.jpg" width="100%"></td></tr>
+				<tr><td><h4><em>Experiment 1</em></h4>Students placed the dumbbell inside the sneaker in order to simulate a person’s weight, 
+				        placed the shoe at the top of a ramp, and let go. They recorded the time it took for the 
+				        shoe to slide to the bottom of the ramp. They then repeated the procedure on each ramp 
+				        with each shoe. (Ramp angle remained constant.) The results (in seconds) are shown in Table 1.</td></tr>
+				<tr><td>
+					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
+					<caption>Table 1 - Dry Surface</caption>
+						<tr><th></th><th>Concrete</th><th>Varnished Wood</th><th>Ceramic Tile</th><th>Linoleum</th></tr>
+						<tr><td>Sneaker</td><td>(got stuck)</td><td>6.9</td><td>5.7</td><td>5.1</td></tr>
+						<tr><td>Dress Shoe</td><td>4.1</td><td>3.4</td><td>2.9</td><td>2.9</td></tr>
+					</table>
+				</td></tr>
+				<tr><td><h4><em>Experiment 2</em></h4>Experiment 1 was repeated, with one factor changed: the surface of each ramp was 
+				        wetted with tap water before beginning the experiment. The results (in seconds) are shown in Table 2.</td></tr>
+				<tr><td></td></tr>
+				<tr><td>
+					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
+					<caption>Table 2 - Wet Surface</caption>
+						<tr><th></th><th>Concrete</th><th>Varnished Wood</th><th>Ceramic Tile</th><th>Linoleum</th></tr>
+						<tr><td>Sneaker</td><td>(got stuck)</td><td>3.2</td><td>3.4</td><td>3.7</td></tr>
+						<tr><td>Dress Shoe</td><td>4.1</td><td>2.3</td><td>2.5</td><td>2.1</td></tr>
+					</table>
+				</td></tr>
+		</table>
+	</td>
+	<td align="top" class="questions">
+		
+<div class="question">
+	<div class="numcol">1.</div><p>Which of the following best explains why the students got the ramps wet in Experiment 2?</p>
+	<p><a id="s2-1a" href="#" class="response">A.</a><span class="response">To remove heat generated by sliding</span></p>
+	<p><a id="s2-1b" href="#" class="response">B.</a><span class="response">To simulate school floors on rainy days</span></p>
+	<p><a id="s2-1c" href="#" class="response">C.</a><span class="response">To test whether wet floors are more slippery than dry floors</span></p>
+	<p><a id="s2-1d" href="#" class="response">D.</a><span class="response">To test which shoe would not slip on a wet floor</span></p>
+</div>
+
+<div id="answer-s2-1a" class="incorrect">
+<p><strong>The best answer is not A.</strong> The experiment does not mention heat as a factor. ZAP it.</p>
+</div>
+
+<div id="answer-s2-1b" class="correct">
+<p><strong>The best answer is B.</strong> The students are studying floor slipperiness under various weather conditions with varying footwear and
+surfaces. They must take wet days into account.</p>
+</div>
+
+<div id="answer-s2-1c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> Students were testing slipping hazards of various shoe types on various surfaces under various conditions,
+not trying to answer more specific questions. </p><p>Even if you didn't understand the experiment, you could ZAP this answer choice because all surfaces
+have some friction. </p>
+</div>
+
+<div id="answer-s2-1d" class="incorrect">
+<p><strong>The best answer is not D.</strong> The point of the experiment was to find the greatest slipping hazard given combinations of all three
+factors: surface, wet/dry, and shoe choice. </p><p>The students were not trying to answer narrower questions, such as which shoe would not slip.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">2.</div><p>During Experiment 1, a student brought in a fifth flooring material, and the group tested it. The results of
+Experiment 1 suggest that people walking in sneakers on this dry surface would slip more easily than they would on varnished wood or concrete, but less
+easily than they would on linoleum. The time it took for the sneaker to slide down this ramp was probably closest to:</p>
+	<p><a id="s2-2f" href="#" class="response">F.</a><span class="response">3.4 sec.</span></p>
+	<p><a id="s2-2g" href="#" class="response">G.</a><span class="response">5.0 sec.</span></p>
+	<p><a id="s2-2h" href="#" class="response">H.</a><span class="response">5.6 sec.</span></p>
+	<p><a id="s2-2j" href="#" class="response">J.</a><span class="response">7.0 sec.</span></p>
+</div>
+		
+<div id="answer-s2-2f" class="incorrect">
+<p><strong>The best answer is not F.</strong> 3.4 seconds is outside the range for sneakers on any surface.</p>
+</div>
+
+<div id="answer-s2-2g" class="incorrect">
+<p><strong>The best answer is not G.</strong> The sneaker slid "less easily" on the new surface than on linoleum, meaning it was slower than 5.1 sec.,
+not faster (5.0 sec.).</p>
+</div>
+
+<div id="answer-s2-2h" class="correct"> 
+<p><strong>The best answer is not H.</strong> On the new surface, the sneaker must have taken between 6.9 and 5.1 seconds to slide down the ramp, the
+slide times for varnished wood and linoleum.</p>
+</div>
+
+<div id="answer-s2-2j" class="incorrect">
+<p><strong>The best answer is J.</strong> 7.0 seconds is outside the range for sneakers on any dry surface. </p>
+</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">3.</div><p>The results of Experiments 1 and 2 suggest that a student is most likely to slip if he or she is wearing:</p>
+	<p><a id="s2-3a" href="#" class="response">A.</a><span class="response">sneakers on dry, varnished wood.</span></p>
+	<p><a id="s2-3b" href="#" class="response">B.</a><span class="response">dress shoes on dry concrete.</span></p>
+	<p><a id="s2-3c" href="#" class="response">C.</a><span class="response">sneakers on dry ceramic tile.</span></p>
+	<p><a id="s2-3d" href="#" class="response">D.</a><span class="response">dress shoes on wet linoleum.</span></p>
+</div>
+
+<div id="answer-s2-3a" class="incorrect">
+<p><strong>The best answer is not A.</strong> Sneakers on dry, varnished wood took the longest time to slide down the ramp. </p><p>If you chose this
+answer, you confused the highest number as being the fastest.</p>
+</div>
+
+<div id="answer-s2-3b" class="incorrect">
+<p><strong>The best answer is not B.</strong> The data for dress shoes on dry concrete falls between the highest and lowest numbers; it can't be the
+"most." </p>
+</div>
+
+<div id="answer-s2-3c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> The data for sneakers on dry ceramic tile falls between the highest and lowest numbers; it can't be the
+"most." </p>
+</div>
+
+<div id="answer-s2-3d" class="correct">
+<p><strong>The best answer is D.</strong> The best way to approach this is to find the data points for each shoe/surface combination and label them A, B,
+C, and D.</p><p>Look for the lowest number: the shortest slide time.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">4.</div><p>Given the information in the passage and the results of Experiments 1 and 2, what is the most reasonable
+conclusion?</p>
+	<p><a id="s2-4f" href="#" class="response">F.</a><span class="response">Dress shoes are less likely to slip on wet surfaces.</span></p>
+	<p><a id="s2-4g" href="#" class="response">G.</a><span class="response">Water increases the slipping hazard on most flooring surfaces.</span></p>
+	<p><a id="s2-4h" href="#" class="response">H.</a><span class="response">Sneakers on linoleum are always more likely to slip than sneakers on ceramic tile.</span></p>
+	<p><a id="s2-4j" href="#" class="response">J.</a><span class="response">In general, dress shoes are less likely to slip on wet surfaces than sneakers are.</span></p>
+</div>
+
+<div id="answer-s2-4f" class="incorrect">
+<p><strong>The best answer is not F.</strong> The data show that the slide time for dress shoes was less on wet surfaces, indicating that they are <em>more></em> likely to slip on wet surfaces. </p> 
+</p>
+</div>
+
+<div id="answer-s2-4g" class="correct">
+<p><strong>The best answer is G.</strong> Slide times are lower for most wet surfaces compared to the same surfaces when dry, indicating greater slipping hazard
+on wet surfaces. </p>
+</div>
+
+<div id="answer-s2-4h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong>Sneakers are more likely to slip on dry linoleum and on wet ceramic tile.</p>
+</div>
+
+<div id="answer-s2-4j" class="incorrect">
+<p><strong>The best answer is not J.</strong> The data show that sneakers generally are less likely to slip (have slower slide times) than dress shoes.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">5.</div><p>Which of the following relationships did the students most likely identify as a result of the experiments?</p>
+	<p><a id="s2-5a" href="#" class="response">A.</a><span class="response">Sneakers reduce slipping hazard on all surfaces under wet or dry conditions.</span></p>
+	<p><a id="s2-5b" href="#" class="response">B.</a><span class="response">Wetness increases slipping hazard for dress shoes, but not for sneakers.</span></p>
+	<p><a id="s2-5c" href="#" class="response">C.</a><span class="response">Surface wetness increases slipping hazard on all surfaces.</span></p>
+	<p><a id="s2-5d" href="#" class="response">D.</a><span class="response">Sneakers decrease slipping hazard more on wet surfaces than on dry surfaces.</span></p>
+</div>
+
+<div id="answer-s2-5a" class="correct">
+<p><strong>The best answer is A.</strong> The sneakers were less likely to slip than the dress shoes were in each trial.</p>
+</div>
+
+<div id="answer-s2-5b" class="incorrect">
+<p><strong>The best answer is not B.</strong> Both dress shoes and sneakers took less time to slide down the incline when the surface was wet.</p>
+</div>
+
+<div id="answer-s2-5c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> The results for concrete were the same for both wet and dry surface.</p>
+</div>
+
+<div id="answer-s2-5d" class="incorrect">
+<p><strong>The best answer is not D.</strong> The differences between the sliding times for sneakers and dress shoes were greater when the surfaces were dry. The differences were not as great when the surfaces were wet.</p>
+</div>
+<!-- ************************************************************* -->
+
+</td></tr>
+</tbody></table>
+</div><!--set-2-->
+
+<div id="set-3">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<tr valign="top">
+	<td class="passage">
+		<table>
+			<tr><td>DNA, found in the nucleus of the cell, carries genetic codes for proteins. 
+			        When a cell makes new proteins, DNA’s double helix unwinds, and a segment of a 
+			        single strand of DNA is copied. The copy is not made of DNA; it is made of a molecule 
+			        called RNA. RNA leaves the nucleus, and other organelles in the cell use the RNA as 
+			        a template for building a new protein. Researchers debate how new proteins wind up 
+			        in the parts of the cell where they are to be used.</td></tr>
+				<tr><td><em>Researcher 1</em> claims that after a strand of RNA leaves the nucleus, it is placed in a 
+				        capsule called a vesicle and attached to part of the cytoskeleton (the network of fibers 
+				        and rods that gives the cell shape and acts as a railway system for particles moving 
+				        throughout the cell). Once attached to the cytoskeleton, RNA moves to the location where 
+				        the new protein is to be used. When a strand of RNA reaches its destination, it is used 
+				        as the template for building the new protein.</td></tr>
+				<tr><td><em>Researcher 2</em> argues that after a strand of RNA leaves the nucleus, it floats freely to a 
+				        nearby organelle called the endoplasmic reticulum. The endoplasmic reticulum is studded 
+				        with protein-building bodies called ribosomes. The ribosomes use RNA as a template for 
+				        building the new proteins. After the proteins are made, they are packaged into vesicles, 
+				        attached to the cytoskeleton, and transported to the places where they will be used.</td></tr>
+		<tr><td>The diagram below shows the structure of a cell with its parts labeled.</td></tr>
+				<tr><td><img src="../images/science/figure16.jpg"></td></tr>
+		</table>
+	</td>
+	<td align="top" class="questions">
+
+<div class="question">
+	<div class="numcol">1.</div><p>Based on the information given, what is the main difference between the two researchers’ viewpoints?</p>
+	<p><a id="s3-1a" href="#" class="response">A.</a><span class="response">Researcher 1 thinks proteins are built in the nucleus, while Researcher 2
+thinks proteins are built outside the nucleus.</span></p>
+	<p><a id="s3-1b" href="#" class="response">B.</a><span class="response">Researcher 1 thinks proteins are built in the parts of the cell where they
+will be used, while Researcher 2 thinks proteins are transported to the sites where they will be used.</span></p>
+	<p><a id="s3-1c" href="#" class="response">C.</a><span class="response">Researcher 1 thinks the cytoskeleton is used for transporting material inside
+the cell, while Researcher 2 thinks vesicles are used for transporting material inside the cell.</span></p>
+	<p><a id="s3-1d" href="#" class="response">D.</a><span class="response">Researcher 1 thinks RNA is used as a template for building proteins, while
+Researcher 2 thinks RNA is used as a template for building the endoplasmic reticulum.</span></p>
+</div>
+		
+<div id="answer-s3-1a" class="incorrect">
+<p><strong>The best answer is not A.</strong> Neither researcher argues that proteins are built in the nucleus.</p>
+</div>
+
+<div id="answer-s3-1b" class="correct">
+<p><strong>The best answer is B.</strong> The last sentence of each researcher's viewpoint makes it clear that Researcher 1 thinks proteins are built
+on-site, while Researcher 2 thinks proteins are transported to their respective sites.</p>
+</div>
+
+<div id="answer-s3-1c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> This is a false dichotomy; the cytoskeleton and vesicles are both used to transport materials in the cells.
+</p><p>Also, "how materials are transported" is not the point of contention.</p>
+</div>
+
+<div id="answer-s3-1d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Researcher 2 does not argue that RNA is used as a template to build the endoplasmic reticulum.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">2.</div><p>According to Researcher 2’s claim, which cell diagram correctly shows the site of protein-building?</p>
+	<p><a id="s3-2f" href="#" class="response">F.</a><span class="response"><img src="../images/science/figure13a.jpg" width="100%"></span></p>
+	<p><a id="s3-2g" href="#" class="response">G.</a><span class="response"><img src="../images/science/figure13b.jpg" width="100%"></span></p>
+	<p><a id="s3-2h" href="#" class="response">H.</a><span class="response"><img src="../images/science/figure13c.jpg" width="100%"></span></p>
+	<p><a id="s3-2j" href="#" class="response">J.</a><span class="response"><img src="../images/science/figure13d.jpg" width="100%"></span></p>
+</div>
+
+<div id="answer-s3-2f" class="incorrect">
+<p> <strong>The best answer is not F.</strong> Researcher 2 does not say that proteins are built in the nucleus: See "after a strand of RNA leaves the
+nucleus, it floats freely to a nearby organelle called the endoplasmic reticulum."</p>
+</div>
+
+<div id="answer-s3-2g" class="correct">
+<p><strong>The best answer is G.</strong> Researcher 2's argument states, "The endoplasmic reticulum is studded with protein-building bodies called
+ribosomes. The ribosomes use RNA as a template for building the new proteins."</p>
+</div>
+
+<div id="answer-s3-2h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> The cytoskeleton is used only to transport the finished protein to its destination: See "after a strand of
+RNA leaves the nucleus, it floats freely to a nearby organelle" and "After the proteins are made, they are packaged into vesicles, attached to the
+cytoskeleton, and transported to the places where they will be used."</p>
+</div>
+
+<div id="answer-s3-2j" class="incorrect">
+<p><strong>The best answer is not J.</strong> Vesicles are used for transportation, not protein-building: "After the proteins are made, they are packaged
+into vesicles. ..."</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">3.</div><p>If Researcher 2 is correct, which of the following statements must be true about RNA?</p>
+	<p><a id="s3-3a" href="#" class="response">A.</a><span class="response">It must be transported along the cytoskeleton.</span></p>
+	<p><a id="s3-3b" href="#" class="response">B.</a><span class="response">It is created inside the endoplasmic reticulum.</span></p>
+	<p><a id="s3-3c" href="#" class="response">C.</a><span class="response">It can travel easily through the substance filling the cell.</span></p>
+	<p><a id="s3-3d" href="#" class="response">D.</a><span class="response">It comes out of the nucleus packaged in a vesicle, ready for
+transport.</span></p>
+</div>
+		
+<div id="answer-s3-3a" class="incorrect">
+<p><strong>The best answer is not A.</strong> Researcher 2 states that RNA floats freely, not attached to the cytoskeleton.</p><p> If you absolutely
+didn't know the answer and had to guess, you could ZAP F using the True/False strategy; "must" is a specific word.</p>
+</div>
+
+<div id="answer-s3-3b" class="incorrect">
+<p><strong>The best answer is not B.</strong> Researcher 2 states that RNA leaves the nucleus before reaching endoplasmic reticulum.</p>
+</div>
+
+<div id="answer-s3-3c" class="correct"> 
+<p><strong>The best answer is C.</strong> Researcher 2 states, "after a strand of RNA leaves the nucleus, it floats freely to a nearby organelle...."
+</p><p>If this is so, the RNA must be able to travel easily through whatever substance is between the nucleus and the organelle.</p>
+</div>
+
+<div id="answer-s3-3d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Researcher 2 does not state that RNA is packaged in a vesicle, only that protein is packaged in a
+vesicle.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">4.</div><p>If Researcher 1 is correct, which of the following statements may be true?</p>
+	<p><a id="s3-4f" href="#" class="response">F.</a><span class="response">RNA is a form of DNA.</span></p>
+	<p><a id="s3-4g" href="#" class="response">G.</a><span class="response">RNA is used only in the endoplasmic reticulum.</span></p>
+	<p><a id="s3-4h" href="#" class="response">H.</a><span class="response">RNA is labeled with a destination.</span></p>
+	<p><a id="s3-4j" href="#" class="response">J.</a><span class="response">RNA cannot be transported along the cytoskeleton.</span></p>
+</div>
+
+<div id="answer-s3-4f" class="incorrect">
+<p><strong>The best answer is not F.</strong> The passage states "The copy is not made of DNA; it is made of a molecule called RNA," indicating that DNA
+and RNA are not the same thing.</p>
+</div>
+
+<div id="answer-s3-4g" class="incorrect">
+<p><strong>The best answer is not G.</strong> Researcher 1 claims that RNA is transcribed outside the endoplasmic reticulum, at the sites where proteins
+will be used. </p><p>If you didn't understand this question or the reading passage, you could improve your chances by ZAPPING this choice using the
+True/False strategy. "Only" is a specific word. But use this strategy only if you have to guess.</p>
+</div>
+
+<div id="answer-s3-4h" class="correct"> 
+<p><strong>The best answer is H.</strong> If, as Researcher 1 states, a protein's RNA is transported to its destination before the protein is built, it
+is reasonable to conclude that the RNA is somehow tagged with that destination. </p><p>Otherwise there is a question as to how the cell "knows" where to
+send the RNA.</p>
+</div>
+
+<div id="answer-s3-4j" class="incorrect">
+<p><strong>The best answer is not J.</strong> Researcher 1 claims, "Once attached to the cytoskeleton, RNA moves to the location where the new protein is
+to be used."</p>
+</div>
+<!-- ************************************************************* -->
+<div class="question">
+	<div class="numcol">5.</div><p>Investigations of cell processes have provided several pieces of new evidence. Which of them could support Researcher
+1's claims?</p>
+	<p><a id="s3-5a" href="#" class="response">A.</a><span class="response">Proteins have been found floating freely in the region marked B.</span></p>
+	<p><a id="s3-5b" href="#" class="response">B.</a><span class="response">RNA fragments have been found in the regions marked A, B, and C. </span></p>
+	<p><a id="s3-5c" href="#" class="response">C.</a><span class="response">Protein vesicles have been found attached to the cell structure marked
+D.</span></p>
+	<p><a id="s3-5d" href="#" class="response">D.</a><span class="response">RNA fragments have been found in the region marked E.</span></p>
+</div>
+		
+<div id="answer-s3-5a" class="incorrect">
+<p><strong>The best answer is not A.</strong> This would also support Researcher 2's claims that RNA is used exclusively at the endoplasmic
+reticulum.</p>
+</div>
+
+<div id="answer-s3-5b" class="correct">
+<p><strong>The best answer is B.</strong> If RNA is found in multiple sites, it is possible that it has been used in multiple sites. </p><p>This would
+support Researcher 1's contention that RNA is distributed around the cell and used to build proteins where they will be needed.</p>
+</div>
+
+<div id="answer-s3-5c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> This would support Researcher 2's claims that protein must be transported to the site where it will be
+used.</p>
+</div>
+
+<div id="answer-s3-5d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Both arguments state that RNA emerges from the nucleus, so one might expect to find some of it near the
+nucleus.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">6.</div><p>What must be true in order to support either researcher's claim?</p>
+	<p><a id="s3-6f" href="#" class="response">F.</a><span class="response">The cell has a way of determining where proteins will be used.</span></p>
+	<p><a id="s3-6g" href="#" class="response">G.</a><span class="response">The cytoskeleton is composed of RNA.</span></p>
+	<p><a id="s3-6h" href="#" class="response">H.</a><span class="response">The nucleus is the major site of protein production.</span></p>
+	<p><a id="s3-6j" href="#" class="response">J.</a><span class="response">Some cells produce proteins outside the endoplasmic reticulum.</span></p>
+</div>
+
+<div id="answer-s3-6f" class="correct">
+<p><strong>The best answer is F.</strong> The cell must be able to send either RNA or proteins to their destinations, which means there must be some way
+of determining what that destination is or is not.</p>
+</div>
+
+<div id="answer-s3-6g" class="incorrect">
+<p><strong>The best answer is not G.</strong> The cytoskeleton's composition is unimportant in this argument, so long as it can transport vesicles.</p>
+</div>
+
+<div id="answer-s3-6h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> Both researchers accept that the nucleus is the site of RNA production, but that RNA leaves the nucleus
+before transcription.</p>
+</div>
+
+<div id="answer-s3-6j" class="incorrect">
+<p><strong>The best answer is not J.</strong> This claim would not support Researcher 2's argument.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">7.</div><p>According to the passage, RNA can best be described as:</p>
+	<p><a id="s3-7a" href="#" class="response">A.</a><span class="response">a protein.</span></p>
+	<p><a id="s3-7b" href="#" class="response">B.</a><span class="response">an exact copy of a full-length strand of DNA.</span></p>
+	<p><a id="s3-7c" href="#" class="response">C.</a><span class="response">a molecule that carries code for a protein.</span></p>
+	<p><a id="s3-7d" href="#" class="response">D.</a><span class="response">a molecule that carries the human genome.</span></p>
+</div>
+		
+<div id="answer-s3-7a" class="incorrect">
+<p><strong>The best answer is not A.</strong> RNA is used for making proteins, but is not described as a protein.</p>
+</div>
+
+<div id="answer-s3-7b" class="incorrect">
+<p><strong>The best answer is not B.</strong> The passage states that DNA and RNA are not the same.</p>
+</div>
+
+<div id="answer-s3-7c" class="correct"> 
+<p><strong>The best answer is C.</strong> The passage states: "other organelles in the cell use the RNA as a template for building a new protein"; "when
+a strand of RNA reaches its destination, it is used as the template for building the new protein"; and "the ribosomes use RNA as a template for building
+the new proteins."</p>
+</div>
+
+<div id="answer-s3-7d" class="incorrect">
+<p><strong>The best answer is not D.</strong> RNA is not described as carrying the entire genetic code for a human. You can ZAP this answer because the
+word "genome" is not in the passage.</p>
+</div>
+<!-- ************************************************************* -->
+</td></tr>
+</tbody></table>
+</div><!-- set-3-->
+
+<div id="set-4">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<tr valign="top">
+	<td class="passage">
+		<table id="" >
+			<tr><td><em>Phytoplankton</em> are microscopic plants that can flourish to the point of driving out other species 
+			        in freshwater ecosystems. Fertilizer runoff, which contains nitrogen, phosphorus, and phosphates, can 
+			        cause phytoplankton overgrowth. Temperature also affects phytoplankton growth. The following experiments 
+			        were performed to investigate the effects on phytoplankton growth by adding two popular types of lawn 
+			        fertilizer to warm and cool ponds.</td></tr>
+				<tr><td><h4><em>Experiment 1</em></h4>A student collected 1L of greenish pond water and divided the water into 
+				        ten 150-ml jars. Using a pipette, she took a sample drop of 50 microliters (µl) from each, viewed each 
+				        drop under a microscope at 10x magnification, and counted the number of visible phytoplankton.  
+				        She placed 5 of the jars on a table and measured their temperature, then added ready-mixed fertilizer 
+				        to each jar. The fertilizers were of two nitrogen-phosphorus-potassium (N-P-K) ratios. She observed 
+				        the samples over six days, drawing samples and counting phytoplankton. The results are shown in Table 1.</td></tr>
+				<tr><td>
+					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
+					<caption>Table 1</caption>
+						<tr><th rowspan="2">Sample No.</th><th rowspan="2">Temperature (C)</th><th rowspan="2">Prepared fertilizer added to pond water
+(N-P-K)</th><th rowspan="2">Amount added (ml)</th>
+						    <th colspan="3">Number of phytoplankton counted per 50 µl drop</th></tr><tr><th>0 days</th><th>3 days</th><th>6
+days</th></tr>
+						<tr><td>1</td><td>20.1</td><td>10-15-10</td><td>10</td><td>44</td><td>74</td><td>129</td></tr>
+						<tr><td>2</td><td>20.0</td><td>10-15-10</td><td>10</td><td>40</td><td>71</td><td>118</td></tr>
+						<tr><td>3</td><td>19.9</td><td>24-8-16</td><td>10</td><td>44</td><td>110</td><td>298</td></tr>
+						<tr><td>4</td><td>20.0</td><td>24-8-16</td><td>10</td><td>39</td><td>112</td><td>276</td></tr>
+						<tr><td>5</td><td>20.1</td><td>24-8-16</td><td>10</td><td>41</td><td>121</td><td>314</td></tr>
+					</table>
+				</td></tr>
+				<tr><td><h4><em>Experiment 2</em></h4>The student placed the remaining samples on a moderate heat source and 
+				        let them reach a steady temperature 2 C higher than the jars in Experiment 1. She then repeated the 
+				        procedure from Experiment 1. The results are shown in Table 2.</td></tr>
+				<tr><td></td></tr>
+				<tr><td>
+					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
+					<caption>Table 2</caption>
+						<tr><th rowspan="2">Sample No.</th><th rowspan="2">Temperature (C)</th><th rowspan="2">Prepared fertilizer added to pond water
+(N-P-K)</th><th rowspan="2">Amount added (ml)</th>
+						    <th colspan="3">Number of phytoplankton counted per 50 µl drop</th></tr><tr><th>0 days</th><th>3 days</th><th>6
+days</th></tr>
+						<tr><td>1</td><td>22.3</td><td>10-15-10</td><td>10</td><td>46</td><td>82</td><td>151</td></tr>
+						<tr><td>2</td><td>22.4</td><td>10-15-10</td><td>10</td><td>44</td><td>77</td><td>143</td></tr>
+						<tr><td>3</td><td>22.1</td><td>24-8-16</td><td>10</td><td>45</td><td>118</td><td>375</td></tr>
+						<tr><td>4</td><td>22.3</td><td>24-8-16</td><td>10</td><td>42</td><td>133</td><td>417</td></tr>
+						<tr><td>5</td><td>22.3</td><td>24-8-16</td><td>10</td><td>43</td><td>124</td><td>388</td></tr>
+					</table>
+				</td></tr>
+		</table>
+	</td>
+	<td align="top" class="questions">
+		
+<div class="question">
+	<div class="numcol">1.</div><p>An unknown amount of an unknown fertilizer is added to a 100-ml jar of pond water with a phytoplankton count of 100
+phytoplankton per 50 µl. The pond water’s temperature is 20.2 C. Three days later, the phytoplankton count is 175 per 50 µl. Based on the results of
+Experiment 1, the fertilizer added to the jar was likely:</p>
+	<p><a id="s4-1a" href="#" class="response">A.</a><span class="response">5 ml of 10-15-10.</span></p>
+	<p><a id="s4-1b" href="#" class="response">B.</a><span class="response">10 ml of 10-15-10.</span></p>
+	<p><a id="s4-1c" href="#" class="response">C.</a><span class="response">10 ml of 24-8-16.</span></p>
+	<p><a id="s4-1d" href="#" class="response">D.</a><span class="response">15 ml of 24-8-16.</span></p>
+</div>
+
+<div id="answer-s4-1a" class="incorrect">
+<p><strong>The best answer is not A.</strong> This would probably yield a phytoplankton count of around 140, about half the 75% increase.</p>
+</div>
+
+<div id="answer-s4-1b" class="correct">
+<p><strong>The best answer is B.</strong> The increase in the phytoplankton count is 75%, which corresponds to the approximate increase in the
+phytoplankton count in Experiment 1 from 0 to 3 days with 10 ml of 10-15-10 fertilizer.</p>
+</div>
+
+<div id="answer-s4-1c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> These would probably yield phytoplankton counts of about 300. 10 ml of 24-8-16 nearly triples the count at
+3 days.</p>
+</div>
+
+<div id="answer-s4-1d" class="incorrect">
+<p><strong>The best answer is not D.</strong> These would probably yield phytoplankton counts of about 450. 10 ml of 24-8-16 nearly triples the count at
+3 days.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">2.</div><p>Which of the following variables was dependent in Experiment 2?</p>
+	<p><a id="s4-2f" href="#" class="response">F.</a><span class="response">Water temperature</span></p>
+	<p><a id="s4-2g" href="#" class="response">G.</a><span class="response">Amount of fertilizer added</span></p>
+	<p><a id="s4-2h" href="#" class="response">H.</a><span class="response">Phytoplankton count at 3 days</span></p>
+	<p><a id="s4-2j" href="#" class="response">J.</a><span class="response">Fertilizer nitrogen-phosphate-potassium ratio</span></p>
+</div>
+		
+<div id="answer-s4-2f" class="incorrect">
+<p><strong>The best answer is not F.</strong> The student controls this factor.</p>
+</div>
+
+<div id="answer-s4-2g" class="incorrect">
+<p><strong>The best answer is not G.</strong> The student controls this factor.</p>
+</div>
+
+<div id="answer-s4-2h" class="correct"> 
+<p><strong>The best answer is H.</strong> The phytoplankton count depends on the water temperature and fertilizer type and amount, which are all
+independent variables controlled by the student.</p>
+</div>
+
+<div id="answer-s4-2j" class="incorrect">
+<p><strong>The best answer is not J.</strong> The student controls this factor.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">3.</div><p>Considering the results of Experiment 2, what observation can one make about the 24-8-16 fertilizer?</p>
+	<p><a id="s4-3a" href="#" class="response">A.</a><span class="response">This fertilizer produces more phytoplankton growth than the 10-15-10
+fertilizer.</span></p>
+	<p><a id="s4-3b" href="#" class="response">B.</a><span class="response">Using this fertilizer drives out all other species in freshwater
+ecosystems.</span></p>
+	<p><a id="s4-3c" href="#" class="response">C.</a><span class="response">No observation can be made without also considering the results of Experiment
+1.</span></p>
+	<p><a id="s4-3d" href="#" class="response">D.</a><span class="response">More of this fertilizer is needed to get the effects of 10-15-10
+fertilizer.</span></p>
+</div>
+
+<div id="answer-s4-3a" class="correct">
+<p><strong>The best answer is A.</strong> The phytoplankton count is much higher with the 24-8-16 fertilizer.</p>
+</div>
+
+<div id="answer-s4-3b" class="incorrect">
+<p><strong>The best answer is not B.</strong> This experiment does not test whether the fertilizer drives out other species.</p>
+</div>
+
+<div id="answer-s4-3c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> It is possible to make observation A, as well as several others, without reference to Experiment 1.</p>
+</div>
+
+<div id="answer-s4-3d" class="incorrect">
+<p><strong>The best answer is not D.</strong> The fertilizer generates more growth than an equal volume of 10-15-10 fertilizer does.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">4.</div><p>According to the results of Experiments 1 and 2, what conclusion can be drawn about the effects of these fertilizers
+and water temperature on phytoplankton growth? </p>
+	<p><a id="s4-4f" href="#" class="response">F.</a><span class="response">Regardless of temperature, 10-15-10 fertilizer is about 1 1/2 times more
+effective than 24-8-16 fertilizer.</span></p>
+	<p><a id="s4-4g" href="#" class="response">G.</a><span class="response">As water temperature rises, 10-15-10 fertilizer becomes just as effective as
+24-8-16 fertilizer.</span></p>
+	<p><a id="s4-4h" href="#" class="response">H.</a><span class="response">Regardless of temperature, 10-15-10 fertilizer is about 2/3 as effective as
+24-8-16 fertilizer.</span></p>
+	<p><a id="s4-4j" href="#" class="response">J.</a><span class="response">As temperature falls, 10-15-10 fertilizer becomes less effective than 24-8-26
+fertilizer.</span></p>
+</div>
+		
+<div id="answer-s4-4f" class="incorrect">
+<p><strong>The best answer is not F.</strong> This confuses the relative effectiveness of the two fertilizers.</p>
+</div>
+
+<div id="answer-s4-4g" class="incorrect">
+<p><strong>The best answer is not G.</strong> Temperature does not affect the fertilizers' relative effectiveness.</p>
+</div>
+
+<div id="answer-s4-4h" class="correct"> 
+<p><strong>The best answer is H.</strong> 10-15-10 fertilizer produces yields about 2/3 of 24-8-16's yield, and this is true in both experiments.</p>
+</div>
+
+<div id="answer-s4-4j" class="incorrect">
+<p><strong>The best answer is not J.</strong> Temperature does not affect the fertilizers' relative effectiveness.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">5.</div><p>Based on the results of Experiment 1, the amount of time it takes for the phytoplankton count to double when using 10-15-10 fertilizer at 20 C is:</p>
+	<p><a id="s4-5a" href="#" class="response">A.</a><span class="response">slightly more than 3 days.</span></p>
+	<p><a id="s4-5b" href="#" class="response">B.</a><span class="response">slightly less than 3 days.</span></p>
+	<p><a id="s4-5c" href="#" class="response">C.</a><span class="response">slightly more than 6 days.</span></p>
+	<p><a id="s4-5d" href="#" class="response">D.</a><span class="response">slightly less than 6 days.</span></p>
+</div>
+
+<div id="answer-s4-5a" class="correct">
+<p><strong>The best answer is A.</strong> The phytoplankton count increases by about 75% in three days. To get the count to double, it would take just a
+little longer than three days.</p>
+</div>
+
+<div id="answer-s4-5b" class="incorrect">
+<p><strong>The best answer is not B.</strong> At less than three days, the phytoplankton count is increased by less than 75%.</p>
+</div>
+
+<div id="answer-s4-5c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> At 6 days, the phytoplankton count has nearly tripled.</p>
+</div>
+
+<div id="answer-s4-5d" class="incorrect">
+<p><strong>The best answer is not D.</strong> At 6 days, the phytoplankton count has nearly tripled.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">6.</div><p>Experiment 1 was repeated using 15 ml of fertilizer in each jar. Assuming that the phytoplankton populations did not outstrip the fertilizer supply, the phytoplankton population counts at the end of 3 days in the 24-8-16 jars would most likely be:</p>
+	<p><a id="s4-6f" href="#" class="response">F.</a><span class="response">significantly higher.</span></p>
+	<p><a id="s4-6g" href="#" class="response">G.</a><span class="response">remain constant.</span></p>
+	<p><a id="s4-6h" href="#" class="response">H.</a><span class="response">significantly lower.</span></p>
+	<p><a id="s4-6j" href="#" class="response">J.</a><span class="response">impossible to estimate.</span></p>
+</div>
+		
+<div id="answer-s4-6f" class="correct">
+<p><strong>The best answer is F.</strong>It is reasonable to predict that a 50% increase in fertilizer added would translate to a 50% increase in phytoplankton growth.</p>
+</div>
+
+<div id="answer-s4-6g" class="incorrect">
+<p><strong>The best answer is not G.</strong> The experiment would suggest that an increase in fertilizer would create a corresponding increase in the phytoplankton count.</p>
+</div>
+
+<div id="answer-s4-6h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> The experiment would suggest that an increase in fertilizer would create a change in the phytoplankton count, and that change would be an increase.</p>
+</div>
+
+<div id="answer-s4-6j" class="incorrect">
+<p><strong>The best answer is not J.</strong> The experiment would suggest that an increase in fertilizer would create a change in the phytoplankton count, and that change would be an increase.</p>
+</div>
+<!-- ************************************************************* -->
+</td></tr>
+</tbody></table>
+</div><!-- set-4-->
+
+<div id="set-5">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<tr valign="top">
+	<td class="passage">
+		<table id="" >
+			<tr><td>Cells produce hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) as a byproduct of life processes. H<sub>2</sub>O<sub>2</sub> is highly
+destructive inside the 
+			        cell, and is rapidly broken down into water and molecular oxygen (O<sub>2</sub>) by an enzyme called catalase. <em>Enzymes</em>
+			        are large molecules that speed chemical reactions.</td></tr>
+				<tr><td>A student hypothesized that some vegetables contain higher concentrations of catalase than others. The experimental setup is
+shown in Figure 1.</td></tr>
+				<tr><td><img src="../images/science/passageV.jpg" width="100%"></td></tr>
+				<tr><td>For each run of the experiment, the student blended a vegetable with 35 ml of distilled water, then strained pulp from the
+resulting juice with cheesecloth.</td></tr>
+				<tr><td><h4><em>Experiment 1</em></h4>5 ml of juice was mixed in the flask with 25 ml of a 3% H<sub>2</sub>O<sub>2</sub> solution. 
+				        The rate of O<sub>2</sub> gas production was measured by stoppering the flask and connecting the flask to the 
+				        buret with the tube. Each experiment was timed and allowed to run until 10 ml of O<sub>2</sub> gas had been 
+				        collected in the buret. The results are shown in Table 1:</td></tr>
+				<tr><td></td></tr>
+				<tr><td>
+					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
+					<caption>Table 1</caption>
+						<tr><th>Vegetable</th><th>Seconds per 1.00 ml O<sub>2</sub> gas produced</th></tr>
+						<tr><td>Spinach</td><td>0.262</td></tr>
+						<tr><td>Kale</td><td>0.382</td></tr>
+						<tr><td>Lettuce</td><td>0.600</td></tr>
+						<tr><td>Potato</td><td>1.00</td></tr>
+						<tr><td>Broccoli</td><td>1.69</td></tr>
+						<tr><td>Carrot</td><td>1.73</td></tr>
+						<tr><td>Pepper</td><td>1.97</td></tr>
+					</table>
+				</td></tr>
+				<tr><td><h4><em>Experiment 2</em></h4>The student used only kale and spinach juices, allowing each to produce 
+				        gas for 60 seconds. At the 20, 40, and 60 second marks, the student measured the time required to 
+				        produce another milliliter of gas.</td></tr>
+				<tr><td></td></tr>
+				<tr><td>
+					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
+					<caption>Table 2</caption>
+						<tr><th></th><th colspan="2">Time required to produce another ml of O<sub>2</sub> (s)</th></tr>
+						<tr><th>Time of reaction</th><th>Spinach</th><th>Kale</th></tr>
+						<tr><td>20 seconds</td><td>0.338</td><td>0.269</td></tr>
+						<tr><td>40 seconds</td><td>0.513</td><td>0.428</td></tr>
+						<tr><td>60 seconds</td><td>0.864</td><td>0.774</td></tr>
+					</table>
+				</td></tr>
+		</table>
+	</td>
+	<td align="top" class="questions">
+		
+<div class="question">
+	<div class="numcol">1.</div><p>What is a reasonable interpretation of the results in Experiment 1?</p>
+	<p><a id="s5-1a" href="#" class="response">A.</a><span class="response">Spinach juice decomposes H<sub>2</sub>O<sub>2</sub> about four times faster
+than potato juice does.</span></p>
+	<p><a id="s5-1b" href="#" class="response">B.</a><span class="response">Broccoli juice decomposes H<sub>2</sub>O<sub>2</sub> about three times faster
+than kale juice does.</span></p>
+	<p><a id="s5-1c" href="#" class="response">C.</a><span class="response">Pepper juice contains a higher concentration of catalase than any other
+vegetable juice tested.</span></p>
+	<p><a id="s5-1d" href="#" class="response">D.</a><span class="response">Potato juice contains a lower concentration of catalase than carrot juice
+does.</span></p>
+</div>
+
+<div id="answer-s5-1a" class="correct">
+<p><strong>The best answer is A.</strong> Spinach juice produces a milliliter of gas in about 0.25 seconds, while potato juice produces that volume in 1
+second. Since the O<sub>2</sub> is said to come from H<sub>2</sub>O<sub>2</sub> decomposition, it is fair to say that spinach juice is decomposing
+H<sub>2</sub>O<sub>2</sub> at 4 times potato's rate.</p>
+</div>
+
+<div id="answer-s5-1b" class="incorrect">
+<p><strong>The best answer is not B.</strong> Broccoli decomposes H<sub>2</sub>0<sub>2</sub> about four times more slowly than kale does. A lower number
+indicates more rapid decomposition than a higher number. </p>
+</div>
+
+<div id="answer-s5-1c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> Peppers produce O<sub>2</sub> more slowly than any other vegetable juice tested, suggesting that it has the
+lowest concentration of catalase.</p>
+</div>
+
+<div id="answer-s5-1d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Potato juice produces O<sub>2</sub> more rapidly than carrot juice does, suggesting potato juice has a higher concentration of catalase.”</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">2.</div><p>The student conducts another run of Experiment 1 with arugula and finds that it produces O<sub>2</sub> at a rate of
+.448 sec/ml. Which vegetable juice or juices most likely contains a higher concentration of catalase than the arugula juice does?</p>
+	<p><a id="s5-2f" href="#" class="response">F.</a><span class="response">Lettuce, potato, broccoli, carrot, and pepper</span></p>
+	<p><a id="s5-2g" href="#" class="response">G.</a><span class="response">Spinach and kale</span></p>
+	<p><a id="s5-2h" href="#" class="response">H.</a><span class="response">All of the vegetable juices tested</span></p>
+	<p><a id="s5-2j" href="#" class="response">J.</a><span class="response">None of the vegetable juices tested</span></p>
+</div>
+		
+<div id="answer-s5-2f" class="incorrect">
+<p><strong>The best answer is not F.</strong> This answer includes only vegetable juices with lower rates of O<sub>2</sub> production than arugula
+juice.</p>
+</div>
+
+<div id="answer-s5-2g" class="correct">
+<p><strong>The best answer is G.</strong> Only kale juice and spinach juice produce O<sub>2</sub> faster than arugula juice does, suggesting that both
+kale and spinach have higher concentrations of catalase.</p>
+</div>
+
+<div id="answer-s5-2h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> This answer includes vegetable juices with both higher and lower rates of O<sub>2</sub> production than
+arugula's. </p><p>If you didn't understand the question or ran out of time, you could ZAP this choice using the True/False strategy because of the word
+"All."</p>
+</div>
+
+<div id="answer-s5-2j" class="incorrect">
+<p><strong>The best answer is not J.</strong> Both spinach and kale juice have a higher rate of O<sub>2</sub> production than arugula juice.</p><p> If
+you didn't understand the question or ran out of time, you could ZAP this choice using the True/False strategy because of the word "None."</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">3.</div><p>The student tested another vegetable and concluded that it had a concentration of catalase lower than potato's, but
+higher than broccoli's. Its rate of O<sub>2</sub> production was:</p>
+	<p><a id="s5-3a" href="#" class="response">A.</a><span class="response">1.72 sec/ml.</span></p>
+	<p><a id="s5-3b" href="#" class="response">B.</a><span class="response">1.38 sec/ml.</span></p>
+	<p><a id="s5-3c" href="#" class="response">C.</a><span class="response">0.748 sec/ml.</span></p>
+	<p><a id="s5-3d" href="#" class="response">D.</a><span class="response">0.448 sec/ml.</span></p>
+</div>
+
+<div id="answer-s5-3a" class="incorrect">
+<p><strong>The best answer is not A.</strong> This rate of gas production is lower than broccoli's, indicating a lower concentration of catalase.</p>
+</div>
+
+<div id="answer-s5-3b" class="correct">
+<p><strong>The best answer is B.</strong> Broccoli produces a ml of O<sub>2</sub> in 1.69 seconds; potato, in 1 second. </p><p>A concentration of
+catalase higher than potato's and lower than broccoli's would produce a ml of O<sub>2</sub> at a rate in between their rates.</p><p> The only answer that
+fits this requirement is B, 1.38 sec/ml.</p>
+</div>
+
+<div id="answer-s5-3c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> because this rate of gas production is higher than potato's, indicating a higher concentration of
+catalase.</p>
+</div>
+
+<div id="answer-s5-3d" class="incorrect">
+<p><strong>The best answer is not D.</strong> This rate of gas production is higher than potato's, indicating a higher concentration of catalase.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">4.</div><p>What do the results of Experiments 1 and 2 show about the rate of gas production in the spinach and kale samples?</p>
+	<p><a id="s5-4f" href="#" class="response">F.</a><span class="response">They were both slow to break down H<sub>2</sub>O<sub>2</sub> compared to the
+other samples tested.</span></p>
+	<p><a id="s5-4g" href="#" class="response">G.</a><span class="response">In both spinach and kale samples, the rate of gas production decreased over
+time.</span></p>
+	<p><a id="s5-4h" href="#" class="response">H.</a><span class="response">The rate of gas production increased more quickly over time for spinach
+compared to kale.</span></p>
+	<p><a id="s5-4j" href="#" class="response">J.</a><span class="response">Tne gas production rate stayed approximately constant over time in both
+spinach and kale samples.</span></p>
+</div>
+		
+<div id="answer-s5-4f" class="incorrect">
+<p><strong>The best answer is not F.</strong> These spinach and kale produce O<sub>2</sub> more quickly than any others tested.</p>
+</div>
+
+<div id="answer-s5-4g" class="correct">
+<p><strong>The best answer is G.</strong> As the experiment progressed, it took longer for the samples to produce an extra milliliter of
+O<sub>2</sub>.</p>
+</div>
+
+<div id="answer-s5-4h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> The time required to produce a second ml of gas was less for kale than for spinach at all intervals
+shown.</p>
+</div>
+
+<div id="answer-s5-4j" class="incorrect">
+<p><strong>The best answer is not J.</strong> The time required to produce another ml of gas increased at both the 40 and 60 second marks for both
+spinach and kale.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">5.</div><p>Which graph most accurately shows the rate of O<sub>2</sub> gas production over the course of Experiment 2?</p>
+	<p><a id="s5-5a" href="#" class="response">A.</a><span class="response"><img src="../images/science/figure29a.jpg"></span></p>
+	<p><a id="s5-5b" href="#" class="response">B.</a><span class="response"><img src="../images/science/figure29b.jpg"></span></p>
+	<p><a id="s5-5c" href="#" class="response">C.</a><span class="response"><img src="../images/science/figure29c.jpg"></span></p>
+	<p><a id="s5-5d" href="#" class="response">D.</a><span class="response"><img src="../images/science/figure29d.jpg"></span></p>
+</div>
+
+<div id="answer-s5-5a" class="incorrect">
+<p><strong>The best answer is not A.</strong> Gas was never produced more quickly than it was at the first reading; this graph claims the rate of
+production increased before decreasing.</p>
+</div>
+
+<div id="answer-s5-5b" class="incorrect">
+<p><strong>The best answer is not B.</strong> This merely takes the numbers directly from the chart and graphs the increasing <em>time</em> required to
+produce another ml of O<sub>2</sub>. It does not use this data to answer the question, which is about the <em>rate</em> of O<sub>2</sub> production,
+which is decreasing.</p>
+</div>
+
+<div id="answer-s5-5c" class="correct"> 
+<p><strong>The best answer is C.</strong> O<sub>2</sub> was produced quickly in large quantities at the beginning of the experiment. As the experiment
+progressed, less O<sub>2</sub> was produced per second: The rate slowed. Eventually all the H<sub>2</sub>O<sub>2</sub> would be decomposed, and the rate
+of O<sub>2</sub> production would fall to 0 ml/sec.</p>
+</div>
+
+<div id="answer-s5-5d" class="incorrect">
+<p><strong>The best answer is not D.</strong> This graph shows no consistent direction in the rate of change in O<sub>2</sub> production.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">6.</div><p>As Experiment 2 progresses, the enzyme uses up H<sub>2</sub>O<sub>2</sub>, and must sometimes wait idly until
+H<sub>2</sub>O<sub>2</sub> finds it in solution. Suppose the student repeated Experiment 2, doubling the concentration of catalase in the kale juice, but
+not in the spinach juice. What would be the likely result?</p>
+	<p><a id="s5-6f" href="#" class="response">F.</a><span class="response">The rate of gas production would decrease more rapidly in kale.</span></p>
+	<p><a id="s5-6g" href="#" class="response">G.</a><span class="response">The rate of gas production would increase more rapidly in spinach.</span></p>
+	<p><a id="s5-6h" href="#" class="response">H.</a><span class="response">Kale and spinach would produce gas at the same rates as before.</span></p>
+	<p><a id="s5-6j" href="#" class="response">J.</a><span class="response">Spinach would produce the same quantity of gas as before, while kale would
+produce half as much gas as before.</span></p>
+</div>
+		
+<div id="answer-s5-6f" class="correct">
+<p><strong>The best answer is F.</strong> With extra catalase in the kale solution, H<sub>2</sub>O<sub>2</sub> would be used up very rapidly. </p><p>By
+the 60-second mark, the wait time for the next milliliter of O<sub>2</sub> gas would be much greater than in the original experiment.</p>
+</div>
+
+<div id="answer-s5-6g" class="incorrect">
+<p><strong>The best answer is not G.</strong> A vegetable's rate of O<sub>2</sub> production cannot increase as the experiment progresses, regardless of
+catalase concentration. </p><p>It can only decrease as catalase uses up H<sub>2</sub>O<sub>2</sub>.</p>
+</div>
+
+<div id="answer-s5-6h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> There is no reason to expect spinach's rate of gas production to change. </p><p>You can ZAP this answer
+because no change is made to the spinach.</p>
+</div>
+
+<div id="answer-s5-6j" class="incorrect">
+<p><strong>The best answer is not J.</strong> The <em>amount</em> of gas produced cannot change, regardless of the amount of catalase in solution.
+</p><p>The amount of H<sub>2</sub>O<sub>2</sub> stays steady, so the amount of O<sub>2</sub> produced must stay steady. </p><p>The only thing that can
+change is the <em>rate</em> of the gas production. </p>
+</div>
+<!-- ************************************************************* -->
+</td></tr>
+</tbody></table>
+</div><!-- set-5-->
+
+<div id="set-6">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<tr valign="top">
+	<td class="passage">
+		<table id="" >
+			<tr><td><em>Optical density</em> is a measure of how much light changes speed as it passes through a material. The higher a material's 
+			        optical density, the more it refracts, or changes the direction of, light as light enters from the air.</td></tr>
+				<tr><td>To determine relative optical densities, a group of students measured angles of refraction in four materials: water, clear
+gelatin, and two mystery substances, A and B. They placed clear 
+				        glass containers holding each substance against a wall, on a sheet of graph paper with coordinates marked. They shined a ruby 
+				        laser at an angle of 45&deg; to the side of the container. The beam of light refracted in the material and struck a different
+point on the wall for each of the materials. </td></tr>
+				<tr><td><img src="../images/science/passageVI.jpg" width="100%"></td></tr>
+				<tr><td>The students sketched and measured each beam’s angle of refraction. They drew the following graphs:</td></tr>
+				<tr><td align="center"><img src="../images/science/passageVIgraphI.jpg"></td></tr>						
+				<tr><td>Students were then given a table of refractive indexes and asked to identify substances A and B. The <em>refractive index</em> 
+				        is a ratio of light’s speed through a given material to its speed through a vacuum and is a measure of the optical density of a
+material.</td></tr>
+				<tr><td></td></tr>
+				<tr><td>
+					<table class="sciencequestiontable" border="1" cellpadding="5" cellspacing="0">
+					<caption>Table 1</caption>
+						<tr><th>Medium</th><th>Refractive Index</th><th>Optical Density</th></tr>
+						<tr><td>Vacuum</td><td>1.00</td><td>Lowest</td></tr>
+						<tr><td>Air</td><td>1.0003</td></tr>
+						<tr><td>Water</td><td>1.33</td></tr>
+						<tr><td>Ethyl alcohol</td><td>1.36</td></tr>
+						<tr><td>Sugar solution (30%)</td><td>1.38</td></tr>
+						<tr><td>Plexiglas</td><td>1.51</td></tr>
+						<tr><td>Gelatin</td><td>1.51</td></tr>
+						<tr><td>Crown glass</td><td>1.55</td></tr>
+						<tr><td>Sapphire</td><td>1.77</td></tr>
+						<tr><td>Diamond</td><td>2.42</td><td>Highest</td></tr>
+					</table>
+				</td></tr>
+		</table>
+	</td>
+	<td align="top" class="questions">
+		
+<!----   
+*************************************************************************************
+****************************do answers from here on 31-40************************************
+*************************************************************************************
+-->		
+		
+		
+<div class="question">
+	<div class="numcol">1.</div><p>Using the observations sketched by the students, which material has the highest optical density?</p>
+	<p><a id="s6-1a" href="#" class="response">A.</a><span class="response">Water</span></p>
+	<p><a id="s6-1b" href="#" class="response">B.</a><span class="response">Diamond</span></p>
+	<p><a id="s6-1c" href="#" class="response">C.</a><span class="response">Gelatin</span></p>
+	<p><a id="s6-1d" href="#" class="response">D.</a><span class="response">Substance B</span></p>
+</div>
+
+<div id="answer-s6-1a" class="incorrect">
+<p><strong>The best answer is not A.</strong> Water had the lowest angle of refraction; it has the lowest optical density of the four.</p>
+</div>
+
+<div id="answer-s6-1b" class="incorrect">
+<p><strong>The best answer is not B.</strong> While diamond has the highest optical density on the reference chart, diamond was not among the materials
+the students tested. <em>ZAP</em> it.</p>
+</div>
+
+<div id="answer-s6-1c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> Gelatin has the second-highest angle of refraction among the materials tested. </p><p>You're looking for
+the "highest" density.</p>
+</div>
+
+<div id="answer-s6-1d" class="correct">
+<p><strong>The best answer is D.</strong> The passage states, "The higher the material's optical density, the more it refracts, or changes direction of,
+light as light enters from the air." </p><p>Of the materials tested, substance B bends light most, meaning it has the highest optical density.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">2.</div><p>According to the list of refractive indices in Table 1, which of the following materials is possible to be Substance
+A?</p>
+	<p><a id="s6-2f" href="#" class="response">F.</a><span class="response">Air</span></p>
+	<p><a id="s6-2g" href="#" class="response">G.</a><span class="response">Sapphire</span></p>
+	<p><a id="s6-2h" href="#" class="response">H.</a><span class="response">Sugar solution</span></p>
+	<p><a id="s6-2j" href="#" class="response">J.</a><span class="response">Crown glass</span></p>
+</div>
+		
+<div id="answer-s6-2f" class="incorrect">
+<p><strong>The best answer is not F.</strong> Substance A's angle of refraction is between those of gelatin and water. </p><p>Air has an optical density
+lower than both gelatin and water.</p>
+</div>
+
+<div id="answer-s6-2g" class="incorrect">
+<p><strong>The best answer is not G.</strong> Substance A's angle of refraction is between those of gelatin and water. </p><p>Sapphire has an optical
+density higher than both gelatin and water.</p>
+</div>
+
+<div id="answer-s6-2h" class="correct"> 
+<p><strong>The best answer is H.</strong> With an angle of refraction between water's and gelatin's, substance A's optical density and refractive index
+must also be between the two.</p><p>Sugar solution meets this requirement.</p>
+</div>
+
+<div id="answer-s6-2j" class="incorrect">
+<p><strong>The best answer is not J.</strong> Substance A's angle of refraction is between those of gelatin and water. </p><p?>Crown glass has an optical density greater than that of gelatin.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">3.</div><p>According to the list of refractive indices in Table 1, substance B could be:</p>
+	<p><a id="s6-3a" href="#" class="response">A.</a><span class="response">gelatin, crown glass, sapphire, or diamond.</span></p>
+	<p><a id="s6-3b" href="#" class="response">B.</a><span class="response">ethyl alcohol, sugar solution, or plexiglas.</span></p>
+	<p><a id="s6-3c" href="#" class="response">C.</a><span class="response">crown glass, sapphire, or diamond.</span></p>
+	<p><a id="s6-3d" href="#" class="response">D.</a><span class="response">water, air, or vacuum.</span></p>
+</div>
+
+<div id="answer-s6-3a" class="incorrect">
+<p><strong>The best answer is not A.</strong> Substance B's angle of refraction is not identical to gelatin's.</p>
+</div>
+
+<div id="answer-s6-3b" class="incorrect">
+<p><strong>The best answer is not B.</strong> All materials listed have optical densities lower than substance B's.</p>
+</div>
+
+<div id="answer-s6-3c" class="correct"> 
+<p><strong>The best answer is C.</strong> Substance B has an angle of refraction higher than gelatin's; it slows light more than gelatin does, and must
+have a higher refractive index.</p><p> This leaves only crown glass, sapphire, and diamond as possibilities in the table.</p>
+</div>
+
+<div id="answer-s6-3d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Based on substance B's angle of refraction, all substances listed have optical densities lower than
+substance B's.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">4.</div><p>According to the passage, which of the following graphs best represents the relationship between optical density and
+angle of refraction?</p>
+	<p><a id="s6-4f" href="#" class="response">F.</a><span class="response"><img src="../images/science/figure34f.jpg"></span></p>
+	<p><a id="s6-4g" href="#" class="response">G.</a><span class="response"><img src="../images/science/figure34g.jpg"></span></p>
+	<p><a id="s6-4h" href="#" class="response">H.</a><span class="response"><img src="../images/science/figure29c.jpg"></span></p>
+	<p><a id="s6-4j" href="#" class="response">J.</a><span class="response"><img src="../images/science/figure34j.jpg"></span></p>
+</div>
+		
+<div id="answer-s6-4f" class="incorrect">
+<p><strong>The best answer is not F.</strong> This would mean optical density decreases as the angle of refraction increases.</p>
+</div>
+
+<div id="answer-s6-4g" class="incorrect">
+<p><strong>The best answer is not G.</strong> This would mean optical density is unrelated to angle of refraction.</p>
+</div>
+
+<div id="answer-s6-4h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> This would mean optical density has an inverse relationship to the angle of refraction.</p>
+</div>
+
+<div id="answer-s6-4j" class="correct">
+<p><strong>The best answer is J.</strong> The passage says, "The higher the material's optical density, the more it refracts, or changes the direction,
+as light enters from the air."</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">5.</div><p>Based on the data in Table 1, which of the following statements is not accurate?</p>
+	<p><a id="s6-5a" href="#" class="response">A.</a><span class="response">Plexiglas will refract light more strongly than ethyl alcohol.</span></p>
+	<p><a id="s6-5b" href="#" class="response">B.</a><span class="response">A vacuum will refract light less than any other medium in the
+table.</span></p>
+	<p><a id="s6-5c" href="#" class="response">C.</a><span class="response">Water will refract light more strongly than sapphire.</span></p>
+	<p><a id="s6-5d" href="#" class="response">D.</a><span class="response">A 30% sugar solution will refract light more strongly than water.</span></p>
+</div>
+
+<div id="answer-s6-5a" class="incorrect">
+<p><strong>The best answer is not A.</strong> Did you notice that the question asked, "which of the following statements is <em>not</em> accurate?" Pay
+extra attention to the question whenever you see a negative word. </p><p>The refractive index of plexiglas (1.51) is higher than that of ethyl alcohol
+(1.36), making this an accurate statement.</p>
+</div>
+
+<div id="answer-s6-5b" class="incorrect">
+<p><strong>The best answer is not B.</strong> There's a trap in this question. Pay extra attention to the question whenever you see a negative
+word.</p><p>The refractive index of a vacuum (1.00) is the lowest in the table, making this an accurate statement.</p><p> If you relied on the True/False
+strategy here (ZAPPING "any") you would be wrong in this case. </p><p>That's why it's best to <em>only</em> use the True/False strategy when you have to
+guess.</p>
+</div>
+
+<div id="answer-s6-5c" class="correct"> 
+<p><strong>The best answer is C.</strong> Pay close attention whenever you see a negative word in the quesion.</p><p>The passage states, "The higher a
+material's optical density, the more it refracts, or changes the direction of light as light enters from the air." </p><p> Sapphire has a higher
+refractive index than water and must refract light more strongly than water does; therefore, statement C is incorrect.</p>
+</div>
+
+<div id="answer-s6-5d" class="incorrect">
+<p><strong>The best answer is not D.</strong> The refraction index of a 30% sugar solution (1.38) is greater than that of water (1.33), making this an
+accurate statement.</p>
+</div>
+<!-- ************************************************************* -->
+
+</td></tr>
+</tbody></table>
+</div><!-- set-6-->
+
+<div id="set-7">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="sectiontable">
+<tbody>
+<tr valign="top">
+	<td class="passage">
+		<table>
+			<tr><td>Scientists from the National Science Teachers Association (NSTA) designed an experiment for the National Oceanic and Atmospheric Administration (NOAA) website to demonstrate why areas with close proximity to water have different atmospheric temperatures compared to areas with close proximity to sand when all other variables remain constant. </td></tr>
+				<tr><td><img src="../images/science/passageVIIgraphI.jpg"></td></tr>
+				<tr><td>They placed equal amounts of both sand and water in two different containers with thermometers. Initial temperatures were the same. They simulated the sun with a heat lamp at equal distance away from the material. The light shone on the material for 20 minutes and was turned off for 20 minutes to simulate day and night variations. All other variables remained constant. </td></tr>
+				<tr><td>The scientists collected data at two-minute intervals and recorded it in the graph shown in Figure 2.</td></tr>
+				<tr><td><img src="../images/science/passageVIIgraphII.jpg"></td></tr>
+		</table>
+	</td>
+	<tr><td>After analyzing the differences in data, the NSTA scientists researched the heat capacity and specific heat of various substances. The specific heat of a substance represents the amount of energy needed to raise the temperature by one degree Celsius (˚C). The specific heat depends on the material of the substance.</td></tr>
+	<tr><td><em>c</em> = <span class="frac"><sup>energy</sup><span>&frasl;</span><sub><em>m</em>(&Delta;<em>t</em>)</sub></span></td></tr>
+	<tr><td><em>c</em> = specific heat (cal/gram&deg;C)</td></tr>
+	<tr><td><em>m</em> = mass (gram)</td></tr>
+	<tr><td>&Delta;<em>t</em> = Change in temperature (&deg;C)</td></tr>
+		<tr><td>The specific heat of quartz sand and pure water were used to analyze the results. 
+Below is a chart of the specific heat of common substances (Figure 3):</td></tr>
+
+	
+	<td align="top" class="questions">
+
+<div class="question">
+	<div class="numcol">1.</div><p>Based on the data obtained in Figure 2 and the table in Figure 3, which statement best explains the trend of the graph lines?</p>
+	<p><a id="s7-1a" href="#" class="response">A.</a><span class="response">Water did not retain the heat well and cooled off at a much greater rate.</span></p>
+	<p><a id="s7-1b" href="#" class="response">B.</a><span class="response">Water and soil both were affected equally by the heating and cooling. </span></p>
+	<p><a id="s7-1c" href="#" class="response">C.</a><span class="response">Sand did not retain heat well and had the greatest change in temperature. </span></p>
+	<p><a id="s7-1c" href="#" class="response">D.</a><span class="response">Sand retained heat and increased temperature throughout the experiment. </span></p>
+</div>
+		
+<div id="answer-s7-1a" class="incorrect">
+<p><strong>The best answer is not A.</strong> If you chose this answer, you may have confused the trend line of water and sand. Be sure to look closely at the key when interpreting data on a graph. </p>
+</div>
+
+<div id="answer-s7-1b" class="incorrect">
+<p><strong>The best answer is not B.</strong> If you chose this answer, you may not have noticed that the different symbols on the graph key indicate the two separate materials.</p><p>Since each line follows a different pattern or trend, the water and the sand did not behave in the same way. The sand heated and cooled at a faster rate. </p>
+</div>
+
+<div id="answer-s7-1c" class="correct"> 
+<p><strong>The best answer is C.</strong> The sand had the greatest increase and decrease in temperature. The line on the graph shows a steeper trend compared to the water.</p><p>The water was slow to heat up and slow to cool while the sand began to rise in temperature very quickly with the light was on and decreased at an equally fast rate when the light was off.</p>
+</div>
+
+<div id="answer-s7-1d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Even though the sand heated up at a faster rate compared to the water, it did not continue to heat throughout the experiment. If you chose this answer, you may not have looked at the entire line. Be sure to look at the entire line on the graph. </p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">2.</div><p>The scientists later repeated the experiment under the same conditions, but the heat lamp remained on. The graph lines continued along the same trends as before for the first 20 minutes. What was most likely the temperature at 24 minutes?</p>
+	<p><a id="s7-2f" href="#" class="response">F.</a><span class="response">26.5&deg;C </span></p>
+	<p><a id="s7-2g" href="#" class="response">G.</a><span class="response">30.5&deg;C</span></p>
+	<p><a id="s7-2h" href="#" class="response">H.</a><span class="response">32.0&deg;C</span></p>
+	<p><a id="s7-2j" href="#" class="response">J.</a><span class="response">33.5&deg;C</span></p>
+</div>
+
+<div id="answer-s7-2f" class="incorrect">
+<p><strong>The best answer is not F.</strong> If you chose this answer, you apparently confused the graph lines for water and sand. This is the highest temperature recorded in the graph for water. </p>
+</div>
+
+<div id="answer-s7-2g" class="incorrect">
+<p><strong>The best answer is not G.</strong> Based on the trend line, this is the temperature at which water could be expected to remain, if the light is turned off.</p>
+</div>
+
+<div id="answer-s7-2h" class="incorrect"> 
+<p><strong>The best answer is not H.</strong> This is the temperature of the sand at 20 minutes. There is no evidence that sand will remain at this temperature if the lamp remains on.</p>
+</div>
+
+<div id="answer-s7-2j" class="correct">
+<p><strong>The best answer is J.</strong> The highest sand temperature was 32˚C. Based on the current trend of the graph, the sand temperature will continue to rise to approximately 33.5˚C at 24 minutes.</p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">3.</div><p>Based on the specific heat table in Figure 3 and the results obtained in Figure 2, what is the relationship between specific heat and temperature change? </p>
+	<p><a id="s7-3a" href="#" class="response">A.</a><span class="response">The lower the specific heat value of a substance, the greater the temperature changes when energy is applied from an external source.</span></p>
+	<p><a id="s7-3b" href="#" class="response">B.</a><span class="response">The higher the specific heat value of a substance, the greater the temperature changes when energy is applied from an external source.</span></p>
+	<p><a id="s7-3c" href="#" class="response">C.</a><span class="response">Lower specific heat values indicate that more energy is required to change the temperature of the substance. </span></p>
+	<p><a id="s7-3d" href="#" class="response">D.</a><span class="response">Higher specific heat values indicate that less energy is required to change the temperature of the substance.</span></p>
+</div>
+		
+<div id="answer-s7-3a" class="correct">
+<p><strong>The best answer is A.</strong> The lower the specific heat value, the faster the temperature of the substance changes when energy is applied. The specific heat value of quartz sand in Figure 3 is <span class="frac"><sup>0.19 cal </sup><span>&frasl;</span><sub>gram</sub></span>&deg;C compared to water at <span class="frac"><sup>1.00 cal </sup><span>&frasl;</span><sub>gram</sub></span>&deg;C. </p><p>The graph (Figure 2) indicates that sand increased temperature at a much faster rate compared to water in this experiment.</p><p>The relationship is inversely proportional between specific heat and temperature change. This is also represented in the equation.</p>
+</div>
+
+<div id="answer-s7-3b" class="incorrect">
+<p><strong>The best answer is not B.</strong> The relationship between specific heat and temperature change when energy is applied is not a direct relationship. </p><p>The highest specific heat value listed in Figure 3 is water. </p><p>However, water did not have the greatest change in temperature in the experiment after an external source of energy was applied. </p><p>Sand, with a lower specific heat value, had the greatest temperature changes. </p>
+</div>
+
+<div id="answer-s7-3c" class="incorrect">
+<p><strong>The best answer is not C.</strong> TSubstances with low specific heat values do not require a lot of energy to change temperature. </p><p>The quartz sand had a specific heat of <span class="frac"><sup>0.19 cal </sup><span>&frasl;</sub></span>gram&deg;C</sub></span> (Fig. 3) and had a greater change in temperature compared to water (Fig. 2) with the same amount of energy. </p>
+</div>
+
+<div id="answer-s7-3d" class="incorrect">
+<p><strong>The best answer is not D.</strong> Substances with high specific heat values retain heat for longer and require more energy to change the temperature of the substance. Water’s specific heat is <span class="frac"><sup>1.00 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span>,which is higher compared to sand’s specific heat <span class="frac"><sup>0.19 cal </sup><span>&frasl;gram&deg;C</sub></span> (Fig. 3). </p><p>According to the experiment (Fig. 2), the water had a smaller change in temperature compared to sand when the same amount of external energy was applied. </p>
+</div>
+<!-- ************************************************************* -->
+
+<div class="question">
+	<div class="numcol">4.</div><p>Given the information for the specific heat of sandy clay, what can you best conclude about the climate regions in close proximity to it? </p>
+	<p><a id="s7-4f" href="#" class="response">F.</a><span class="response">The region will follow the same temperature trends compared to water. </span></p>
+	<p><a id="s7-4g" href="#" class="response">G.</a><span class="response">The region will increase temperature at a slightly slower rate compared to water. </span></p>
+	<p><a id="s7-4h" href="#" class="response">H.</a><span class="response">The region will increase temperature at a slightly slower rate compared to sand. </span></p>
+	<p><a id="s7-4j" href="#" class="response">J.</a><span class="response">The region will increase temperature at a slightly faster rate compared to sand. </span></p>
+</div>
+
+<div id="answer-s7-4f" class="incorrect">
+<p><strong>The best answer is not F.</strong> Sandy clay has a specific heat of <span class="frac"><sup>0.33 cal</sup><span>&frasl;</span><sub>gram&deg;C</sub></span>& (Fig.3). Since quartz sand has a specifc heat of <span class="frac"><sup>0.19 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span> and water has a specific heat of <span class="frac"><sup>1.00 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span>, & the sandy loam will behave closer to sand than water. </p>
+</div>
+
+<div id="answer-s7-4g" class="incorrect">
+<p><strong>The best answer is not G.</strong> If the sandy clay would increase temperature at a slower rate compared to water, the specific heat value would be higher than water.</p><p> Water has a specific heat value of <span class="frac"><sup>1.00 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span> and sandy clay has a specific heat value of <span class="frac"><sup>0.33 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span> (Fig. 3). </p><p>Sandy clay does not have a specific heat value greater than water. </p>
+</div>
+
+<div id="answer-s7-4h" class="correct">
+<p><strong>The best answer is  H.</strong> The specific heat of sandy clay is <span class="frac"><sup>0.33 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span>, which is closer to the specific heat of quartz sand at 0.19 cal/gram˚C than it is to water (Fig. 3). The lower the value of specific heat, the faster the substance will change its temperature. Since 0.33 is slightly larger than 0.19, the sandy clay will heat up slightly slower compared to the sand. </p>
+</div>
+
+<div id="answer-s7-4j" class="incorrect">
+<p><strong>The best answer is not J.</strong> The higher specific heat values indicate the substance is able to retain its heat and does not change temperature as quickly (Fig. 2 and Fig. 3). The specific heat value of sandy clay is <span class="frac"><sup>0.33 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span>, which is higher than quartz sand at <span class="frac"><sup>0.19 cal </sup><span>&frasl;</span><sub>gram&deg;C</sub></span>. The sandy clay will retain its heat and not increase at a slightly faster rate compared to sand. </p>
+</div>
+<!-- ************************************************************* -->
+<div class="question">
+	<div class="numcol">5.</div><p>Based on the experiment and the data collected in Figure 2, if two different regions &mdash; one with close proximity to water and one with close proximity to sand &mdash; experience identical air temperatures below freezing for the same period of time, which of the following would most likely occur? </p>
+	<p><a id="s7-5a" href="#" class="response">A.</a>The region in close proximity to sand would freeze first.</p>
+	<p><a id="s7-5b" href="#" class="response">B.</a>The region in close proximity to water would freeze first.</p>
+	<p><a id="s7-5c" href="#" class="response">C.</a>Both regions would freeze at approximately the same time.</p>
+	<p><a id="s7-5d" href="#" class="response">D.</a>Surface temperatures of both regions would be directly correlated to the air temperature pattern.</p>
+</div>
+		
+<div id="answer-s7-5a" class="correct">
+<p><strong>The best answer is A.</strong> The sand has a lower specific heat value and thus does not retain its heat effectively (Fig. 2 and Fig. 3). The sand temperature decreased at a faster rate compared to the water on the graph. As the air temperature decreases to below freezing, the regions in close proximity to the sand will reach a lower temperature more quickly. </p>
+</div>
+
+<div id="answer-s7-5b" class="incorrect">
+<p><strong>The best answer is not B.</strong> The water has a higher specific heat value and retains heat effectively (Fig. 2 and Fig. 3). The regions near water will not decrease temperature as fast as the regions near sand. </p>
+</div>
+
+<div id="answer-s7-5c" class="incorrect"> 
+<p><strong>The best answer is not C.</strong> According to the experiment in Figure 2, sand and water did not behave in the same manner. The sand decreased temperature more quickly compared to the water. From this experiment, one can conclude that a region close of sand will experience different temperatures compared to a region close to water. </p>
+</div>
+
+<div id="answer-s7-5d" class="incorrect">
+<p><strong>The best answer is not D.</strong> The sand and water did not behave the same in the experiment when the energy source remained constant (Fig. 2). As shown in the experiment, if the air temperature pattern is the same for a region close to water and a region close to sand, the temperature of the two different surfaces will not remain the same. </p>
+</div>
+<!-- ************************************************************* -->
+</td></tr>
+</tbody></table>
+</div><!-- set-7-->
+</div><!--sets-->
+<div class="complete-test-button" id="complete-test-button"></div>
+<div class="navigation-buttons" id="navigation-buttons"></div>
+<p><sup>Copyright (C) 2012, 2013 <em>ZAPS</em> Learning Company. No part of this work may be reproduced in any form or by means, electronic or mechanical, including photocopying, recording, or any information storage or retrieval systems, except as may be expressly permitted in writing by the publisher, <em>ZAPS</em> Learning Company, 941 Highway West, Lisbon, IA 52253. <em>ZAPS</em> is a registered trademark of <em>ZAPS</em> Learning Company.</sup></p>
+</div><!--content2-->
+</div><!--container-->
+</body>
+</html>
