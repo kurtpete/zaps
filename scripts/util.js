@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 				modal: true,
 				resizable: false,
 				buttons: {
-					Ok: function() {
+					OK: function() {
 						$(this).dialog( "close" );
 					}
 				}
@@ -133,14 +133,14 @@ jQuery(document).ready(function($) {
 		        $("#time-up").dialog({
 						modal: true,
 						resizable: false,
-						buttons: { Ok: function() { 
+						buttons: { OK: function() { 
 							$(this).dialog("close"); 
 							$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
 							$("#test-results").dialog({
 								modal: true,
 								resizable: false,
 								width:'auto',
-								buttons: { Ok: function() { $(this).dialog("close"); } }
+								buttons: { OK: function() { $(this).dialog("close"); } }
 							});
 							} }
 					});				
@@ -165,7 +165,7 @@ jQuery(document).ready(function($) {
 							modal: true,
 							resizable: false,
 							width: '400px',
-							buttons: { Ok: function() { $(this).dialog("close"); } }
+							buttons: { OK: function() { $(this).dialog("close"); } }
 						});
 		});
 	
@@ -186,11 +186,12 @@ jQuery(document).ready(function($) {
 						if (timer_on) {							
 							clearInterval(timer_interval);
 							$("#timer").button("disable");
+							$("span", "#results-correct").text(formatSecondsAsTime(correct, "ss"));
 							$("#test-results").dialog({
 								modal: true,
 								resizable: false,
 								width:'auto',
-								buttons: { Ok: function() { $(this).dialog("close"); } }
+								buttons: { OK: function() { $(this).dialog("close"); } }
 							   })
 						}
 						
